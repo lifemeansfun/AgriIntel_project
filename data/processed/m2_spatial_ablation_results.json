@@ -1,0 +1,61 @@
+{
+  "evaluation_split": {
+    "strategy": "Temporal Out-of-Sample Holdout",
+    "train_years": "2000-2015",
+    "train_samples": 74205,
+    "test_years": "2016-2019",
+    "test_samples": 21462
+  },
+  "model_a_baseline": {
+    "features_count": 19,
+    "test_rmse": 4.8526,
+    "test_mae": 1.8603,
+    "test_r2": 0.8932,
+    "top_features": {
+      "Crop": 1186,
+      "Area": 1127,
+      "Rainy_Days": 738,
+      "irrigation_intensity": 619,
+      "canal_share": 582
+    }
+  },
+  "model_b_spatial_graph": {
+    "features_count": 35,
+    "spatial_embedding_dim": 16,
+    "test_rmse": 4.803,
+    "test_mae": 1.841,
+    "test_r2": 0.8954,
+    "top_features": {
+      "Crop": 1184,
+      "Area": 913,
+      "Rainy_Days": 703,
+      "Max_Daily_Rainfall_mm": 564,
+      "irrigation_intensity": 532
+    },
+    "spatial_feature_importances": {
+      "spatial_dim_0": 397,
+      "spatial_dim_14": 147,
+      "spatial_dim_7": 121,
+      "spatial_dim_8": 121,
+      "spatial_dim_5": 119,
+      "spatial_dim_10": 118,
+      "spatial_dim_15": 117,
+      "spatial_dim_13": 114,
+      "spatial_dim_4": 110,
+      "spatial_dim_1": 108,
+      "spatial_dim_6": 106,
+      "spatial_dim_12": 99,
+      "spatial_dim_9": 86,
+      "spatial_dim_3": 81,
+      "spatial_dim_2": 68,
+      "spatial_dim_11": 66
+    }
+  },
+  "ablation_gate": {
+    "threshold_pct": 3.0,
+    "delta_rmse_pct": 1.022,
+    "passed_gate": false,
+    "decision": "DROP_SPATIAL_GRAPH",
+    "rationale": "Spatial embeddings yielded a 1.02% improvement in test RMSE, failing to clear the empirical 3.0% gate. In accordance with Occam's razor, the spatial graph topology is formally dropped."
+  }
+}

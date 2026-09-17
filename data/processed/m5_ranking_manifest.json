@@ -1,0 +1,13 @@
+{
+    "Model": {
+        "NDCG_3": 0.7581938298657478,
+        "Top1_in_Top3_Pct": 68.72863978127135
+    },
+    "Baseline": {
+        "NDCG_3": 0.8805343954803893,
+        "Top1_in_Top3_Pct": 85.23581681476419
+    },
+    "Parameters": {
+        "risk_aversion_lambda": 0.5
+    }
+}

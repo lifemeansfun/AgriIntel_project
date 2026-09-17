@@ -1,0 +1,33 @@
+{
+  "source_file": "agriIntel_merged_final_v.csv",
+  "execution_timestamp": "2026-09-08T22:06:05Z",
+  "raw_row_count": 95674,
+  "raw_col_count": 29,
+  "actions": {
+    "exact_duplicates_removed": 1,
+    "composite_key_collisions_resolved": 5,
+    "quarantined_records_count": 1,
+    "palghar_irrigation_imputed_count": 73,
+    "extreme_irrigation_denominators_repaired": 43,
+    "soil_nutrient_imputations": {
+      "Nitrogen_index": 1421,
+      "Phosphorus_index": 216,
+      "Potassium_index": 216,
+      "Organic_Carbon_index": 0,
+      "pct_acidic": 0,
+      "pct_alkaline": 0,
+      "pct_saline": 0
+    },
+    "crop_failure_records_count": 175
+  },
+  "validation_gate": {
+    "zero_missing_values": true,
+    "unique_composite_keys": true,
+    "yield_exactness": true,
+    "non_negative_values": true,
+    "irrigation_bounded": true,
+    "irrigation_component_sum_exact": true
+  },
+  "final_row_count": 95667,
+  "final_col_count": 34
+}

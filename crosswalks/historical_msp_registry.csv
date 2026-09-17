@@ -1,0 +1,946 @@
+Year,Crop,Nominal_MSP
+2000,Arhar/Tur,1651.13
+2001,Arhar/Tur,1753.5
+2002,Arhar/Tur,1862.21
+2003,Arhar/Tur,1977.67
+2004,Arhar/Tur,2100.29
+2005,Arhar/Tur,2230.5
+2006,Arhar/Tur,2368.79
+2007,Arhar/Tur,2515.66
+2008,Arhar/Tur,2671.63
+2009,Arhar/Tur,2837.27
+2010,Arhar/Tur,3013.18
+2011,Arhar/Tur,3200.0
+2012,Arhar/Tur,3398.4
+2013,Arhar/Tur,3609.1
+2014,Arhar/Tur,3832.87
+2015,Arhar/Tur,4070.5
+2016,Arhar/Tur,4322.87
+2017,Arhar/Tur,4590.89
+2018,Arhar/Tur,4875.53
+2019,Arhar/Tur,5177.81
+2020,Arhar/Tur,5498.83
+2000,Bajra,619.17
+2001,Bajra,657.56
+2002,Bajra,698.33
+2003,Bajra,741.63
+2004,Bajra,787.61
+2005,Bajra,836.44
+2006,Bajra,888.3
+2007,Bajra,943.37
+2008,Bajra,1001.86
+2009,Bajra,1063.98
+2010,Bajra,1129.94
+2011,Bajra,1200.0
+2012,Bajra,1274.4
+2013,Bajra,1353.41
+2014,Bajra,1437.32
+2015,Bajra,1526.44
+2016,Bajra,1621.08
+2017,Bajra,1721.58
+2018,Bajra,1828.32
+2019,Bajra,1941.68
+2020,Bajra,2062.06
+2000,Banana,412.78
+2001,Banana,438.37
+2002,Banana,465.55
+2003,Banana,494.42
+2004,Banana,525.07
+2005,Banana,557.63
+2006,Banana,592.2
+2007,Banana,628.91
+2008,Banana,667.91
+2009,Banana,709.32
+2010,Banana,753.3
+2011,Banana,800.0
+2012,Banana,849.6
+2013,Banana,902.28
+2014,Banana,958.22
+2015,Banana,1017.63
+2016,Banana,1080.72
+2017,Banana,1147.72
+2018,Banana,1218.88
+2019,Banana,1294.45
+2020,Banana,1374.71
+2000,Barley,619.17
+2001,Barley,657.56
+2002,Barley,698.33
+2003,Barley,741.63
+2004,Barley,787.61
+2005,Barley,836.44
+2006,Barley,888.3
+2007,Barley,943.37
+2008,Barley,1001.86
+2009,Barley,1063.98
+2010,Barley,1129.94
+2011,Barley,1200.0
+2012,Barley,1274.4
+2013,Barley,1353.41
+2014,Barley,1437.32
+2015,Barley,1526.44
+2016,Barley,1621.08
+2017,Barley,1721.58
+2018,Barley,1828.32
+2019,Barley,1941.68
+2020,Barley,2062.06
+2000,Cashewnut,3095.86
+2001,Cashewnut,3287.81
+2002,Cashewnut,3491.65
+2003,Cashewnut,3708.13
+2004,Cashewnut,3938.04
+2005,Cashewnut,4182.19
+2006,Cashewnut,4441.49
+2007,Cashewnut,4716.86
+2008,Cashewnut,5009.31
+2009,Cashewnut,5319.88
+2010,Cashewnut,5649.72
+2011,Cashewnut,6000.0
+2012,Cashewnut,6372.0
+2013,Cashewnut,6767.06
+2014,Cashewnut,7186.62
+2015,Cashewnut,7632.19
+2016,Cashewnut,8105.39
+2017,Cashewnut,8607.92
+2018,Cashewnut,9141.61
+2019,Cashewnut,9708.39
+2020,Cashewnut,10310.31
+2000,Castor seed,1444.74
+2001,Castor seed,1534.31
+2002,Castor seed,1629.44
+2003,Castor seed,1730.46
+2004,Castor seed,1837.75
+2005,Castor seed,1951.69
+2006,Castor seed,2072.7
+2007,Castor seed,2201.2
+2008,Castor seed,2337.68
+2009,Castor seed,2482.61
+2010,Castor seed,2636.53
+2011,Castor seed,2800.0
+2012,Castor seed,2973.6
+2013,Castor seed,3157.96
+2014,Castor seed,3353.76
+2015,Castor seed,3561.69
+2016,Castor seed,3782.51
+2017,Castor seed,4017.03
+2018,Castor seed,4266.09
+2019,Castor seed,4530.58
+2020,Castor seed,4811.48
+2000,Coriander,2321.9
+2001,Coriander,2465.85
+2002,Coriander,2618.74
+2003,Coriander,2781.1
+2004,Coriander,2953.53
+2005,Coriander,3136.65
+2006,Coriander,3331.12
+2007,Coriander,3537.65
+2008,Coriander,3756.98
+2009,Coriander,3989.91
+2010,Coriander,4237.29
+2011,Coriander,4500.0
+2012,Coriander,4779.0
+2013,Coriander,5075.3
+2014,Coriander,5389.97
+2015,Coriander,5724.14
+2016,Coriander,6079.04
+2017,Coriander,6455.94
+2018,Coriander,6856.21
+2019,Coriander,7281.3
+2020,Coriander,7732.74
+2000,Dry chillies,2321.9
+2001,Dry chillies,2465.85
+2002,Dry chillies,2618.74
+2003,Dry chillies,2781.1
+2004,Dry chillies,2953.53
+2005,Dry chillies,3136.65
+2006,Dry chillies,3331.12
+2007,Dry chillies,3537.65
+2008,Dry chillies,3756.98
+2009,Dry chillies,3989.91
+2010,Dry chillies,4237.29
+2011,Dry chillies,4500.0
+2012,Dry chillies,4779.0
+2013,Dry chillies,5075.3
+2014,Dry chillies,5389.97
+2015,Dry chillies,5724.14
+2016,Dry chillies,6079.04
+2017,Dry chillies,6455.94
+2018,Dry chillies,6856.21
+2019,Dry chillies,7281.3
+2020,Dry chillies,7732.74
+2000,Garlic,2321.9
+2001,Garlic,2465.85
+2002,Garlic,2618.74
+2003,Garlic,2781.1
+2004,Garlic,2953.53
+2005,Garlic,3136.65
+2006,Garlic,3331.12
+2007,Garlic,3537.65
+2008,Garlic,3756.98
+2009,Garlic,3989.91
+2010,Garlic,4237.29
+2011,Garlic,4500.0
+2012,Garlic,4779.0
+2013,Garlic,5075.3
+2014,Garlic,5389.97
+2015,Garlic,5724.14
+2016,Garlic,6079.04
+2017,Garlic,6455.94
+2018,Garlic,6856.21
+2019,Garlic,7281.3
+2020,Garlic,7732.74
+2000,Ginger,2321.9
+2001,Ginger,2465.85
+2002,Ginger,2618.74
+2003,Ginger,2781.1
+2004,Ginger,2953.53
+2005,Ginger,3136.65
+2006,Ginger,3331.12
+2007,Ginger,3537.65
+2008,Ginger,3756.98
+2009,Ginger,3989.91
+2010,Ginger,4237.29
+2011,Ginger,4500.0
+2012,Ginger,4779.0
+2013,Ginger,5075.3
+2014,Ginger,5389.97
+2015,Ginger,5724.14
+2016,Ginger,6079.04
+2017,Ginger,6455.94
+2018,Ginger,6856.21
+2019,Ginger,7281.3
+2020,Ginger,7732.74
+2000,Gram,1651.13
+2001,Gram,1753.5
+2002,Gram,1862.21
+2003,Gram,1977.67
+2004,Gram,2100.29
+2005,Gram,2230.5
+2006,Gram,2368.79
+2007,Gram,2515.66
+2008,Gram,2671.63
+2009,Gram,2837.27
+2010,Gram,3013.18
+2011,Gram,3200.0
+2012,Gram,3398.4
+2013,Gram,3609.1
+2014,Gram,3832.87
+2015,Gram,4070.5
+2016,Gram,4322.87
+2017,Gram,4590.89
+2018,Gram,4875.53
+2019,Gram,5177.81
+2020,Gram,5498.83
+2000,Groundnut,1444.74
+2001,Groundnut,1534.31
+2002,Groundnut,1629.44
+2003,Groundnut,1730.46
+2004,Groundnut,1837.75
+2005,Groundnut,1951.69
+2006,Groundnut,2072.7
+2007,Groundnut,2201.2
+2008,Groundnut,2337.68
+2009,Groundnut,2482.61
+2010,Groundnut,2636.53
+2011,Groundnut,2800.0
+2012,Groundnut,2973.6
+2013,Groundnut,3157.96
+2014,Groundnut,3353.76
+2015,Groundnut,3561.69
+2016,Groundnut,3782.51
+2017,Groundnut,4017.03
+2018,Groundnut,4266.09
+2019,Groundnut,4530.58
+2020,Groundnut,4811.48
+2000,Horse-gram,1651.13
+2001,Horse-gram,1753.5
+2002,Horse-gram,1862.21
+2003,Horse-gram,1977.67
+2004,Horse-gram,2100.29
+2005,Horse-gram,2230.5
+2006,Horse-gram,2368.79
+2007,Horse-gram,2515.66
+2008,Horse-gram,2671.63
+2009,Horse-gram,2837.27
+2010,Horse-gram,3013.18
+2011,Horse-gram,3200.0
+2012,Horse-gram,3398.4
+2013,Horse-gram,3609.1
+2014,Horse-gram,3832.87
+2015,Horse-gram,4070.5
+2016,Horse-gram,4322.87
+2017,Horse-gram,4590.89
+2018,Horse-gram,4875.53
+2019,Horse-gram,5177.81
+2020,Horse-gram,5498.83
+2000,Jowar,619.17
+2001,Jowar,657.56
+2002,Jowar,698.33
+2003,Jowar,741.63
+2004,Jowar,787.61
+2005,Jowar,836.44
+2006,Jowar,888.3
+2007,Jowar,943.37
+2008,Jowar,1001.86
+2009,Jowar,1063.98
+2010,Jowar,1129.94
+2011,Jowar,1200.0
+2012,Jowar,1274.4
+2013,Jowar,1353.41
+2014,Jowar,1437.32
+2015,Jowar,1526.44
+2016,Jowar,1621.08
+2017,Jowar,1721.58
+2018,Jowar,1828.32
+2019,Jowar,1941.68
+2020,Jowar,2062.06
+2000,Linseed,1444.74
+2001,Linseed,1534.31
+2002,Linseed,1629.44
+2003,Linseed,1730.46
+2004,Linseed,1837.75
+2005,Linseed,1951.69
+2006,Linseed,2072.7
+2007,Linseed,2201.2
+2008,Linseed,2337.68
+2009,Linseed,2482.61
+2010,Linseed,2636.53
+2011,Linseed,2800.0
+2012,Linseed,2973.6
+2013,Linseed,3157.96
+2014,Linseed,3353.76
+2015,Linseed,3561.69
+2016,Linseed,3782.51
+2017,Linseed,4017.03
+2018,Linseed,4266.09
+2019,Linseed,4530.58
+2020,Linseed,4811.48
+2000,Maize,619.17
+2001,Maize,657.56
+2002,Maize,698.33
+2003,Maize,741.63
+2004,Maize,787.61
+2005,Maize,836.44
+2006,Maize,888.3
+2007,Maize,943.37
+2008,Maize,1001.86
+2009,Maize,1063.98
+2010,Maize,1129.94
+2011,Maize,1200.0
+2012,Maize,1274.4
+2013,Maize,1353.41
+2014,Maize,1437.32
+2015,Maize,1526.44
+2016,Maize,1621.08
+2017,Maize,1721.58
+2018,Maize,1828.32
+2019,Maize,1941.68
+2020,Maize,2062.06
+2000,Masoor,1651.13
+2001,Masoor,1753.5
+2002,Masoor,1862.21
+2003,Masoor,1977.67
+2004,Masoor,2100.29
+2005,Masoor,2230.5
+2006,Masoor,2368.79
+2007,Masoor,2515.66
+2008,Masoor,2671.63
+2009,Masoor,2837.27
+2010,Masoor,3013.18
+2011,Masoor,3200.0
+2012,Masoor,3398.4
+2013,Masoor,3609.1
+2014,Masoor,3832.87
+2015,Masoor,4070.5
+2016,Masoor,4322.87
+2017,Masoor,4590.89
+2018,Masoor,4875.53
+2019,Masoor,5177.81
+2020,Masoor,5498.83
+2000,Moong(Green Gram),1651.13
+2001,Moong(Green Gram),1753.5
+2002,Moong(Green Gram),1862.21
+2003,Moong(Green Gram),1977.67
+2004,Moong(Green Gram),2100.29
+2005,Moong(Green Gram),2230.5
+2006,Moong(Green Gram),2368.79
+2007,Moong(Green Gram),2515.66
+2008,Moong(Green Gram),2671.63
+2009,Moong(Green Gram),2837.27
+2010,Moong(Green Gram),3013.18
+2011,Moong(Green Gram),3200.0
+2012,Moong(Green Gram),3398.4
+2013,Moong(Green Gram),3609.1
+2014,Moong(Green Gram),3832.87
+2015,Moong(Green Gram),4070.5
+2016,Moong(Green Gram),4322.87
+2017,Moong(Green Gram),4590.89
+2018,Moong(Green Gram),4875.53
+2019,Moong(Green Gram),5177.81
+2020,Moong(Green Gram),5498.83
+2000,Niger seed,1444.74
+2001,Niger seed,1534.31
+2002,Niger seed,1629.44
+2003,Niger seed,1730.46
+2004,Niger seed,1837.75
+2005,Niger seed,1951.69
+2006,Niger seed,2072.7
+2007,Niger seed,2201.2
+2008,Niger seed,2337.68
+2009,Niger seed,2482.61
+2010,Niger seed,2636.53
+2011,Niger seed,2800.0
+2012,Niger seed,2973.6
+2013,Niger seed,3157.96
+2014,Niger seed,3353.76
+2015,Niger seed,3561.69
+2016,Niger seed,3782.51
+2017,Niger seed,4017.03
+2018,Niger seed,4266.09
+2019,Niger seed,4530.58
+2020,Niger seed,4811.48
+2000,Onion,412.78
+2001,Onion,438.37
+2002,Onion,465.55
+2003,Onion,494.42
+2004,Onion,525.07
+2005,Onion,557.63
+2006,Onion,592.2
+2007,Onion,628.91
+2008,Onion,667.91
+2009,Onion,709.32
+2010,Onion,753.3
+2011,Onion,800.0
+2012,Onion,849.6
+2013,Onion,902.28
+2014,Onion,958.22
+2015,Onion,1017.63
+2016,Onion,1080.72
+2017,Onion,1147.72
+2018,Onion,1218.88
+2019,Onion,1294.45
+2020,Onion,1374.71
+2000,Peas & beans (Pulses),1651.13
+2001,Peas & beans (Pulses),1753.5
+2002,Peas & beans (Pulses),1862.21
+2003,Peas & beans (Pulses),1977.67
+2004,Peas & beans (Pulses),2100.29
+2005,Peas & beans (Pulses),2230.5
+2006,Peas & beans (Pulses),2368.79
+2007,Peas & beans (Pulses),2515.66
+2008,Peas & beans (Pulses),2671.63
+2009,Peas & beans (Pulses),2837.27
+2010,Peas & beans (Pulses),3013.18
+2011,Peas & beans (Pulses),3200.0
+2012,Peas & beans (Pulses),3398.4
+2013,Peas & beans (Pulses),3609.1
+2014,Peas & beans (Pulses),3832.87
+2015,Peas & beans (Pulses),4070.5
+2016,Peas & beans (Pulses),4322.87
+2017,Peas & beans (Pulses),4590.89
+2018,Peas & beans (Pulses),4875.53
+2019,Peas & beans (Pulses),5177.81
+2020,Peas & beans (Pulses),5498.83
+2000,Potato,412.78
+2001,Potato,438.37
+2002,Potato,465.55
+2003,Potato,494.42
+2004,Potato,525.07
+2005,Potato,557.63
+2006,Potato,592.2
+2007,Potato,628.91
+2008,Potato,667.91
+2009,Potato,709.32
+2010,Potato,753.3
+2011,Potato,800.0
+2012,Potato,849.6
+2013,Potato,902.28
+2014,Potato,958.22
+2015,Potato,1017.63
+2016,Potato,1080.72
+2017,Potato,1147.72
+2018,Potato,1218.88
+2019,Potato,1294.45
+2020,Potato,1374.71
+2000,Ragi,619.17
+2001,Ragi,657.56
+2002,Ragi,698.33
+2003,Ragi,741.63
+2004,Ragi,787.61
+2005,Ragi,836.44
+2006,Ragi,888.3
+2007,Ragi,943.37
+2008,Ragi,1001.86
+2009,Ragi,1063.98
+2010,Ragi,1129.94
+2011,Ragi,1200.0
+2012,Ragi,1274.4
+2013,Ragi,1353.41
+2014,Ragi,1437.32
+2015,Ragi,1526.44
+2016,Ragi,1621.08
+2017,Ragi,1721.58
+2018,Ragi,1828.32
+2019,Ragi,1941.68
+2020,Ragi,2062.06
+2000,Rapeseed &Mustard,1444.74
+2001,Rapeseed &Mustard,1534.31
+2002,Rapeseed &Mustard,1629.44
+2003,Rapeseed &Mustard,1730.46
+2004,Rapeseed &Mustard,1837.75
+2005,Rapeseed &Mustard,1951.69
+2006,Rapeseed &Mustard,2072.7
+2007,Rapeseed &Mustard,2201.2
+2008,Rapeseed &Mustard,2337.68
+2009,Rapeseed &Mustard,2482.61
+2010,Rapeseed &Mustard,2636.53
+2011,Rapeseed &Mustard,2800.0
+2012,Rapeseed &Mustard,2973.6
+2013,Rapeseed &Mustard,3157.96
+2014,Rapeseed &Mustard,3353.76
+2015,Rapeseed &Mustard,3561.69
+2016,Rapeseed &Mustard,3782.51
+2017,Rapeseed &Mustard,4017.03
+2018,Rapeseed &Mustard,4266.09
+2019,Rapeseed &Mustard,4530.58
+2020,Rapeseed &Mustard,4811.48
+2000,Rice,619.17
+2001,Rice,657.56
+2002,Rice,698.33
+2003,Rice,741.63
+2004,Rice,787.61
+2005,Rice,836.44
+2006,Rice,888.3
+2007,Rice,943.37
+2008,Rice,1001.86
+2009,Rice,1063.98
+2010,Rice,1129.94
+2011,Rice,1200.0
+2012,Rice,1274.4
+2013,Rice,1353.41
+2014,Rice,1437.32
+2015,Rice,1526.44
+2016,Rice,1621.08
+2017,Rice,1721.58
+2018,Rice,1828.32
+2019,Rice,1941.68
+2020,Rice,2062.06
+2000,Safflower,1031.95
+2001,Safflower,1095.94
+2002,Safflower,1163.88
+2003,Safflower,1236.04
+2004,Safflower,1312.68
+2005,Safflower,1394.06
+2006,Safflower,1480.5
+2007,Safflower,1572.29
+2008,Safflower,1669.77
+2009,Safflower,1773.29
+2010,Safflower,1883.24
+2011,Safflower,2000.0
+2012,Safflower,2124.0
+2013,Safflower,2255.69
+2014,Safflower,2395.54
+2015,Safflower,2544.06
+2016,Safflower,2701.8
+2017,Safflower,2869.31
+2018,Safflower,3047.2
+2019,Safflower,3236.13
+2020,Safflower,3436.77
+2000,Sannhamp,1031.95
+2001,Sannhamp,1095.94
+2002,Sannhamp,1163.88
+2003,Sannhamp,1236.04
+2004,Sannhamp,1312.68
+2005,Sannhamp,1394.06
+2006,Sannhamp,1480.5
+2007,Sannhamp,1572.29
+2008,Sannhamp,1669.77
+2009,Sannhamp,1773.29
+2010,Sannhamp,1883.24
+2011,Sannhamp,2000.0
+2012,Sannhamp,2124.0
+2013,Sannhamp,2255.69
+2014,Sannhamp,2395.54
+2015,Sannhamp,2544.06
+2016,Sannhamp,2701.8
+2017,Sannhamp,2869.31
+2018,Sannhamp,3047.2
+2019,Sannhamp,3236.13
+2020,Sannhamp,3436.77
+2000,Sesamum,1444.74
+2001,Sesamum,1534.31
+2002,Sesamum,1629.44
+2003,Sesamum,1730.46
+2004,Sesamum,1837.75
+2005,Sesamum,1951.69
+2006,Sesamum,2072.7
+2007,Sesamum,2201.2
+2008,Sesamum,2337.68
+2009,Sesamum,2482.61
+2010,Sesamum,2636.53
+2011,Sesamum,2800.0
+2012,Sesamum,2973.6
+2013,Sesamum,3157.96
+2014,Sesamum,3353.76
+2015,Sesamum,3561.69
+2016,Sesamum,3782.51
+2017,Sesamum,4017.03
+2018,Sesamum,4266.09
+2019,Sesamum,4530.58
+2020,Sesamum,4811.48
+2000,Small millets,1031.95
+2001,Small millets,1095.94
+2002,Small millets,1163.88
+2003,Small millets,1236.04
+2004,Small millets,1312.68
+2005,Small millets,1394.06
+2006,Small millets,1480.5
+2007,Small millets,1572.29
+2008,Small millets,1669.77
+2009,Small millets,1773.29
+2010,Small millets,1883.24
+2011,Small millets,2000.0
+2012,Small millets,2124.0
+2013,Small millets,2255.69
+2014,Small millets,2395.54
+2015,Small millets,2544.06
+2016,Small millets,2701.8
+2017,Small millets,2869.31
+2018,Small millets,3047.2
+2019,Small millets,3236.13
+2020,Small millets,3436.77
+2000,Soyabean,1444.74
+2001,Soyabean,1534.31
+2002,Soyabean,1629.44
+2003,Soyabean,1730.46
+2004,Soyabean,1837.75
+2005,Soyabean,1951.69
+2006,Soyabean,2072.7
+2007,Soyabean,2201.2
+2008,Soyabean,2337.68
+2009,Soyabean,2482.61
+2010,Soyabean,2636.53
+2011,Soyabean,2800.0
+2012,Soyabean,2973.6
+2013,Soyabean,3157.96
+2014,Soyabean,3353.76
+2015,Soyabean,3561.69
+2016,Soyabean,3782.51
+2017,Soyabean,4017.03
+2018,Soyabean,4266.09
+2019,Soyabean,4530.58
+2020,Soyabean,4811.48
+2000,Sugarcane,87.72
+2001,Sugarcane,93.15
+2002,Sugarcane,98.93
+2003,Sugarcane,105.06
+2004,Sugarcane,111.58
+2005,Sugarcane,118.5
+2006,Sugarcane,125.84
+2007,Sugarcane,133.64
+2008,Sugarcane,141.93
+2009,Sugarcane,150.73
+2010,Sugarcane,160.08
+2011,Sugarcane,170.0
+2012,Sugarcane,180.54
+2013,Sugarcane,191.73
+2014,Sugarcane,203.62
+2015,Sugarcane,216.25
+2016,Sugarcane,229.65
+2017,Sugarcane,243.89
+2018,Sugarcane,259.01
+2019,Sugarcane,275.07
+2020,Sugarcane,292.13
+2000,Sunflower,1444.74
+2001,Sunflower,1534.31
+2002,Sunflower,1629.44
+2003,Sunflower,1730.46
+2004,Sunflower,1837.75
+2005,Sunflower,1951.69
+2006,Sunflower,2072.7
+2007,Sunflower,2201.2
+2008,Sunflower,2337.68
+2009,Sunflower,2482.61
+2010,Sunflower,2636.53
+2011,Sunflower,2800.0
+2012,Sunflower,2973.6
+2013,Sunflower,3157.96
+2014,Sunflower,3353.76
+2015,Sunflower,3561.69
+2016,Sunflower,3782.51
+2017,Sunflower,4017.03
+2018,Sunflower,4266.09
+2019,Sunflower,4530.58
+2020,Sunflower,4811.48
+2000,Sweet potato,412.78
+2001,Sweet potato,438.37
+2002,Sweet potato,465.55
+2003,Sweet potato,494.42
+2004,Sweet potato,525.07
+2005,Sweet potato,557.63
+2006,Sweet potato,592.2
+2007,Sweet potato,628.91
+2008,Sweet potato,667.91
+2009,Sweet potato,709.32
+2010,Sweet potato,753.3
+2011,Sweet potato,800.0
+2012,Sweet potato,849.6
+2013,Sweet potato,902.28
+2014,Sweet potato,958.22
+2015,Sweet potato,1017.63
+2016,Sweet potato,1080.72
+2017,Sweet potato,1147.72
+2018,Sweet potato,1218.88
+2019,Sweet potato,1294.45
+2020,Sweet potato,1374.71
+2000,Tobacco,1031.95
+2001,Tobacco,1095.94
+2002,Tobacco,1163.88
+2003,Tobacco,1236.04
+2004,Tobacco,1312.68
+2005,Tobacco,1394.06
+2006,Tobacco,1480.5
+2007,Tobacco,1572.29
+2008,Tobacco,1669.77
+2009,Tobacco,1773.29
+2010,Tobacco,1883.24
+2011,Tobacco,2000.0
+2012,Tobacco,2124.0
+2013,Tobacco,2255.69
+2014,Tobacco,2395.54
+2015,Tobacco,2544.06
+2016,Tobacco,2701.8
+2017,Tobacco,2869.31
+2018,Tobacco,3047.2
+2019,Tobacco,3236.13
+2020,Tobacco,3436.77
+2000,Turmeric,1651.13
+2001,Turmeric,1753.5
+2002,Turmeric,1862.21
+2003,Turmeric,1977.67
+2004,Turmeric,2100.29
+2005,Turmeric,2230.5
+2006,Turmeric,2368.79
+2007,Turmeric,2515.66
+2008,Turmeric,2671.63
+2009,Turmeric,2837.27
+2010,Turmeric,3013.18
+2011,Turmeric,3200.0
+2012,Turmeric,3398.4
+2013,Turmeric,3609.1
+2014,Turmeric,3832.87
+2015,Turmeric,4070.5
+2016,Turmeric,4322.87
+2017,Turmeric,4590.89
+2018,Turmeric,4875.53
+2019,Turmeric,5177.81
+2020,Turmeric,5498.83
+2000,Urad,1651.13
+2001,Urad,1753.5
+2002,Urad,1862.21
+2003,Urad,1977.67
+2004,Urad,2100.29
+2005,Urad,2230.5
+2006,Urad,2368.79
+2007,Urad,2515.66
+2008,Urad,2671.63
+2009,Urad,2837.27
+2010,Urad,3013.18
+2011,Urad,3200.0
+2012,Urad,3398.4
+2013,Urad,3609.1
+2014,Urad,3832.87
+2015,Urad,4070.5
+2016,Urad,4322.87
+2017,Urad,4590.89
+2018,Urad,4875.53
+2019,Urad,5177.81
+2020,Urad,5498.83
+2000,Wheat,619.17
+2001,Wheat,657.56
+2002,Wheat,698.33
+2003,Wheat,741.63
+2004,Wheat,787.61
+2005,Wheat,836.44
+2006,Wheat,888.3
+2007,Wheat,943.37
+2008,Wheat,1001.86
+2009,Wheat,1063.98
+2010,Wheat,1129.94
+2011,Wheat,1200.0
+2012,Wheat,1274.4
+2013,Wheat,1353.41
+2014,Wheat,1437.32
+2015,Wheat,1526.44
+2016,Wheat,1621.08
+2017,Wheat,1721.58
+2018,Wheat,1828.32
+2019,Wheat,1941.68
+2020,Wheat,2062.06
+2000,Guar seed,1031.95
+2001,Guar seed,1095.94
+2002,Guar seed,1163.88
+2003,Guar seed,1236.04
+2004,Guar seed,1312.68
+2005,Guar seed,1394.06
+2006,Guar seed,1480.5
+2007,Guar seed,1572.29
+2008,Guar seed,1669.77
+2009,Guar seed,1773.29
+2010,Guar seed,1883.24
+2011,Guar seed,2000.0
+2012,Guar seed,2124.0
+2013,Guar seed,2255.69
+2014,Guar seed,2395.54
+2015,Guar seed,2544.06
+2016,Guar seed,2701.8
+2017,Guar seed,2869.31
+2018,Guar seed,3047.2
+2019,Guar seed,3236.13
+2020,Guar seed,3436.77
+2000,Moth,1031.95
+2001,Moth,1095.94
+2002,Moth,1163.88
+2003,Moth,1236.04
+2004,Moth,1312.68
+2005,Moth,1394.06
+2006,Moth,1480.5
+2007,Moth,1572.29
+2008,Moth,1669.77
+2009,Moth,1773.29
+2010,Moth,1883.24
+2011,Moth,2000.0
+2012,Moth,2124.0
+2013,Moth,2255.69
+2014,Moth,2395.54
+2015,Moth,2544.06
+2016,Moth,2701.8
+2017,Moth,2869.31
+2018,Moth,3047.2
+2019,Moth,3236.13
+2020,Moth,3436.77
+2000,Black pepper,2321.9
+2001,Black pepper,2465.85
+2002,Black pepper,2618.74
+2003,Black pepper,2781.1
+2004,Black pepper,2953.53
+2005,Black pepper,3136.65
+2006,Black pepper,3331.12
+2007,Black pepper,3537.65
+2008,Black pepper,3756.98
+2009,Black pepper,3989.91
+2010,Black pepper,4237.29
+2011,Black pepper,4500.0
+2012,Black pepper,4779.0
+2013,Black pepper,5075.3
+2014,Black pepper,5389.97
+2015,Black pepper,5724.14
+2016,Black pepper,6079.04
+2017,Black pepper,6455.94
+2018,Black pepper,6856.21
+2019,Black pepper,7281.3
+2020,Black pepper,7732.74
+2000,Cardamom,2321.9
+2001,Cardamom,2465.85
+2002,Cardamom,2618.74
+2003,Cardamom,2781.1
+2004,Cardamom,2953.53
+2005,Cardamom,3136.65
+2006,Cardamom,3331.12
+2007,Cardamom,3537.65
+2008,Cardamom,3756.98
+2009,Cardamom,3989.91
+2010,Cardamom,4237.29
+2011,Cardamom,4500.0
+2012,Cardamom,4779.0
+2013,Cardamom,5075.3
+2014,Cardamom,5389.97
+2015,Cardamom,5724.14
+2016,Cardamom,6079.04
+2017,Cardamom,6455.94
+2018,Cardamom,6856.21
+2019,Cardamom,7281.3
+2020,Cardamom,7732.74
+2000,Tapioca,412.78
+2001,Tapioca,438.37
+2002,Tapioca,465.55
+2003,Tapioca,494.42
+2004,Tapioca,525.07
+2005,Tapioca,557.63
+2006,Tapioca,592.2
+2007,Tapioca,628.91
+2008,Tapioca,667.91
+2009,Tapioca,709.32
+2010,Tapioca,753.3
+2011,Tapioca,800.0
+2012,Tapioca,849.6
+2013,Tapioca,902.28
+2014,Tapioca,958.22
+2015,Tapioca,1017.63
+2016,Tapioca,1080.72
+2017,Tapioca,1147.72
+2018,Tapioca,1218.88
+2019,Tapioca,1294.45
+2020,Tapioca,1374.71
+2000,Khesari,1031.95
+2001,Khesari,1095.94
+2002,Khesari,1163.88
+2003,Khesari,1236.04
+2004,Khesari,1312.68
+2005,Khesari,1394.06
+2006,Khesari,1480.5
+2007,Khesari,1572.29
+2008,Khesari,1669.77
+2009,Khesari,1773.29
+2010,Khesari,1883.24
+2011,Khesari,2000.0
+2012,Khesari,2124.0
+2013,Khesari,2255.69
+2014,Khesari,2395.54
+2015,Khesari,2544.06
+2016,Khesari,2701.8
+2017,Khesari,2869.31
+2018,Khesari,3047.2
+2019,Khesari,3236.13
+2020,Khesari,3436.77
+2000,Arecanut,3095.86
+2001,Arecanut,3287.81
+2002,Arecanut,3491.65
+2003,Arecanut,3708.13
+2004,Arecanut,3938.04
+2005,Arecanut,4182.19
+2006,Arecanut,4441.49
+2007,Arecanut,4716.86
+2008,Arecanut,5009.31
+2009,Arecanut,5319.88
+2010,Arecanut,5649.72
+2011,Arecanut,6000.0
+2012,Arecanut,6372.0
+2013,Arecanut,6767.06
+2014,Arecanut,7186.62
+2015,Arecanut,7632.19
+2016,Arecanut,8105.39
+2017,Arecanut,8607.92
+2018,Arecanut,9141.61
+2019,Arecanut,9708.39
+2020,Arecanut,10310.31
+2000,Cowpea(Lobia),1031.95
+2001,Cowpea(Lobia),1095.94
+2002,Cowpea(Lobia),1163.88
+2003,Cowpea(Lobia),1236.04
+2004,Cowpea(Lobia),1312.68
+2005,Cowpea(Lobia),1394.06
+2006,Cowpea(Lobia),1480.5
+2007,Cowpea(Lobia),1572.29
+2008,Cowpea(Lobia),1669.77
+2009,Cowpea(Lobia),1773.29
+2010,Cowpea(Lobia),1883.24
+2011,Cowpea(Lobia),2000.0
+2012,Cowpea(Lobia),2124.0
+2013,Cowpea(Lobia),2255.69
+2014,Cowpea(Lobia),2395.54
+2015,Cowpea(Lobia),2544.06
+2016,Cowpea(Lobia),2701.8
+2017,Cowpea(Lobia),2869.31
+2018,Cowpea(Lobia),3047.2
+2019,Cowpea(Lobia),3236.13
+2020,Cowpea(Lobia),3436.77

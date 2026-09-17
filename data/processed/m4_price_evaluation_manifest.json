@@ -1,0 +1,7 @@
+{
+    "Structural_Assumptions": {
+        "Elasticity": 0.2,
+        "Noise_Std": 0.05,
+        "Price_Anchor": "Real_MSP_per_Quintal"
+    }
+}

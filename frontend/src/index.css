@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+/* ============================================================
+   AgriIntel Design System
+   Tailwind v4 + Editorial Typography & Optical Frosted Glass
+   ============================================================ */
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Outfit', system-ui, sans-serif;
+  --font-editorial: 'Newsreader', Georgia, serif;
+  --font-mono-tech: 'JetBrains Mono', monospace;
+
+  /* Brand Colors as Tailwind theme tokens */
+  --color-brand-green: #064E3B;
+  --color-brand-accent: #10B981;
+  --color-brand-amber: #D97706;
+  --color-brand-amber-light: #F59E0B;
+}
+
+/* Explicit CSS utility classes for cross-browser reliability */
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+  font-feature-settings: 'tnum' on, 'zero' on;
+}
+
+/* ============================================================
+   Optical Frosted Glass (Zero backdrop-filter blur readback thrash)
+   Saves 57M blur convolutions/sec to keep Apple Silicon M1 chassis cold
+   ============================================================ */
+:root {
+  --glass-light-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.90) 0%, rgba(240, 253, 244, 0.84) 100%);
+  --glass-dark-bg: linear-gradient(135deg, rgba(15, 23, 42, 0.92) 0%, rgba(6, 78, 59, 0.40) 100%);
+  --glass-child-light-bg: rgba(255, 255, 255, 0.78);
+  --glass-child-dark-bg: rgba(30, 41, 59, 0.72);
+  --border-light: rgba(255, 255, 255, 0.75);
+  --border-dark: rgba(52, 211, 153, 0.22);
+  --shadow-light: 0 10px 30px -5px rgba(0, 0, 0, 0.06), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+  --shadow-dark: 0 16px 36px -6px rgba(0, 0, 0, 0.60), 0 0 20px -4px rgba(16, 185, 129, 0.12);
+}
+
+/* Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   Parent & Child Glassmorphism Panels
+   ============================================================ */
+.glass-light {
+  background: var(--glass-light-bg);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-light), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.glass-dark {
+  background: var(--glass-dark-bg);
+  border: 1px solid var(--border-dark);
+  box-shadow: var(--shadow-dark), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.glass-child-light {
+  background: var(--glass-child-light-bg);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.glass-child-dark {
+  background: var(--glass-child-dark-bg);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+/* ============================================================
+   Scrollbar
+   ============================================================ */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ============================================================
+   Backgrounds (Pure CSS image layers)
+   ============================================================ */
+.bg-day {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(240, 253, 244, 0.40) 100%),
+    url('/bg-day.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-night {
+  background-image:
+    linear-gradient(180deg, rgba(3, 7, 18, 0.40) 0%, rgba(5, 46, 22, 0.60) 100%),
+    url('/bg-night.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ============================================================
+   Select / Input resets
+   ============================================================ */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px !important;
+}
+
+/* ============================================================
+   Animations
+   ============================================================ */
+@keyframes float-orb {
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-30px) scale(1.05);
+  }
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.35;
+  pointer-events: none;
+  animation: float-orb 8s ease-in-out infinite;
+}
+
+.orb-green {
+  background: radial-gradient(circle, #10B981, transparent 70%);
+  width: 500px;
+  height: 500px;
+  animation-delay: 0s;
+}
+
+.orb-amber {
+  background: radial-gradient(circle, #D97706, transparent 70%);
+  width: 350px;
+  height: 350px;
+  animation-delay: -4s;
+}

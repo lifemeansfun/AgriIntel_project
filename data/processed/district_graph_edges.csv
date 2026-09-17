@@ -1,0 +1,626 @@
+source_idx,source_district,source_state,target_idx,target_district,target_state,distance_km,similarity_weight
+202,Sant Ravi Das Nagar,Uttar Pradesh,211,Varanasi,Uttar Pradesh,25.81,0.93856007
+94,Jalandhar,Punjab,95,Kapurthala,Punjab,27.01,0.93292633
+88,Faridkot,Punjab,99,Muktsar,Punjab,30.29,0.91642691
+139,Allahabad,Uttar Pradesh,196,Pratapgarh,Uttar Pradesh,32.25,0.90575665
+124,Thanjavur,Tamil Nadu,128,Thiruvarur,Tamil Nadu,32.56,0.90405481
+145,Baghpat,Uttar Pradesh,166,Ghaziabad,Uttar Pradesh,32.74,0.90302994
+88,Faridkot,Punjab,91,Firozpur,Punjab,33.36,0.89949481
+169,Gorakhpur,Uttar Pradesh,201,Sant Kabir Nagar,Uttar Pradesh,33.65,0.89786081
+138,Aligarh,Uttar Pradesh,173,Hathras,Uttar Pradesh,33.85,0.89670302
+171,Hapur,Uttar Pradesh,191,Meerut,Uttar Pradesh,33.88,0.89654071
+159,Etah,Uttar Pradesh,180,Kasganj,Uttar Pradesh,34.08,0.89537591
+113,Kanniyakumari,Tamil Nadu,131,Tirunelveli,Tamil Nadu,35.03,0.88982268
+102,Rupnagar,Punjab,104,Shahid Bhagat Singh Nagar,Punjab,35.35,0.88786723
+155,Bulandshahr,Uttar Pradesh,165,Gautam Buddha Nagar,Uttar Pradesh,36.98,0.87800726
+148,Balrampur,Uttar Pradesh,205,Shravasti,Uttar Pradesh,37.05,0.87757454
+114,Karur,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,37.45,0.87507103
+155,Bulandshahr,Uttar Pradesh,171,Hapur,Uttar Pradesh,37.52,0.8746372
+193,Moradabad,Uttar Pradesh,198,Rampur,Uttar Pradesh,37.77,0.873084
+182,Kushinagar,Uttar Pradesh,186,Maharajganj,Uttar Pradesh,37.9,0.87224313
+179,Kanpur Nagar,Uttar Pradesh,210,Unnao,Uttar Pradesh,37.97,0.87179671
+181,Kaushambi,Uttar Pradesh,196,Pratapgarh,Uttar Pradesh,38.52,0.868328
+121,Ramanathapuram,Tamil Nadu,123,Sivaganga,Tamil Nadu,38.7,0.86716898
+117,Nagappattinam,Tamil Nadu,128,Thiruvarur,Tamil Nadu,38.82,0.86643205
+141,Amethi,Uttar Pradesh,197,Rae Bareli,Uttar Pradesh,38.9,0.8658753
+106,Ariyalur,Tamil Nadu,119,Perambalur,Tamil Nadu,38.95,0.86560783
+166,Ghaziabad,Uttar Pradesh,191,Meerut,Uttar Pradesh,39.28,0.86345849
+118,Namakkal,Tamil Nadu,122,Salem,Tamil Nadu,39.5,0.86203972
+16,Dindori,Madhya Pradesh,26,Mandla,Madhya Pradesh,39.54,0.86177707
+154,Budaun,Uttar Pradesh,180,Kasganj,Uttar Pradesh,39.71,0.86068125
+140,Ambedkar Nagar,Uttar Pradesh,209,Sultanpur,Uttar Pradesh,40.06,0.85836198
+143,Auraiya,Uttar Pradesh,178,Kanpur Dehat,Uttar Pradesh,40.2,0.85746221
+85,Amritsar,Punjab,92,Gurdaspur,Punjab,40.31,0.85672237
+88,Faridkot,Punjab,98,Moga,Punjab,40.53,0.85529479
+139,Allahabad,Uttar Pradesh,181,Kaushambi,Uttar Pradesh,40.71,0.85408801
+161,Faizabad,Uttar Pradesh,168,Gonda,Uttar Pradesh,40.78,0.85367809
+178,Kanpur Dehat,Uttar Pradesh,179,Kanpur Nagar,Uttar Pradesh,40.91,0.8527767
+156,Chandauli,Uttar Pradesh,211,Varanasi,Uttar Pradesh,41.35,0.84988895
+90,Fazilka,Punjab,99,Muktsar,Punjab,41.57,0.84835586
+185,Lucknow,Uttar Pradesh,210,Unnao,Uttar Pradesh,41.66,0.84780774
+106,Ariyalur,Tamil Nadu,108,Cuddalore,Tamil Nadu,41.77,0.84703188
+143,Auraiya,Uttar Pradesh,177,Kannauj,Uttar Pradesh,41.96,0.84574139
+159,Etah,Uttar Pradesh,164,Firozabad,Uttar Pradesh,42.4,0.84279179
+166,Ghaziabad,Uttar Pradesh,171,Hapur,Uttar Pradesh,42.59,0.84149982
+86,Barnala,Punjab,103,Sangrur,Punjab,42.6,0.84144625
+109,Dharmapuri,Tamil Nadu,115,Krishnagiri,Tamil Nadu,42.62,0.84129584
+143,Auraiya,Uttar Pradesh,160,Etawah,Uttar Pradesh,42.68,0.84085826
+59,Dhule,Maharashtra,69,Nandurbar,Maharashtra,42.98,0.83882471
+151,Bareilly,Uttar Pradesh,198,Rampur,Uttar Pradesh,43.03,0.83849029
+13,Datia,Madhya Pradesh,176,Jhansi,Uttar Pradesh,43.21,0.83724287
+194,Muzaffarnagar,Uttar Pradesh,204,Shamli,Uttar Pradesh,43.98,0.83193102
+93,Hoshiarpur,Punjab,94,Jalandhar,Punjab,44.03,0.83153818
+95,Kapurthala,Punjab,105,Tarn Taran,Punjab,44.61,0.82751804
+5,Barwani,Madhya Pradesh,69,Nandurbar,Maharashtra,44.86,0.82571942
+142,Amroha,Uttar Pradesh,171,Hapur,Uttar Pradesh,45.03,0.82450847
+145,Baghpat,Uttar Pradesh,191,Meerut,Uttar Pradesh,45.07,0.82427441
+168,Gonda,Uttar Pradesh,205,Shravasti,Uttar Pradesh,45.4,0.8219467
+97,Mansa,Punjab,103,Sangrur,Punjab,45.41,0.82181764
+27,Mandsaur,Madhya Pradesh,30,Neemuch,Madhya Pradesh,45.75,0.81939626
+142,Amroha,Uttar Pradesh,200,Sambhal,Uttar Pradesh,45.9,0.81836179
+142,Amroha,Uttar Pradesh,193,Moradabad,Uttar Pradesh,46.34,0.8151826
+144,Azamgarh,Uttar Pradesh,190,Mau,Uttar Pradesh,46.92,0.81102273
+165,Gautam Buddha Nagar,Uttar Pradesh,166,Ghaziabad,Uttar Pradesh,47.15,0.80932949
+91,Firozpur,Punjab,99,Muktsar,Punjab,47.27,0.80845193
+101,Patiala,Punjab,103,Sangrur,Punjab,47.47,0.80704213
+150,Barabanki,Uttar Pradesh,185,Lucknow,Uttar Pradesh,48.04,0.80283011
+159,Etah,Uttar Pradesh,173,Hathras,Uttar Pradesh,48.1,0.80238093
+158,Deoria,Uttar Pradesh,169,Gorakhpur,Uttar Pradesh,48.12,0.80229099
+165,Gautam Buddha Nagar,Uttar Pradesh,171,Hapur,Uttar Pradesh,48.15,0.80203409
+7,Bhind,Madhya Pradesh,13,Datia,Madhya Pradesh,48.26,0.80121683
+192,Mirzapur,Uttar Pradesh,202,Sant Ravi Das Nagar,Uttar Pradesh,48.27,0.80112533
+167,Ghazipur,Uttar Pradesh,190,Mau,Uttar Pradesh,48.45,0.79986606
+140,Ambedkar Nagar,Uttar Pradesh,152,Basti,Uttar Pradesh,48.79,0.79731491
+86,Barnala,Punjab,87,Bathinda,Punjab,48.8,0.79723085
+186,Maharajganj,Uttar Pradesh,206,Siddharth Nagar,Uttar Pradesh,48.92,0.7963475
+162,Farrukhabad,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,49.15,0.79467096
+96,Ludhiana,Punjab,104,Shahid Bhagat Singh Nagar,Punjab,49.16,0.79457603
+55,Bhandara,Maharashtra,61,Gondiya,Maharashtra,49.22,0.79416346
+2,Anuppur,Madhya Pradesh,40,Shahdol,Madhya Pradesh,49.31,0.79345946
+145,Baghpat,Uttar Pradesh,204,Shamli,Uttar Pradesh,49.36,0.79309406
+91,Firozpur,Punjab,98,Moga,Punjab,49.36,0.79307032
+19,Gwalior,Madhya Pradesh,28,Morena,Madhya Pradesh,49.39,0.79282736
+112,Kancheepuram,Tamil Nadu,127,Thiruvallur,Tamil Nadu,49.4,0.7927931
+157,Chitrakoot,Uttar Pradesh,181,Kaushambi,Uttar Pradesh,49.43,0.79258608
+107,Coimbatore,Tamil Nadu,132,Tiruppur,Tamil Nadu,49.53,0.79184408
+89,Fatehgarh Sahib,Punjab,102,Rupnagar,Punjab,49.69,0.79059433
+85,Amritsar,Punjab,105,Tarn Taran,Punjab,49.75,0.79017438
+191,Meerut,Uttar Pradesh,194,Muzaffarnagar,Uttar Pradesh,49.86,0.78937435
+158,Deoria,Uttar Pradesh,190,Mau,Uttar Pradesh,50.32,0.78591774
+75,Raigarh,Maharashtra,81,Thane,Maharashtra,50.32,0.78591178
+89,Fatehgarh Sahib,Punjab,101,Patiala,Punjab,50.65,0.78343957
+152,Basti,Uttar Pradesh,201,Sant Kabir Nagar,Uttar Pradesh,50.96,0.78110268
+14,Dewas,Madhya Pradesh,22,Indore,Madhya Pradesh,50.97,0.78095827
+110,Dindigul,Tamil Nadu,132,Tiruppur,Tamil Nadu,51.1,0.78003988
+9,Burhanpur,Madhya Pradesh,17,East Nimar,Madhya Pradesh,51.12,0.77982487
+108,Cuddalore,Tamil Nadu,119,Perambalur,Tamil Nadu,51.45,0.77735567
+116,Madurai,Tamil Nadu,136,Virudunagar,Tamil Nadu,51.88,0.7740303
+175,Jaunpur,Uttar Pradesh,202,Sant Ravi Das Nagar,Uttar Pradesh,52.09,0.77244096
+13,Datia,Madhya Pradesh,19,Gwalior,Madhya Pradesh,52.19,0.77169047
+72,Palghar,Maharashtra,81,Thane,Maharashtra,52.27,0.77111647
+170,Hamirpur,Uttar Pradesh,187,Mahoba,Uttar Pradesh,52.3,0.77086894
+173,Hathras,Uttar Pradesh,189,Mathura,Uttar Pradesh,52.5,0.76934995
+162,Farrukhabad,Uttar Pradesh,177,Kannauj,Uttar Pradesh,52.64,0.76822447
+91,Firozpur,Punjab,105,Tarn Taran,Punjab,52.75,0.76741729
+87,Bathinda,Punjab,88,Faridkot,Punjab,52.78,0.76712368
+8,Bhopal,Madhya Pradesh,38,Sehore,Madhya Pradesh,52.86,0.76656593
+52,Akola,Maharashtra,83,Washim,Maharashtra,52.96,0.76579789
+133,Tiruvannamalai,Tamil Nadu,134,Vellore,Tamil Nadu,53.05,0.76506724
+33,Rajgarh,Madhya Pradesh,41,Shajapur,Madhya Pradesh,53.33,0.76290201
+119,Perambalur,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,53.8,0.75925945
+152,Basti,Uttar Pradesh,161,Faizabad,Uttar Pradesh,54.02,0.75755968
+154,Budaun,Uttar Pradesh,200,Sambhal,Uttar Pradesh,54.22,0.75599243
+87,Bathinda,Punjab,97,Mansa,Punjab,54.27,0.75561903
+164,Firozabad,Uttar Pradesh,173,Hathras,Uttar Pradesh,54.36,0.75487281
+169,Gorakhpur,Uttar Pradesh,182,Kushinagar,Uttar Pradesh,54.52,0.75361777
+89,Fatehgarh Sahib,Punjab,96,Ludhiana,Punjab,54.71,0.75213306
+160,Etawah,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,54.98,0.75006466
+86,Barnala,Punjab,97,Mansa,Punjab,55.09,0.7491838
+172,Hardoi,Uttar Pradesh,177,Kannauj,Uttar Pradesh,55.11,0.74905971
+106,Ariyalur,Tamil Nadu,124,Thanjavur,Tamil Nadu,55.29,0.74764674
+67,Nagpur,Maharashtra,82,Wardha,Maharashtra,55.33,0.74732161
+120,Pudukkottai,Tamil Nadu,123,Sivaganga,Tamil Nadu,55.38,0.74687892
+89,Fatehgarh Sahib,Punjab,104,Shahid Bhagat Singh Nagar,Punjab,55.67,0.744612
+169,Gorakhpur,Uttar Pradesh,186,Maharajganj,Uttar Pradesh,55.7,0.74439229
+86,Barnala,Punjab,96,Ludhiana,Punjab,55.8,0.74360373
+158,Deoria,Uttar Pradesh,182,Kushinagar,Uttar Pradesh,56.04,0.74166994
+193,Moradabad,Uttar Pradesh,200,Sambhal,Uttar Pradesh,56.05,0.74165469
+151,Bareilly,Uttar Pradesh,154,Budaun,Uttar Pradesh,56.08,0.74136722
+46,Tikamgarh,Madhya Pradesh,184,Lalitpur,Uttar Pradesh,56.09,0.74128308
+149,Banda,Uttar Pradesh,163,Fatehpur,Uttar Pradesh,56.24,0.74011804
+124,Thanjavur,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,56.28,0.73981763
+109,Dharmapuri,Tamil Nadu,122,Salem,Tamil Nadu,56.45,0.7384275
+150,Barabanki,Uttar Pradesh,168,Gonda,Uttar Pradesh,56.5,0.73801808
+86,Barnala,Punjab,98,Moga,Punjab,56.82,0.73548189
+93,Hoshiarpur,Punjab,95,Kapurthala,Punjab,56.97,0.73428999
+163,Fatehpur,Uttar Pradesh,197,Rae Bareli,Uttar Pradesh,57.0,0.73410935
+155,Bulandshahr,Uttar Pradesh,200,Sambhal,Uttar Pradesh,57.1,0.73326742
+7,Bhind,Madhya Pradesh,160,Etawah,Uttar Pradesh,57.11,0.7331844
+175,Jaunpur,Uttar Pradesh,209,Sultanpur,Uttar Pradesh,57.34,0.73139385
+40,Shahdol,Madhya Pradesh,48,Umaria,Madhya Pradesh,57.57,0.72952576
+38,Sehore,Madhya Pradesh,41,Shajapur,Madhya Pradesh,57.68,0.72862151
+54,Aurangabad,Maharashtra,64,Jalna,Maharashtra,57.72,0.72831425
+201,Sant Kabir Nagar,Uttar Pradesh,206,Siddharth Nagar,Uttar Pradesh,57.91,0.72681496
+138,Aligarh,Uttar Pradesh,159,Etah,Uttar Pradesh,57.93,0.72668016
+142,Amroha,Uttar Pradesh,155,Bulandshahr,Uttar Pradesh,57.93,0.72661177
+106,Ariyalur,Tamil Nadu,128,Thiruvarur,Tamil Nadu,57.95,0.72645634
+92,Gurdaspur,Punjab,95,Kapurthala,Punjab,58.08,0.7254781
+140,Ambedkar Nagar,Uttar Pradesh,201,Sant Kabir Nagar,Uttar Pradesh,58.1,0.72527405
+192,Mirzapur,Uttar Pradesh,211,Varanasi,Uttar Pradesh,58.24,0.72419229
+110,Dindigul,Tamil Nadu,116,Madurai,Tamil Nadu,58.29,0.72380006
+35,Rewa,Madhya Pradesh,157,Chitrakoot,Uttar Pradesh,58.35,0.72328241
+141,Amethi,Uttar Pradesh,161,Faizabad,Uttar Pradesh,58.35,0.72324921
+10,Chhatarpur,Madhya Pradesh,31,Panna,Madhya Pradesh,58.59,0.7213235
+120,Pudukkottai,Tamil Nadu,124,Thanjavur,Tamil Nadu,58.69,0.7205418
+162,Farrukhabad,Uttar Pradesh,203,Shahjahanpur,Uttar Pradesh,58.78,0.71980062
+138,Aligarh,Uttar Pradesh,155,Bulandshahr,Uttar Pradesh,59.02,0.71791678
+156,Chandauli,Uttar Pradesh,167,Ghazipur,Uttar Pradesh,59.12,0.7170791
+65,Kolhapur,Maharashtra,79,Sindhudurg,Maharashtra,59.16,0.71678385
+94,Jalandhar,Punjab,104,Shahid Bhagat Singh Nagar,Punjab,59.22,0.71623842
+161,Faizabad,Uttar Pradesh,209,Sultanpur,Uttar Pradesh,59.36,0.71511494
+137,Agra,Uttar Pradesh,164,Firozabad,Uttar Pradesh,59.38,0.71494801
+62,Hingoli,Maharashtra,68,Nanded,Maharashtra,59.54,0.71372961
+164,Firozabad,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,59.56,0.71349875
+144,Azamgarh,Uttar Pradesh,175,Jaunpur,Uttar Pradesh,59.65,0.71279543
+87,Bathinda,Punjab,99,Muktsar,Punjab,59.69,0.71249911
+146,Bahraich,Uttar Pradesh,205,Shravasti,Uttar Pradesh,59.72,0.71226542
+159,Etah,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,59.75,0.71195708
+140,Ambedkar Nagar,Uttar Pradesh,144,Azamgarh,Uttar Pradesh,59.78,0.71177153
+199,Saharanpur,Uttar Pradesh,204,Shamli,Uttar Pradesh,59.78,0.71172505
+148,Balrampur,Uttar Pradesh,168,Gonda,Uttar Pradesh,59.84,0.71129169
+77,Sangli,Maharashtra,78,Satara,Maharashtra,59.94,0.7104755
+116,Madurai,Tamil Nadu,123,Sivaganga,Tamil Nadu,59.95,0.7104049
+137,Agra,Uttar Pradesh,173,Hathras,Uttar Pradesh,59.98,0.71015018
+92,Gurdaspur,Punjab,100,Pathankot,Punjab,60.12,0.70901164
+9,Burhanpur,Madhya Pradesh,57,Buldana,Maharashtra,60.21,0.70827705
+149,Banda,Uttar Pradesh,157,Chitrakoot,Uttar Pradesh,60.3,0.70750236
+142,Amroha,Uttar Pradesh,191,Meerut,Uttar Pradesh,60.57,0.70537979
+8,Bhopal,Madhya Pradesh,49,Vidisha,Madhya Pradesh,60.58,0.70528882
+174,Jalaun,Uttar Pradesh,178,Kanpur Dehat,Uttar Pradesh,60.64,0.70480524
+138,Aligarh,Uttar Pradesh,189,Mathura,Uttar Pradesh,60.7,0.70429341
+114,Karur,Tamil Nadu,118,Namakkal,Tamil Nadu,60.83,0.70326498
+94,Jalandhar,Punjab,96,Ludhiana,Punjab,61.12,0.70088107
+162,Farrukhabad,Uttar Pradesh,172,Hardoi,Uttar Pradesh,61.26,0.69970229
+93,Hoshiarpur,Punjab,104,Shahid Bhagat Singh Nagar,Punjab,61.36,0.69892623
+35,Rewa,Madhya Pradesh,37,Satna,Madhya Pradesh,61.38,0.69875632
+15,Dhar,Madhya Pradesh,22,Indore,Madhya Pradesh,61.49,0.69783842
+15,Dhar,Madhya Pradesh,24,Jhabua,Madhya Pradesh,61.81,0.69519608
+141,Amethi,Uttar Pradesh,209,Sultanpur,Uttar Pradesh,61.83,0.69506107
+85,Amritsar,Punjab,95,Kapurthala,Punjab,61.87,0.69477732
+23,Jabalpur,Madhya Pradesh,25,Katni,Madhya Pradesh,61.9,0.69450036
+177,Kannauj,Uttar Pradesh,178,Kanpur Dehat,Uttar Pradesh,62.17,0.69224291
+167,Ghazipur,Uttar Pradesh,211,Varanasi,Uttar Pradesh,62.39,0.69049432
+145,Baghpat,Uttar Pradesh,194,Muzaffarnagar,Uttar Pradesh,62.42,0.69025762
+143,Auraiya,Uttar Pradesh,174,Jalaun,Uttar Pradesh,62.5,0.68957854
+156,Chandauli,Uttar Pradesh,202,Sant Ravi Das Nagar,Uttar Pradesh,62.62,0.68857925
+163,Fatehpur,Uttar Pradesh,181,Kaushambi,Uttar Pradesh,63.08,0.68480031
+120,Pudukkottai,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,63.11,0.68458978
+5,Barwani,Madhya Pradesh,50,West Nimar,Madhya Pradesh,63.47,0.68157675
+96,Ludhiana,Punjab,98,Moga,Punjab,63.77,0.67911164
+7,Bhind,Madhya Pradesh,19,Gwalior,Madhya Pradesh,63.87,0.67828827
+194,Muzaffarnagar,Uttar Pradesh,199,Saharanpur,Uttar Pradesh,63.91,0.67800668
+3,Ashoknagar,Madhya Pradesh,18,Guna,Madhya Pradesh,63.93,0.67778778
+126,Theni,Tamil Nadu,136,Virudunagar,Tamil Nadu,63.95,0.67767336
+52,Akola,Maharashtra,53,Amravati,Maharashtra,64.12,0.67623013
+0,Agar Malwa,Madhya Pradesh,33,Rajgarh,Madhya Pradesh,64.38,0.67408588
+10,Chhatarpur,Madhya Pradesh,46,Tikamgarh,Madhya Pradesh,64.54,0.67274454
+116,Madurai,Tamil Nadu,126,Theni,Tamil Nadu,64.58,0.67247267
+150,Barabanki,Uttar Pradesh,161,Faizabad,Uttar Pradesh,64.59,0.67236764
+147,Ballia,Uttar Pradesh,190,Mau,Uttar Pradesh,64.85,0.67020167
+3,Ashoknagar,Madhya Pradesh,184,Lalitpur,Uttar Pradesh,65.3,0.6665211
+175,Jaunpur,Uttar Pradesh,211,Varanasi,Uttar Pradesh,65.5,0.66480757
+149,Banda,Uttar Pradesh,170,Hamirpur,Uttar Pradesh,65.63,0.66376683
+186,Maharajganj,Uttar Pradesh,201,Sant Kabir Nagar,Uttar Pradesh,65.73,0.6629136
+16,Dindori,Madhya Pradesh,40,Shahdol,Madhya Pradesh,65.74,0.6628332
+62,Hingoli,Maharashtra,73,Parbhani,Maharashtra,66.18,0.65915651
+156,Chandauli,Uttar Pradesh,192,Mirzapur,Uttar Pradesh,66.22,0.65882677
+155,Bulandshahr,Uttar Pradesh,166,Ghaziabad,Uttar Pradesh,66.28,0.65837336
+98,Moga,Punjab,105,Tarn Taran,Punjab,66.59,0.65575271
+177,Kannauj,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,66.64,0.6554
+153,Bijnor,Uttar Pradesh,193,Moradabad,Uttar Pradesh,66.74,0.65450457
+37,Satna,Madhya Pradesh,157,Chitrakoot,Uttar Pradesh,66.75,0.65446003
+129,Thoothukkudi,Tamil Nadu,131,Tirunelveli,Tamil Nadu,66.86,0.65355251
+10,Chhatarpur,Madhya Pradesh,187,Mahoba,Uttar Pradesh,66.89,0.65333611
+144,Azamgarh,Uttar Pradesh,167,Ghazipur,Uttar Pradesh,66.89,0.65327111
+92,Gurdaspur,Punjab,93,Hoshiarpur,Punjab,67.01,0.65228225
+145,Baghpat,Uttar Pradesh,171,Hapur,Uttar Pradesh,67.14,0.65122622
+106,Ariyalur,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,67.31,0.64983808
+22,Indore,Madhya Pradesh,47,Ujjain,Madhya Pradesh,67.38,0.6492125
+160,Etawah,Uttar Pradesh,177,Kannauj,Uttar Pradesh,67.43,0.64882347
+141,Amethi,Uttar Pradesh,196,Pratapgarh,Uttar Pradesh,67.46,0.64851564
+152,Basti,Uttar Pradesh,168,Gonda,Uttar Pradesh,67.68,0.64669266
+138,Aligarh,Uttar Pradesh,180,Kasganj,Uttar Pradesh,68.26,0.64187229
+94,Jalandhar,Punjab,98,Moga,Punjab,68.28,0.64175924
+146,Bahraich,Uttar Pradesh,207,Sitapur,Uttar Pradesh,68.39,0.64078385
+137,Agra,Uttar Pradesh,189,Mathura,Uttar Pradesh,68.4,0.64071068
+147,Ballia,Uttar Pradesh,167,Ghazipur,Uttar Pradesh,68.46,0.64023344
+87,Bathinda,Punjab,98,Moga,Punjab,68.49,0.63999573
+140,Ambedkar Nagar,Uttar Pradesh,175,Jaunpur,Uttar Pradesh,68.61,0.63899608
+183,Lakhimpur Kheri,Uttar Pradesh,195,Pilibhit,Uttar Pradesh,68.63,0.63880814
+35,Rewa,Madhya Pradesh,44,Sidhi,Madhya Pradesh,68.64,0.63868439
+180,Kasganj,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,68.64,0.63873647
+151,Bareilly,Uttar Pradesh,195,Pilibhit,Uttar Pradesh,68.82,0.63722476
+94,Jalandhar,Punjab,105,Tarn Taran,Punjab,69.07,0.63513432
+148,Balrampur,Uttar Pradesh,206,Siddharth Nagar,Uttar Pradesh,69.07,0.63513352
+148,Balrampur,Uttar Pradesh,152,Basti,Uttar Pradesh,69.11,0.63480853
+44,Sidhi,Madhya Pradesh,45,Singrauli,Madhya Pradesh,69.32,0.63304314
+151,Bareilly,Uttar Pradesh,203,Shahjahanpur,Uttar Pradesh,69.33,0.63294397
+31,Panna,Madhya Pradesh,37,Satna,Madhya Pradesh,69.38,0.63251108
+142,Amroha,Uttar Pradesh,153,Bijnor,Uttar Pradesh,69.39,0.63248835
+25,Katni,Madhya Pradesh,48,Umaria,Madhya Pradesh,69.83,0.62879061
+66,Latur,Maharashtra,71,Osmanabad,Maharashtra,70.35,0.62445132
+141,Amethi,Uttar Pradesh,150,Barabanki,Uttar Pradesh,70.41,0.62396456
+57,Buldana,Maharashtra,63,Jalgaon,Maharashtra,70.52,0.62300279
+191,Meerut,Uttar Pradesh,204,Shamli,Uttar Pradesh,70.64,0.6220263
+147,Ballia,Uttar Pradesh,158,Deoria,Uttar Pradesh,70.7,0.62153786
+152,Basti,Uttar Pradesh,209,Sultanpur,Uttar Pradesh,70.76,0.62100455
+98,Moga,Punjab,99,Muktsar,Punjab,70.81,0.62055434
+169,Gorakhpur,Uttar Pradesh,190,Mau,Uttar Pradesh,71.18,0.61750292
+157,Chitrakoot,Uttar Pradesh,163,Fatehpur,Uttar Pradesh,71.25,0.61686978
+117,Nagappattinam,Tamil Nadu,124,Thanjavur,Tamil Nadu,71.27,0.61675015
+45,Singrauli,Madhya Pradesh,208,Sonbhadra,Uttar Pradesh,71.59,0.61406923
+111,Erode,Tamil Nadu,125,The Nilgiris,Tamil Nadu,71.61,0.61391584
+152,Basti,Uttar Pradesh,206,Siddharth Nagar,Uttar Pradesh,71.67,0.61338825
+88,Faridkot,Punjab,90,Fazilka,Punjab,71.72,0.61295175
+153,Bijnor,Uttar Pradesh,194,Muzaffarnagar,Uttar Pradesh,71.74,0.61277522
+121,Ramanathapuram,Tamil Nadu,136,Virudunagar,Tamil Nadu,71.93,0.61121968
+197,Rae Bareli,Uttar Pradesh,210,Unnao,Uttar Pradesh,72.0,0.61064303
+108,Cuddalore,Tamil Nadu,135,Viluppuram,Tamil Nadu,72.08,0.60996255
+34,Ratlam,Madhya Pradesh,47,Ujjain,Madhya Pradesh,72.32,0.60792613
+165,Gautam Buddha Nagar,Uttar Pradesh,191,Meerut,Uttar Pradesh,72.35,0.60770758
+24,Jhabua,Madhya Pradesh,34,Ratlam,Madhya Pradesh,72.37,0.60756683
+192,Mirzapur,Uttar Pradesh,208,Sonbhadra,Uttar Pradesh,72.4,0.60729398
+170,Hamirpur,Uttar Pradesh,174,Jalaun,Uttar Pradesh,72.49,0.60653066
+171,Hapur,Uttar Pradesh,200,Sambhal,Uttar Pradesh,72.57,0.60587804
+185,Lucknow,Uttar Pradesh,197,Rae Bareli,Uttar Pradesh,72.61,0.60555507
+116,Madurai,Tamil Nadu,121,Ramanathapuram,Tamil Nadu,72.63,0.60534422
+96,Ludhiana,Punjab,103,Sangrur,Punjab,72.73,0.60452065
+172,Hardoi,Uttar Pradesh,203,Shahjahanpur,Uttar Pradesh,72.83,0.60369566
+32,Raisen,Madhya Pradesh,49,Vidisha,Madhya Pradesh,72.88,0.6032658
+154,Budaun,Uttar Pradesh,159,Etah,Uttar Pradesh,72.98,0.60240969
+144,Azamgarh,Uttar Pradesh,211,Varanasi,Uttar Pradesh,73.0,0.60227468
+139,Allahabad,Uttar Pradesh,175,Jaunpur,Uttar Pradesh,73.45,0.59853054
+198,Rampur,Uttar Pradesh,200,Sambhal,Uttar Pradesh,73.61,0.59716494
+169,Gorakhpur,Uttar Pradesh,206,Siddharth Nagar,Uttar Pradesh,73.67,0.59665445
+195,Pilibhit,Uttar Pradesh,203,Shahjahanpur,Uttar Pradesh,73.69,0.59648483
+12,Damoh,Madhya Pradesh,25,Katni,Madhya Pradesh,73.73,0.5961862
+133,Tiruvannamalai,Tamil Nadu,135,Viluppuram,Tamil Nadu,73.84,0.59525115
+173,Hathras,Uttar Pradesh,180,Kasganj,Uttar Pradesh,74.06,0.5933681
+175,Jaunpur,Uttar Pradesh,196,Pratapgarh,Uttar Pradesh,74.17,0.59247867
+160,Etawah,Uttar Pradesh,174,Jalaun,Uttar Pradesh,74.2,0.59225902
+92,Gurdaspur,Punjab,105,Tarn Taran,Punjab,74.37,0.59084351
+0,Agar Malwa,Madhya Pradesh,41,Shajapur,Madhya Pradesh,74.4,0.59052204
+19,Gwalior,Madhya Pradesh,176,Jhansi,Uttar Pradesh,74.44,0.59023996
+151,Bareilly,Uttar Pradesh,193,Moradabad,Uttar Pradesh,74.62,0.58872671
+172,Hardoi,Uttar Pradesh,207,Sitapur,Uttar Pradesh,74.72,0.58785237
+196,Pratapgarh,Uttar Pradesh,197,Rae Bareli,Uttar Pradesh,74.75,0.58760201
+96,Ludhiana,Punjab,102,Rupnagar,Punjab,74.92,0.58624964
+185,Lucknow,Uttar Pradesh,207,Sitapur,Uttar Pradesh,75.12,0.58454563
+14,Dewas,Madhya Pradesh,41,Shajapur,Madhya Pradesh,75.16,0.58422449
+164,Firozabad,Uttar Pradesh,180,Kasganj,Uttar Pradesh,75.17,0.58412096
+110,Dindigul,Tamil Nadu,126,Theni,Tamil Nadu,75.37,0.58245387
+7,Bhind,Madhya Pradesh,174,Jalaun,Uttar Pradesh,75.55,0.5809466
+13,Datia,Madhya Pradesh,174,Jalaun,Uttar Pradesh,75.59,0.58058006
+114,Karur,Tamil Nadu,120,Pudukkottai,Tamil Nadu,75.82,0.57872174
+110,Dindigul,Tamil Nadu,114,Karur,Tamil Nadu,76.06,0.57671804
+138,Aligarh,Uttar Pradesh,165,Gautam Buddha Nagar,Uttar Pradesh,76.11,0.57629628
+119,Perambalur,Tamil Nadu,124,Thanjavur,Tamil Nadu,76.19,0.57564615
+143,Auraiya,Uttar Pradesh,188,Mainpuri,Uttar Pradesh,76.22,0.57536672
+8,Bhopal,Madhya Pradesh,33,Rajgarh,Madhya Pradesh,76.31,0.57456429
+162,Farrukhabad,Uttar Pradesh,180,Kasganj,Uttar Pradesh,76.49,0.57312331
+183,Lakhimpur Kheri,Uttar Pradesh,207,Sitapur,Uttar Pradesh,76.62,0.57205419
+28,Morena,Madhya Pradesh,137,Agra,Uttar Pradesh,76.8,0.5705098
+1,Alirajpur,Madhya Pradesh,24,Jhabua,Madhya Pradesh,76.86,0.57002503
+178,Kanpur Dehat,Uttar Pradesh,210,Unnao,Uttar Pradesh,77.07,0.56823016
+4,Balaghat,Madhya Pradesh,39,Seoni,Madhya Pradesh,77.35,0.56595272
+107,Coimbatore,Tamil Nadu,125,The Nilgiris,Tamil Nadu,77.36,0.56587846
+89,Fatehgarh Sahib,Punjab,103,Sangrur,Punjab,77.44,0.56517188
+106,Ariyalur,Tamil Nadu,117,Nagappattinam,Tamil Nadu,77.58,0.5640065
+17,East Nimar,Madhya Pradesh,20,Harda,Madhya Pradesh,77.72,0.56285063
+154,Budaun,Uttar Pradesh,198,Rampur,Uttar Pradesh,77.79,0.56229767
+179,Kanpur Nagar,Uttar Pradesh,185,Lucknow,Uttar Pradesh,78.0,0.56050711
+150,Barabanki,Uttar Pradesh,197,Rae Bareli,Uttar Pradesh,78.13,0.55940064
+12,Damoh,Madhya Pradesh,23,Jabalpur,Madhya Pradesh,78.15,0.5592648
+143,Auraiya,Uttar Pradesh,179,Kanpur Nagar,Uttar Pradesh,78.26,0.55837772
+58,Chandrapur,Maharashtra,60,Garhchiroli,Maharashtra,78.34,0.55767689
+154,Budaun,Uttar Pradesh,203,Shahjahanpur,Uttar Pradesh,78.38,0.55740066
+93,Hoshiarpur,Punjab,100,Pathankot,Punjab,79.04,0.55186742
+114,Karur,Tamil Nadu,119,Perambalur,Tamil Nadu,79.24,0.55018784
+20,Harda,Madhya Pradesh,21,Hoshangabad,Madhya Pradesh,79.28,0.54988023
+12,Damoh,Madhya Pradesh,36,Sagar,Madhya Pradesh,79.74,0.54609804
+4,Balaghat,Madhya Pradesh,61,Gondiya,Maharashtra,79.77,0.54583243
+19,Gwalior,Madhya Pradesh,43,Shivpuri,Madhya Pradesh,79.91,0.54462552
+90,Fazilka,Punjab,91,Firozpur,Punjab,79.98,0.54409993
+170,Hamirpur,Uttar Pradesh,178,Kanpur Dehat,Uttar Pradesh,80.11,0.54299558
+139,Allahabad,Uttar Pradesh,157,Chitrakoot,Uttar Pradesh,80.13,0.54283428
+166,Ghaziabad,Uttar Pradesh,204,Shamli,Uttar Pradesh,80.21,0.54218374
+111,Erode,Tamil Nadu,132,Tiruppur,Tamil Nadu,80.22,0.54208016
+8,Bhopal,Madhya Pradesh,41,Shajapur,Madhya Pradesh,80.46,0.54010773
+45,Singrauli,Madhya Pradesh,192,Mirzapur,Uttar Pradesh,80.48,0.53995114
+5,Barwani,Madhya Pradesh,59,Dhule,Maharashtra,80.58,0.53908587
+112,Kancheepuram,Tamil Nadu,134,Vellore,Tamil Nadu,80.81,0.53718756
+182,Kushinagar,Uttar Pradesh,201,Sant Kabir Nagar,Uttar Pradesh,80.86,0.53683363
+158,Deoria,Uttar Pradesh,201,Sant Kabir Nagar,Uttar Pradesh,80.86,0.53682112
+55,Bhandara,Maharashtra,67,Nagpur,Maharashtra,80.97,0.5359215
+107,Coimbatore,Tamil Nadu,111,Erode,Tamil Nadu,80.99,0.5357707
+96,Ludhiana,Punjab,101,Patiala,Punjab,81.08,0.53495909
+21,Hoshangabad,Madhya Pradesh,32,Raisen,Madhya Pradesh,81.09,0.5348807
+144,Azamgarh,Uttar Pradesh,202,Sant Ravi Das Nagar,Uttar Pradesh,81.19,0.53406584
+1,Alirajpur,Madhya Pradesh,5,Barwani,Madhya Pradesh,81.22,0.5337978
+156,Chandauli,Uttar Pradesh,208,Sonbhadra,Uttar Pradesh,81.24,0.53367354
+170,Hamirpur,Uttar Pradesh,179,Kanpur Nagar,Uttar Pradesh,81.28,0.53337851
+165,Gautam Buddha Nagar,Uttar Pradesh,189,Mathura,Uttar Pradesh,81.78,0.52920201
+142,Amroha,Uttar Pradesh,198,Rampur,Uttar Pradesh,81.95,0.52783436
+181,Kaushambi,Uttar Pradesh,197,Rae Bareli,Uttar Pradesh,82.05,0.52700626
+16,Dindori,Madhya Pradesh,48,Umaria,Madhya Pradesh,82.06,0.52692418
+146,Bahraich,Uttar Pradesh,168,Gonda,Uttar Pradesh,82.24,0.52540091
+86,Barnala,Punjab,101,Patiala,Punjab,82.25,0.52535548
+25,Katni,Madhya Pradesh,31,Panna,Madhya Pradesh,82.25,0.52533415
+7,Bhind,Madhya Pradesh,28,Morena,Madhya Pradesh,82.28,0.52511804
+129,Thoothukkudi,Tamil Nadu,136,Virudunagar,Tamil Nadu,82.49,0.52335228
+153,Bijnor,Uttar Pradesh,191,Meerut,Uttar Pradesh,82.7,0.52168599
+150,Barabanki,Uttar Pradesh,207,Sitapur,Uttar Pradesh,82.85,0.52038202
+62,Hingoli,Maharashtra,83,Washim,Maharashtra,83.02,0.51899085
+158,Deoria,Uttar Pradesh,186,Maharajganj,Uttar Pradesh,83.06,0.51866958
+118,Namakkal,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,83.12,0.51823214
+8,Bhopal,Madhya Pradesh,32,Raisen,Madhya Pradesh,83.16,0.51791078
+163,Fatehpur,Uttar Pradesh,196,Pratapgarh,Uttar Pradesh,84.08,0.51033083
+6,Betul,Madhya Pradesh,53,Amravati,Maharashtra,84.11,0.51013029
+3,Ashoknagar,Madhya Pradesh,43,Shivpuri,Madhya Pradesh,84.17,0.50965863
+161,Faizabad,Uttar Pradesh,205,Shravasti,Uttar Pradesh,84.36,0.50803332
+43,Shivpuri,Madhya Pradesh,176,Jhansi,Uttar Pradesh,84.61,0.50600866
+32,Raisen,Madhya Pradesh,36,Sagar,Madhya Pradesh,84.72,0.50510507
+139,Allahabad,Uttar Pradesh,202,Sant Ravi Das Nagar,Uttar Pradesh,84.78,0.50460757
+46,Tikamgarh,Madhya Pradesh,176,Jhansi,Uttar Pradesh,84.87,0.50391185
+182,Kushinagar,Uttar Pradesh,206,Siddharth Nagar,Uttar Pradesh,85.18,0.50136017
+0,Agar Malwa,Madhya Pradesh,27,Mandsaur,Madhya Pradesh,85.25,0.50082913
+18,Guna,Madhya Pradesh,33,Rajgarh,Madhya Pradesh,85.5,0.49877702
+23,Jabalpur,Madhya Pradesh,26,Mandla,Madhya Pradesh,85.52,0.49864
+118,Namakkal,Tamil Nadu,132,Tiruppur,Tamil Nadu,85.62,0.49784612
+3,Ashoknagar,Madhya Pradesh,49,Vidisha,Madhya Pradesh,85.98,0.49489498
+37,Satna,Madhya Pradesh,149,Banda,Uttar Pradesh,86.05,0.49429761
+123,Sivaganga,Tamil Nadu,136,Virudunagar,Tamil Nadu,86.08,0.4940757
+149,Banda,Uttar Pradesh,187,Mahoba,Uttar Pradesh,86.22,0.49298577
+14,Dewas,Madhya Pradesh,38,Sehore,Madhya Pradesh,86.24,0.49276381
+72,Palghar,Maharashtra,75,Raigarh,Maharashtra,86.24,0.49276941
+111,Erode,Tamil Nadu,118,Namakkal,Tamil Nadu,86.27,0.49255984
+128,Thiruvarur,Tamil Nadu,130,Tiruchirappalli,Tamil Nadu,86.4,0.49152278
+120,Pudukkottai,Tamil Nadu,128,Thiruvarur,Tamil Nadu,86.55,0.49026885
+6,Betul,Madhya Pradesh,21,Hoshangabad,Madhya Pradesh,86.63,0.4896078
+163,Fatehpur,Uttar Pradesh,210,Unnao,Uttar Pradesh,86.63,0.48965586
+93,Hoshiarpur,Punjab,102,Rupnagar,Punjab,86.71,0.48899492
+35,Rewa,Madhya Pradesh,181,Kaushambi,Uttar Pradesh,86.8,0.48827249
+148,Balrampur,Uttar Pradesh,161,Faizabad,Uttar Pradesh,86.9,0.48743218
+46,Tikamgarh,Madhya Pradesh,187,Mahoba,Uttar Pradesh,87.01,0.48661829
+21,Hoshangabad,Madhya Pradesh,38,Sehore,Madhya Pradesh,87.1,0.48589613
+14,Dewas,Madhya Pradesh,47,Ujjain,Madhya Pradesh,87.22,0.48490277
+11,Chhindwara,Madhya Pradesh,29,Narsimhapur,Madhya Pradesh,87.47,0.48291248
+15,Dhar,Madhya Pradesh,50,West Nimar,Madhya Pradesh,87.55,0.4822405
+85,Amritsar,Punjab,94,Jalandhar,Punjab,87.61,0.4817419
+119,Perambalur,Tamil Nadu,122,Salem,Tamil Nadu,87.85,0.47980291
+6,Betul,Madhya Pradesh,20,Harda,Madhya Pradesh,87.88,0.47959944
+1,Alirajpur,Madhya Pradesh,69,Nandurbar,Maharashtra,87.94,0.47912139
+112,Kancheepuram,Tamil Nadu,135,Viluppuram,Tamil Nadu,88.04,0.47830805
+174,Jalaun,Uttar Pradesh,187,Mahoba,Uttar Pradesh,88.43,0.47515411
+146,Bahraich,Uttar Pradesh,150,Barabanki,Uttar Pradesh,88.55,0.4742244
+0,Agar Malwa,Madhya Pradesh,47,Ujjain,Madhya Pradesh,88.8,0.47226609
+82,Wardha,Maharashtra,84,Yavatmal,Maharashtra,88.82,0.47205405
+137,Agra,Uttar Pradesh,159,Etah,Uttar Pradesh,89.2,0.46904114
+33,Rajgarh,Madhya Pradesh,38,Sehore,Madhya Pradesh,89.25,0.46861321
+150,Barabanki,Uttar Pradesh,205,Shravasti,Uttar Pradesh,89.32,0.46810609
+15,Dhar,Madhya Pradesh,47,Ujjain,Madhya Pradesh,89.42,0.46725433
+2,Anuppur,Madhya Pradesh,16,Dindori,Madhya Pradesh,89.82,0.46411647
+97,Mansa,Punjab,101,Patiala,Punjab,89.87,0.4637386
+146,Bahraich,Uttar Pradesh,183,Lakhimpur Kheri,Uttar Pradesh,90.08,0.46202381
+23,Jabalpur,Madhya Pradesh,29,Narsimhapur,Madhya Pradesh,90.15,0.46148222
+87,Bathinda,Punjab,90,Fazilka,Punjab,90.24,0.46078194
+121,Ramanathapuram,Tamil Nadu,129,Thoothukkudi,Tamil Nadu,90.56,0.45824799
+107,Coimbatore,Tamil Nadu,110,Dindigul,Tamil Nadu,91.2,0.453228
+29,Narsimhapur,Madhya Pradesh,39,Seoni,Madhya Pradesh,91.23,0.45294826
+7,Bhind,Madhya Pradesh,176,Jhansi,Uttar Pradesh,91.47,0.45111351
+120,Pudukkottai,Tamil Nadu,121,Ramanathapuram,Tamil Nadu,91.64,0.44975156
+155,Bulandshahr,Uttar Pradesh,189,Mathura,Uttar Pradesh,92.22,0.44522054
+35,Rewa,Madhya Pradesh,139,Allahabad,Uttar Pradesh,92.74,0.4411713
+114,Karur,Tamil Nadu,132,Tiruppur,Tamil Nadu,92.94,0.43964
+74,Pune,Maharashtra,75,Raigarh,Maharashtra,92.96,0.43943477
+176,Jhansi,Uttar Pradesh,184,Lalitpur,Uttar Pradesh,93.26,0.43709786
+18,Guna,Madhya Pradesh,49,Vidisha,Madhya Pradesh,93.34,0.43652678
+109,Dharmapuri,Tamil Nadu,118,Namakkal,Tamil Nadu,93.65,0.43407333
+114,Karur,Tamil Nadu,122,Salem,Tamil Nadu,93.66,0.43402568
+36,Sagar,Madhya Pradesh,49,Vidisha,Madhya Pradesh,93.8,0.43293184
+94,Jalandhar,Punjab,102,Rupnagar,Punjab,94.1,0.43063675
+108,Cuddalore,Tamil Nadu,128,Thiruvarur,Tamil Nadu,94.15,0.43022967
+12,Damoh,Madhya Pradesh,31,Panna,Madhya Pradesh,94.94,0.42414268
+68,Nanded,Maharashtra,73,Parbhani,Maharashtra,95.01,0.42363144
+65,Kolhapur,Maharashtra,77,Sangli,Maharashtra,95.05,0.42330317
+11,Chhindwara,Madhya Pradesh,39,Seoni,Madhya Pradesh,95.13,0.42269396
+27,Mandsaur,Madhya Pradesh,34,Ratlam,Madhya Pradesh,95.23,0.42193349
+1,Alirajpur,Madhya Pradesh,15,Dhar,Madhya Pradesh,95.28,0.42153008
+111,Erode,Tamil Nadu,122,Salem,Tamil Nadu,95.3,0.42137652
+143,Auraiya,Uttar Pradesh,172,Hardoi,Uttar Pradesh,95.3,0.42140792
+56,Bid,Maharashtra,73,Parbhani,Maharashtra,95.35,0.42099921
+13,Datia,Madhya Pradesh,28,Morena,Madhya Pradesh,95.5,0.41988027
+4,Balaghat,Madhya Pradesh,26,Mandla,Madhya Pradesh,95.6,0.41912547
+71,Osmanabad,Maharashtra,80,Solapur,Maharashtra,95.85,0.41723212
+153,Bijnor,Uttar Pradesh,171,Hapur,Uttar Pradesh,95.95,0.41643806
+195,Pilibhit,Uttar Pradesh,198,Rampur,Uttar Pradesh,96.01,0.41603065
+51,Ahmadnagar,Maharashtra,74,Pune,Maharashtra,96.75,0.4104266
+108,Cuddalore,Tamil Nadu,124,Thanjavur,Tamil Nadu,96.94,0.40896887
+20,Harda,Madhya Pradesh,38,Sehore,Madhya Pradesh,97.13,0.4075357
+76,Ratnagiri,Maharashtra,78,Satara,Maharashtra,97.51,0.40464403
+85,Amritsar,Punjab,93,Hoshiarpur,Punjab,97.6,0.40397978
+85,Amritsar,Punjab,100,Pathankot,Punjab,98.0,0.40102662
+5,Barwani,Madhya Pradesh,15,Dhar,Madhya Pradesh,98.21,0.39939569
+4,Balaghat,Madhya Pradesh,55,Bhandara,Maharashtra,98.7,0.39574512
+16,Dindori,Madhya Pradesh,23,Jabalpur,Madhya Pradesh,98.75,0.39537998
+56,Bid,Maharashtra,71,Osmanabad,Maharashtra,98.91,0.39418715
+115,Krishnagiri,Tamil Nadu,122,Salem,Tamil Nadu,99.0,0.39358285
+74,Pune,Maharashtra,81,Thane,Maharashtra,99.04,0.39323672
+183,Lakhimpur Kheri,Uttar Pradesh,203,Shahjahanpur,Uttar Pradesh,99.41,0.39050186
+44,Sidhi,Madhya Pradesh,48,Umaria,Madhya Pradesh,99.64,0.38882803
+8,Bhopal,Madhya Pradesh,21,Hoshangabad,Madhya Pradesh,99.67,0.38855895
+26,Mandla,Madhya Pradesh,39,Seoni,Madhya Pradesh,99.67,0.38858113
+42,Sheopur,Madhya Pradesh,43,Shivpuri,Madhya Pradesh,100.08,0.385561
+113,Kanniyakumari,Tamil Nadu,129,Thoothukkudi,Tamil Nadu,100.49,0.38254534
+108,Cuddalore,Tamil Nadu,117,Nagappattinam,Tamil Nadu,100.98,0.37902546
+112,Kancheepuram,Tamil Nadu,133,Tiruvannamalai,Tamil Nadu,101.04,0.37854039
+109,Dharmapuri,Tamil Nadu,133,Tiruvannamalai,Tamil Nadu,101.28,0.37682541
+110,Dindigul,Tamil Nadu,123,Sivaganga,Tamil Nadu,101.63,0.37424443
+6,Betul,Madhya Pradesh,11,Chhindwara,Madhya Pradesh,101.9,0.37228837
+36,Sagar,Madhya Pradesh,184,Lalitpur,Uttar Pradesh,102.08,0.37101667
+43,Shivpuri,Madhya Pradesh,184,Lalitpur,Uttar Pradesh,102.28,0.36956084
+22,Indore,Madhya Pradesh,50,West Nimar,Madhya Pradesh,102.58,0.36743351
+24,Jhabua,Madhya Pradesh,47,Ujjain,Madhya Pradesh,102.73,0.36634121
+52,Akola,Maharashtra,57,Buldana,Maharashtra,102.89,0.36521953
+126,Theni,Tamil Nadu,132,Tiruppur,Tamil Nadu,103.26,0.36257873
+9,Burhanpur,Madhya Pradesh,63,Jalgaon,Maharashtra,103.31,0.3621878
+64,Jalna,Maharashtra,73,Parbhani,Maharashtra,103.74,0.35916142
+56,Bid,Maharashtra,64,Jalna,Maharashtra,104.11,0.35656575
+88,Faridkot,Punjab,97,Mansa,Punjab,104.61,0.35300694
+77,Sangli,Maharashtra,80,Solapur,Maharashtra,104.96,0.35054042
+134,Vellore,Tamil Nadu,135,Viluppuram,Tamil Nadu,105.06,0.34987391
+66,Latur,Maharashtra,73,Parbhani,Maharashtra,105.18,0.34902238
+26,Mandla,Madhya Pradesh,40,Shahdol,Madhya Pradesh,105.23,0.34865433
+12,Damoh,Madhya Pradesh,29,Narsimhapur,Madhya Pradesh,105.23,0.34866346
+14,Dewas,Madhya Pradesh,20,Harda,Madhya Pradesh,105.26,0.3484748
+50,West Nimar,Madhya Pradesh,69,Nandurbar,Maharashtra,105.3,0.34815761
+53,Amravati,Maharashtra,83,Washim,Maharashtra,105.32,0.34807557
+57,Buldana,Maharashtra,64,Jalna,Maharashtra,105.66,0.34566853
+9,Burhanpur,Madhya Pradesh,50,West Nimar,Madhya Pradesh,105.74,0.34513515
+78,Satara,Maharashtra,80,Solapur,Maharashtra,106.27,0.34143226
+15,Dhar,Madhya Pradesh,34,Ratlam,Madhya Pradesh,106.37,0.34079091
+9,Burhanpur,Madhya Pradesh,52,Akola,Maharashtra,106.41,0.34047426
+2,Anuppur,Madhya Pradesh,48,Umaria,Madhya Pradesh,106.79,0.33790093
+40,Shahdol,Madhya Pradesh,44,Sidhi,Madhya Pradesh,106.89,0.33715362
+53,Amravati,Maharashtra,82,Wardha,Maharashtra,107.03,0.33625743
+208,Sonbhadra,Uttar Pradesh,211,Varanasi,Uttar Pradesh,107.14,0.33547578
+145,Baghpat,Uttar Pradesh,199,Saharanpur,Uttar Pradesh,107.16,0.33534645
+95,Kapurthala,Punjab,100,Pathankot,Punjab,107.25,0.33472984
+29,Narsimhapur,Madhya Pradesh,36,Sagar,Madhya Pradesh,107.55,0.33264459
+108,Cuddalore,Tamil Nadu,133,Tiruvannamalai,Tamil Nadu,107.62,0.33220612
+37,Satna,Madhya Pradesh,44,Sidhi,Madhya Pradesh,107.83,0.33077836
+28,Morena,Madhya Pradesh,164,Firozabad,Uttar Pradesh,107.86,0.3305546
+115,Krishnagiri,Tamil Nadu,133,Tiruvannamalai,Tamil Nadu,107.89,0.33037779
+10,Chhatarpur,Madhya Pradesh,12,Damoh,Madhya Pradesh,107.91,0.33020567
+54,Aurangabad,Maharashtra,56,Bid,Maharashtra,108.07,0.32916605
+59,Dhule,Maharashtra,70,Nashik,Maharashtra,108.35,0.32726794
+51,Ahmadnagar,Maharashtra,54,Aurangabad,Maharashtra,108.66,0.32517719
+51,Ahmadnagar,Maharashtra,56,Bid,Maharashtra,108.75,0.32453649
+23,Jabalpur,Madhya Pradesh,39,Seoni,Madhya Pradesh,108.81,0.32413304
+63,Jalgaon,Maharashtra,64,Jalna,Maharashtra,108.85,0.32387752
+29,Narsimhapur,Madhya Pradesh,32,Raisen,Madhya Pradesh,108.9,0.32356672
+131,Tirunelveli,Tamil Nadu,136,Virudunagar,Tamil Nadu,109.37,0.32041752
+54,Aurangabad,Maharashtra,63,Jalgaon,Maharashtra,110.08,0.31571064
+50,West Nimar,Madhya Pradesh,63,Jalgaon,Maharashtra,110.17,0.31512364
+16,Dindori,Madhya Pradesh,25,Katni,Madhya Pradesh,110.36,0.3138458
+144,Azamgarh,Uttar Pradesh,147,Ballia,Uttar Pradesh,110.4,0.31358331
+109,Dharmapuri,Tamil Nadu,111,Erode,Tamil Nadu,110.44,0.31333139
+27,Mandsaur,Madhya Pradesh,47,Ujjain,Madhya Pradesh,110.55,0.31261147
+31,Panna,Madhya Pradesh,187,Mahoba,Uttar Pradesh,110.67,0.31178147
+17,East Nimar,Madhya Pradesh,57,Buldana,Maharashtra,111.01,0.30954668
+10,Chhatarpur,Madhya Pradesh,37,Satna,Madhya Pradesh,111.22,0.30821136
+107,Coimbatore,Tamil Nadu,126,Theni,Tamil Nadu,111.38,0.30719149
+172,Hardoi,Uttar Pradesh,183,Lakhimpur Kheri,Uttar Pradesh,111.8,0.30441724
+202,Sant Ravi Das Nagar,Uttar Pradesh,208,Sonbhadra,Uttar Pradesh,112.13,0.30230457
+90,Fazilka,Punjab,98,Moga,Punjab,112.15,0.30216627
+59,Dhule,Maharashtra,63,Jalgaon,Maharashtra,112.22,0.30174279
+17,East Nimar,Madhya Pradesh,50,West Nimar,Madhya Pradesh,112.24,0.30162045
+191,Meerut,Uttar Pradesh,199,Saharanpur,Uttar Pradesh,112.34,0.30096103
+66,Latur,Maharashtra,68,Nanded,Maharashtra,112.4,0.30054016
+94,Jalandhar,Punjab,100,Pathankot,Punjab,112.63,0.29907834
+22,Indore,Madhya Pradesh,24,Jhabua,Madhya Pradesh,112.77,0.2982108
+18,Guna,Madhya Pradesh,43,Shivpuri,Madhya Pradesh,112.79,0.29808023
+125,The Nilgiris,Tamil Nadu,132,Tiruppur,Tamil Nadu,113.27,0.29499346
+65,Kolhapur,Maharashtra,76,Ratnagiri,Maharashtra,113.32,0.29466528
+106,Ariyalur,Tamil Nadu,135,Viluppuram,Tamil Nadu,113.38,0.29429027
+8,Bhopal,Madhya Pradesh,18,Guna,Madhya Pradesh,113.8,0.29165317
+153,Bijnor,Uttar Pradesh,199,Saharanpur,Uttar Pradesh,114.28,0.28863506
+127,Thiruvallur,Tamil Nadu,134,Vellore,Tamil Nadu,114.66,0.28626481
+101,Patiala,Punjab,199,Saharanpur,Uttar Pradesh,114.74,0.28575066
+147,Ballia,Uttar Pradesh,169,Gorakhpur,Uttar Pradesh,116.04,0.27767751
+117,Nagappattinam,Tamil Nadu,119,Perambalur,Tamil Nadu,116.04,0.27772152
+35,Rewa,Madhya Pradesh,45,Singrauli,Madhya Pradesh,116.3,0.27609447
+28,Morena,Madhya Pradesh,42,Sheopur,Madhya Pradesh,117.48,0.26896207
+70,Nashik,Maharashtra,72,Palghar,Maharashtra,117.79,0.26711939
+154,Budaun,Uttar Pradesh,195,Pilibhit,Uttar Pradesh,117.82,0.26691695
+55,Bhandara,Maharashtra,58,Chandrapur,Maharashtra,117.99,0.26588949
+11,Chhindwara,Madhya Pradesh,21,Hoshangabad,Madhya Pradesh,118.44,0.26320769
+74,Pune,Maharashtra,78,Satara,Maharashtra,118.99,0.25997231
+11,Chhindwara,Madhya Pradesh,67,Nagpur,Maharashtra,119.32,0.25801071
+83,Washim,Maharashtra,84,Yavatmal,Maharashtra,119.47,0.25715988
+31,Panna,Madhya Pradesh,46,Tikamgarh,Madhya Pradesh,119.86,0.25487042
+58,Chandrapur,Maharashtra,84,Yavatmal,Maharashtra,119.95,0.25438409
+76,Ratnagiri,Maharashtra,77,Sangli,Maharashtra,120.61,0.25053932
+3,Ashoknagar,Madhya Pradesh,46,Tikamgarh,Madhya Pradesh,120.91,0.24881953
+14,Dewas,Madhya Pradesh,17,East Nimar,Madhya Pradesh,121.11,0.24768666
+115,Krishnagiri,Tamil Nadu,134,Vellore,Tamil Nadu,121.93,0.24304668
+57,Buldana,Maharashtra,83,Washim,Maharashtra,122.57,0.2394527
+70,Nashik,Maharashtra,81,Thane,Maharashtra,122.76,0.23835369
+58,Chandrapur,Maharashtra,82,Wardha,Maharashtra,123.26,0.23561731
+22,Indore,Madhya Pradesh,34,Ratlam,Madhya Pradesh,123.88,0.23218765
+0,Agar Malwa,Madhya Pradesh,30,Neemuch,Madhya Pradesh,124.45,0.22907254
+2,Anuppur,Madhya Pradesh,26,Mandla,Madhya Pradesh,125.89,0.22134658
+63,Jalgaon,Maharashtra,69,Nandurbar,Maharashtra,126.55,0.21790104
+17,East Nimar,Madhya Pradesh,52,Akola,Maharashtra,126.7,0.21707313
+56,Bid,Maharashtra,66,Latur,Maharashtra,126.94,0.21582012
+55,Bhandara,Maharashtra,82,Wardha,Maharashtra,127.02,0.21540062
+116,Madurai,Tamil Nadu,129,Thoothukkudi,Tamil Nadu,127.13,0.21485104
+19,Gwalior,Madhya Pradesh,42,Sheopur,Madhya Pradesh,127.45,0.21320009
+30,Neemuch,Madhya Pradesh,34,Ratlam,Madhya Pradesh,127.58,0.21253365
+58,Chandrapur,Maharashtra,67,Nagpur,Maharashtra,128.04,0.2101615
+45,Singrauli,Madhya Pradesh,202,Sant Ravi Das Nagar,Uttar Pradesh,128.18,0.20946343
+17,East Nimar,Madhya Pradesh,53,Amravati,Maharashtra,128.22,0.20924304
+1,Alirajpur,Madhya Pradesh,50,West Nimar,Madhya Pradesh,128.32,0.20870866
+76,Ratnagiri,Maharashtra,79,Sindhudurg,Maharashtra,129.21,0.20421392
+1,Alirajpur,Madhya Pradesh,59,Dhule,Maharashtra,129.24,0.20408133
+4,Balaghat,Madhya Pradesh,16,Dindori,Madhya Pradesh,129.82,0.20118515
+61,Gondiya,Maharashtra,67,Nagpur,Maharashtra,130.04,0.20010373
+2,Anuppur,Madhya Pradesh,44,Sidhi,Madhya Pradesh,130.94,0.19565968
+65,Kolhapur,Maharashtra,78,Satara,Maharashtra,132.36,0.18883745
+54,Aurangabad,Maharashtra,70,Nashik,Maharashtra,133.05,0.18555397
+6,Betul,Madhya Pradesh,17,East Nimar,Madhya Pradesh,134.16,0.18041346
+111,Erode,Tamil Nadu,115,Krishnagiri,Tamil Nadu,134.6,0.17838358
+71,Osmanabad,Maharashtra,73,Parbhani,Maharashtra,134.63,0.17825499
+68,Nanded,Maharashtra,83,Washim,Maharashtra,135.15,0.17586168
+52,Akola,Maharashtra,62,Hingoli,Maharashtra,135.53,0.1741849
+127,Thiruvallur,Tamil Nadu,135,Viluppuram,Tamil Nadu,135.82,0.17286467
+56,Bid,Maharashtra,80,Solapur,Maharashtra,136.29,0.170773
+62,Hingoli,Maharashtra,84,Yavatmal,Maharashtra,136.6,0.16939184
+39,Seoni,Madhya Pradesh,61,Gondiya,Maharashtra,137.74,0.16445314
+67,Nagpur,Maharashtra,84,Yavatmal,Maharashtra,139.12,0.15856525
+62,Hingoli,Maharashtra,66,Latur,Maharashtra,139.23,0.15809437
+113,Kanniyakumari,Tamil Nadu,136,Virudunagar,Tamil Nadu,141.06,0.15057404
+58,Chandrapur,Maharashtra,61,Gondiya,Maharashtra,141.14,0.15024328
+68,Nanded,Maharashtra,84,Yavatmal,Maharashtra,141.4,0.14920221
+18,Guna,Madhya Pradesh,42,Sheopur,Madhya Pradesh,143.09,0.14253551
+51,Ahmadnagar,Maharashtra,70,Nashik,Maharashtra,143.42,0.14127629
+51,Ahmadnagar,Maharashtra,81,Thane,Maharashtra,145.75,0.1325033
+127,Thiruvallur,Tamil Nadu,133,Tiruvannamalai,Tamil Nadu,146.79,0.12872233
+27,Mandsaur,Madhya Pradesh,33,Rajgarh,Madhya Pradesh,147.56,0.12597883
+126,Theni,Tamil Nadu,131,Tirunelveli,Tamil Nadu,147.77,0.12520669
+51,Ahmadnagar,Maharashtra,80,Solapur,Maharashtra,148.17,0.12380529
+121,Ramanathapuram,Tamil Nadu,131,Tirunelveli,Tamil Nadu,149.22,0.12017972
+72,Palghar,Maharashtra,74,Pune,Maharashtra,151.27,0.11334835
+77,Sangli,Maharashtra,79,Sindhudurg,Maharashtra,152.34,0.10990475
+60,Garhchiroli,Maharashtra,61,Gondiya,Maharashtra,154.57,0.10296001
+118,Namakkal,Tamil Nadu,125,The Nilgiris,Tamil Nadu,155.03,0.10159153
+30,Neemuch,Madhya Pradesh,47,Ujjain,Madhya Pradesh,155.37,0.10057621
+55,Bhandara,Maharashtra,60,Garhchiroli,Maharashtra,156.38,0.09759339
+3,Ashoknagar,Madhya Pradesh,42,Sheopur,Madhya Pradesh,158.45,0.09174263
+74,Pune,Maharashtra,76,Ratnagiri,Maharashtra,159.28,0.08947507
+108,Cuddalore,Tamil Nadu,112,Kancheepuram,Tamil Nadu,159.71,0.0883095
+110,Dindigul,Tamil Nadu,125,The Nilgiris,Tamil Nadu,163.0,0.07981354
+51,Ahmadnagar,Maharashtra,75,Raigarh,Maharashtra,169.33,0.06534465
+113,Kanniyakumari,Tamil Nadu,126,Theni,Tamil Nadu,171.55,0.06080798
+70,Nashik,Maharashtra,75,Raigarh,Maharashtra,172.85,0.05826994
+68,Nanded,Maharashtra,71,Osmanabad,Maharashtra,176.81,0.05107723
+78,Satara,Maharashtra,79,Sindhudurg,Maharashtra,180.44,0.04513638
+30,Neemuch,Madhya Pradesh,33,Rajgarh,Madhya Pradesh,182.09,0.04264864
+113,Kanniyakumari,Tamil Nadu,121,Ramanathapuram,Tamil Nadu,184.24,0.03957013
+51,Ahmadnagar,Maharashtra,72,Palghar,Maharashtra,186.94,0.03597011
+60,Garhchiroli,Maharashtra,84,Yavatmal,Maharashtra,191.8,0.03018865
+60,Garhchiroli,Maharashtra,67,Nagpur,Maharashtra,195.76,0.02608929
+65,Kolhapur,Maharashtra,80,Solapur,Maharashtra,199.23,0.02289428
+108,Cuddalore,Tamil Nadu,127,Thiruvallur,Tamil Nadu,207.88,0.01637806
+79,Sindhudurg,Maharashtra,80,Solapur,Maharashtra,257.21,0.00184589
+65,Kolhapur,Maharashtra,115,Krishnagiri,Tamil Nadu,608.83,1e-06

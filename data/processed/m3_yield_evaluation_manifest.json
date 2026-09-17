@@ -1,0 +1,44 @@
+{
+    "Pulses": {
+        "Baseline_RMSE": 0.4642666225426911,
+        "Model_RMSE": 0.3427692250996936,
+        "Improvement_Pct": 26.169746336185373,
+        "Coverage_Pct": 86.84458398744113
+    },
+    "Spices & Plantation": {
+        "Baseline_RMSE": 7.490079378264695,
+        "Model_RMSE": 8.022502561532427,
+        "Improvement_Pct": -7.108378381312752,
+        "Coverage_Pct": 65.74348829541708
+    },
+    "Vegetables & Tubers": {
+        "Baseline_RMSE": 4.949677879952338,
+        "Model_RMSE": 5.339810526580667,
+        "Improvement_Pct": -7.881980526621375,
+        "Coverage_Pct": 63.338973491257754
+    },
+    "Oilseeds": {
+        "Baseline_RMSE": 2.87134893069099,
+        "Model_RMSE": 0.4420870402942272,
+        "Improvement_Pct": 84.60350688943127,
+        "Coverage_Pct": 88.6986301369863
+    },
+    "Cereals & Coarse Grains": {
+        "Baseline_RMSE": 1.9408394772728275,
+        "Model_RMSE": 0.9277665474211811,
+        "Improvement_Pct": 52.19766712882235,
+        "Coverage_Pct": 78.86884578868846
+    },
+    "Sugar & Fiber": {
+        "Baseline_RMSE": 13.782056492583092,
+        "Model_RMSE": 14.528052063568946,
+        "Improvement_Pct": -5.412803026800226,
+        "Coverage_Pct": 58.35351089588377
+    },
+    "Overall": {
+        "Baseline_RMSE": 4.604813258525841,
+        "Model_RMSE": 4.6188902226745165,
+        "Improvement_Pct": -0.3057010861974082,
+        "Coverage_Pct": 78.08859566446749
+    }
+}
