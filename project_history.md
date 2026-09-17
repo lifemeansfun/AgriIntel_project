@@ -972,6 +972,17 @@ Where $\lambda$ represents the farmer's risk-aversion coefficient ($\lambda = 0.
 
 ---
 
+### Session 26: 2026-09-17 — Force Push of Ignored Data Assets
+- **User Prompts:**
+  - *"is fact_recommendations.parquet pushed to github?"*
+  - *"ignore the rule, and upload all files"*
+- **Key Actions & Implementation:**
+  - Bypassed `.gitignore` rules for large datasets as explicitly requested by the user.
+  - Force-staged all `.parquet`, `.rds`, and quarantine files in the `data/` directory (`git add -f data/processed/ data/quarantine/`).
+  - Committed and pushed these large data assets to the `main` branch of the remote repository.
+
+---
+
 ## 5. Ongoing Protocol
 *All future conversation sessions, user design preferences, backend adjustments, and frontend feature implementations will be continuously appended to this file.*
 

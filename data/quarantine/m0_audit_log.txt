@@ -1,0 +1,70 @@
+[2026-09-08 22:06:05] Step 1: Reading raw dataset: agriIntel_merged_final_v.csv 
+[2026-09-08 22:06:05] Raw dataset dimensions: 95674 rows x 29 columns. 
+[2026-09-08 22:06:05] Step 2: Checking exact duplicates... 
+[2026-09-08 22:06:05] Found 1 exact duplicate rows. Removing duplicates. 
+[2026-09-08 22:06:05] Step 3: Checking composite key collisions on [State, District, Crop, Year, Season]... 
+[2026-09-08 22:06:05] Found 5 colliding composite keys (10 total records). 
+[2026-09-08 22:06:05] Aggregating colliding keys: summing Area & Production, recomputing Yield. 
+[2026-09-08 22:06:06] Step 4: Checking for unrepairable isolated urban records... 
+[2026-09-08 22:06:06] Quarantining 1 isolated records with missing weather & soil profiles. 
+[2026-09-08 22:06:06] Quarantined records saved to: data/quarantine/m0_quarantined_records.csv 
+[2026-09-08 22:06:06] Step 5: Imputing missing irrigation for bifurcated district (Palghar, MH)... 
+[2026-09-08 22:06:06] Found 73 Palghar rows with missing irrigation. 
+[2026-09-08 22:06:06] Successfully imputed Palghar irrigation from Thane parent baseline. 
+[2026-09-08 22:06:06] Step 6: Treating irrigation intensity anomalies... 
+[2026-09-08 22:06:06] Found 43 rows with extreme irrigation intensity (> 2.5). 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Anuppur, 2002-03] intensity: 408.44 -> 0.02 (cropped_area: 9 -> 199094) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2002-03] intensity: 7.02 -> 0.28 (cropped_area: 5068 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2002-03] intensity: 7.02 -> 0.28 (cropped_area: 5068 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Krishnagiri, 2003-04] intensity: 3.17 -> 0.28 (cropped_area: 11222 -> 128393) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Kanpur Dehat, 2002-03] intensity: 12.03 -> 0.56 (cropped_area: 13037 -> 282669) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Fazilka, 2011-12] intensity: 40.02 -> 0.73 (cropped_area: 6300 -> 344700) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Fazilka, 2011-12] intensity: 40.02 -> 0.73 (cropped_area: 6300 -> 344700) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Pathankot, 2011-12] intensity: 11.65 -> 0.55 (cropped_area: 4000 -> 84600) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2010-11] intensity: 5.34 -> 1.8 (cropped_area: 21069 -> 62729) 
+[2026-09-08 22:06:06] Repaired extreme irrigation: [Coimbatore, 2012-13] intensity: 5.85 -> 1.83 (cropped_area: 19614 -> 62729) 
+[2026-09-08 22:06:06] Step 7: Applying two-tier soil nutrient imputation with provenance tags... 
+[2026-09-08 22:06:06] Column Nitrogen_index has 1421 missing values. Resolving... 
+[2026-09-08 22:06:08] Column Phosphorus_index has 216 missing values. Resolving... 
+[2026-09-08 22:06:08] Column Potassium_index has 216 missing values. Resolving... 
+[2026-09-08 22:06:09] Step 8: Adding crop failure and biological plausibility flags... 
+[2026-09-08 22:06:09] Identified 175 crop failure records (Production == 0 & Area > 0). 
+[2026-09-08 22:06:09] Step 9: Executing post-sanitization invariant assertions... 
+[2026-09-08 22:06:09] All 6 invariant assertions passed successfully! 
+[2026-09-08 22:06:09] Step 10: Saving sanitized artifacts... 
+[2026-09-08 22:06:09] Saved clean CSV: data/processed/agronomic_cleaned_v4.csv (33.097798 MB) 
+[2026-09-08 22:06:10] Saved clean RDS: data/processed/agronomic_cleaned_v4.rds (2.320952 MB) 
+[2026-09-08 22:06:10] Saved audit manifest: data/processed/m0_audit_manifest.json 
