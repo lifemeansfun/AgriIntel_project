@@ -74,7 +74,8 @@ function AppContent() {
       </AnimatePresence>
 
       <AmbientBackground>
-        <Navbar uiVersion={uiVersion} setUiVersion={setUiVersion} />
+        <div className="film-grain" />
+        <Navbar uiVersion={uiVersion} setUiVersion={setUiVersion} formData={formData} />
 
       <div className="flex-1 no-scrollbar overflow-y-auto">
         <AnimatePresence mode="wait">

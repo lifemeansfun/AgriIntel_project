@@ -38,4 +38,6 @@ export {
   ChevronDown,
   Sliders,
   X,
+  Volume2,
+  VolumeX,
 } from 'lucide-react';

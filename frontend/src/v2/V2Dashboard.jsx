@@ -95,6 +95,10 @@ export default function V2Dashboard({
             {activeCrop && (
               <MonumentalCropSpecimen 
                 crop={activeCrop} 
+                rank={Math.max(1, recommendations.findIndex((r) => r.Crop === activeCrop.Crop) + 1)}
+                champion={recommendations[0]}
+                formData={formData}
+                onSelectChampion={() => setActiveCrop(recommendations[0])}
                 onViewAnalytics={onViewAnalytics} 
               />
             )}

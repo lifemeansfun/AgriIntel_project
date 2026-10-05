@@ -1,0 +1,87 @@
+# Price Flexibility (\phi) and Market Integration Coefficient (\theta)
+# Based on literature review of Indian agricultural demand elasticities.
+# \phi: Price flexibility (inverse of demand elasticity). Higher negative value = price crashes harder on oversupply.
+# \theta: Market integration coefficient. High (0.7-1.0) = highly localized market (crash felt fully locally). Low (0.1-0.3) = high MSP procurement or national tradability (shock is absorbed).
+
+default_flexibility: -1.5
+default_integration: 0.5
+
+crops:
+  # Highly Perishable, Local Clearing (TOP Crops)
+  Tomato:
+    phi: -2.0
+    theta: 1.0
+  Onion:
+    phi: -2.0
+    theta: 1.0
+  Potato:
+    phi: -1.8
+    theta: 0.9
+  Banana:
+    phi: -2.0
+    theta: 0.8
+  Tapioca:
+    phi: -1.5
+    theta: 0.8
+    
+  # Cereals (Staples protected by MSP/PDS)
+  Wheat:
+    phi: -2.5
+    theta: 0.15
+  Rice:
+    phi: -2.5
+    theta: 0.15
+  Paddy:
+    phi: -2.5
+    theta: 0.15
+  Maize:
+    phi: -2.0
+    theta: 0.3
+  Bajra:
+    phi: -2.0
+    theta: 0.3
+  Jowar:
+    phi: -2.0
+    theta: 0.3
+  Barley:
+    phi: -2.0
+    theta: 0.3
+  Ragi:
+    phi: -2.0
+    theta: 0.3
+
+  # Oilseeds (Tradable but localized crushing)
+  Groundnut:
+    phi: -1.5
+    theta: 0.6
+  Soyabean:
+    phi: -1.5
+    theta: 0.6
+    
+  # Pulses
+  Arhar/Tur:
+    phi: -1.6
+    theta: 0.5
+  Gram:
+    phi: -1.6
+    theta: 0.5
+    
+  # Cash Crops and Spices
+  Sugarcane:
+    phi: -1.0 # Price is mostly fixed by FRP/SAP
+    theta: 0.05
+  Cotton(lint):
+    phi: -1.5
+    theta: 0.3 # Globally tradable
+  Turmeric:
+    phi: -1.8
+    theta: 0.7
+  Ginger:
+    phi: -1.8
+    theta: 0.8
+  Garlic:
+    phi: -1.8
+    theta: 0.8
+  Sweet potato:
+    phi: -1.5
+    theta: 0.8

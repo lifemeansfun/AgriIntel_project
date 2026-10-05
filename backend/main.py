@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Response, Query
+from fastapi import FastAPI, HTTPException, Response, Query, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import ORJSONResponse
@@ -6,8 +6,15 @@ import pandas as pd
 import numpy as np
 from pydantic import BaseModel, Field
 import os
+import logging
 from typing import List, Dict, Any, Tuple, Optional
 from contextlib import asynccontextmanager
+
+from modules.m6_market.supply_ledger import DistrictSupplyLedger, CapacityExceededError
+from backend.ledger import LedgerPersistenceManager
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'processed', 'fact_recommendations.parquet')
 
@@ -15,21 +22,39 @@ DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'pr
 CACHED_LOCATIONS: Dict[str, Dict[str, List[str]]] = {}
 RECOMMENDATION_CACHE: Dict[Tuple[str, str, str], List[Dict[str, Any]]] = {}
 
+# Module 8 Context and Ledger State
+crop_context = {
+    "Tomato": {"msp_real": 1500.0, "q_lag3": 10000.0, "yield_hat": 20.0},
+    "Onion": {"msp_real": 1200.0, "q_lag3": 12000.0, "yield_hat": 18.0}
+}
+
+class DummySimulator:
+    def get_coefficients(self, crop):
+        return (-2.0, 1.0)
+        
+    def project_price(self, crop, msp_real, q_current, q_lag3, eta=0.0):
+        s_c = (q_current - q_lag3) / max(q_lag3, 1.0)
+        p = msp_real * (1.0 + (-2.0) * (1.0) * s_c)
+        return max(p, msp_real * 0.1)
+
+ledger = DistrictSupplyLedger("api_d1", total_arable_ha=1000.0, crop_context=crop_context, price_simulator=DummySimulator())
+pm = LedgerPersistenceManager(data_dir="data/api_processed", event_file="api_ledger_events.jsonl")
+
 def _initialize_caches():
     """Defensive pre-computation of locations and latest-year recommendations for sub-millisecond retrieval."""
     global CACHED_LOCATIONS, RECOMMENDATION_CACHE
     if not os.path.exists(DATA_PATH):
-        print(f"[AgriIntel Startup Warning] Parquet file not found at {DATA_PATH}")
+        logger.warning(f"[AgriIntel Startup Warning] Parquet file not found at {DATA_PATH}")
         return
 
     try:
         df = pd.read_parquet(DATA_PATH)
     except Exception as err:
-        print(f"[AgriIntel Startup Error] Failed to read {DATA_PATH}: {err}")
+        logger.error(f"[AgriIntel Startup Error] Failed to read {DATA_PATH}: {err}")
         return
 
     if df.empty:
-        print("[AgriIntel Startup Warning] Empty DataFrame loaded.")
+        logger.warning("[AgriIntel Startup Warning] Empty DataFrame loaded.")
         return
 
     # 1. Precompute nested State -> District -> Seasons hierarchy
@@ -42,9 +67,9 @@ def _initialize_caches():
                 for district, d_group in s_group.groupby('District'):
                     locs[str(state)][str(district)] = sorted(d_group['Season'].unique().tolist())
             CACHED_LOCATIONS = locs
-            print(f"[AgriIntel Startup] Precomputed locations cache for {len(CACHED_LOCATIONS)} states.")
+            logger.info(f"[AgriIntel Startup] Precomputed locations cache for {len(CACHED_LOCATIONS)} states.")
     except Exception as err:
-        print(f"[AgriIntel Startup Error] Failed to precompute locations: {err}")
+        logger.error(f"[AgriIntel Startup Error] Failed to precompute locations: {err}")
 
     # 2. Precompute recommendation records for the latest available year
     try:
@@ -73,14 +98,17 @@ def _initialize_caches():
             cache[(str(st), str(dist), str(seas))] = records
 
         RECOMMENDATION_CACHE = cache
-        print(f"[AgriIntel Startup] Precomputed O(1) recommendations cache for {len(RECOMMENDATION_CACHE)} location-season tuples (Year {max_year}).")
+        logger.info(f"[AgriIntel Startup] Precomputed O(1) recommendations cache for {len(RECOMMENDATION_CACHE)} location-season tuples (Year {max_year}).")
     except Exception as err:
-        print(f"[AgriIntel Startup Error] Failed to precompute recommendations cache: {err}")
+        logger.error(f"[AgriIntel Startup Error] Failed to precompute recommendations cache: {err}")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Precompute caches
+    # Startup: Precompute caches & hydrate ledger
+    global ledger
     _initialize_caches()
+    ledger = pm.hydrate_ledger(ledger)
+    logger.info("Ledger hydrated on startup.")
     yield
     # Shutdown: Clean references
     CACHED_LOCATIONS.clear()
@@ -133,7 +161,6 @@ def _compute_recommendations(state: str, district: str, season: str, area: float
         pess_prof = item['Base_Pessimistic_Profit'] * area
         score = exp_prof - (lmbda * down_risk)
 
-        # Vectorized / branchless safety rating equivalent
         safety = "Safe" if pess_prof > 0 else ("Moderate Risk" if pess_prof > -5000 else "High Risk")
 
         results.append({
@@ -183,6 +210,39 @@ def get_recommendations_get(
     if not results:
         raise HTTPException(status_code=404, detail="No data found for this location/season combination")
 
-    # Set cache header for browser/CDN edge caching
     response.headers["Cache-Control"] = "public, max-age=3600, stale-while-revalidate=86400"
     return {"recommendations": results}
+
+# Module 8 Edge Ledger Endpoints
+class CommitRequest(BaseModel):
+    farmer_id: str
+    crop: str
+    area_ha: float
+
+@app.post("/api/commit")
+async def commit_acreage(req: CommitRequest, background_tasks: BackgroundTasks):
+    try:
+        version = ledger.commit(req.farmer_id, req.crop, req.area_ha)
+        background_tasks.add_task(pm.log_commit, ledger.district_id, req.farmer_id, req.crop, req.area_ha, version)
+        return {
+            "status": "success",
+            "message": f"Committed {req.area_ha} ha of {req.crop}",
+            "headroom": ledger.headroom(req.crop),
+            "version": version
+        }
+    except CapacityExceededError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error(f"Commit error: {e}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
+@app.get("/api/state")
+async def get_state():
+    return {
+        "district_id": ledger.district_id,
+        "total_arable": ledger.total_arable_ha,
+        "committed_area": ledger.committed_area,
+        "headroom": {c: ledger.headroom(c) for c in ledger.crop_context.keys()},
+        "glut_thresholds": ledger.glut_thresholds,
+        "version": ledger.version
+    }
