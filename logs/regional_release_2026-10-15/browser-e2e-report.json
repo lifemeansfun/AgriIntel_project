@@ -1,0 +1,2664 @@
+{
+  "started_at": "2026-10-15T16:16:43.992Z",
+  "base": "http://127.0.0.1:5174",
+  "api": "http://127.0.0.1:8001/api/v2",
+  "checks": [
+    {
+      "name": "historical UI Madhya Pradesh",
+      "status": "pass",
+      "evidence": {
+        "district": "Agar Malwa",
+        "rows": 8,
+        "artifact_id": "regional-20261015-v1"
+      }
+    },
+    {
+      "name": "historical UI Maharashtra",
+      "status": "pass",
+      "evidence": {
+        "district": "Ahmadnagar",
+        "rows": 13,
+        "artifact_id": "regional-20261015-v1"
+      }
+    },
+    {
+      "name": "historical UI Punjab",
+      "status": "pass",
+      "evidence": {
+        "district": "Amritsar",
+        "rows": 6,
+        "artifact_id": "regional-20261015-v1"
+      }
+    },
+    {
+      "name": "historical UI Tamil Nadu",
+      "status": "pass",
+      "evidence": {
+        "district": "Ariyalur",
+        "rows": 1,
+        "artifact_id": "regional-20261015-v1"
+      }
+    },
+    {
+      "name": "historical UI Uttar Pradesh",
+      "status": "pass",
+      "evidence": {
+        "district": "Agra",
+        "rows": 13,
+        "artifact_id": "regional-20261015-v1"
+      }
+    },
+    {
+      "name": "yield slider recomputes revenue and fixed cost",
+      "status": "pass",
+      "evidence": {
+        "crop": "Onion",
+        "low_profit": 50167.87116032532,
+        "cost_per_ha": 73759.02054487847
+      }
+    },
+    {
+      "name": "two visible browser contexts share commit and update advice",
+      "status": "pass",
+      "evidence": {
+        "crop": "Onion",
+        "before_revision": 0,
+        "after_revision": 1
+      }
+    },
+    {
+      "name": "stale quote rejected after another farmer commits",
+      "status": "pass",
+      "evidence": {
+        "status": 409,
+        "detail": {
+          "detail": "Quote is stale; refresh advice"
+        }
+      }
+    },
+    {
+      "name": "cancel releases capacity and refreshes other session",
+      "status": "pass",
+      "evidence": {
+        "revision": 2
+      }
+    },
+    {
+      "name": "UI replay start, step, play, pause and completion",
+      "status": "pass",
+      "evidence": {
+        "replay_id": "00c84230-62cb-48ae-904d-f2431ca03caf",
+        "paused_step": 4,
+        "total_steps": 24,
+        "static_profit": 739263.4123368218,
+        "dynamic_profit": 735940.4386303208
+      }
+    },
+    {
+      "name": "375px mobile no page-level horizontal overflow",
+      "status": "pass",
+      "evidence": {
+        "width": 375,
+        "document": 375,
+        "body": 375,
+        "offenders": [
+          {
+            "tag": "CANVAS",
+            "class": "",
+            "right": 1600
+          },
+          {
+            "tag": "DIV",
+            "class": "orb orb-green fixed",
+            "right": 404.33099365234375
+          },
+          {
+            "tag": "DIV",
+            "class": "recharts-wrapper",
+            "right": 1007
+          },
+          {
+            "tag": "svg",
+            "class": "[object SVGAnimatedString]",
+            "right": 1007
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 547
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 765
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "line",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          },
+          {
+            "tag": "g",
+            "class": "[object SVGAnimatedString]",
+            "right": 983
+          }
+        ]
+      }
+    },
+    {
+      "name": "browser runtime has no page or console errors",
+      "status": "pass",
+      "evidence": {
+        "page_errors": 0,
+        "console_errors": 0,
+        "warnings": 6
+      }
+    }
+  ],
+  "console": [
+    {
+      "page": "farmer-A",
+      "type": "warning",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "page": "farmer-A",
+      "type": "warning",
+      "message": "[.WebGL-0x12c004d5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "page": "farmer-A",
+      "type": "warning",
+      "message": "[.WebGL-0x12c004d5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "page": "farmer-A",
+      "type": "warning",
+      "message": "[.WebGL-0x12c004d5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "page": "farmer-A",
+      "type": "warning",
+      "message": "[.WebGL-0x12c004d5c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "page": "farmer-B",
+      "type": "warning",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "page_errors": [],
+  "request_failures": [],
+  "http_errors": [],
+  "screenshots": [
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/01-historical-standby.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/02-historical-1-Madhya-Pradesh.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/02-historical-2-Maharashtra.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/02-historical-3-Punjab.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/02-historical-4-Tamil-Nadu.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/02-historical-5-Uttar-Pradesh.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/03-feedback-before.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/04-fixed-cost-slider.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/05-active-commitment.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/06-other-farmer-refreshed.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/07-feedback-night.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/08-replay-paused.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/09-replay-complete.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/10-mobile-feedback.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/11-mobile-area-popover.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/12-mobile-historical.png"
+  ],
+  "recommendations": [
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Madhya Pradesh",
+        "district": "Agar Malwa",
+        "season": "Kharif",
+        "area_hectares": 1
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "historical",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Groundnut",
+            "Score": 11258.420434235417,
+            "Central_Profit": 17574.121984520854,
+            "Pessimistic_Profit": 4942.718883949978,
+            "Downside_Gap": 12631.403100570877,
+            "Cost_per_ha": 14770.02024360404,
+            "Yield_q10": 0.7799542336972334,
+            "Yield_q50": 1.1517554943839763,
+            "Yield_q90": 1.5904993023876044,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 10733.286523135184,
+            "Central_Profit": 16947.909740855368,
+            "Pessimistic_Profit": 4518.663305415001,
+            "Downside_Gap": 12429.246435440367,
+            "Cost_per_ha": 17252.208613953753,
+            "Yield_q10": 2.00990611410416,
+            "Yield_q50": 2.841646605386343,
+            "Yield_q90": 3.760208234473128,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Arhar/Tur",
+            "Score": 8146.457872892872,
+            "Central_Profit": 15515.424181777478,
+            "Pessimistic_Profit": 777.4915640082654,
+            "Downside_Gap": 14737.932617769213,
+            "Cost_per_ha": 21047.943749324415,
+            "Yield_q10": 0.7556022457625204,
+            "Yield_q50": 1.139249974732667,
+            "Yield_q90": 1.6095472355665505,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Soyabean",
+            "Score": 8093.296496394967,
+            "Central_Profit": 16245.691476375901,
+            "Pessimistic_Profit": -59.09848358596719,
+            "Downside_Gap": 16304.789959961869,
+            "Cost_per_ha": 21366.025572303402,
+            "Yield_q10": 0.8430298743564545,
+            "Yield_q50": 1.339330672568071,
+            "Yield_q90": 1.9539796236362303,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Urad",
+            "Score": 7381.202082070282,
+            "Central_Profit": 13283.902941017857,
+            "Pessimistic_Profit": 1478.5012231227065,
+            "Downside_Gap": 11805.40171789515,
+            "Cost_per_ha": 13579.550566897278,
+            "Yield_q10": 0.5213136684791314,
+            "Yield_q50": 0.8370177711143414,
+            "Yield_q90": 1.2409998066880163,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Moong(Green Gram)",
+            "Score": 6249.945788741222,
+            "Central_Profit": 11466.555715894228,
+            "Pessimistic_Profit": 1033.3358615882153,
+            "Downside_Gap": 10433.219854306013,
+            "Cost_per_ha": 12865.832381320892,
+            "Yield_q10": 0.48119281873647834,
+            "Yield_q50": 0.7581542427156374,
+            "Yield_q90": 1.0721548401877843,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Jowar",
+            "Score": 5361.650805197177,
+            "Central_Profit": 11541.3560636448,
+            "Pessimistic_Profit": -818.0544532504464,
+            "Downside_Gap": 12359.410516895246,
+            "Cost_per_ha": 12803.772703992856,
+            "Yield_q10": 1.1065320894504385,
+            "Yield_q50": 2.0228074009142434,
+            "Yield_q90": 2.4587175893652153,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Bajra",
+            "Score": 3782.1378159255946,
+            "Central_Profit": 6897.737670175675,
+            "Pessimistic_Profit": 666.5379616755145,
+            "Downside_Gap": 6231.19970850016,
+            "Cost_per_ha": 8692.173555872227,
+            "Yield_q10": 0.8640045088190305,
+            "Yield_q50": 1.295346929919147,
+            "Yield_q90": 2.929305052138687,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": null,
+        "revision": null,
+        "quote_id": null,
+        "quote_expires_at": null
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Maharashtra",
+        "district": "Ahmadnagar",
+        "season": "Kharif",
+        "area_hectares": 1
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "historical",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Groundnut",
+            "Score": 6112.085990195787,
+            "Central_Profit": 12326.512732880134,
+            "Pessimistic_Profit": -102.34075248855879,
+            "Downside_Gap": 12428.853485368692,
+            "Cost_per_ha": 14216.745402678562,
+            "Yield_q10": 0.5584505325109312,
+            "Yield_q50": 0.9451894930729853,
+            "Yield_q90": 1.2077422206904416,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 5555.387475360532,
+            "Central_Profit": 13841.118256456186,
+            "Pessimistic_Profit": -2730.3433057351212,
+            "Downside_Gap": 16571.461562191307,
+            "Cost_per_ha": 24866.440477873522,
+            "Yield_q10": 2.0436240318469894,
+            "Yield_q50": 3.2161643927391137,
+            "Yield_q90": 3.904405435188138,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Arhar/Tur",
+            "Score": 4979.807818539124,
+            "Central_Profit": 15414.091805218843,
+            "Pessimistic_Profit": -5454.476168140596,
+            "Downside_Gap": 20868.567973359437,
+            "Cost_per_ha": 16021.614696411263,
+            "Yield_q10": 0.36583708359610045,
+            "Yield_q50": 0.9794810999131708,
+            "Yield_q90": 1.3640545723952273,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 2136.9206022626386,
+            "Central_Profit": 4786.063905119724,
+            "Pessimistic_Profit": -512.2227005944469,
+            "Downside_Gap": 5298.286605714171,
+            "Cost_per_ha": 7252.9218719142455,
+            "Yield_q10": 0.6223072979322978,
+            "Yield_q50": 1.000304815050222,
+            "Yield_q90": 1.4092547606801464,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Urad",
+            "Score": 2050.10807169488,
+            "Central_Profit": 6231.6134395854915,
+            "Pessimistic_Profit": -2131.3972961957315,
+            "Downside_Gap": 8363.010735781223,
+            "Cost_per_ha": 6256.789176722279,
+            "Yield_q10": 0.14282213961946152,
+            "Yield_q50": 0.3891165713150221,
+            "Yield_q90": 0.7135259074687625,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Soyabean",
+            "Score": 1986.9613896620958,
+            "Central_Profit": 9574.757288938818,
+            "Pessimistic_Profit": -5600.834509614626,
+            "Downside_Gap": 15175.591798553443,
+            "Cost_per_ha": 18089.615559367583,
+            "Yield_q10": 0.49413110935239335,
+            "Yield_q50": 0.9851117151908153,
+            "Yield_q90": 1.6847667582113763,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Jowar",
+            "Score": 1807.9359285981677,
+            "Central_Profit": 4234.579060349107,
+            "Pessimistic_Profit": -618.7072031527714,
+            "Downside_Gap": 4853.286263501878,
+            "Cost_per_ha": 3037.8843315962586,
+            "Yield_q10": 0.22334056805660965,
+            "Yield_q50": 0.6042602161817383,
+            "Yield_q90": 0.9935807912706456,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Sunflower",
+            "Score": 1706.0466448470133,
+            "Central_Profit": 6297.734484610433,
+            "Pessimistic_Profit": -2885.6411949164067,
+            "Downside_Gap": 9183.37567952684,
+            "Cost_per_ha": 9853.201721260795,
+            "Yield_q10": 0.2756784988580293,
+            "Yield_q50": 0.5751251457947754,
+            "Yield_q90": 1.0031797319867497,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Rice",
+            "Score": 1240.3140204278916,
+            "Central_Profit": 7842.675483718607,
+            "Pessimistic_Profit": -5362.047442862825,
+            "Downside_Gap": 13204.722926581431,
+            "Cost_per_ha": 11934.34768389875,
+            "Yield_q10": 0.6067605600322399,
+            "Yield_q50": 1.643249013522912,
+            "Yield_q90": 2.89839862926269,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Bajra",
+            "Score": 1076.1098098418584,
+            "Central_Profit": 4199.057030635857,
+            "Pessimistic_Profit": -2046.83741095214,
+            "Downside_Gap": 6245.894441587997,
+            "Cost_per_ha": 7148.745835086982,
+            "Yield_q10": 0.47101268948926245,
+            "Yield_q50": 0.9428752601799203,
+            "Yield_q90": 1.308069858834274,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Moong(Green Gram)",
+            "Score": 905.189013440362,
+            "Central_Profit": 5752.698676540705,
+            "Pessimistic_Profit": -3942.32064965998,
+            "Downside_Gap": 9695.019326200685,
+            "Cost_per_ha": 7689.831005821442,
+            "Yield_q10": 0.12973978298632716,
+            "Yield_q50": 0.4188454857285539,
+            "Yield_q90": 0.7339661887926994,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Sesamum",
+            "Score": 731.9916832369609,
+            "Central_Profit": 3672.6142720156085,
+            "Pessimistic_Profit": -2208.6309055416873,
+            "Downside_Gap": 5881.245177557295,
+            "Cost_per_ha": 4334.020403486697,
+            "Yield_q10": 0.08409316059282412,
+            "Yield_q50": 0.285111455854789,
+            "Yield_q90": 0.5476063905337433,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Niger seed",
+            "Score": 552.2139343835215,
+            "Central_Profit": 3132.9846659448926,
+            "Pessimistic_Profit": -2028.5567971778494,
+            "Downside_Gap": 5161.541463122742,
+            "Cost_per_ha": 3090.367818894864,
+            "Yield_q10": 0.04201161474393894,
+            "Yield_q50": 0.2216098472282133,
+            "Yield_q90": 0.41894102681254364,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": null,
+        "revision": null,
+        "quote_id": null,
+        "quote_expires_at": null
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Punjab",
+        "district": "Amritsar",
+        "season": "Kharif",
+        "area_hectares": 1
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "historical",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Rice",
+            "Score": 10976.307378139245,
+            "Central_Profit": 17009.675514494204,
+            "Pessimistic_Profit": 4942.939241784286,
+            "Downside_Gap": 12066.736272709917,
+            "Cost_per_ha": 26566.84840666589,
+            "Yield_q10": 2.909011411361978,
+            "Yield_q50": 3.62072084050811,
+            "Yield_q90": 4.055692525335489,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Arhar/Tur",
+            "Score": 8352.545943467325,
+            "Central_Profit": 15622.54992512233,
+            "Pessimistic_Profit": 1082.5419618123196,
+            "Downside_Gap": 14540.00796331001,
+            "Cost_per_ha": 19613.149789696756,
+            "Yield_q10": 0.7164902298877123,
+            "Yield_q50": 1.0978821777424195,
+            "Yield_q90": 1.279782101413021,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 6958.441172364228,
+            "Central_Profit": 13781.004568678221,
+            "Pessimistic_Profit": 135.8777760502344,
+            "Downside_Gap": 13645.126792627987,
+            "Cost_per_ha": 23569.16291111508,
+            "Yield_q10": 2.188470282158681,
+            "Yield_q50": 3.1033803897535774,
+            "Yield_q90": 4.058799349174023,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Moong(Green Gram)",
+            "Score": 2926.121000186169,
+            "Central_Profit": 8516.705680967825,
+            "Pessimistic_Profit": -2664.463680595487,
+            "Downside_Gap": 11181.169361563312,
+            "Cost_per_ha": 17532.967236244072,
+            "Yield_q10": 0.5147514593174265,
+            "Yield_q50": 0.8116618050243583,
+            "Yield_q90": 1.015693120545325,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Sesamum",
+            "Score": 1521.4849256512043,
+            "Central_Profit": 4390.816841989704,
+            "Pessimistic_Profit": -1347.8469906872951,
+            "Downside_Gap": 5738.663832676999,
+            "Cost_per_ha": 5794.795953970382,
+            "Yield_q10": 0.17594798208941406,
+            "Yield_q50": 0.362703559076418,
+            "Yield_q90": 0.5350493625585784,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Urad",
+            "Score": 450.1034409501153,
+            "Central_Profit": 7516.637443637977,
+            "Pessimistic_Profit": -6616.430561737747,
+            "Downside_Gap": 14133.068005375724,
+            "Cost_per_ha": 21396.16340694192,
+            "Yield_q10": 0.5116781942390086,
+            "Yield_q50": 0.9008718152152216,
+            "Yield_q90": 1.3704343595270394,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": null,
+        "revision": null,
+        "quote_id": null,
+        "quote_expires_at": null
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Ariyalur",
+        "season": "Autumn",
+        "area_hectares": 1
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "historical",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Rice",
+            "Score": 8363.590856979336,
+            "Central_Profit": 17391.75034817043,
+            "Pessimistic_Profit": -664.5686342117588,
+            "Downside_Gap": 18056.31898238219,
+            "Cost_per_ha": 32655.151255761437,
+            "Yield_q10": 2.9533988277062675,
+            "Yield_q50": 4.158336722040009,
+            "Yield_q90": 4.557873216834262,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": null,
+        "revision": null,
+        "quote_id": null,
+        "quote_expires_at": null
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Uttar Pradesh",
+        "district": "Agra",
+        "season": "Kharif",
+        "area_hectares": 1
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "historical",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Sugarcane",
+            "Score": 27579.856016779806,
+            "Central_Profit": 39644.79504005835,
+            "Pessimistic_Profit": 15514.916993501261,
+            "Downside_Gap": 24129.87804655709,
+            "Cost_per_ha": 62572.49879295111,
+            "Yield_q10": 50.888151703151486,
+            "Yield_q50": 59.95183977577628,
+            "Yield_q90": 63.61084165519478,
+            "Price_pessimistic": 153.4491098084359,
+            "Price_central": 170.49901089826213,
+            "Price_optimistic": 187.54891198808835,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Sweet potato",
+            "Score": 21085.553833627426,
+            "Central_Profit": 29539.465012627435,
+            "Pessimistic_Profit": 12631.642654627416,
+            "Downside_Gap": 16907.82235800002,
+            "Cost_per_ha": 60297.558805688925,
+            "Yield_q10": 10.099332386964452,
+            "Yield_q50": 11.196675013937487,
+            "Yield_q90": 11.6128829993762,
+            "Price_pessimistic": 722.119033872462,
+            "Price_central": 802.3544820805133,
+            "Price_optimistic": 882.5899302885647,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Rice",
+            "Score": 10257.414182158105,
+            "Central_Profit": 16022.339698498916,
+            "Pessimistic_Profit": 4492.4886658172945,
+            "Downside_Gap": 11529.851032681621,
+            "Cost_per_ha": 20551.14217301119,
+            "Yield_q10": 2.3120501066173347,
+            "Yield_q50": 3.0388465188665483,
+            "Yield_q90": 3.1480482555173235,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Dry chillies",
+            "Score": 9627.317389885211,
+            "Central_Profit": 14595.930047875136,
+            "Pessimistic_Profit": 4658.704731895286,
+            "Downside_Gap": 9937.22531597985,
+            "Cost_per_ha": 27780.861143793216,
+            "Yield_q10": 0.7986253306642744,
+            "Yield_q50": 0.9389416956707928,
+            "Yield_q90": 1.0578328575591345,
+            "Price_pessimistic": 4061.9254899799093,
+            "Price_central": 4513.2505444221215,
+            "Price_optimistic": 4964.575598864334,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 9463.439605561329,
+            "Central_Profit": 15788.35924811606,
+            "Pessimistic_Profit": 3138.519963006598,
+            "Downside_Gap": 12649.839285109461,
+            "Cost_per_ha": 25005.551858926614,
+            "Yield_q10": 2.598285555130413,
+            "Yield_q50": 3.389516896261251,
+            "Yield_q90": 3.53686233453705,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Arhar/Tur",
+            "Score": 6541.273884163014,
+            "Central_Profit": 13230.250777233883,
+            "Pessimistic_Profit": -147.70300890785438,
+            "Downside_Gap": 13377.953786141738,
+            "Cost_per_ha": 23217.49139735386,
+            "Yield_q10": 0.798682072789052,
+            "Yield_q50": 1.1356472803519029,
+            "Yield_q90": 1.7595518067804938,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Bajra",
+            "Score": 3493.4192951607056,
+            "Central_Profit": 9509.534793634579,
+            "Pessimistic_Profit": -2522.6962033131676,
+            "Downside_Gap": 12032.230996947746,
+            "Cost_per_ha": 19019.65674862392,
+            "Yield_q10": 1.5230139604402473,
+            "Yield_q50": 2.370456132912061,
+            "Yield_q90": 2.7230307561982086,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Urad",
+            "Score": 2445.936431023156,
+            "Central_Profit": 7185.90103213369,
+            "Pessimistic_Profit": -2294.0281700873784,
+            "Downside_Gap": 9479.929202221068,
+            "Cost_per_ha": 11381.802679379944,
+            "Yield_q10": 0.3146211165836452,
+            "Yield_q50": 0.5785368575467569,
+            "Yield_q90": 0.8366052193648016,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Guar seed",
+            "Score": 2444.747452083224,
+            "Central_Profit": 4776.336667544338,
+            "Pessimistic_Profit": 113.15823662211005,
+            "Downside_Gap": 4663.178430922228,
+            "Cost_per_ha": 9568.49000313491,
+            "Yield_q10": 0.5362909872538802,
+            "Yield_q50": 0.7151366131081099,
+            "Yield_q90": 0.9032051536166927,
+            "Price_pessimistic": 1805.2975846811548,
+            "Price_central": 2005.886205201283,
+            "Price_optimistic": 2206.4748257214114,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Jowar",
+            "Score": 1966.4973183270877,
+            "Central_Profit": 4379.6695550538925,
+            "Pessimistic_Profit": -446.67491839971717,
+            "Downside_Gap": 4826.34447345361,
+            "Cost_per_ha": 8185.423356663484,
+            "Yield_q10": 0.714448087296972,
+            "Yield_q50": 1.0440184226416536,
+            "Yield_q90": 1.5737680915567114,
+            "Price_pessimistic": 1083.178550808693,
+            "Price_central": 1203.53172312077,
+            "Price_optimistic": 1323.884895432847,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Sannhamp",
+            "Score": 1201.7405600171196,
+            "Central_Profit": 4393.534785966158,
+            "Pessimistic_Profit": -1990.0536659319184,
+            "Downside_Gap": 6383.5884518980765,
+            "Cost_per_ha": 2228.7624502236476,
+            "Yield_q10": 0.013222683413376915,
+            "Yield_q50": 0.33014321645057043,
+            "Yield_q90": 0.46984731727759643,
+            "Price_pessimistic": 1805.2975846811548,
+            "Price_central": 2005.886205201283,
+            "Price_optimistic": 2206.4748257214114,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Moong(Green Gram)",
+            "Score": 799.7666376849966,
+            "Central_Profit": 4526.2163061971805,
+            "Pessimistic_Profit": -2926.6830308271874,
+            "Downside_Gap": 7452.899337024368,
+            "Cost_per_ha": 8774.57369479774,
+            "Yield_q10": 0.2024554953994687,
+            "Yield_q50": 0.4144291275659112,
+            "Yield_q90": 0.7028364766658974,
+            "Price_pessimistic": 2888.4820599371587,
+            "Price_central": 3209.4245110412876,
+            "Price_optimistic": 3530.3669621454164,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Sesamum",
+            "Score": 497.9043715626899,
+            "Central_Profit": 2418.8271069267994,
+            "Pessimistic_Profit": -1423.0183638014196,
+            "Downside_Gap": 3841.845470728219,
+            "Cost_per_ha": 2201.8677972944533,
+            "Yield_q10": 0.03081595658192829,
+            "Yield_q50": 0.1645401725689047,
+            "Yield_q90": 0.376650604732214,
+            "Price_pessimistic": 2527.4225430009283,
+            "Price_central": 2808.247270001031,
+            "Price_optimistic": 3089.0719970011346,
+            "Remaining_Area_ha": null,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": null,
+        "revision": null,
+        "quote_id": null,
+        "quote_expires_at": null
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "season": "Kharif",
+        "area_hectares": 1,
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "participant_id": "qa-a-mv9qs9l0"
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "feedback",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Onion",
+            "Score": 61692.92423326212,
+            "Central_Profit": 73860.32952018661,
+            "Pessimistic_Profit": 49525.51894633763,
+            "Downside_Gap": 24334.810573848983,
+            "Cost_per_ha": 73759.02054487847,
+            "Yield_q10": 11.441040040229831,
+            "Yield_q50": 13.6283487108246,
+            "Yield_q90": 15.535629655802273,
+            "Price_pessimistic": 1077.5640943280846,
+            "Price_central": 1083.178550808693,
+            "Price_optimistic": 1089.6173239600996,
+            "Remaining_Area_ha": 8.772318221253856,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 21205.85627176542,
+            "Central_Profit": 46866.26821250821,
+            "Pessimistic_Profit": -4454.555668977366,
+            "Downside_Gap": 51320.82388148557,
+            "Cost_per_ha": 57164.79665780344,
+            "Yield_q10": 3.976561418790635,
+            "Yield_q50": 7.822457709673787,
+            "Yield_q90": 9.720091517060613,
+            "Price_pessimistic": 1325.5231200441633,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1338.778264908836,
+            "Remaining_Area_ha": 11.803322997577773,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 13014.901145366752,
+            "Central_Profit": 21255.554590169628,
+            "Pessimistic_Profit": 4774.247700563876,
+            "Downside_Gap": 16481.306889605752,
+            "Cost_per_ha": 22620.22443711601,
+            "Yield_q10": 2.064185943233899,
+            "Yield_q50": 3.2991724764886166,
+            "Yield_q90": 3.8054903515124163,
+            "Price_pessimistic": 1327.1319973607501,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1336.660364443291,
+            "Remaining_Area_ha": 12.71527674988557,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "revision": 0,
+        "quote_id": "451d7ef1-5b48-4113-aa18-e061e19093b1",
+        "quote_expires_at": 1792081347.540886
+      }
+    },
+    {
+      "page": "farmer-B",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "season": "Kharif",
+        "area_hectares": 1,
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "participant_id": "qa-b-mv9qs9l0"
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "feedback",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Onion",
+            "Score": 61692.92423326212,
+            "Central_Profit": 73860.32952018661,
+            "Pessimistic_Profit": 49525.51894633763,
+            "Downside_Gap": 24334.810573848983,
+            "Cost_per_ha": 73759.02054487847,
+            "Yield_q10": 11.441040040229831,
+            "Yield_q50": 13.6283487108246,
+            "Yield_q90": 15.535629655802273,
+            "Price_pessimistic": 1077.5640943280846,
+            "Price_central": 1083.178550808693,
+            "Price_optimistic": 1089.6173239600996,
+            "Remaining_Area_ha": 8.772318221253856,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 21205.85627176542,
+            "Central_Profit": 46866.26821250821,
+            "Pessimistic_Profit": -4454.555668977366,
+            "Downside_Gap": 51320.82388148557,
+            "Cost_per_ha": 57164.79665780344,
+            "Yield_q10": 3.976561418790635,
+            "Yield_q50": 7.822457709673787,
+            "Yield_q90": 9.720091517060613,
+            "Price_pessimistic": 1325.5231200441633,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1338.778264908836,
+            "Remaining_Area_ha": 11.803322997577773,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 13014.901145366752,
+            "Central_Profit": 21255.554590169628,
+            "Pessimistic_Profit": 4774.247700563876,
+            "Downside_Gap": 16481.306889605752,
+            "Cost_per_ha": 22620.22443711601,
+            "Yield_q10": 2.064185943233899,
+            "Yield_q50": 3.2991724764886166,
+            "Yield_q90": 3.8054903515124163,
+            "Price_pessimistic": 1327.1319973607501,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1336.660364443291,
+            "Remaining_Area_ha": 12.71527674988557,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "revision": 0,
+        "quote_id": "9505afac-91c8-4280-a1dc-5b67d354dd26",
+        "quote_expires_at": 1792081375.342321
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "season": "Kharif",
+        "area_hectares": 1,
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "participant_id": "qa-a-mv9qs9l0"
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "feedback",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Onion",
+            "Score": 56343.114019411456,
+            "Central_Profit": 68392.94618444346,
+            "Pessimistic_Profit": 44293.28185437946,
+            "Downside_Gap": 24099.664330064,
+            "Cost_per_ha": 73759.02054487847,
+            "Yield_q10": 11.441040040229831,
+            "Yield_q50": 13.6283487108246,
+            "Yield_q90": 15.535629655802273,
+            "Price_pessimistic": 1031.8319137434507,
+            "Price_central": 1043.0608267046673,
+            "Price_optimistic": 1049.499599856074,
+            "Remaining_Area_ha": 7.772318221253856,
+            "Eligible": false,
+            "Ineligibility_Reason": "Cancel the existing commitment before changing crop"
+          },
+          {
+            "Crop": "Maize",
+            "Score": 21205.85627176542,
+            "Central_Profit": 46866.26821250821,
+            "Pessimistic_Profit": -4454.555668977366,
+            "Downside_Gap": 51320.82388148557,
+            "Cost_per_ha": 57164.79665780344,
+            "Yield_q10": 3.976561418790635,
+            "Yield_q50": 7.822457709673787,
+            "Yield_q90": 9.720091517060613,
+            "Price_pessimistic": 1325.5231200441633,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1338.778264908836,
+            "Remaining_Area_ha": 11.803322997577773,
+            "Eligible": false,
+            "Ineligibility_Reason": "Cancel the existing commitment before changing crop"
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 13014.901145366752,
+            "Central_Profit": 21255.554590169628,
+            "Pessimistic_Profit": 4774.247700563876,
+            "Downside_Gap": 16481.306889605752,
+            "Cost_per_ha": 22620.22443711601,
+            "Yield_q10": 2.064185943233899,
+            "Yield_q50": 3.2991724764886166,
+            "Yield_q90": 3.8054903515124163,
+            "Price_pessimistic": 1327.1319973607501,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1336.660364443291,
+            "Remaining_Area_ha": 12.71527674988557,
+            "Eligible": false,
+            "Ineligibility_Reason": "Cancel the existing commitment before changing crop"
+          }
+        ],
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "revision": 1,
+        "quote_id": "2798367b-d444-4b17-97bc-26a354e474f3",
+        "quote_expires_at": 1792081376.5373042
+      }
+    },
+    {
+      "page": "farmer-B",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "season": "Kharif",
+        "area_hectares": 1,
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "participant_id": "qa-b-mv9qs9l0"
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "feedback",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Onion",
+            "Score": 56343.114019411456,
+            "Central_Profit": 68392.94618444346,
+            "Pessimistic_Profit": 44293.28185437946,
+            "Downside_Gap": 24099.664330064,
+            "Cost_per_ha": 73759.02054487847,
+            "Yield_q10": 11.441040040229831,
+            "Yield_q50": 13.6283487108246,
+            "Yield_q90": 15.535629655802273,
+            "Price_pessimistic": 1031.8319137434507,
+            "Price_central": 1043.0608267046673,
+            "Price_optimistic": 1049.499599856074,
+            "Remaining_Area_ha": 7.772318221253856,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 21205.85627176542,
+            "Central_Profit": 46866.26821250821,
+            "Pessimistic_Profit": -4454.555668977366,
+            "Downside_Gap": 51320.82388148557,
+            "Cost_per_ha": 57164.79665780344,
+            "Yield_q10": 3.976561418790635,
+            "Yield_q50": 7.822457709673787,
+            "Yield_q90": 9.720091517060613,
+            "Price_pessimistic": 1325.5231200441633,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1338.778264908836,
+            "Remaining_Area_ha": 11.803322997577773,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 13014.901145366752,
+            "Central_Profit": 21255.554590169628,
+            "Pessimistic_Profit": 4774.247700563876,
+            "Downside_Gap": 16481.306889605752,
+            "Cost_per_ha": 22620.22443711601,
+            "Yield_q10": 2.064185943233899,
+            "Yield_q50": 3.2991724764886166,
+            "Yield_q90": 3.8054903515124163,
+            "Price_pessimistic": 1327.1319973607501,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1336.660364443291,
+            "Remaining_Area_ha": 12.71527674988557,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "revision": 1,
+        "quote_id": "8c63623a-5f22-48d4-8b0c-d90f016b2a5e",
+        "quote_expires_at": 1792081376.740292
+      }
+    },
+    {
+      "page": "farmer-A",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "season": "Kharif",
+        "area_hectares": 1,
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "participant_id": "qa-a-mv9qs9l0"
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "feedback",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Onion",
+            "Score": 61692.92423326212,
+            "Central_Profit": 73860.32952018661,
+            "Pessimistic_Profit": 49525.51894633763,
+            "Downside_Gap": 24334.810573848983,
+            "Cost_per_ha": 73759.02054487847,
+            "Yield_q10": 11.441040040229831,
+            "Yield_q50": 13.6283487108246,
+            "Yield_q90": 15.535629655802273,
+            "Price_pessimistic": 1077.5640943280846,
+            "Price_central": 1083.178550808693,
+            "Price_optimistic": 1089.6173239600996,
+            "Remaining_Area_ha": 8.772318221253856,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 21205.85627176542,
+            "Central_Profit": 46866.26821250821,
+            "Pessimistic_Profit": -4454.555668977366,
+            "Downside_Gap": 51320.82388148557,
+            "Cost_per_ha": 57164.79665780344,
+            "Yield_q10": 3.976561418790635,
+            "Yield_q50": 7.822457709673787,
+            "Yield_q90": 9.720091517060613,
+            "Price_pessimistic": 1325.5231200441633,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1338.778264908836,
+            "Remaining_Area_ha": 11.803322997577773,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 13014.901145366752,
+            "Central_Profit": 21255.554590169628,
+            "Pessimistic_Profit": 4774.247700563876,
+            "Downside_Gap": 16481.306889605752,
+            "Cost_per_ha": 22620.22443711601,
+            "Yield_q10": 2.064185943233899,
+            "Yield_q50": 3.2991724764886166,
+            "Yield_q90": 3.8054903515124163,
+            "Price_pessimistic": 1327.1319973607501,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1336.660364443291,
+            "Remaining_Area_ha": 12.71527674988557,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "revision": 2,
+        "quote_id": "98c18fb3-d3cc-4286-8440-e587eaa18a76",
+        "quote_expires_at": 1792081396.64
+      }
+    },
+    {
+      "page": "farmer-B",
+      "request": {
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "season": "Kharif",
+        "area_hectares": 1,
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "participant_id": "qa-b-mv9qs9l0"
+      },
+      "response": {
+        "artifact_id": "regional-20261015-v1",
+        "data_year": 2019,
+        "currency_basis": "2011-base INR",
+        "mode": "feedback",
+        "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+        "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+        "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+        "feature_cutoff": "Prior data years; original publication vintages unverified",
+        "recommendations": [
+          {
+            "Crop": "Onion",
+            "Score": 61692.92423326212,
+            "Central_Profit": 73860.32952018661,
+            "Pessimistic_Profit": 49525.51894633763,
+            "Downside_Gap": 24334.810573848983,
+            "Cost_per_ha": 73759.02054487847,
+            "Yield_q10": 11.441040040229831,
+            "Yield_q50": 13.6283487108246,
+            "Yield_q90": 15.535629655802273,
+            "Price_pessimistic": 1077.5640943280846,
+            "Price_central": 1083.178550808693,
+            "Price_optimistic": 1089.6173239600996,
+            "Remaining_Area_ha": 8.772318221253856,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Maize",
+            "Score": 21205.85627176542,
+            "Central_Profit": 46866.26821250821,
+            "Pessimistic_Profit": -4454.555668977366,
+            "Downside_Gap": 51320.82388148557,
+            "Cost_per_ha": 57164.79665780344,
+            "Yield_q10": 3.976561418790635,
+            "Yield_q50": 7.822457709673787,
+            "Yield_q90": 9.720091517060613,
+            "Price_pessimistic": 1325.5231200441633,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1338.778264908836,
+            "Remaining_Area_ha": 11.803322997577773,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          },
+          {
+            "Crop": "Ragi",
+            "Score": 13014.901145366752,
+            "Central_Profit": 21255.554590169628,
+            "Pessimistic_Profit": 4774.247700563876,
+            "Downside_Gap": 16481.306889605752,
+            "Cost_per_ha": 22620.22443711601,
+            "Yield_q10": 2.064185943233899,
+            "Yield_q50": 3.2991724764886166,
+            "Yield_q90": 3.8054903515124163,
+            "Price_pessimistic": 1327.1319973607501,
+            "Price_central": 1329.9025540484508,
+            "Price_optimistic": 1336.660364443291,
+            "Remaining_Area_ha": 12.71527674988557,
+            "Eligible": true,
+            "Ineligibility_Reason": null
+          }
+        ],
+        "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+        "revision": 2,
+        "quote_id": "adf25019-aec9-4f22-b48e-8ed0451217e0",
+        "quote_expires_at": 1792081396.741876
+      }
+    }
+  ],
+  "final_replay": {
+    "comparison_note": "Both policies use the same capacity limits and final market-price calculation. Participants all cultivate the configured equal area; changing arrival order changes identities, not aggregate demand.",
+    "decisions": [
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 73860.32952018661,
+        "participant_id": "farmer-16",
+        "static_crop": "Onion",
+        "static_quote_profit": 73860.32952018661,
+        "step": 1
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 68392.94618444346,
+        "participant_id": "farmer-06",
+        "static_crop": "Onion",
+        "static_quote_profit": 68392.94618444346,
+        "step": 2
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 62925.5628487003,
+        "participant_id": "farmer-19",
+        "static_crop": "Onion",
+        "static_quote_profit": 62925.5628487003,
+        "step": 3
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 57458.17951295717,
+        "participant_id": "farmer-24",
+        "static_crop": "Onion",
+        "static_quote_profit": 57458.17951295717,
+        "step": 4
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 51990.796177214,
+        "participant_id": "farmer-14",
+        "static_crop": "Onion",
+        "static_quote_profit": 51990.796177214,
+        "step": 5
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 46523.412841470854,
+        "participant_id": "farmer-11",
+        "static_crop": "Onion",
+        "static_quote_profit": 46523.412841470854,
+        "step": 6
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 41056.029505727696,
+        "participant_id": "farmer-18",
+        "static_crop": "Onion",
+        "static_quote_profit": 41056.029505727696,
+        "step": 7
+      },
+      {
+        "dynamic_crop": "Onion",
+        "dynamic_quote_profit": 35588.64616998455,
+        "participant_id": "farmer-12",
+        "static_crop": "Onion",
+        "static_quote_profit": 35588.64616998455,
+        "step": 8
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 46866.26821250821,
+        "participant_id": "farmer-15",
+        "static_crop": "Maize",
+        "static_quote_profit": 46866.26821250821,
+        "step": 9
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 45454.08181155374,
+        "participant_id": "farmer-17",
+        "static_crop": "Maize",
+        "static_quote_profit": 45454.08181155374,
+        "step": 10
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 44041.89541059929,
+        "participant_id": "farmer-02",
+        "static_crop": "Maize",
+        "static_quote_profit": 44041.89541059929,
+        "step": 11
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 42629.70900964482,
+        "participant_id": "farmer-13",
+        "static_crop": "Maize",
+        "static_quote_profit": 42629.70900964482,
+        "step": 12
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 41217.522608690386,
+        "participant_id": "farmer-22",
+        "static_crop": "Maize",
+        "static_quote_profit": 41217.522608690386,
+        "step": 13
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 39805.33620773592,
+        "participant_id": "farmer-07",
+        "static_crop": "Maize",
+        "static_quote_profit": 39805.33620773592,
+        "step": 14
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 38393.14980678147,
+        "participant_id": "farmer-10",
+        "static_crop": "Maize",
+        "static_quote_profit": 38393.14980678147,
+        "step": 15
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 36980.963405827,
+        "participant_id": "farmer-03",
+        "static_crop": "Maize",
+        "static_quote_profit": 36980.963405827,
+        "step": 16
+      },
+      {
+        "dynamic_crop": "Ragi",
+        "dynamic_quote_profit": 21255.554590169628,
+        "participant_id": "farmer-23",
+        "static_crop": "Maize",
+        "static_quote_profit": 35568.77700487255,
+        "step": 17
+      },
+      {
+        "dynamic_crop": "Ragi",
+        "dynamic_quote_profit": 20659.955779844477,
+        "participant_id": "farmer-05",
+        "static_crop": "Maize",
+        "static_quote_profit": 34156.5906039181,
+        "step": 18
+      },
+      {
+        "dynamic_crop": "Ragi",
+        "dynamic_quote_profit": 20064.35696951934,
+        "participant_id": "farmer-20",
+        "static_crop": "Maize",
+        "static_quote_profit": 32744.404202963648,
+        "step": 19
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 35568.77700487255,
+        "participant_id": "farmer-08",
+        "static_crop": "Ragi",
+        "static_quote_profit": 21255.554590169628,
+        "step": 20
+      },
+      {
+        "dynamic_crop": "Ragi",
+        "dynamic_quote_profit": 19468.758159194203,
+        "participant_id": "farmer-09",
+        "static_crop": "Ragi",
+        "static_quote_profit": 20659.955779844477,
+        "step": 21
+      },
+      {
+        "dynamic_crop": "Ragi",
+        "dynamic_quote_profit": 18873.159348869052,
+        "participant_id": "farmer-01",
+        "static_crop": "Ragi",
+        "static_quote_profit": 20064.35696951934,
+        "step": 22
+      },
+      {
+        "dynamic_crop": "Maize",
+        "dynamic_quote_profit": 34156.5906039181,
+        "participant_id": "farmer-04",
+        "static_crop": "Ragi",
+        "static_quote_profit": 19468.758159194203,
+        "step": 23
+      },
+      {
+        "dynamic_crop": "Ragi",
+        "dynamic_quote_profit": 18277.56053854391,
+        "participant_id": "farmer-21",
+        "static_crop": "Ragi",
+        "static_quote_profit": 18873.159348869052,
+        "step": 24
+      }
+    ],
+    "dynamic_state": {
+      "commitment": null,
+      "commitments": [
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-16",
+          "participant_id": "farmer-16"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-06",
+          "participant_id": "farmer-06"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-19",
+          "participant_id": "farmer-19"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-24",
+          "participant_id": "farmer-24"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-14",
+          "participant_id": "farmer-14"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-11",
+          "participant_id": "farmer-11"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-18",
+          "participant_id": "farmer-18"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-12",
+          "participant_id": "farmer-12"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-15",
+          "participant_id": "farmer-15"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-17",
+          "participant_id": "farmer-17"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-02",
+          "participant_id": "farmer-02"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-13",
+          "participant_id": "farmer-13"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-22",
+          "participant_id": "farmer-22"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-07",
+          "participant_id": "farmer-07"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-10",
+          "participant_id": "farmer-10"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-03",
+          "participant_id": "farmer-03"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-23",
+          "participant_id": "farmer-23"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-05",
+          "participant_id": "farmer-05"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-20",
+          "participant_id": "farmer-20"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-08",
+          "participant_id": "farmer-08"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-09",
+          "participant_id": "farmer-09"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-01",
+          "participant_id": "farmer-01"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-04",
+          "participant_id": "farmer-04"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-21",
+          "participant_id": "farmer-21"
+        }
+      ],
+      "crops": [
+        {
+          "capacity_t": 153.96138223613542,
+          "committed_area_ha": 6,
+          "conservative_committed_t": 22.8329421090745,
+          "crop": "Ragi",
+          "expected_committed_t": 19.7950348589317,
+          "outside_supply_t": 105.57351924763573,
+          "remaining_area_ha": 0,
+          "remaining_capacity_t": 25.55492087942519
+        },
+        {
+          "capacity_t": 365.0480264514434,
+          "committed_area_ha": 10,
+          "conservative_committed_t": 97.20091517060611,
+          "crop": "Maize",
+          "expected_committed_t": 78.22457709673786,
+          "outside_supply_t": 250.31864670956122,
+          "remaining_area_ha": 0,
+          "remaining_capacity_t": 17.528464571276047
+        },
+        {
+          "capacity_t": 572.3906458546332,
+          "committed_area_ha": 8,
+          "conservative_committed_t": 124.28503724641817,
+          "crop": "Onion",
+          "expected_committed_t": 109.02678968659679,
+          "outside_supply_t": 436.1071587463872,
+          "remaining_area_ha": 0,
+          "remaining_capacity_t": 11.99844986182788
+        }
+      ],
+      "participating_area_ha": 24,
+      "remaining_area_ha": 0,
+      "revision": 24,
+      "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+      "total_committed_area_ha": 24
+    },
+    "id": "00c84230-62cb-48ae-904d-f2431ca03caf",
+    "participants": [
+      "farmer-16",
+      "farmer-06",
+      "farmer-19",
+      "farmer-24",
+      "farmer-14",
+      "farmer-11",
+      "farmer-18",
+      "farmer-12",
+      "farmer-15",
+      "farmer-17",
+      "farmer-02",
+      "farmer-13",
+      "farmer-22",
+      "farmer-07",
+      "farmer-10",
+      "farmer-03",
+      "farmer-23",
+      "farmer-05",
+      "farmer-20",
+      "farmer-08",
+      "farmer-09",
+      "farmer-01",
+      "farmer-04",
+      "farmer-21"
+    ],
+    "scenario": {
+      "artifact_id": "regional-20261015-v1",
+      "assumptions": "Synthetic reference areas and outside supply; generated price/cost proxies; not observed market supply",
+      "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+      "crops": [
+        {
+          "capacity_t": 153.96138223613542,
+          "cost_per_ha": 22620.22443711601,
+          "crop": "Ragi",
+          "outside_supply_t": 105.57351924763573,
+          "phi": -2,
+          "reference_price": 1203.53172312077,
+          "reference_supply_t": 131.96689905954466,
+          "theta": 0.3,
+          "yield_q10": 2.064185943233899,
+          "yield_q50": 3.2991724764886166,
+          "yield_q90": 3.8054903515124163
+        },
+        {
+          "capacity_t": 365.0480264514434,
+          "cost_per_ha": 57164.79665780344,
+          "crop": "Maize",
+          "outside_supply_t": 250.31864670956122,
+          "phi": -2,
+          "reference_price": 1203.53172312077,
+          "reference_supply_t": 312.8983083869515,
+          "theta": 0.3,
+          "yield_q10": 3.976561418790635,
+          "yield_q50": 7.822457709673787,
+          "yield_q90": 9.720091517060613
+        },
+        {
+          "capacity_t": 572.3906458546332,
+          "cost_per_ha": 73759.02054487847,
+          "crop": "Onion",
+          "outside_supply_t": 436.1071587463872,
+          "phi": -2,
+          "reference_price": 802.3544820805133,
+          "reference_supply_t": 545.133948432984,
+          "theta": 1,
+          "yield_q10": 11.441040040229831,
+          "yield_q50": 13.6283487108246,
+          "yield_q90": 15.535629655802273
+        }
+      ],
+      "currency_basis": "2011-base INR",
+      "district": "Coimbatore",
+      "id": "coimbatore-kharif-2019--80ddbb6669e1",
+      "minimum_price_ratio": 0.9,
+      "mode": "historical_simulation",
+      "name": "Coimbatore classroom scenario",
+      "outside_share": 0.8,
+      "participant_area_ha": 1,
+      "participant_count": 24,
+      "participating_area_ha": 24,
+      "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+      "reference_area_per_crop_ha": 40,
+      "risk_aversion": 0.5,
+      "season": "Kharif",
+      "seed": 42,
+      "state": "Tamil Nadu",
+      "template_id": "coimbatore-kharif-2019",
+      "year": 2019
+    },
+    "seed": 42,
+    "static_ranking": [
+      "Onion",
+      "Maize",
+      "Ragi"
+    ],
+    "static_state": {
+      "commitment": null,
+      "commitments": [
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-16",
+          "participant_id": "farmer-16"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-06",
+          "participant_id": "farmer-06"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-19",
+          "participant_id": "farmer-19"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-24",
+          "participant_id": "farmer-24"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-14",
+          "participant_id": "farmer-14"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-11",
+          "participant_id": "farmer-11"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-18",
+          "participant_id": "farmer-18"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 15.535629655802273,
+          "crop": "Onion",
+          "expected_t": 13.6283487108246,
+          "id": "farmer-12",
+          "participant_id": "farmer-12"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-15",
+          "participant_id": "farmer-15"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-17",
+          "participant_id": "farmer-17"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-02",
+          "participant_id": "farmer-02"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-13",
+          "participant_id": "farmer-13"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-22",
+          "participant_id": "farmer-22"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-07",
+          "participant_id": "farmer-07"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-10",
+          "participant_id": "farmer-10"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-03",
+          "participant_id": "farmer-03"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-23",
+          "participant_id": "farmer-23"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-05",
+          "participant_id": "farmer-05"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 9.720091517060613,
+          "crop": "Maize",
+          "expected_t": 7.822457709673787,
+          "id": "farmer-20",
+          "participant_id": "farmer-20"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-08",
+          "participant_id": "farmer-08"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-09",
+          "participant_id": "farmer-09"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-01",
+          "participant_id": "farmer-01"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-04",
+          "participant_id": "farmer-04"
+        },
+        {
+          "area_ha": 1,
+          "conservative_t": 3.8054903515124163,
+          "crop": "Ragi",
+          "expected_t": 3.2991724764886166,
+          "id": "farmer-21",
+          "participant_id": "farmer-21"
+        }
+      ],
+      "crops": [
+        {
+          "capacity_t": 153.96138223613542,
+          "committed_area_ha": 5,
+          "conservative_committed_t": 19.027451757562083,
+          "crop": "Ragi",
+          "expected_committed_t": 16.495862382443082,
+          "outside_supply_t": 105.57351924763573,
+          "remaining_area_ha": 0,
+          "remaining_capacity_t": 29.360411230937608
+        },
+        {
+          "capacity_t": 365.0480264514434,
+          "committed_area_ha": 11,
+          "conservative_committed_t": 106.92100668766672,
+          "crop": "Maize",
+          "expected_committed_t": 86.04703480641165,
+          "outside_supply_t": 250.31864670956122,
+          "remaining_area_ha": 0,
+          "remaining_capacity_t": 7.808373054215437
+        },
+        {
+          "capacity_t": 572.3906458546332,
+          "committed_area_ha": 8,
+          "conservative_committed_t": 124.28503724641817,
+          "crop": "Onion",
+          "expected_committed_t": 109.02678968659679,
+          "outside_supply_t": 436.1071587463872,
+          "remaining_area_ha": 0,
+          "remaining_capacity_t": 11.99844986182788
+        }
+      ],
+      "participating_area_ha": 24,
+      "remaining_area_ha": 0,
+      "revision": 24,
+      "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+      "total_committed_area_ha": 24
+    },
+    "status": "completed",
+    "step": 24,
+    "summary": {
+      "dynamic": {
+        "crop_allocation": {
+          "Maize": 10,
+          "Onion": 8,
+          "Ragi": 6
+        },
+        "currency_basis": "2011-base INR",
+        "final_prices": {
+          "Maize": 1167.4257714271469,
+          "Onion": 802.3544820805133,
+          "Ragi": 1239.6376748143932
+        },
+        "interpretation": "Simulated outcomes under shared final prices; not observed farmer income",
+        "lower_tail_mean_profit": 18277.56053854391,
+        "lower_tail_population": "allocated participants only; rejected participants reported separately",
+        "participant_profits": [
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-01",
+            "profit": 18277.56053854391
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-02",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-03",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-04",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-05",
+            "profit": 18277.56053854391
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-06",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-07",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-08",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-09",
+            "profit": 18277.56053854391
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-10",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-11",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-12",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-13",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-14",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-15",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-16",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-17",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-18",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-19",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-20",
+            "profit": 18277.56053854391
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-21",
+            "profit": 18277.56053854391
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-22",
+            "profit": 34156.5906039181
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-23",
+            "profit": 18277.56053854391
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-24",
+            "profit": 35588.64616998455
+          }
+        ],
+        "participants_allocated": 24,
+        "rejected_count": 0,
+        "total_profit": 735940.4386303208,
+        "unallocated_area_ha": 0
+      },
+      "static": {
+        "crop_allocation": {
+          "Maize": 11,
+          "Onion": 8,
+          "Ragi": 5
+        },
+        "currency_basis": "2011-base INR",
+        "final_prices": {
+          "Maize": 1149.3727955803354,
+          "Onion": 802.3544820805133,
+          "Ragi": 1257.6906506612047
+        },
+        "interpretation": "Simulated outcomes under shared final prices; not observed farmer income",
+        "lower_tail_mean_profit": 18873.159348869052,
+        "lower_tail_population": "allocated participants only; rejected participants reported separately",
+        "participant_profits": [
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-01",
+            "profit": 18873.159348869052
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-02",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-03",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-04",
+            "profit": 18873.159348869052
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-05",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-06",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-07",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-08",
+            "profit": 18873.159348869052
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-09",
+            "profit": 18873.159348869052
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-10",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-11",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-12",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-13",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-14",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-15",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-16",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-17",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-18",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-19",
+            "profit": 35588.64616998455
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-20",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Ragi",
+            "participant_id": "farmer-21",
+            "profit": 18873.159348869052
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-22",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Maize",
+            "participant_id": "farmer-23",
+            "profit": 32744.404202963648
+          },
+          {
+            "area_ha": 1,
+            "crop": "Onion",
+            "participant_id": "farmer-24",
+            "profit": 35588.64616998455
+          }
+        ],
+        "participants_allocated": 24,
+        "rejected_count": 0,
+        "total_profit": 739263.4123368218,
+        "unallocated_area_ha": 0
+      }
+    },
+    "total_steps": 24
+  },
+  "status": "pass",
+  "finished_at": "2026-10-15T16:19:22.713Z"
+}

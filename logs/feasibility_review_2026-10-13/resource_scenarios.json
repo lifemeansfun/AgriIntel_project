@@ -1,0 +1,8 @@
+{
+  "scope": "Arithmetic scenarios, not measured national data sizes or training benchmarks",
+  "rainfall_grid_one_nonleap_year_mib": 24.248027801513672,
+  "rainfall_grid_25_years_mib": 606.2006950378418,
+  "hypothetical_dense_seasonal_panel_rows": 1600000,
+  "40_float32_features_mib": 244.140625,
+  "excluded_overhead": "DataFrames, categoricals, joins, copies, training bins/gradients, ensembles, raw market records, inference services"
+}

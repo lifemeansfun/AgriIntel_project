@@ -1,0 +1,15 @@
+id: coimbatore-kharif-2019
+name: Coimbatore classroom scenario
+state: Tamil Nadu
+district: Coimbatore
+season: Kharif
+year: 2019
+crops: [Ragi, Maize, Onion]
+reference_area_per_crop_ha: 40.0
+outside_share: 0.8
+participating_area_ha: 24.0
+minimum_price_ratio: 0.9
+risk_aversion: 0.5
+participant_count: 24
+participant_area_ha: 1.0
+seed: 42

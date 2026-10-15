@@ -1,0 +1,7 @@
+# Preserve generated documents and raw evidence byte for byte in Git.
+*.pdf binary
+*.pptx binary
+*.parquet binary
+*.joblib binary
+*.sqlite3 binary
+logs/** -diff

@@ -1,0 +1,6 @@
+{
+  "run_id": "regional-20261015-v1",
+  "run_dir": "data/runs/regional-20261015-v1",
+  "forecast_file": "historical_forecasts.parquet",
+  "manifest_sha256": "5076f315ad39402e8c2d770db3610b187589fc1373c0a0ac9d9f2207eb5f9ee3"
+}

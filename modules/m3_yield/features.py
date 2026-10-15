@@ -1,79 +1,60 @@
-"""
-Module 3: Ex-Ante Feature Engineering & Lag Store
-"""
+"""Cutoff-safe ex-ante features with an actual three-calendar-year window."""
+from __future__ import annotations
 
-import pandas as pd
 import numpy as np
+import pandas as pd
+from modules.regional_data.data import CONTEXT_COLUMNS, KEY
+
+
+def calendar_lags(frame: pd.DataFrame, groups: list[str], columns: list[str], prefix: str = "") -> pd.DataFrame:
+    """Return prior 1..3 calendar-year mean/std/count; never cross groups.
+
+    Input is unique by groups + year. Calendar joins deliberately leave gaps for
+    absent years instead of admitting older observations via a three-row roll.
+    """
+    key = groups + ["Year_start"]
+    if frame.duplicated(key).any():
+        raise ValueError(f"calendar_lags requires unique keys: {key}")
+    out = frame[key].copy()
+    values = {c: [] for c in columns}
+    for distance in (1, 2, 3):
+        prior = frame[key + columns].copy()
+        prior["Year_start"] += distance
+        merged = frame[key].merge(prior, how="left", on=key, validate="one_to_one", sort=False)
+        for col in columns:
+            values[col].append(pd.to_numeric(merged[col], errors="coerce").to_numpy(dtype=float))
+    for col, arrays in values.items():
+        matrix = np.column_stack(arrays)
+        count = np.isfinite(matrix).sum(axis=1)
+        total = np.nansum(matrix, axis=1)
+        mean = np.divide(total, count, out=np.full(len(out), np.nan), where=count > 0)
+        out[f"{prefix}{col}_lag3_mean"] = mean
+        out[f"{prefix}{col}_lag3_count"] = count
+        if col == "Yield":
+            centered = np.where(np.isfinite(matrix), matrix - mean[:, None], 0)
+            var = np.divide((centered ** 2).sum(axis=1), count - 1,
+                            out=np.full(len(out), np.nan), where=count > 1)
+            var[count == 1] = 0  # A single historical observation has zero observed variation.
+            out[f"{prefix}{col}_lag3_std"] = np.sqrt(var)
+    return out
+
 
 def build_ex_ante_features(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Builds ex-ante features using strictly historical data to prevent temporal leakage.
-    Uses trailing 3-year means shifted by 1 year for yield and agro-climatic variables.
-    """
-    df = df.copy()
-    
-    # Ensure sorted order for rolling operations
-    df = df.sort_values(by=['District', 'Crop', 'Season', 'Year_start'])
-    
-    # We want trailing 3-year means. We use a 3-year rolling window, closed='left'
-    # which excludes the current year (strictly ex-ante).
-    # Group by District, Crop, Season
-    group_cols = ['District', 'Crop', 'Season']
-    
-    def compute_shifted_rolling_mean(x, window=3):
-        # Rolling mean over the past `window` years, excluding current year
-        return x.shift(1).rolling(window=window, min_periods=1).mean()
-        
-    def compute_shifted_rolling_std(x, window=3):
-        return x.shift(1).rolling(window=window, min_periods=1).std().fillna(0)
+    """Build historical lags without filling from later years or current labels.
 
-    # Features to aggregate
-    yield_col = 'Yield'
-    climate_cols = ['Rainfall_mm', 'Rainy_Days', 'Mean_Daily_Rainfall_mm', 'Max_Daily_Rainfall_mm']
-    irrigation_cols = ['irrigation_intensity', 'canal_share']
-    soil_cols = ['Nitrogen_index', 'Phosphorus_index', 'Potassium_index', 'Organic_Carbon_index', 
-                 'pct_acidic', 'pct_alkaline', 'pct_saline']
-                 
-    all_target_cols = [yield_col] + climate_cols + irrigation_cols + soil_cols
-    
-    # Calculate grouped rolling means
-    grouped = df.groupby(group_cols)
-    
-    for col in all_target_cols:
-        df[f'{col}_lag3_mean'] = grouped[col].shift(1).rolling(window=3, min_periods=1).mean()
-        if col == yield_col:
-            df[f'{col}_lag3_std'] = grouped[col].shift(1).rolling(window=3, min_periods=1).std().fillna(0)
-            
-    # Also add District-level climate/soil lag3 means (ignoring Crop/Season) for more robustness
-    # This helps if a specific crop-season wasn't grown in previous years but we want climate context
-    district_grouped = df.groupby(['District', 'Year_start'])[climate_cols + soil_cols + irrigation_cols].mean().reset_index()
-    district_grouped = district_grouped.sort_values(['District', 'Year_start'])
-    
-    dist_grp = district_grouped.groupby('District')
-    for col in climate_cols + soil_cols + irrigation_cols:
-        district_grouped[f'dist_{col}_lag3_mean'] = dist_grp[col].shift(1).rolling(window=3, min_periods=1).mean()
-        
-    district_grouped = district_grouped[['District', 'Year_start'] + [f'dist_{col}_lag3_mean' for col in climate_cols + soil_cols + irrigation_cols]]
-    
-    df = df.merge(district_grouped, on=['District', 'Year_start'], how='left')
-    
-    # Fill NAs with overall means or state means defensively
-    df['State'] = df['State'].fillna('Unknown')
-    state_means = df.groupby(['State', 'Crop', 'Season'])[f'{yield_col}_lag3_mean'].transform('mean')
-    df[f'{yield_col}_lag3_mean'] = df[f'{yield_col}_lag3_mean'].fillna(state_means)
-    
-    national_means = df.groupby(['Crop', 'Season'])[f'{yield_col}_lag3_mean'].transform('mean')
-    df[f'{yield_col}_lag3_mean'] = df[f'{yield_col}_lag3_mean'].fillna(national_means)
-    df[f'{yield_col}_lag3_mean'] = df[f'{yield_col}_lag3_mean'].fillna(0) # Absolute fallback
-    df[f'{yield_col}_lag3_std'] = df[f'{yield_col}_lag3_std'].fillna(0)
-    
-    # Forward fill climate/soil lags strictly within each group to prevent temporal leakage across districts/crops
-    fill_cols = [c for c in df.columns if c not in ['District', 'Crop', 'Season']]
-    df[fill_cols] = df.groupby(['District', 'Crop', 'Season'])[fill_cols].ffill()
-    df = df.fillna(0)
-    
-    # Check for leakage
-    # We do this by ensuring the original column is not perfectly correlated with the lag (except by chance if constant)
-    # and we explicitly don't use the current year values in the lag.
-    
-    return df
+    Call structural_clean first for raw records. Missing numeric model features
+    are imputed later from proper-training rows only, with explicit missing flags.
+    """
+    if df.duplicated(KEY).any():
+        raise ValueError("Resolve duplicate State/District/Crop/Season/year keys before features")
+    frame = df.copy().sort_values(KEY).reset_index(drop=True)
+    for col in CONTEXT_COLUMNS:
+        if col not in frame:
+            frame[col] = np.nan
+    lagged = calendar_lags(frame, KEY[:-1], ["Yield"] + CONTEXT_COLUMNS)
+    result = frame.merge(lagged, on=KEY, how="left", validate="one_to_one", sort=False)
+    district = frame.groupby(["State", "District", "Year_start"], observed=True)[CONTEXT_COLUMNS].median().reset_index()
+    district_lags = calendar_lags(district, ["State", "District"], CONTEXT_COLUMNS, prefix="dist_")
+    result = result.merge(district_lags, on=["State", "District", "Year_start"], how="left", validate="many_to_one", sort=False)
+    result["Feature_Supported"] = result["Yield_lag3_count"].ge(1)
+    return result

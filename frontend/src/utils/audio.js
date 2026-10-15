@@ -44,7 +44,7 @@ export function playTactileClick() {
 
     osc.start(ctx.currentTime);
     osc.stop(ctx.currentTime + 0.045);
-  } catch (_) {
+  } catch {
     // Non-critical audio fallback
   }
 }
@@ -71,7 +71,7 @@ export function playCrystalChime() {
       osc.start(ctx.currentTime + idx * 0.03);
       osc.stop(ctx.currentTime + 0.4 + idx * 0.03);
     });
-  } catch (_) {
+  } catch {
     // Non-critical audio fallback
   }
 }
@@ -120,7 +120,7 @@ export function toggleAmbientSoundscape(enable) {
       }
       return false;
     }
-  } catch (_) {
+  } catch {
     return false;
   }
 }

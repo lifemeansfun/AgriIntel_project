@@ -1,0 +1,20 @@
+{
+  "scope": "Hand-reconciled synthetic example, not actual production or market observations",
+  "heterogeneous_supply": {
+    "area_ha": 400.0,
+    "threshold_ha": 525.0,
+    "ledger_quantity_tonnes": 8000.0,
+    "farmer_forecast_weighted_quantity_tonnes": 12000.0,
+    "ledger_price_per_quintal": 2100.0,
+    "consistent_quantity_price_per_quintal": 900.0,
+    "threshold_reference_price_per_quintal": 1350.0
+  },
+  "monetary_units": {
+    "price_per_quintal": 1500.0,
+    "yield_tonnes_per_ha": 20.0,
+    "area_ha": 1.0,
+    "m7_evaluator_formula_revenue": 30000.0,
+    "consistent_revenue_rupees": 300000.0,
+    "interpretation": "A common missing factor may cancel in revenue ratios, but not when subtracting hectare costs."
+  }
+}

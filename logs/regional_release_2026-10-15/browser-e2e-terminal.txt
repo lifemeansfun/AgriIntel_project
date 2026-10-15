@@ -1,0 +1,12 @@
+PASS historical UI Madhya Pradesh
+PASS historical UI Maharashtra
+PASS historical UI Punjab
+PASS historical UI Tamil Nadu
+PASS historical UI Uttar Pradesh
+PASS yield slider recomputes revenue and fixed cost
+PASS two visible browser contexts share commit and update advice
+PASS stale quote rejected after another farmer commits
+PASS cancel releases capacity and refreshes other session
+PASS UI replay start, step, play, pause and completion
+PASS 375px mobile no page-level horizontal overflow
+PASS browser runtime has no page or console errors

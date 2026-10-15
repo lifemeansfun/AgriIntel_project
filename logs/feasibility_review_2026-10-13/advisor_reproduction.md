@@ -1,0 +1,9 @@
+Recommend a bounded regional simulation after correcting ledger safeguards, with national expansion gated by a data audit. The strongest blocker is the absence of a reproducible path from current inputs to next-season advice.
+
+Independently verified: backend/main.py:74 serves the globally latest saved recommendation year. M3 ensemble.py:17 embeds the author's absolute directory and writes historical OOF predictions; the inspected pipeline does not persist a production forecasting model. Economic fetchers.py:33 declare success from HTTP status without parsing or saving the response, while manual instructions cover five states. The SHC API guidelines, §6 (https://soilhealth.dac.gov.in/files/SHC_API_Integration_Guidelines.pdf) require registration; the explicit token-free example supplies progress counts, not historical nutrient features.
+
+Packet evidence: parent-recomputed metrics show no aggregate yield advantage and worse ranking than the baseline; I did not rerun them. Unknown: retrievable, harmonized and cutoff-valid national feature coverage, dependency-controlled reproduction, and actual planting/profit effects. Catalog availability establishes none of these.
+
+The strongest alternative is a regional simulator comparing simple acreage caps plus risk-adjusted ranking against the allocator. The consequential failure mode is labeling extrapolated or future-contaminated historical output as current national advice: features.py:43 visibly rolls across concatenated groups and computes fallback means over supplied years.
+
+The cheapest falsifying check is a manifest plus one cutoff-valid feature row for each of 36 jurisdictions, recording source hashes, release dates, units, joins and missingness. Stop universal-coverage claims wherever required inputs are unavailable; return explicit abstention. Passing this prerequisite would still not establish predictive or coordination benefit.

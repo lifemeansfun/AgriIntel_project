@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Follow the in-app theme toggle rather than the operating-system preference. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* ============================================================
    AgriIntel Design System
    Tailwind v4 + Editorial Typography & Optical Frosted Glass

@@ -1,0 +1,6 @@
+Command: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. .venv/bin/pytest -q -p no:cacheprovider tests/test_m3_yield.py::test_invariant_4_anti_leakage tests/test_m6_ledger.py
+Result: ...... [100%]
+6 passed in 0.73s
+Exit code: 0
+Interpretation: These existing checks pass despite the counterexamples in correctness_probes.json. This is engineering test evidence, not proof of prospective accuracy or crop-cap safety.
+

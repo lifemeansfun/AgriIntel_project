@@ -1,0 +1,45 @@
+{
+  "raw_agronomy": {
+    "path": "agriIntel_merged_final_v.csv",
+    "sha256": "f51c7e01fd7ef907027a33d391fb05f0dd86cbd49f884dd8645d401482a4982e"
+  },
+  "generated_price_registry": {
+    "path": "crosswalks/historical_msp_registry.csv",
+    "sha256": "545f490a64ad97d6c903b625ff1b540f2198b61b35e16728644a204c04a25a34"
+  },
+  "cpi_index": {
+    "path": "data/processed/inflation_index.csv",
+    "sha256": "c025929572367608f763fa60ecdee0e39711f26555c23581ffbfb9512d53878e"
+  },
+  "pipeline_config": {
+    "path": "config/pipeline.yaml",
+    "sha256": "3df674b7188dcccf4c2dfe5b3e5a4244561d9e3cc3d723be3705865cfeab344e"
+  },
+  "prediction_caps": {
+    "path": "config/biological_yield_caps.yaml",
+    "sha256": "cfdf333fd3efe6116ca28cafdc7d93aadce36e42931222cdba4e50c3c0498e98"
+  },
+  "code_features": {
+    "path": "modules/m3_yield/features.py",
+    "sha256": "4f1567b01e6539a10958441d78af208453beaed80e0da9e91333485cfb73aa85"
+  },
+  "code_baselines": {
+    "path": "modules/m3_yield/baselines.py",
+    "sha256": "1fa8b961a93f6e210a7510897f59c4673aaf19f8f79c4eabfc3399518db55c85"
+  },
+  "code_data": {
+    "path": "modules/regional_data/data.py",
+    "sha256": "da6c3e26af73a694873b2c0109c581d5ceab7c41c34774824255daf3a9517b46"
+  },
+  "code_training": {
+    "path": "modules/regional_data/train.py",
+    "sha256": "14457be3676db29c658bccfc3d6eabf95b20a98f09505afa60d0615907c3df78"
+  },
+  "interpretation": {
+    "agronomy": "raw project merge; annual reporting/release vintages and original unit provenance unavailable",
+    "price": "generated category base prices with 6.2% growth, not observed market or guaranteed MSP",
+    "cpi": "saved annual index; use only latest calendar year preceding each target, release dates unavailable",
+    "soil_irrigation": "raw values only; invalid irrigation -> missing; historical lag then proper-training imputation",
+    "statistical_scope": "historical arithmetic isolation, not a claim of operational pre-sowing information availability"
+  }
+}

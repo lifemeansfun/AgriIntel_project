@@ -4,7 +4,8 @@ temporal_cv:
   # Walk-forward expanding window cross-validation
   # Folds defined by the test year
   test_years: [2015, 2016, 2017, 2018, 2019]
-  min_train_years: 15  # 2000 to 2014
+  # Proper training ends at t-2; the immediately preceding year calibrates intervals.
+  calibration_years: 1
 
 lightgbm:
   params:
@@ -18,11 +19,10 @@ lightgbm:
     bagging_fraction: 0.8
     bagging_freq: 5
     verbose: -1
-    n_jobs: -1
+    n_jobs: 2
     random_state: 42
   
   num_boost_round: 500
-  early_stopping_rounds: 50
 
 quantiles:
   - 0.10

@@ -1,0 +1,15 @@
+
+> frontend@0.0.0 test
+> node --test src/services/*.test.js
+
+✔ missing values stay unavailable, including null and empty strings (1.775583ms)
+✔ yield interpolation recomputes revenue and retains fixed cultivation cost (0.825625ms)
+✔ obsolete request generations cannot update a changed selection (0.164416ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 77.107

@@ -1,0 +1,38 @@
+AgriIntel
+
+REGIONAL CROP ADVISORY · COURSE PROTOTYPE
+
+Agar Malwa · historical 2019
+Day
+ADVISORY MODE
+Historical explorer · five states
+Coimbatore classroom scenario
+
+Historical 2019 demonstration. Prices and costs are modeled in 2011-base rupees. Current-season farmer advice is outside this demonstration.
+
+Explore
+1.0 HA
+in
+Agar Malwa
+, Madhya Pradesh
+for
+Kharif
+Compare scenarios
+
+HISTORICAL CROP ADVISORY
+
+Agar Malwa
+
+Madhya Pradesh · Kharif
+
+Explore yields
+
+Compare lower, median and upper yield estimates from the saved historical model.
+
+Compare scenarios
+
+Profit uses modeled prices and historical cost proxies. All money is in 2011-base rupees.
+
+Observe feedback
+
+The Coimbatore classroom scenario records planting choices and refreshes shared recommendations.

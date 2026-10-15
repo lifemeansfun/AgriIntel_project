@@ -1,88 +1,12 @@
-import React, { useMemo } from 'react';
-import { Info } from './common/Icons';
 import { useTheme } from '../context/useTheme';
-import ErrorBoundary from './common/ErrorBoundary';
-import RiskDecompositionCards from '../features/analytics/RiskDecompositionCards';
-import UncertaintyChart from '../features/analytics/UncertaintyChart';
+import { formatMoney, formatQuantity } from '../services/scenarios';
 
-export default function AdvancedAnalytics({ crop }) {
-  const { glassClass, textPrimary, textSecondary, darkMode } = useTheme();
-
-  const yieldData = useMemo(() => {
-    if (!crop) return [];
-    return [
-      { label: 'Pessimistic (p10)', value: Number(crop.Yield_q10?.toFixed(2) ?? 0) },
-      { label: 'Median (p50)', value: Number(crop.Yield_q50?.toFixed(2) ?? 0) },
-      { label: 'Optimistic (p90)', value: Number(crop.Yield_q90?.toFixed(2) ?? 0) },
-    ];
-  }, [crop]);
-
-  const priceData = useMemo(() => {
-    if (!crop) return [];
-    return [
-      { label: 'Pessimistic (p10)', value: Number(crop.Price_p10?.toFixed(0) ?? 0) },
-      { label: 'Median (p50)', value: Number(crop.Price_p50?.toFixed(0) ?? 0) },
-      { label: 'Optimistic (p90)', value: Number(crop.Price_p90?.toFixed(0) ?? 0) },
-    ];
-  }, [crop]);
-
-  if (!crop) {
-    return (
-      <div className={`${glassClass} rounded-2xl p-12 text-center`}>
-        <p className={`text-base ${textSecondary}`}>No crop selected for analytics.</p>
-      </div>
-    );
-  }
-
-  const emerald = darkMode ? '#34d399' : '#059669';
-  const amber = '#D97706';
-
-  return (
-    <div className="max-w-6xl mx-auto space-y-6 pb-24">
-      {/* Header */}
-      <div className={`${glassClass} rounded-3xl p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6`}>
-        <div>
-          <h1 className={`text-4xl font-editorial font-bold mb-2 ${textPrimary}`}>{crop.Crop}</h1>
-          <p className={`flex items-center gap-2 text-sm ${textSecondary}`}>
-            <Info className="w-4 h-4" />
-            <span>Advanced Risk &amp; Return Decomposition</span>
-          </p>
-        </div>
-        <div className="text-left md:text-right">
-          <p className={`text-xs font-semibold uppercase tracking-widest mb-1 ${textSecondary}`}>
-            Recommendation Score
-          </p>
-          <p className="text-4xl font-bold font-mono-tech text-emerald-500">
-            {(crop.Score ?? 0).toLocaleString('en-IN', { maximumFractionDigits: 0 })}
-          </p>
-        </div>
-      </div>
-
-      {/* Metrics Breakdown Cards */}
-      <ErrorBoundary title="Risk Decomposition Metrics">
-        <RiskDecompositionCards crop={crop} />
-      </ErrorBoundary>
-
-      {/* Charts Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <ErrorBoundary title="Yield Uncertainty Chart">
-          <UncertaintyChart
-            title="Yield Uncertainty Envelope (Tonnes / ha)"
-            data={yieldData}
-            color={emerald}
-            gradientId="gYield"
-          />
-        </ErrorBoundary>
-
-        <ErrorBoundary title="Price Uncertainty Chart">
-          <UncertaintyChart
-            title="Price Uncertainty Envelope (₹ / Quintal)"
-            data={priceData}
-            color={amber}
-            gradientId="gPrice"
-          />
-        </ErrorBoundary>
-      </div>
-    </div>
-  );
+export default function AdvancedAnalytics({ crop, area }) {
+  const { glassClass, textPrimary, textSecondary } = useTheme();
+  if (!crop) return <p className={textSecondary}>Choose a crop to inspect its calculations.</p>;
+  const rows = [
+    ['Yield (t/ha)', formatQuantity(crop.Yield_q10, 3), formatQuantity(crop.Yield_q50, 3), formatQuantity(crop.Yield_q90, 3)],
+    ['Price (₹/quintal)', formatMoney(crop.Price_pessimistic), formatMoney(crop.Price_central), formatMoney(crop.Price_optimistic)],
+  ];
+  return <section className={`${glassClass} max-w-5xl mx-auto rounded-3xl p-6 sm:p-10 mb-12 ${textPrimary}`}><p className="font-mono-tech text-xs text-emerald-700 dark:text-emerald-300 uppercase tracking-wider">Scenario calculations · historical 2019</p><h1 className="font-editorial font-bold text-4xl mt-3 mb-3">{crop.Crop}</h1><p className={`text-sm leading-relaxed mb-7 ${textSecondary}`}>The inputs below describe a modeled scenario for {formatQuantity(area)} hectares. Monetary values use 2011-base rupees. Lower/upper price scenarios are not calibrated market-price quantiles.</p><div className="overflow-x-auto"><table className="w-full text-sm text-left"><thead><tr>{['Input', 'Lower', 'Central', 'Upper'].map((label) => <th className="p-3 border-b border-emerald-500/20" key={label}>{label}</th>)}</tr></thead><tbody>{rows.map((row) => <tr key={row[0]}>{row.map((value, index) => <td className="p-3 border-b border-emerald-500/15" key={index}>{value}</td>)}</tr>)}</tbody></table></div><div className="grid sm:grid-cols-3 gap-4 my-7">{[['Central profit', crop.Central_Profit], ['Pessimistic profit', crop.Pessimistic_Profit], ['Downside gap', crop.Downside_Gap]].map(([label, value]) => <div key={label} className="rounded-xl bg-emerald-500/10 p-4"><h2 className={`text-sm ${textSecondary}`}>{label}</h2><p className="font-mono-tech font-bold text-2xl mt-2">{formatMoney(value)}</p></div>)}</div><div className={`text-sm leading-relaxed space-y-3 ${textSecondary}`}><p>Profit = area × (10 × yield × price − cultivation cost per hectare). The factor 10 converts tonnes to quintals.</p><p>Central profit uses median yield and the central scenario price. Pessimistic profit combines lower yield and lower scenario price. Cultivation cost stays fixed at {formatMoney(crop.Cost_per_ha)} per hectare.</p><p>Downside gap is central profit minus pessimistic profit. The recommendation score is central profit minus 0.5 × downside gap: <strong className={textPrimary}>{formatMoney(crop.Score)}</strong>.</p><p>These scenarios do not establish a guaranteed income, maximum loss, or probability of a particular profit.</p></div></section>;
 }

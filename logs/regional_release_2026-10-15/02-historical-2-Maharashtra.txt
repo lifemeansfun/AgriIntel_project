@@ -1,0 +1,203 @@
+AgriIntel
+
+REGIONAL CROP ADVISORY · COURSE PROTOTYPE
+
+Ahmadnagar · historical 2019
+Day
+ADVISORY MODE
+Historical explorer · five states
+Coimbatore classroom scenario
+
+Historical 2019 demonstration. Prices and costs are modeled in 2011-base rupees. Current-season farmer advice is outside this demonstration.
+
+Explore
+1.0 HA
+in
+Ahmadnagar
+, Maharashtra
+for
+Kharif
+Compare scenarios
+
+Data year 2019 · Historical forecast · artifact regional-20261015-v1
+
+RANK 1 · SCENARIO SCORE ₹6,112
+
+Groundnut
+
+Yield estimates for the historical selection · tonnes per hectare
+
+Lower q10
+0.56
+Median q50
+0.95
+Upper q90
+1.21
+Explore an interpolated yield scenario
+0.95 t/ha at the central scenario price
+Reset median
+
+Intermediate positions are linear illustrations, not additional calibrated quantiles. Price and cultivation cost stay fixed.
+
+CENTRAL SCENARIO PROFIT · 1 HA
+
+₹12,327
+
+All money in 2011-base rupees · modeled scenarios
+
+Pessimistic profit
+₹-102
+Downside gap
+₹12,429
+Central price / quintal
+₹2,808
+Cultivation cost / hectare
+₹14,217
+Inspect scenario calculations
+Central profit and downside gap
+
+2011-base rupees for the selected land area. Click a point to inspect the crop.
+
+0k
+6k
+11k
+17k
+22k
+Downside gap (₹)
+0k
+4k
+8k
+12k
+16k
+Compare crop scenarios
+
+Rank 1 · Available
+
+Groundnut
+Central profit
+₹12,327
+Pessimistic profit
+₹-102
+Median yield
+0.95 t/ha
+
+Rank 2 · Available
+
+Maize
+Central profit
+₹13,841
+Pessimistic profit
+₹-2,730
+Median yield
+3.22 t/ha
+
+Rank 3 · Available
+
+Arhar/Tur
+Central profit
+₹15,414
+Pessimistic profit
+₹-5,454
+Median yield
+0.98 t/ha
+
+Rank 4 · Available
+
+Ragi
+Central profit
+₹4,786
+Pessimistic profit
+₹-512
+Median yield
+1 t/ha
+
+Rank 5 · Available
+
+Urad
+Central profit
+₹6,232
+Pessimistic profit
+₹-2,131
+Median yield
+0.39 t/ha
+
+Rank 6 · Available
+
+Soyabean
+Central profit
+₹9,575
+Pessimistic profit
+₹-5,601
+Median yield
+0.99 t/ha
+
+Rank 7 · Available
+
+Jowar
+Central profit
+₹4,235
+Pessimistic profit
+₹-619
+Median yield
+0.6 t/ha
+
+Rank 8 · Available
+
+Sunflower
+Central profit
+₹6,298
+Pessimistic profit
+₹-2,886
+Median yield
+0.58 t/ha
+
+Rank 9 · Available
+
+Rice
+Central profit
+₹7,843
+Pessimistic profit
+₹-5,362
+Median yield
+1.64 t/ha
+
+Rank 10 · Available
+
+Bajra
+Central profit
+₹4,199
+Pessimistic profit
+₹-2,047
+Median yield
+0.94 t/ha
+
+Rank 11 · Available
+
+Moong(Green Gram)
+Central profit
+₹5,753
+Pessimistic profit
+₹-3,942
+Median yield
+0.42 t/ha
+
+Rank 12 · Available
+
+Sesamum
+Central profit
+₹3,673
+Pessimistic profit
+₹-2,209
+Median yield
+0.29 t/ha
+
+Rank 13 · Available
+
+Niger seed
+Central profit
+₹3,133
+Pessimistic profit
+₹-2,029
+Median yield
+0.22 t/ha
+4k

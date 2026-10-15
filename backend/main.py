@@ -1,248 +1,204 @@
-from fastapi import FastAPI, HTTPException, Response, Query, BackgroundTasks
+"""AgriIntel API: historical browsing and transactional classroom supply feedback.
+
+Importing this module creates routes only. Data and durable storage are opened by
+lifespan, and both are injectable for isolated tests and reproducible demonstrations.
+"""
+from contextlib import asynccontextmanager
+import os
+import re
+from pathlib import Path
+from typing import Annotated
+
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
-from fastapi.responses import ORJSONResponse
-import pandas as pd
-import numpy as np
-from pydantic import BaseModel, Field
-import os
-import logging
-from typing import List, Dict, Any, Tuple, Optional
-from contextlib import asynccontextmanager
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel, ConfigDict, Field, StringConstraints
 
-from modules.m6_market.supply_ledger import DistrictSupplyLedger, CapacityExceededError
-from backend.ledger import LedgerPersistenceManager
+from modules.regional.catalog import Catalog, CatalogUnavailableError
+from modules.regional.economics import recommend
+from modules.regional.ledger import LedgerError, RegionalLedger
+from modules.regional.replay import ReplayService
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+ROOT = Path(__file__).resolve().parents[1]
+Identifier = Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=120)]
 
-DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'processed', 'fact_recommendations.parquet')
 
-# Global high-performance caches
-CACHED_LOCATIONS: Dict[str, Dict[str, List[str]]] = {}
-RECOMMENDATION_CACHE: Dict[Tuple[str, str, str], List[Dict[str, Any]]] = {}
+class StrictModel(BaseModel):
+    model_config = ConfigDict(extra="forbid", allow_inf_nan=False)
 
-# Module 8 Context and Ledger State
-crop_context = {
-    "Tomato": {"msp_real": 1500.0, "q_lag3": 10000.0, "yield_hat": 20.0},
-    "Onion": {"msp_real": 1200.0, "q_lag3": 12000.0, "yield_hat": 18.0}
-}
 
-class DummySimulator:
-    def get_coefficients(self, crop):
-        return (-2.0, 1.0)
-        
-    def project_price(self, crop, msp_real, q_current, q_lag3, eta=0.0):
-        s_c = (q_current - q_lag3) / max(q_lag3, 1.0)
-        p = msp_real * (1.0 + (-2.0) * (1.0) * s_c)
-        return max(p, msp_real * 0.1)
+class RecommendationRequest(StrictModel):
+    state: Identifier
+    district: Identifier
+    season: Identifier
+    area_hectares: float = Field(default=1.0, gt=0, le=1_000_000, strict=True)
+    scenario_id: Identifier | None = None
+    participant_id: Identifier | None = None
 
-ledger = DistrictSupplyLedger("api_d1", total_arable_ha=1000.0, crop_context=crop_context, price_simulator=DummySimulator())
-pm = LedgerPersistenceManager(data_dir="data/api_processed", event_file="api_ledger_events.jsonl")
 
-def _initialize_caches():
-    """Defensive pre-computation of locations and latest-year recommendations for sub-millisecond retrieval."""
-    global CACHED_LOCATIONS, RECOMMENDATION_CACHE
-    if not os.path.exists(DATA_PATH):
-        logger.warning(f"[AgriIntel Startup Warning] Parquet file not found at {DATA_PATH}")
-        return
+class CommitRequest(StrictModel):
+    scenario_id: Identifier
+    participant_id: Identifier
+    quote_id: Identifier
+    crop: Identifier
+    idempotency_key: Identifier
 
-    try:
-        df = pd.read_parquet(DATA_PATH)
-    except Exception as err:
-        logger.error(f"[AgriIntel Startup Error] Failed to read {DATA_PATH}: {err}")
-        return
 
-    if df.empty:
-        logger.warning("[AgriIntel Startup Warning] Empty DataFrame loaded.")
-        return
+class CancelRequest(StrictModel):
+    participant_id: Identifier
+    idempotency_key: Identifier
 
-    # 1. Precompute nested State -> District -> Seasons hierarchy
-    try:
-        if {'State', 'District', 'Season'}.issubset(df.columns):
-            grouped = df[['State', 'District', 'Season']].drop_duplicates()
-            locs: Dict[str, Dict[str, List[str]]] = {}
-            for state, s_group in grouped.groupby('State'):
-                locs[str(state)] = {}
-                for district, d_group in s_group.groupby('District'):
-                    locs[str(state)][str(district)] = sorted(d_group['Season'].unique().tolist())
-            CACHED_LOCATIONS = locs
-            logger.info(f"[AgriIntel Startup] Precomputed locations cache for {len(CACHED_LOCATIONS)} states.")
-    except Exception as err:
-        logger.error(f"[AgriIntel Startup Error] Failed to precompute locations: {err}")
 
-    # 2. Precompute recommendation records for the latest available year
-    try:
-        max_year = df['Year_start'].max()
-        df_latest = df[df['Year_start'] == max_year].copy()
-        
-        cache: Dict[Tuple[str, str, str], List[Dict[str, Any]]] = {}
-        grouped_recs = df_latest.groupby(['State', 'District', 'Season'])
-        
-        for (st, dist, seas), grp in grouped_recs:
-            records: List[Dict[str, Any]] = []
-            for _, row in grp.iterrows():
-                records.append({
-                    'Crop': str(row['Crop']),
-                    'Base_Expected_Profit': float(row['Expected_Profit']),
-                    'Base_Downside_Risk': float(row['Downside_Risk']),
-                    'Base_Pessimistic_Profit': float(row['Pessimistic_Profit']),
-                    'Yield_q10': float(row['q10']),
-                    'Yield_q50': float(row['q50']),
-                    'Yield_q90': float(row['q90']),
-                    'Price_p10': float(row['p10']),
-                    'Price_p50': float(row['p50']),
-                    'Price_p90': float(row['p90']),
-                    'Cost_per_ha': float(row['Real_Cost_per_Hectare']),
-                })
-            cache[(str(st), str(dist), str(seas))] = records
+class ReplayRequest(StrictModel):
+    seed: int = Field(default=42, ge=0, le=2**32 - 1, strict=True)
 
-        RECOMMENDATION_CACHE = cache
-        logger.info(f"[AgriIntel Startup] Precomputed O(1) recommendations cache for {len(RECOMMENDATION_CACHE)} location-season tuples (Year {max_year}).")
-    except Exception as err:
-        logger.error(f"[AgriIntel Startup Error] Failed to precompute recommendations cache: {err}")
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    # Startup: Precompute caches & hydrate ledger
-    global ledger
-    _initialize_caches()
-    ledger = pm.hydrate_ledger(ledger)
-    logger.info("Ledger hydrated on startup.")
-    yield
-    # Shutdown: Clean references
-    CACHED_LOCATIONS.clear()
-    RECOMMENDATION_CACHE.clear()
+def create_app(*, db_path=None, active_path=None, catalog=None, clock=None):
+    @asynccontextmanager
+    async def lifespan(application):
+        try:
+            application.state.catalog = catalog if catalog is not None else Catalog(active_path)
+            application.state.catalog_error = None
+        except CatalogUnavailableError:
+            application.state.catalog = None
+            application.state.catalog_error = "Validated historical artifact unavailable. Generate and activate a repaired run."
+        path = db_path or os.environ.get("AGRIINTEL_DB_PATH") or ROOT / "data" / "api_processed" / "regional.sqlite3"
+        kwargs = {"clock": clock} if clock is not None else {}
+        application.state.ledger = RegionalLedger(path, **kwargs)
+        for scenario in application.state.catalog.scenarios() if application.state.catalog is not None else []:
+            application.state.ledger.ensure_scenario(scenario)
+        application.state.replays = ReplayService(application.state.ledger)
+        yield
 
-# Initialize FastAPI with native orjson response serializer for 5-10x faster serialization
-app = FastAPI(
-    title="AgriIntel API",
-    default_response_class=ORJSONResponse,
-    lifespan=lifespan
-)
+    application = FastAPI(title="AgriIntel API", version="2.0", lifespan=lifespan)
+    application.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=False,
+                               allow_methods=["*"], allow_headers=["*"])
+    application.add_middleware(GZipMiddleware, minimum_size=1000)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+    @application.exception_handler(LedgerError)
+    async def ledger_error(_request, error):
+        return JSONResponse(status_code=error.status, content={"detail": str(error)})
 
-app.add_middleware(GZipMiddleware, minimum_size=1000)
+    @application.middleware("http")
+    async def no_stale_state(request: Request, call_next):
+        path = request.url.path.rstrip("/")
+        # Durable acknowledgement recovery must remain available when a forecast
+        # artifact is retired or temporarily unavailable. These routes consult
+        # only the persisted scenario, quote and idempotency records.
+        recovery_route = (request.method == "GET" and path == "/api/v2/state") or (
+            request.method == "POST" and (path == "/api/v2/commitments" or
+                re.fullmatch(r"/api/v2/commitments/[^/]+/cancel", path) is not None))
+        if application.state.catalog is None and not recovery_route:
+            return JSONResponse(status_code=503, content={"detail": application.state.catalog_error}, headers={"Cache-Control": "no-store"})
+        response = await call_next(request)
+        response.headers["Cache-Control"] = "no-store"
+        return response
 
-@app.get("/")
-def read_root():
-    return {"status": "AgriIntel API is running", "cached_locations": len(CACHED_LOCATIONS), "cached_tuples": len(RECOMMENDATION_CACHE)}
+    def metadata():
+        return application.state.catalog.metadata
 
-@app.get("/api/locations")
-def get_locations(response: Response):
-    """Returns a nested structure of available States -> Districts -> Seasons from startup cache."""
-    response.headers["Cache-Control"] = "public, max-age=86400, stale-while-revalidate=3600"
-    return CACHED_LOCATIONS
+    def lookup_scenario(scenario_id):
+        try:
+            return application.state.catalog.scenario(scenario_id)
+        except KeyError:
+            raise HTTPException(404, "Unknown or unavailable scenario") from None
 
-class RecommendationRequest(BaseModel):
-    state: str
-    district: str
-    season: str
-    area_hectares: float = Field(default=1.0, gt=0)
+    def recommendation_response(req):
+        cat = application.state.catalog
+        meta = metadata()
+        if not req.scenario_id:
+            rows = cat.historical_rows(req.state, req.district, req.season, req.area_hectares)
+            if not rows:
+                raise HTTPException(404, "No supported historical data for this location and season")
+            return {**meta, "recommendations": rows, "mode": "historical",
+                    "scenario_id": None, "revision": None, "quote_id": None, "quote_expires_at": None}
+        if not req.participant_id:
+            raise HTTPException(422, "Feedback recommendations require a participant_id")
+        scenario = lookup_scenario(req.scenario_id)
+        if (req.state, req.district, req.season) != (scenario["state"], scenario["district"], scenario["season"]):
+            raise HTTPException(422, "Selected location does not match the scenario")
+        state = application.state.ledger.state(req.scenario_id, req.participant_id)
+        rows = recommend(scenario, state, req.area_hectares)
+        if state["commitment"]:
+            for row in rows:
+                row["Eligible"] = False
+                row["Ineligibility_Reason"] = "Cancel the existing commitment before changing crop"
+        quote = application.state.ledger.issue_quote(req.scenario_id, req.participant_id,
+                                                    req.area_hectares, state["revision"], rows)
+        return {**meta, "recommendations": rows, "mode": "feedback",
+                "scenario_id": req.scenario_id, "revision": state["revision"], **quote}
 
-def _compute_recommendations(state: str, district: str, season: str, area: float) -> List[Dict[str, Any]]:
-    """Ultra-fast O(1) in-memory recommendation computation with zero DataFrame allocation."""
-    raw = RECOMMENDATION_CACHE.get((state, district, season))
-    if not raw:
-        return []
+    @application.get("/")
+    def root():
+        cat = application.state.catalog
+        return {"status": "AgriIntel API is running", "api_version": 2,
+                "cached_locations": len(cat.locations), "data": metadata()}
 
-    lmbda = 0.5
-    results: List[Dict[str, Any]] = []
-    for item in raw:
-        exp_prof = item['Base_Expected_Profit'] * area
-        down_risk = item['Base_Downside_Risk'] * area
-        pess_prof = item['Base_Pessimistic_Profit'] * area
-        score = exp_prof - (lmbda * down_risk)
+    @application.get("/api/v2/locations")
+    def locations():
+        return {"locations": application.state.catalog.locations, **metadata()}
 
-        safety = "Safe" if pess_prof > 0 else ("Moderate Risk" if pess_prof > -5000 else "High Risk")
+    @application.get("/api/v2/scenarios")
+    def scenarios():
+        return {"scenarios": application.state.catalog.scenarios(), **metadata()}
 
-        results.append({
-            'Crop': item['Crop'],
-            'Score': score,
-            'Expected_Profit': exp_prof,
-            'Pessimistic_Profit': pess_prof,
-            'Downside_Risk': down_risk,
-            'Safety_Rating': safety,
-            'Yield_q10': item['Yield_q10'],
-            'Yield_q50': item['Yield_q50'],
-            'Yield_q90': item['Yield_q90'],
-            'Price_p10': item['Price_p10'],
-            'Price_p50': item['Price_p50'],
-            'Price_p90': item['Price_p90'],
-            'Cost_per_ha': item['Cost_per_ha'],
-        })
+    @application.post("/api/v2/recommendations")
+    def recommendations(req: RecommendationRequest):
+        return recommendation_response(req)
 
-    results.sort(key=lambda x: x['Score'], reverse=True)
-    return results
+    @application.get("/api/v2/state")
+    def state(scenario_id: Identifier, participant_id: Identifier | None = None):
+        return application.state.ledger.state(scenario_id, participant_id)
 
-@app.post("/api/recommendations")
-def get_recommendations(req: RecommendationRequest):
-    """POST endpoint for crop recommendations (backwards compatible)."""
-    if not RECOMMENDATION_CACHE:
-        raise HTTPException(status_code=500, detail="Data not loaded")
+    @application.post("/api/v2/commitments")
+    def commit(req: CommitRequest):
+        return application.state.ledger.commit(req.scenario_id, req.participant_id, req.quote_id,
+                                               req.crop, req.idempotency_key)
 
-    results = _compute_recommendations(req.state, req.district, req.season, req.area_hectares)
-    if not results:
-        raise HTTPException(status_code=404, detail="No data found for this location/season combination")
+    @application.post("/api/v2/commitments/{commitment_id}/cancel")
+    def cancel(commitment_id: Identifier, req: CancelRequest):
+        return application.state.ledger.cancel(commitment_id, req.participant_id, req.idempotency_key)
 
-    return {"recommendations": results}
+    @application.post("/api/v2/replays")
+    def new_replay(req: ReplayRequest):
+        available = application.state.catalog.scenarios()
+        if not available:
+            raise HTTPException(503, "No supported feedback scenario is available")
+        return application.state.replays.create(available[0], req.seed)
 
-@app.get("/api/recommendations")
-def get_recommendations_get(
-    response: Response,
-    state: str = Query(..., description="State name"),
-    district: str = Query(..., description="District name"),
-    season: str = Query(..., description="Season name"),
-    area_hectares: float = Query(1.0, gt=0, description="Cultivation area in hectares")
-):
-    """Idempotent GET endpoint for crop recommendations supporting HTTP caching."""
-    if not RECOMMENDATION_CACHE:
-        raise HTTPException(status_code=500, detail="Data not loaded")
+    @application.get("/api/v2/replays/{replay_id}")
+    def replay(replay_id: Identifier):
+        return application.state.replays.get(replay_id)
 
-    results = _compute_recommendations(state, district, season, area_hectares)
-    if not results:
-        raise HTTPException(status_code=404, detail="No data found for this location/season combination")
+    @application.post("/api/v2/replays/{replay_id}/step")
+    def step_replay(replay_id: Identifier):
+        return application.state.replays.step(replay_id)
 
-    response.headers["Cache-Control"] = "public, max-age=3600, stale-while-revalidate=86400"
-    return {"recommendations": results}
+    @application.get("/api/locations", deprecated=True)
+    def legacy_locations():
+        return application.state.catalog.locations
 
-# Module 8 Edge Ledger Endpoints
-class CommitRequest(BaseModel):
-    farmer_id: str
-    crop: str
-    area_ha: float
+    @application.post("/api/recommendations", deprecated=True)
+    def legacy_recommendations(req: RecommendationRequest):
+        # Compatibility is limited to historical browsing; v1 cannot create quotes.
+        return recommendation_response(req.model_copy(update={"scenario_id": None, "participant_id": None}))
 
-@app.post("/api/commit")
-async def commit_acreage(req: CommitRequest, background_tasks: BackgroundTasks):
-    try:
-        version = ledger.commit(req.farmer_id, req.crop, req.area_ha)
-        background_tasks.add_task(pm.log_commit, ledger.district_id, req.farmer_id, req.crop, req.area_ha, version)
-        return {
-            "status": "success",
-            "message": f"Committed {req.area_ha} ha of {req.crop}",
-            "headroom": ledger.headroom(req.crop),
-            "version": version
-        }
-    except CapacityExceededError as e:
-        raise HTTPException(status_code=400, detail=str(e))
-    except Exception as e:
-        logger.error(f"Commit error: {e}")
-        raise HTTPException(status_code=500, detail="Internal Server Error")
+    @application.get("/api/recommendations", deprecated=True)
+    def legacy_recommendations_get(state: Identifier, district: Identifier, season: Identifier,
+                                   area_hectares: float = Query(1.0, gt=0, le=1_000_000, allow_inf_nan=False)):
+        return recommendation_response(RecommendationRequest(state=state, district=district, season=season,
+                                                               area_hectares=area_hectares))
 
-@app.get("/api/state")
-async def get_state():
-    return {
-        "district_id": ledger.district_id,
-        "total_arable": ledger.total_arable_ha,
-        "committed_area": ledger.committed_area,
-        "headroom": {c: ledger.headroom(c) for c in ledger.crop_context.keys()},
-        "glut_thresholds": ledger.glut_thresholds,
-        "version": ledger.version
-    }
+    @application.post("/api/commit", deprecated=True)
+    def retired_commit():
+        raise HTTPException(410, "Unscoped commitments are retired. Use /api/v2/recommendations and /api/v2/commitments.")
+
+    @application.get("/api/state", deprecated=True)
+    def retired_state():
+        raise HTTPException(410, "Unscoped state is retired. Use /api/v2/state with scenario_id.")
+
+    return application
+
+
+app = create_app()

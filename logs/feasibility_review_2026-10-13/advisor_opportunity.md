@@ -1,0 +1,9 @@
+Recommend repairing the foundations, then evaluating a bounded regional feedback pilot. The strongest opportunity is measuring whether coordination improves farmer net profit under partial adoption and uncertain market response; national coverage alone would be an engineering contribution.
+
+The broad ideas have precedents: prediction-induced feedback appears in Perdomo et al., ICML 2020 (https://proceedings.mlr.press/v119/perdomo20a.html), and forecast-based Indian crop portfolios appear in Gaddam et al., 2022, v1 (https://arxiv.org/abs/2211.01951v1). These sources do not establish that AgriIntel’s particular mechanism lacks novelty, but they require a narrower contribution than “feedback-aware crop recommendation.”
+
+I verified that the allocator scores price × yield × relative yield, without costs or downside risk (online_allocator.py:46). The packet reports parent-recomputed results below the saved baselines and unestablished equilibrium/no-harm claims (evidence_packet.md:33). Nationwide joined coverage, forecasting validity and actual farmer benefits remain unknown.
+
+The strongest alternative is risk-aware net-profit ranking with simple acreage caps. The most consequential failure is mistaking app commitments for market supply: price projection ignores the stored baseline acreage (supply_ledger.py:98). Synthetic evaluation can consequently reward its own assumptions.
+
+The cheapest falsifying check is a small, enumerated two-crop comparison against caps, adding cultivation costs and sweeping nonadopter supply and price-response assumptions. Any cap violation or counterexample to no-harm stops promotion of that claim; passing establishes simulator consistency only. Before expanding predictions, construct a state/UT × crop × season coverage-and-vintage matrix. Unsupported cells should return “unavailable,” and no national accuracy claim should precede leakage-free temporal and regional evaluation.

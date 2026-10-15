@@ -34,3 +34,22 @@ Thumbs.db
 # Scratch & Temporary
 scratch/
 .system_generated/
+
+# Local course demonstrations and immutable trained binary artifacts
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.joblib
+data/runs/*/models/
+
+# This validated run is part of the published release; other runs remain local.
+!data/runs/regional-20261015-v1/models/
+!data/runs/regional-20261015-v1/models/**
+!data/runs/regional-20261015-v1/*.parquet
+!logs/regional_training_2026-10-15.log
+!output/regional_demo/seed42-release/replay.sqlite3
+
+# Local presentation build intermediates and generated document previews.
+.codex-ppt-build/
+.chart-data-*/
+tmp/pdfs/

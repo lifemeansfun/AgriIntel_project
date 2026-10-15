@@ -1,0 +1,51 @@
+{
+  "scope": "Isolated in-memory correctness probes; no saved dataset or event log modified",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+  },
+  "direct_crop_threshold_bypass": {
+    "threshold_ha": 525.0,
+    "committed_ha": 600.0,
+    "headroom_ha": 0.0,
+    "price_ratio_to_reference": 0.6
+  },
+  "negative_area": {
+    "accepted_negative_area": -5.0
+  },
+  "stale_recommendation_then_commit": {
+    "choices": [
+      "Tomato",
+      "Tomato"
+    ],
+    "committed_ha": {
+      "Tomato": 600.0,
+      "Onion": 0.0
+    },
+    "threshold_ha": {
+      "Tomato": 525.0,
+      "Onion": 700.0
+    }
+  },
+  "group_boundary_lags": [
+    {
+      "Year_start": 2000,
+      "Yield_lag3_mean": 1.5
+    },
+    {
+      "Year_start": 2001,
+      "Yield_lag3_mean": 51.0
+    },
+    {
+      "Year_start": 2002,
+      "Yield_lag3_mean": 150.0
+    }
+  ],
+  "future_value_affects_past_fallback": {
+    "earliest_year_lag_before": 1.25,
+    "earliest_year_lag_after_future_change": 50.75
+  },
+  "repeat_seed_privacy": {
+    "released_difference_for_one_ha_change": 1.0
+  }
+}

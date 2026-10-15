@@ -1,0 +1,11 @@
+{
+  "raw_rows": 95674,
+  "exact_duplicates_removed": 1,
+  "collision_keys_aggregated": 5,
+  "quarantined_rows": 0,
+  "structural_rows": 95668,
+  "irrigation_rows_marked_missing": 44,
+  "statistical_imputation": "none; per-fold historical training medians applied to lag features only",
+  "context_collision_rule": "same-key same-year median; Area/Production sum after exact deduplication",
+  "yield_unit_contract": "project-declared tonnes/hectare; original source unit/vintage unverified"
+}

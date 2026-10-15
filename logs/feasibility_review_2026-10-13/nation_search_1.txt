@@ -1,0 +1,446 @@
+DES | Area, Production & Yield - Query Report (https://data.desagri.gov.in/website/apy-query-report-web)
+citeturn1search0 [wordlim: 200] Crawled: last month; Directorate of Economics and Statistics Department of Agriculture and Farmers Welfare Ministry of Agriculture and Farmers Welfare, Govt. of India##### / Area, Production & Yield - Query Report ... District * [Select]Crop* [Select]
+Directorate of Economics and Statistics Department of Agriculture and Farmers Welfare Ministry of Agriculture and Farmers Welfare, Govt. of India
+
+##### / Area, Production & Yield - Query Report
+
+[Input]
+
+State * [Select]
+
+District * [Select]
+
+Crop* [Select]
+
+Season * [Select]
+
+From Year * [Select]
+
+To Year * [Select]
+
+Contribution Type * [Select]
+
+Report Format * [Select]
+
+[Button: Get Data]--------------------------------------------------------------------------------
+District-wise, season-wise crop production statistics | Open Government Data (OGD) Platform India (https://www.data.gov.in/catalog/district-wise-season-wise-crop-production-statistics-0)
+citeturn1search1 [wordlim: 200] Published: 13.4 years ago; Crawled: 4 months ago; The data refers to district wise, crop wise, season wise and year wise data on crop covered area (Hectare) and production (Tonnes).The data is being used to study and analyse crop production, production contribution to district/State/country, Agro-climatic zone wise performance, and high yield production order for crops, crop growing pattern...
+
+District-wise, season-wise crop production statistics
+
+The data refers to district wise, crop wise, season wise and year wise data on crop covered area (Hectare) and production (Tonnes). The data is being used to study and analyse crop production, production contribution to district/State/country, Agro-climatic zone wise performance, and high yield production order for crops, crop growing pattern...
+
++
+
+  * Released Under: National Data Sharing and Accessibility Policy (NDSAP)
+  * Image: Icon Past CDOs Contributor:
+
+Ministry of Agriculture and Farmers Welfare Department of Agriculture and Farmers Welfare Directorate of Economics and Statistics (DES)
+
+  * Image: Icon Past CDOsDomain:
+
+Open Government Data(OGD) Platform India
+
+  * Published On: 24/05/2013
+
+Updated On: 06/07/2021
+
+Zip Download
+
+[Button: Keywords]
+
+areaPatternProductionPerformanceAgroClimaticGrowing
+
+[Button: Groups]
+
+Crop Production Statistics
+
+[Button: Sectors]
+
+AgricultureAgricultural Produces
+
+
+1 - 1 of 1 Resource(s)
+
+### District-wise, season-wise crop production statistics from 1997
+
+Rated 3 stars out of 5
+
+Rated 3 stars out of 5
+
+Image: csv Download (Through URL)
+
+Image: preview Preview
+
+Image: preview Preview
+
+[Button: Export in Other Formet]
+
+Data API
+
+Visualize
+
+File size: NA
+
+Granularity: Annual
+
+Download: 66,747
+
+Views: 38,067
+
+Published On:20/05/2013
+
+Updated On: 16/10/2024
+
+Reference URL of Resource
+
+NA
+
+Sourced Webservices/APIs
+
+NA
+
+Note
+
+NA--------------------------------------------------------------------------------
+Special Data Dissemination Standards (SDDS) | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/divisions-cell/special-data-dissemination-standards-sdds/)
+citeturn1search2 [wordlim: 200] Crawled: last week;   * Compilation and dissemination of District-wise Land Use Statistics (LUS) and District-wise Area, Production and Yield (APY). ...   * Since the crop calendar available with the DES is very old (1998-99), this Division is in the process of finalizing the methodology of renewal of Crop Calendar to reflect the true picture of the production estimates as per the sowing and harvesting of crops in the States / UTs.
+
+# Special Data Dissemination Standards (SDDS)
+
+  * Compilation and dissemination of District-wise Land Use Statistics (LUS) and District-wise Area, Production and Yield (APY).
+  * Liaison and coordination with the relevant functionaries of the State / UTs for timely uploading / providing the data pertaining to the LUS & APY Statistics at the district level.
+  * Compilation of quarterly estimates of agricultural production & providing quarterised data to CSO, MoSPI for GDP estimation.
+  * Release of annual publication titled “Land Use Statistics at a Glance”.
+  * Maintaining/updating of all the data related to agriculture growth and investment (released by CSO, MoSPI).
+  * Work relating to Situational Assessment Survey (SAS) of Agricultural households.
+  * Work relating to Sustainable Development Goals (SDGs) pertaining to agriculture.
+  * Since the crop calendar available with the DES is very old (1998-99), this Division is in the process of finalizing the methodology of renewal of Crop Calendar to reflect the true picture of the production estimates as per the sowing and harvesting of crops in the States / UTs.
+  * To deal with VIP references / Parliament assurances, Parliament questions / RTI matters in respect of growth rate, investment, land use patterns on agriculture sector and disseminate information to other divisions / Govt. Departments & NITI Ayog.
+  * The Adviser (SDDS) is also functioning as Appellate Authority for RTI matters.--------------------------------------------------------------------------------
+Dashboard | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/dashboard/)
+citeturn1search3 [wordlim: 200] Crawled: last week; 3  | Total Cropped Area  | ... ##### Monthly All India Average Wholesale Prices of Major Agricultural Commodities for year (Rs. ... Download Report in Image ... [Button: View as data table, Production of Major Oilseeds]
+
+##### APY
+
+##### Production of Major Agricultural Crops as per year
+( i.e Million Tonnes)
+
+Production of Major Agricultural Crops as per ( i.e Million Tonnes)
+SN  | Crops  | Production
+--- | --- | ---
+
+##### LUS
+
+##### Important parameters of Land Use Statistics (LUS)
+for the year ()
+
+Important parameters of Land Use Statistics (LUS) for the year
+---
+SN  | Harvested Land  | Land(Thousand Hectares)
+--- | --- | ---
+1  | Agricultural Land  | 
+2  | Cultivated Land  | 
+3  | Total Cropped Area  | 
+4  | Gross Irrigated Area  | 
+5  | Cropping Intensity (% Area)  | 
+
+##### Wholesale Price
+
+##### Monthly All India Average Wholesale Prices of Major Agricultural Commodities for year (Rs. Per Quintal)
+
+Monthly All India Average Wholesale Prices of Major Agricultural Commodities (Rs. Per Quintal)
+---
+SN  | Commodities  | /  | /
+--- | --- | --- | ---
+
+Download Report in Image
+
+Production of Foodgrains
+
+Line chart with 5 lines.
+
+Source: Director of Economics & statistics
+
+[Button: View as data table, Production of Foodgrains]
+--------------------------------------------------------------------------------
+First Schedule — The States and the Union Territories | Constitution of India (https://bharatsamvidhan.org/schedule/1)
+citeturn1search4 [wordlim: 200] Crawled: today; Lists the 28 States and 8 Union Territories that constitute the Union of India, along with the extent of their territories. ... Note.The territorial extents of each State and Union Territory are specified in the Schedule as amended from time to time (most recently by the Jammu and Kashmir Reorganisation Act, 2019).
+
+The States and the Union Territories
+
+First Schedule
+
+First Schedule · Articles 1 and 4
+
+# The States and the Union Territories
+
+Lists the 28 States and 8 Union Territories that constitute the Union of India, along with the extent of their territories.
+
+## I. The States
+
+  * 1. Andhra Pradesh
+  * 2. Assam
+  * 3. Bihar
+  * 4. Chhattisgarh
+  * 5. Goa
+  * 6. Gujarat
+  * 7. Haryana
+  * 8. Himachal Pradesh
+  * 9. Karnataka
+  * 10. Kerala
+  * 11. Madhya Pradesh
+  * 12. Maharashtra
+  * 13. Manipur
+  * 14. Meghalaya
+  * 15. Mizoram
+  * 16. Nagaland
+  * 17. Odisha
+  * 18. Punjab
+  * 19. Rajasthan
+  * 20. Sikkim
+  * 21. Tamil Nadu
+  * 22. Telangana
+  * 23. Tripura
+  * 24. Uttar Pradesh
+  * 25. Uttarakhand
+  * 26. West Bengal
+  * 27. Arunachal Pradesh
+  * 28. Jharkhand
+
+## II. The Union Territories
+
+  * 1. Delhi The National Capital Territory of Delhi
+  * 2. The Andaman and Nicobar Islands
+  * 3. Lakshadweep
+  * 4. Dadra and Nagar Haveli and Daman and Diu
+  * 5. Puducherry
+  * 6. Chandigarh
+  * 7. Jammu and Kashmir
+  * 8. Ladakh
+
+Note.The territorial extents of each State and Union Territory are specified in the Schedule as amended from time to time (most recently by the Jammu and Kashmir Reorganisation Act, 2019).--------------------------------------------------------------------------------
+States and union territories of India (https://en.wikipedia.org/wiki/States_and_union_territories_of_India)
+citeturn1search12 [wordlim: 200] Crawled: 5 months ago; India is a federal union comprising 28 states and 8 union territories, for a total of 36 subnational entities. ... * Official Government of India website: States and Union Territories (https://www.india.gov.in/india-glance/states-india)
+States and union territories of India
+
+Name: States and union territories of India
+Category: Federated states
+Territory: Republic of India
+Current Number: 28 States
+8 Union territories
+Population Range: States: Sikkim – 610,577 (lowest)
+Uttar Pradesh – 199,812,341 (highest)
+Union Territories: Lakshadweep – 64,473 (lowest)
+Delhi – 16,787,941 (highest)
+Area Range: States: Goa – 3702km2 (smallest)
+Rajasthan – 342269km2 (largest)
+Union territories: Lakshadweep – 32km2 (smallest)
+Ladakh – 59146km2 (largest)
+Government: State Governments
+Union Government (union territories)
+Subdivision: Divisions
+Districts
+
+India is a federal union comprising 28 states and 8 union territories, for a total of 36 subnational entities. The states and union territories in turn are each subdivided into districts, of which a total of around 800 exist. Districts contain further levels of administrative subdivisions.
+
+Under the Indian Constitution and laws, the states of India are self-governing administrative divisions, each having a state government. --------------------------------------------------------------------------------
+Agricultural Statistics (https://desagri.gov.in/wp-content/uploads/2021/09/At-a-Glance-2020-Eng.pdf)
+citeturn1search13 [wordlim: 200] Published: 11 months ago; area under the crop in the district exceeds 80,000 hectares or lies ... area and yield through crop cutting experiments become available ... The first advance estimates of area and production of kharif crops areprepared in September every year, when south-west monsoon season
+ 
+1.6 Advance Estimates of Area and Production 
+The period of an agricultural crop year is from July to June, during 
+which various farm operations from preparation of seed bed, nursery, 
+sowing, transplanting various inter-culture operations, harvesting, 
+threshing etc. are carried out. Different crops are grown during the 
+agricultural seasons in a crop year.  
+ 
+    Final estimates of production based on complete enumeration of 
+area and yield through crop cutting experiments become available 
+much after the crops are actually harvested. However, the 
+Government requires advance estimates of production for taking 
+various policy decisions relating to pricing, marketing, export/import, 
+distribution, etc. Considering the genuine requirement of crop 
+estimates much before the crops are harvested for various policy 
+purposes, a time schedule of releasing the advance estimates has 
+been evolved. These estimates of crops are prepared and released at 
+five points of time during a year as enumerated below. 
+ 
+ 
+1.7 First Advance Estimates 
+The first advance estimates of area and production of kharif crops are 
+prepared in September every year, when south-west monsoon season 
+is about to be over and kharif crops are at an advanced stage of 
+maturity. The assessment is made by the State Governments based 
+on the reports from the field offices of the State Department of 
+Agriculture. They are mainly guided by visual observations. These are 
+validated on the basis of inputs from the proceedings of Crop Weather 
+ 
+5--------------------------------------------------------------------------------
+Area, Production & Yield - Reports Major Contributing State (https://data.desagri.gov.in/report/crop/crops-printdraft-major-contributing-state?fltrcontribut=area&fltrcrops=21&fltrfromyear=2000&fltrtopstate=all&fltrtoyear=2022&number_state=)
+citeturn1search14 [wordlim: 200] Published: 3 months ago; Area, Production & Yield - Reports Major Contributing StateCrop: Niger seed
+--------------------------------------------------------------------------------
+सयमेव जयते (https://desagri.gov.in/wp-content/uploads/2021/04/At-a-Glance-2019-Eng.pdf)
+citeturn1search15 [wordlim: 200] Published: 11 months ago; All India Index Numbers of Area,Production, Yield and Terms of Trade
+--------------------------------------------------------------------------------
+How Many States in India? 28 States and 8 UTs (2026) (https://anantamias.com/total-state-in-india/)
+citeturn1search5 [wordlim: 200] Published: 5 months ago; Crawled: today; India has 28 states and 8 Union Territories in 2026. ... India has 28 states and 8 Union Territories in 2026.
+--------------------------------------------------------------------------------
+Ministry of Home Affairs | Government of India (https://xn--i1b5bzbybhfo5c8b4bxh.xn--11b7cb3a6a.xn--h2brj9c/en/division_of_mha/AGMUT_Cadre_Management)
+citeturn1search6 [wordlim: 200] Crawled: today; ### There are Eight Union Territories, namely-- ... 5  | Notifications Dated 28 August 2018  | Download (405.65 KB)
+--------------------------------------------------------------------------------
+http://www.ceogoa.nic.in (https://ceogoa.nic.in/appln/uil/FAQsViewer.aspx?HyeLsW=bTFm4Llofds%3D&kzoWJF=VbNCqAYWVrA%3D&sbGTMq=w2sx5FUJYv9emIy7qUvv1aEYbKHb%2F6BtwiiNlxmuvmuj%2Fp8SNIOOAQ%3D%3D)
+citeturn1search16 [wordlim: 200] Published: 11.6 years ago; Q 8. ... There are 28 states in India viz. ... For every State, there has to be a Legislative Assembly, but it is not so in the case of all Union Territories.
+--------------------------------------------------------------------------------
+List of states and union territories of India by area (https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_area)
+citeturn1search17 [wordlim: 200] Crawled: 5 months ago; The list of states and union territories of the Republic of India by area is ordered from largest to smallest.India consists of 28 states and 8 union territories, including the National Capital Territory of Delhi with Rajasthan being largest in land area.
+--------------------------------------------------------------------------------
+About ECI | Election Commission of India | Election Commission of India (https://www.eci.gov.in/about-eci/)
+citeturn1search7 [wordlim: 200] Published: last month; Crawled: last month; This facility is available for the candidates through the Election Commission's Suvidha portal (https://suvidha.eci.gov.in). ... India, being a Union of states, has separate state legislatures for each state. ... Apart from the above, two out of the seven Union Territories, namely, National Capital Territory of Delhi and Puducherry, also have their Legislative Assemblies. ... All the twenty - eight (28) States and three (3) of the eight (8) Union Territories have their own assemblies - Vidhan Sabhas.
+--------------------------------------------------------------------------------
+List of Union Territories of India: All 8 Explained - LegalClarity (https://legalclarity.org/list-of-union-territories-of-india-all-8-explained/)
+citeturn1search8 [wordlim: 200] Published: 4 months ago; Crawled: 6 days ago; These territories exist alongside India’s 28 states but differ in a fundamental way: the President of India administers them through appointed officials, giving the central government a much stronger hand in local affairs. ... The act amended the First Schedule of the Constitution, deleting the former state entry and adding entries 8 and 9 under the Union Territories heading.
+--------------------------------------------------------------------------------
+India (https://en.wikipedia.org/wiki/India)
+citeturn1search18 [wordlim: 200] Crawled: 5 months ago; India is a federal union comprising 28 states and 8 union territories. ... * Official website of the Government of India (https://www.india.gov.in/)
+--------------------------------------------------------------------------------
+M.A. (POLITICS) (https://old.mu.ac.in/wp-content/uploads/2021/11/Indian-Constitution-English-Version-1.pdf)
+citeturn1search19 [wordlim: 200] Published: 11 months ago; At Present India now has 28 States and 8 Union Territories.
+--------------------------------------------------------------------------------
+States and Capitals of India (with Hindi names) - Map Mastery | Pareeksha (https://pareeksha.in/map-mastery/states-and-capitals)
+citeturn1search9 [wordlim: 200] Crawled: 2 days ago; India has 28 states and 8 union territories. ... India has 28 states and 8 union territories.
+--------------------------------------------------------------------------------
+Outline of India (https://en.wikipedia.org/wiki/Outline_of_India)
+citeturn1search20 [wordlim: 200] Crawled: 7 months ago; ##### States and union territories of India ... States (1–28) & Union territories (A-H)
+--------------------------------------------------------------------------------
+Administrative divisions: states, Union Territories and capitals — India: Location, Size, Extent and Divisions | LTP (https://www.learnthrupractice.com/upsc-ncert/geography/india-location/07-administrative_divisions_states_union_territories_and_capita)
+citeturn1search10 [wordlim: 200] Crawled: 6 days ago; # Administrative divisions: states, Union Territories and capitals ...   * Union Territory (UT): a unit governed directly by the Union government through an Administrator or Lieutenant Governor appointed by the President.  * India today has 28 states and 8 UTs (verify current).
+--------------------------------------------------------------------------------
+List of state and union territory capitals in India (https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India)
+citeturn1search21 [wordlim: 200] Crawled: 6 months ago; India is a federal constitutional republic governed under a parliamentary system consisting of 28 states and 8 union territories. ... * List of states in India (https://knowindia.india.gov.in/states-uts/)
+--------------------------------------------------------------------------------
+Sources | India, Analyzed (https://www.indiaanalyzed.com/sources)
+citeturn1search11 [wordlim: 200] Crawled: today; Area, Production and Yield (APY) crop statistics, Directorate of Economics & Statistics, Department of Agriculture & Farmers Welfare, Government of India; obtained via the India Data Portal under the Open Data Commons Attribution License. ... Licence verified against the CKAN API (package area-production-yield-apy): license_title "Open Data Commons Attribution License", package url https://data.desagri.gov.in/login. ... TRAP: season = 'Total' is a SUBTOTAL of the seasonal rows (3,146 crop-district pairs in 2022-2023, reconciling in 3,145 of them) and is excluded by the standardizer; summing it in would double-count rice in 363 districts.
+--------------------------------------------------------------------------------
+The 28 States of India | States Of India | 8 Union Territories | For All Competitive Exams - YouTube (https://www.youtube.com/watch?v=GK2NE7K-fqg)
+citeturn1youtube22 [wordlim: 200] Published: 2.7 years ago; # The 28 States of India | States Of India | 8 Union Territories | For All Competitive Exams
+# The 28 States of India | States Of India | 8 Union Territories | For All Competitive Exams
+By: Learn with Amar (340000 followers)
+Published: 2024-01-16, 382289 views, 9700 likes
+
+## Description
+Anagh makes it very Easy
+--------------------------------------------------------------------------------
+1. As of today there are 28 states and 8 Union territories in the country. (J&K and Ladakh – new UTs) (https://teachmint.storage.googleapis.com/public/347314222/StudyMaterial/904fdd3d-4215-490e-899a-c97025c0432c.pdf)
+citeturn1search23 [wordlim: 200] Published: 5.1 years ago; As of today there are 28 states and 8 Union territories in the country. ... ‘Territory of India’ is a wider expression than the ‘Union of India’
+--------------------------------------------------------------------------------
+Administrative divisions of India (https://en.wikipedia.org/wiki/Administrative_divisions_of_India)
+citeturn1search24 [wordlim: 200] Crawled: 6 months ago; India consists of 28 States and 8 Union Territories. ... India is composed of 28 states and eight union territories (including a national capital territory).
+--------------------------------------------------------------------------------
+Names of 28 states and 8 union territories of India are 28 STATES AND 8 UNION TERRITORIES OF INDIA. - YouTube (https://www.youtube.com/watch?v=lbCUUgj88FA)
+citeturn1youtube25 [wordlim: 200] Published: 1.3 years ago; # Names of 28 states and 8 union territories of India are 28 STATES AND 8 UNION TERRITORIES OF INDIA. ... #Names of 28 states and 8 union territories of India.
+# Names of 28 states and 8 union territories of India are 28 STATES AND 8 UNION TERRITORIES OF INDIA.
+By: Bharat Darshan Interesting GK (30200 followers)
+Published: 2025-06-28, 8028 views, 54 likes
+
+## Description
+States and Capitals of India
+Names and Capitals of India's 28 States
+State and Capital of India
+How many states are there in India and their names?
+Names of the states of India.
+Union Territories of India.
+States and Capitals of India.
+All States and Union Territories of India.
+States and Union Territories of India.
+List of all states of India.
+.................
+The following are the names of all the states and union territories of India: States (28):
+(1). Andhra Pradesh
+(2). Arunachal Pradesh
+(3). Assam
+(4). Bihar
+(5). Chhattisgarh
+(6). Goa
+(7). Gujarat
+(8). Haryana
+(9). Himachal Pradesh
+(10). Jharkhand
+(11). Karnataka
+(12). Kerala
+(13). Madhya Pradesh
+(14). Maharashtra
+(15). Manipur
+(16). Meghalaya
+(17). Mizoram
+(18). Nagaland
+(19). Odisha
+(20). Punjab
+(21). Rajasthan
+(22). Sikkim
+(23). Tamil Nadu
+(24). Telangana
+(25). Tripura
+(26). Uttarakhand
+(27). Uttar Pradesh
+(28). West Bengal
+Union Territories (8)
+(1). Andaman and Nicobar Islands
+(2). Chandigarh
+(3). Dadra and Nagar Haveli and Daman and Diu
+(4). Delhi (National Capital Territory)
+(5). Jammu and Kashmir
+(6). Ladakh
+(7). Lakshadweep
+(8). Puducherry
+........................
+........................
+#Names of 28 states and 8 union territories of India. #28STATESAND8UNION
+#Names of all the states of India
+#All State names of India
+--------------------------------------------------------------------------------
+States and Capitals of India (https://www.reddit.com/r/u_Better_Carpet_1369/comments/1sfom6h/states_and_capitals_of_india/)
+citeturn1reddit26 [wordlim: 200] Published: 6 months ago; * 28 States* 8 Union Territories ... | Lakshadweep                          | Kavaratti                         | India’s smallest Union Territory by area. ... # Discover India through the myriad states and union territories
+--------------------------------------------------------------------------------
+States and Capitals of India (https://www.reddit.com/r/u_SuccessfulAnt8498/comments/1sqx7z0/states_and_capitals_of_india/)
+citeturn1reddit27 [wordlim: 200] Published: 5 months ago; Crawled: 5 months ago; * 28 States* 8 Union Territories ... | Lakshadweep                          | Kavaratti                         | India’s smallest Union Territory by area. ... # Discover India through the myriad states and union territories
+--------------------------------------------------------------------------------
+Can you name all 28 Indian states and 8 union territories without googling or looking at other comments? (https://www.reddit.com/r/ask_Bondha/comments/1higp2h)
+citeturn1reddit28 [wordlim: 200] Published: 1.8 years ago; Crawled: 1.8 years ago; Union territories: ... But whom are you naming “all 28 indian states and 8 UT without googling or looking at other comments”. ... My dyslexic ass would make errors in spelling my own name, inka 28 states ante kbc range question naku
+--------------------------------------------------------------------------------
+28 States and 8 Union Territories of India: Complete GK List with Capitals & Key Facts (https://www.reddit.com/r/foodiseverything/comments/1pkmzv0/28_states_and_8_union_territories_of_india/)
+citeturn1reddit29 [wordlim: 200] Published: 10 months ago; Let's dive into the **list of 28 states of India** alphabetically, followed by the **8 union territories**.
+--------------------------------------------------------------------------------
+States and union territories (https://www.reddit.com/r/u_polina8338/comments/14u24bj)
+citeturn1reddit30 [wordlim: 200] Published: 3.3 years ago; Crawled: 3.3 years ago; India consists of 28 states and 8 Union territories.
+--------------------------------------------------------------------------------
+States and Union Territories in India? भारत में राज्य और केंद्र शासित प्रदेश? (https://www.reddit.com/r/u_edigitalhindi/comments/t5pgbl)
+citeturn1reddit31 [wordlim: 200] Published: 4.6 years ago; **States and Union Territories in India :** जैसा कि हम जानते हैं जी भारत का क्षेत्रफल 3,84,263वर्ग किलोमीटर है। ... हमारे भारत में कुल मिलाकर 8 केंद्र शासित प्रदेश 28 राज्य हैं, पहले भारत के जम्मू कश्मीर में अनुच्छेद 370 और 35A को हटने से पहले हमारे देश में कुल 29 राज्य और 7 केंद्र शासित प्रदेश थे, भारत सरकार ने जम्मू कश्मीर से अनुच्छेद 370 और 35A हटाकर जम्मू कश्मीर और लद्दाख 2 केंद्र शासित प्रदेश बनाया गया तब हमारे जम्मू कश्मीर 1 अक्टूबर 2019 को जम्मू कश्मीर और लद्दाख दो भागों में विभाजित हो गया ।
+--------------------------------------------------------------------------------
+Halfway there : I've now visited 18 out of India's 36 States & Union Territories. (https://www.reddit.com/r/india/comments/1v5fx42/halfway_there_ive_now_visited_18_out_of_indias_36/)
+citeturn1reddit32 [wordlim: 200] Published: 2 months ago; Today I realized I've covered **18/36 States & Union Territories**. ... What's the one place in India that completely exceeded your expectations? ... * **States:** **13/28*** **Union Territories:** **5/8**
+--------------------------------------------------------------------------------
+States and Union Territories of India (https://www.reddit.com/r/u_Necessary-Squirrel20/comments/1d1n7hn)
+citeturn1reddit33 [wordlim: 200] Published: 2.4 years ago; Crawled: 2.4 years ago; **States of India** ... 8. ... 28. ... **Union Territories**
+--------------------------------------------------------------------------------
+Indian States and Capitals | List of Total 29 States, Union Territories and Capitals of India (https://www.reddit.com/r/u_anushacbse/comments/d3nlzt)
+citeturn1reddit34 [wordlim: 200] Published: 7.1 years ago; India States and Capitals: India has 29 states and 9 union territories. ... 8. ... 28.
+--------------------------------------------------------------------------------
+India States and Capitals: A Comprehensive Guide to General Knowledge (https://www.reddit.com/r/foodiseverything/comments/1pi2mur/india_states_and_capitals_a_comprehensive_guide/)
+citeturn1reddit35 [wordlim: 200] Published: 10 months ago; This guide delves deep into the 28 states and 8 union territories of India, exploring not just their capitals but also the historical, cultural, economic, and geographical significance behind them.
+--------------------------------------------------------------------------------
+Feasibility of machine learning-based rice yield prediction in India at the district level using climate reanalysis data (https://arxiv.org/abs/2403.07967)
+citeturn1academia36 [wordlim: 200] Published: 2.6 years ago; Title: Feasibility of machine learning-based rice yield prediction in India at the district level using climate reanalysis data ... Yield forecasting, the science of predicting agricultural productivity before the crop harvest occurs, helps a wide range of stakeholders make better decisions around agricultural planning.This study aims to investigate whether machine learning-based yield prediction models can capably predict Kharif season rice yields at the district level in India several months before the rice harvest takes place.
+--------------------------------------------------------------------------------
+Architecture of India, state–wise – All Union Territories excluding Delhi, Ladakh and Kashmir. (AN, LD, PY, CH, DD) (https://www.reddit.com/r/ArchitecturalRevival/comments/zkqjwg)
+citeturn1reddit37 [wordlim: 200] Published: 3.8 years ago; Crawled: 3.8 years ago; So just to clear any possible confusion, I'm posting buildings of India state–wise – basically I'd post the buildings of State X, followed by State Y, and so on.Union Territories are different than states.There are 28 states and 8 UTs.
+--------------------------------------------------------------------------------
+How many Indian States have you visited? (https://www.reddit.com/r/indiasocial/comments/1coi4vw/how_many_indian_states_have_you_visited/)
+citeturn1reddit38 [wordlim: 200] Published: 2.4 years ago; Not counting Delhi and J&K as states coz they are Union territories. ... Every state in India apart from the Northern Eastern states. ... 12 and still travelling next month to 28th ... 8 (7 -  excluding my home state)
+--------------------------------------------------------------------------------
+High-Resolution Satellite Imagery for Modeling the Impact of Aridification on Crop Production (https://arxiv.org/abs/2209.12238)
+citeturn1academia39 [wordlim: 200] Published: 4.1 years ago; Title: High-Resolution Satellite Imagery for Modeling the Impact of Aridification on Crop Production ... To this end, we introduce a first-of-its-kind dataset, SICKLE, having time-series images at different spatial resolutions from 3 different satellites, annotated with multiple key cropping parameters for paddy cultivation for the Cauvery Delta region in Tamil Nadu, India. ... We also propose a yield prediction strategy that uses time-series data generated based on the observed growing season and the standard seasonal information obtained from Tamil Nadu Agricultural University for the region.
+--------------------------------------------------------------------------------
+Farm-Level, In-Season Crop Identification for India (https://arxiv.org/abs/2507.02972)
+citeturn1academia40 [wordlim: 200] Published: 1.3 years ago; We present a framework designed to address the critical data gaps for targeted data driven decision making which generates farm-level, in-season, multi-crop identification at national scale (India) using deep learning. ... The model successfully identifies 12 major crops (which collectively account for nearly 90% of India's total cultivated area showing an agreement with national crop census 2023-24 of 94% in winter, and 75% in monsoon season).
+

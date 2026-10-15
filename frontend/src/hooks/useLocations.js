@@ -20,7 +20,8 @@ export function useLocations() {
       setIsLoadingLocations(true);
       setLocationsError(null);
       try {
-        const data = await getLocations();
+        const response = await getLocations();
+        const data = response.locations;
         if (!isMounted) return;
         setLocations(data);
 

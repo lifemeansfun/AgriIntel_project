@@ -1,0 +1,179 @@
+AgriIntel
+
+REGIONAL CROP ADVISORY · COURSE PROTOTYPE
+
+Coimbatore · historical 2019
+Day
+ADVISORY MODE
+Historical explorer · five states
+Coimbatore classroom scenario
+
+Historical 2019 demonstration. Prices and costs are modeled in 2011-base rupees. Current-season farmer advice is outside this demonstration.
+
+DEMO PARTICIPANT IDENTITY
+
+Saved in this browser. Use a different identity in another tab to act as another farmer. This classroom identity is not an authenticated account.
+
+Coimbatore · Kharif · 2019
+
+Ragi, Maize and Onion. Synthetic reference: 40 ha per crop; 80% of supply is outside this app. Participants share 24 ha. Capacity rules and the supply-price response are simulation assumptions.
+
+Committed: 0 ha
+
+Remaining: 24 ha
+
+Ledger revision 2
+
+Committed production uses median yield; capacity usage uses upper yield. Outside supply is already included in the scenario.
+Crop	Expected committed (t)	Conservative usage (t)	Remaining capacity (t)	Remaining area (ha)
+Ragi	0	0	48.39	12.72
+Maize	0	0	114.73	11.8
+Onion	0	0	136.28	8.77
+Quote current · expires five minutes after issue
+Refresh advice
+
+Commitment cancelled and capacity released.
+
+Explore
+1.0 HA
+in
+Coimbatore
+, Tamil Nadu
+for
+Kharif
+Compare scenarios
+
+Changing the location or season returns to the historical explorer.
+
+Data year 2019 · Shared feedback scenario · artifact regional-20261015-v1
+
+RANK 1 · SCENARIO SCORE ₹61,693
+
+Onion
+
+Yield estimates for the historical selection · tonnes per hectare
+
+Lower q10
+11.44
+Median q50
+13.63
+Upper q90
+15.54
+Explore an interpolated yield scenario
+13.63 t/ha at the central scenario price
+Reset median
+
+Intermediate positions are linear illustrations, not additional calibrated quantiles. Price and cultivation cost stay fixed.
+
+CENTRAL SCENARIO PROFIT · 1 HA
+
+₹73,860
+
+All money in 2011-base rupees · modeled scenarios
+
+Pessimistic profit
+₹49,526
+Downside gap
+₹24,335
+Central price / quintal
+₹1,083
+Cultivation cost / hectare
+₹73,759
+Commit planting
+
+A commitment updates shared capacity. Exploring this page reserves nothing.
+
+Inspect scenario calculations
+Central profit and downside gap
+
+2011-base rupees for the selected land area. Click a point to inspect the crop.
+
+0k
+15k
+30k
+45k
+60k
+Downside gap (₹)
+0k
+20k
+40k
+60k
+80k
+Compare crop scenarios
+
+Rank 1 · Available
+
+Onion
+Central profit
+₹73,860
+Pessimistic profit
+₹49,526
+Median yield
+13.63 t/ha
+
+Rank 2 · Available
+
+Maize
+Central profit
+₹46,866
+Pessimistic profit
+₹-4,455
+Median yield
+7.82 t/ha
+
+Rank 3 · Available
+
+Ragi
+Central profit
+₹21,256
+Pessimistic profit
+₹4,774
+Median yield
+3.3 t/ha
+
+SEEDED CLASSROOM REPLAY
+
+Watch recommendations respond
+
+24 simulated farmers choose one hectare each. Static ranking keeps its initial order; supply-aware ranking updates after every commitment. Both policies use identical forecasts, arrival order, price rules and capacity limits. Because participants have equal areas, changing the seed changes identities rather than aggregate demand. Each run has its own ledger.
+
+Arrival-order seed
+New isolated run
+Step one farmer
+Play
+Step 24 / 24 · seed 42 · completed
+Static ranking
+Ragi: 5 ha
+Maize: 11 ha
+Onion: 8 ha
+
+Committed: 24 ha · remaining: 0 ha
+
+Final scenario profit
+₹7,39,263
+Allocated participant lower tail
+₹18,873
+Unallocated area (ha)
+0
+Rejected participants
+0
+Supply-aware ranking
+Ragi: 6 ha
+Maize: 10 ha
+Onion: 8 ha
+
+Committed: 24 ha · remaining: 0 ha
+
+Final scenario profit
+₹7,35,940
+Allocated participant lower tail
+₹18,278
+Unallocated area (ha)
+0
+Rejected participants
+0
+
+Reported profit evaluates the final allocation at a common modeled market price. The lower-tail mean covers the lowest 10% of allocated participants; rejected farmers are reported separately. Quoted profits are scenarios, not guaranteed sale proceeds. A replay demonstrates the specified simulation, not a measured farmer-income improvement.
+
+Recent choices
+80k

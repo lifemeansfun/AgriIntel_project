@@ -1,52 +1,31 @@
-"""
-Module 3: Hierarchical Trailing 3-Year Mean Baseline
-"""
+"""Independent hierarchical baseline using only the prior three calendar years."""
+from __future__ import annotations
 
-import pandas as pd
 import numpy as np
+import pandas as pd
+from modules.regional_data.data import KEY
+
 
 def generate_baseline(df: pd.DataFrame) -> pd.DataFrame:
+    """Compute local -> state -> crop-season means from Yield, not model features.
+
+    No-history rows remain unavailable. State is part of every district key.
     """
-    Generates the hierarchical trailing 3-year mean baseline yield.
-    Level 0: (District, Crop, Season)
-    Level 1: (State, Crop, Season)
-    Level 2: (Crop, Season)
-    """
-    # df must already have 'Yield_lag3_mean' calculated from features.py, 
-    # but let's re-calculate it rigorously hierarchically for the baseline specifically.
-    
-    df = df.copy()
-    
-    # L0: District, Crop, Season
-    df_l0 = df.groupby(['District', 'Crop', 'Season', 'Year_start'])['Yield'].mean().reset_index()
-    df_l0 = df_l0.sort_values(by=['District', 'Crop', 'Season', 'Year_start'])
-    df_l0['Baseline_L0'] = df_l0.groupby(['District', 'Crop', 'Season'])['Yield'].shift(1).rolling(window=3, min_periods=1).mean()
-    
-    # L1: State, Crop, Season
-    df_l1 = df.groupby(['State', 'Crop', 'Season', 'Year_start'])['Yield'].mean().reset_index()
-    df_l1 = df_l1.sort_values(by=['State', 'Crop', 'Season', 'Year_start'])
-    df_l1['Baseline_L1'] = df_l1.groupby(['State', 'Crop', 'Season'])['Yield'].shift(1).rolling(window=3, min_periods=1).mean()
-    
-    # L2: Crop, Season
-    df_l2 = df.groupby(['Crop', 'Season', 'Year_start'])['Yield'].mean().reset_index()
-    df_l2 = df_l2.sort_values(by=['Crop', 'Season', 'Year_start'])
-    df_l2['Baseline_L2'] = df_l2.groupby(['Crop', 'Season'])['Yield'].shift(1).rolling(window=3, min_periods=1).mean()
-    
-    # Merge back
-    df = df.merge(df_l0[['District', 'Crop', 'Season', 'Year_start', 'Baseline_L0']], 
-                  on=['District', 'Crop', 'Season', 'Year_start'], how='left')
-    df = df.merge(df_l1[['State', 'Crop', 'Season', 'Year_start', 'Baseline_L1']], 
-                  on=['State', 'Crop', 'Season', 'Year_start'], how='left')
-    df = df.merge(df_l2[['Crop', 'Season', 'Year_start', 'Baseline_L2']], 
-                  on=['Crop', 'Season', 'Year_start'], how='left')
-                  
-    # Hierarchical fallback
-    df['Baseline_Yield'] = df['Baseline_L0']
-    df['Baseline_Yield'] = df['Baseline_Yield'].fillna(df['Baseline_L1'])
-    df['Baseline_Yield'] = df['Baseline_Yield'].fillna(df['Baseline_L2'])
-    
-    # Final fallback if still NA
-    overall_mean = df['Yield'].mean()
-    df['Baseline_Yield'] = df['Baseline_Yield'].fillna(overall_mean)
-    
-    return df
+    if df.duplicated(KEY).any():
+        raise ValueError("Resolve duplicate keys before calculating baseline")
+    result = df.copy()
+    for level, groups in enumerate([KEY[:-1], ["State", "Crop", "Season"], ["Crop", "Season"]]):
+        keys = groups + ["Year_start"]
+        annual = df.groupby(keys, observed=True, sort=True)["Yield"].mean().reset_index()
+        # Deliberately independent implementation from feature calendar_lags.
+        history = []
+        for offset in (1, 2, 3):
+            shifted = annual.rename(columns={"Yield": f"past_{offset}"}).copy()
+            shifted["Year_start"] += offset
+            history.append(annual[keys].merge(shifted, on=keys, how="left", validate="one_to_one")[f"past_{offset}"])
+        annual[f"Baseline_L{level}"] = pd.concat(history, axis=1).mean(axis=1)
+        result = result.merge(annual[keys + [f"Baseline_L{level}"]], on=keys, how="left", validate="many_to_one", sort=False)
+    result["Baseline_Yield"] = result["Baseline_L0"].combine_first(result["Baseline_L1"]).combine_first(result["Baseline_L2"])
+    result["Baseline_Supported"] = result["Baseline_Yield"].notna()
+    result["Baseline_Level"] = np.select([result.Baseline_L0.notna(), result.Baseline_L1.notna(), result.Baseline_L2.notna()], ["district", "state", "crop_season"], default="unsupported")
+    return result

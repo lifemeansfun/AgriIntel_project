@@ -44,7 +44,7 @@ export default function NaturalLanguageAperture({
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (onSubmit && !isFetching && formData.season && formData.state && formData.district) {
+    if (onSubmit && !isFetching && formData.season && formData.state && formData.district && Number(formData.area) > 0) {
       onSubmit();
       setActivePopover('none');
     }
@@ -56,7 +56,9 @@ export default function NaturalLanguageAperture({
     }
   };
 
-  const areaValue = parseFloat(formData.area) || 1.0;
+  const parsedArea = Number(formData.area);
+  const validArea = Number.isFinite(parsedArea) && parsedArea > 0;
+  const areaValue = validArea ? parsedArea : 0;
   const adjustArea = (delta) => {
     const next = Math.max(0.1, Math.min(50, parseFloat((areaValue + delta).toFixed(1))));
     onAreaChange(String(next));
@@ -70,7 +72,7 @@ export default function NaturalLanguageAperture({
       <form onSubmit={handleSubmit} className={`${glassClass} rounded-[2rem] p-4 sm:p-5 flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 shadow-2xl border border-white/20 dark:border-white/10 backdrop-blur-2xl`}>
         {/* Editorial Command Sentence */}
         <div className={`text-base sm:text-lg lg:text-xl font-editorial ${textPrimary} flex-1 leading-loose text-center md:text-left flex flex-wrap items-center justify-center md:justify-start gap-x-2.5 gap-y-3`}>
-          <span>Advising on</span>
+          <span>Explore</span>
           
           {/* Area Token */}
           <button 
@@ -130,18 +132,18 @@ export default function NaturalLanguageAperture({
         <button
           type="submit"
           id="aperture-submit-btn"
-          disabled={isFetching || !formData.season || !formData.district}
+          disabled={isFetching || !formData.season || !formData.district || !validArea}
           className="shrink-0 w-full md:w-auto bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3 px-7 rounded-2xl transition-all duration-300 shadow-xl shadow-emerald-950/20 hover:shadow-emerald-500/30 flex justify-center items-center gap-2.5 cursor-pointer"
         >
           {isFetching ? (
             <>
               <Loader2 className="w-4 h-4 animate-spin text-emerald-200" />
-              <span className="font-mono-tech text-xs tracking-wider font-bold">COMPUTING FRONTIER...</span>
+              <span className="font-mono-tech text-xs tracking-wider font-bold">COMPUTING SCENARIOS...</span>
             </>
           ) : (
             <>
               <Sparkles className="w-4 h-4 text-emerald-200" />
-              <span className="text-sm font-bold tracking-wide">Compute Frontier</span>
+              <span className="text-sm font-bold tracking-wide">Compare scenarios</span>
             </>
           )}
         </button>
@@ -192,7 +194,7 @@ export default function NaturalLanguageAperture({
 
               <div className="flex items-center justify-between p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 font-mono-tech text-xs text-emerald-700 dark:text-emerald-300">
                 <span>EQUIVALENT:</span>
-                <span className="font-bold">{(areaValue * 2.47105).toFixed(2)} ACRES | {(areaValue * 3.95368).toFixed(2)} BIGHAS</span>
+                <span className="font-bold">{(areaValue * 2.47105).toFixed(2)} ACRES</span>
               </div>
             </div>
           )}

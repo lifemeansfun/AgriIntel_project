@@ -1,0 +1,94 @@
+{
+  "python": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "files": {
+    "agriIntel_merged_final_v.csv": {
+      "bytes": 34197636,
+      "sha256": "f51c7e01fd7ef907027a33d391fb05f0dd86cbd49f884dd8645d401482a4982e"
+    },
+    "data/processed/fact_yield_predictions_oof.parquet": {
+      "bytes": 4036629,
+      "sha256": "c431d80c563124d622c0325c215fa559e773c9a0af302b50be68e6ba6de57211"
+    },
+    "data/processed/m2_ablation_report.md": {
+      "bytes": 2122,
+      "sha256": "29ed1e5d02e4923d536ec1d052545cab0b63bb6f6ef934e2d6cebcdb9decb0d6"
+    },
+    "data/processed/fact_economic_seasonal.parquet": {
+      "bytes": 5696735,
+      "sha256": "f9493f177f2dbd76bbdc36ff9e3c57dfd31ad213113bee752373733dd3471a41"
+    },
+    "data/processed/m4_price_report.md": {
+      "bytes": 711,
+      "sha256": "e6ed41710eac1a369e122240380cf118074437e719364f897a43643a342674cf"
+    },
+    "data/processed/m5_ranking_manifest.json": {
+      "bytes": 280,
+      "sha256": "ad55850432ae31552ff9a5f82c655da3a0c883d34d8146cd913f2516d1222f4e"
+    },
+    "data/processed/district_graph_edges.csv": {
+      "bytes": 42420,
+      "sha256": "daac01a8562a7a36d2fb306e9253875f8b1321612b85673f4561d0580aa62428"
+    },
+    "data/processed/m5_ranking_report.md": {
+      "bytes": 760,
+      "sha256": "8137eb915708ef006d4a8f48dd76eb4475388e9398618d5a3bdac86796b68958"
+    },
+    "data/processed/m6_self_defeat_report.md": {
+      "bytes": 989,
+      "sha256": "9d31347ceeb1f69db45b2266d5e0ca718d20c2c5c90aaf069c8d1d0e209859ee"
+    },
+    "data/processed/fact_price_predictions_oof.parquet": {
+      "bytes": 5291744,
+      "sha256": "99f8fc68561eeb0f3145485c91722b01594b2f7524f5df4b926efc544666cabc"
+    },
+    "data/processed/inflation_index.csv": {
+      "bytes": 544,
+      "sha256": "c025929572367608f763fa60ecdee0e39711f26555c23581ffbfb9512d53878e"
+    },
+    "data/processed/agronomic_cleaned_v4.csv": {
+      "bytes": 33097798,
+      "sha256": "101e26ff890ff38b8e4cfaed47800bfa56f7a857d9b2ccb6f7ca9f996e4927f4"
+    },
+    "data/processed/fact_recommendations.parquet": {
+      "bytes": 4271835,
+      "sha256": "9d227958e07479182f9333942d8ba127c9c5b36144f0e9f3b36069edb4309b35"
+    },
+    "data/processed/m3_yield_evaluation_manifest.json": {
+      "bytes": 1440,
+      "sha256": "1d92f48753473e62c26b5cb3f45a883a5fee920b8e2db3fa02b0022c73b642e1"
+    },
+    "data/processed/m3_yield_report.md": {
+      "bytes": 1138,
+      "sha256": "3d4753426b746ecbf6ad8d9dc1b84cd31d8be4a46438eac264f0467c0bbb28f6"
+    },
+    "data/processed/agronomic_cleaned_v4.rds": {
+      "bytes": 2320952,
+      "sha256": "c200f1931aa0a61966660d99e2b2648d1447031a5ad227eb5259a96d1c32f771"
+    },
+    "data/processed/agronomic_cleaned_v4.parquet": {
+      "bytes": 3117246,
+      "sha256": "f5265ee2d517644ba627cc8011425942f7c06b9ab1e31cad5bd81acd417bb5d3"
+    },
+    "data/processed/m0_audit_manifest.json": {
+      "bytes": 941,
+      "sha256": "a4c798925a3804895775b9ae31da1b950c422e2dfe4b5294329bb51a2b49afbe"
+    },
+    "data/processed/district_spatial_embeddings.csv": {
+      "bytes": 77800,
+      "sha256": "a7cc88b7383a5c45f931f1ec37c4164dd5f85a163ccaf814b977dbda4b7d5802"
+    },
+    "data/processed/m2_spatial_ablation_results.json": {
+      "bytes": 1644,
+      "sha256": "7c7482b070624dc06391e96a5a92f8de10e91383bdb7bd37a79c93fc56936a24"
+    },
+    "data/processed/m4_price_evaluation_manifest.json": {
+      "bytes": 142,
+      "sha256": "82573155e20e747df178ad97b41395e1822c8d0a16ae845b0f618c166d9aed04"
+    },
+    "data/api_processed/api_ledger_events.jsonl": {
+      "bytes": 84361,
+      "sha256": "7ec72ed41c7545f3301ca91ed5f8a0d8f48c7c3927ccd4c9fc3b1199b0166795"
+    }
+  }
+}

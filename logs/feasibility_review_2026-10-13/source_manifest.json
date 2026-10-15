@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "backend/main.py": "917168b31c9e015a9d20825500a45d3c2a7a92483779991c62d80f47eabda2cc",
+    "backend/ledger.py": "6914c7cfc614015b04dd6dc97c41d3af356b36e30150590124889ca40083a4f1",
+    "modules/m3_yield/features.py": "704a23106756f01df8d81a4c56e64544715fe6ce834b6eb21935100f4d13f7d1",
+    "modules/m3_yield/baselines.py": "d0ad11e92c9eed1edf201557ee5d19b08780dbd39509887d38369dec245bdb6d",
+    "modules/m6_market/supply_ledger.py": "1bf7cf020dde9bc41a20aa5e05ba1490bcb7d0cf427165e982b0ba1d0fb0b5c5",
+    "modules/m7_allocator/online_allocator.py": "2289fadb0abca02b0460ada356f376bd2629ab6343372e0d83fdfa040a5f80bb",
+    "modules/m5_profit/engine.py": "8ae76b868e732c0b78d63bcd0f7348050ba9682f43f436465331c2c2cf0a81af",
+    "logs/feasibility_review_2026-10-13/evidence_packet.md": "1c5c3dc5f523501cf110cc42463cda85bd634a67ee339cc05d36a44dcfb79453"
+  },
+  "head": "9881127",
+  "branch": "v3-invention",
+  "hardware": "Apple M1, 8 GiB RAM",
+  "python": "3.14.4",
+  "scope": "Analysis and bounded audit records; no application implementation or training"
+}

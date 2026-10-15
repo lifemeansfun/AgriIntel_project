@@ -47,21 +47,20 @@ def test_invariant_3_biological_cap(oof_data, caps_config):
         sub = oof_data[oof_data['Crop'] == crop]
         assert (sub['q90'] <= cap + 1e-5).all(), f"Biological cap exceeded for {crop}"
 
-def test_invariant_4_anti_leakage(oof_data):
-    """Invariant 4: Verify no row in fold T was generated with access to training data from year >= T."""
-    # Since we use expanding window cross-validation by Year_start and our lag logic strictly uses shift(1), 
-    # we assert that test sets only contain the test year, meaning no future years leaked back.
-    # The true test of this invariant is the manual review of the feature engineering code, 
-    # but we can verify that the test sets correctly partition time.
+def test_legacy_artifact_contains_declared_evaluation_years(oof_data):
+    """Legacy artifact date check only; does not prove leakage isolation.
+
+    Corrected future-perturbation and group tests live in test_regional_features.
+    """
     years = sorted(oof_data['Year_start'].unique())
     assert all(y >= 2015 for y in years), "Test set contains years before 2015, leakage possible"
 
-def test_invariant_5_baseline_superiority(evaluation_manifest):
-    """Invariant 5: Model must outperform the hierarchical baseline RMSE by >= 10% on average across major crop families."""
-    improvements = []
+def test_legacy_evaluation_reports_finite_metrics_without_mandatory_improvement(evaluation_manifest):
+    """A worse model is a reportable result, never a test failure to conceal."""
+    assert "Overall" in evaluation_manifest
     for family, metrics in evaluation_manifest.items():
-        if family != 'Overall':
-            improvements.append(metrics['Improvement_Pct'])
-            
-    mean_improvement = np.mean(improvements)
-    assert mean_improvement >= 10.0, f"Baseline superiority failure. Average family improvement was {mean_improvement:.2f}%, expected >= 10%"
+        for name in ["Baseline_RMSE", "Model_RMSE", "Improvement_Pct", "Coverage_Pct"]:
+            assert np.isfinite(metrics[name]), f"Nonfinite {family}/{name}"
+        assert metrics["Baseline_RMSE"] >= 0
+        assert metrics["Model_RMSE"] >= 0
+        assert 0 <= metrics["Coverage_Pct"] <= 100

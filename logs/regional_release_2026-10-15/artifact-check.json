@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "artifact_id": "regional-20261015-v1",
+  "data_year": 2019,
+  "currency_basis": "2011-base INR",
+  "mode": "historical_simulation",
+  "source_sha256": "3f8f10cb4b96dd38623746438d0134d9e7f74de55aa11eaf82440911811362a6",
+  "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+  "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+  "feature_cutoff": "Prior data years; original publication vintages unverified",
+  "historical_states": [
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Punjab",
+    "Tamil Nadu",
+    "Uttar Pradesh"
+  ],
+  "supported_latest_rows": 5263,
+  "feedback_scenario": "coimbatore-kharif-2019--80ddbb6669e1",
+  "metrics": {
+    "count": 25142,
+    "model": {
+      "RMSE": 3.9411957638181803,
+      "MAE": 1.3540516649399692,
+      "coverage_80": 0.7891973590008751,
+      "mean_interval_width": 3.3751105959077043,
+      "pinball_0.1": 0.3388949783514811,
+      "pinball_0.5": 0.6770258324699846,
+      "pinball_0.9": 0.41036029654522443
+    },
+    "baseline": {
+      "RMSE": 4.040787994001188,
+      "MAE": 1.2784905012913554,
+      "coverage_80": 0.8092832710206029,
+      "mean_interval_width": 1.7901797174812792,
+      "pinball_0.1": 0.4370572036062116,
+      "pinball_0.5": 0.6392452506456777,
+      "pinball_0.9": 0.6258009048701166
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "name": "Theme toggle controls Tailwind contrast",
+      "lightColor": "oklch(0.508 0.118 165.612)",
+      "darkColor": "oklch(0.845 0.143 164.978)"
+    },
+    {
+      "name": "Three crop chart points render without animation delay",
+      "points": 3
+    },
+    {
+      "name": "375px light/dark remain within viewport"
+    },
+    {
+      "name": "Scenario calculation details render on mobile"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-desktop-day.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-desktop-night.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-chart-points.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-mobile-night-controls.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-mobile-night-crop.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-mobile-day-crop.png",
+    "/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project/logs/regional_release_2026-10-15/final-mobile-analytics.png"
+  ],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "[.WebGL-0x104004d3800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x104004d3800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x104004d3800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x104004d3800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "status": "pass"
+}

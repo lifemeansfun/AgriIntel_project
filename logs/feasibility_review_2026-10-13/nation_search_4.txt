@@ -1,0 +1,527 @@
+Soil Health Card (https://soilhealth.dac.gov.in/files/SHC_API_Integration_Guidelines.pdf)
+citeturn4search12 [wordlim: 200] Published: 2.0 years ago; API Protocol ... AuthenticationAuthenticate the user with the system and obtain the auth_token ... POST  | https://soilhealth4.dac.gov.inType  | Params  | Values
+8.API Protocol
+I.
+Authentication
+Authenticate the user with the system and obtain the auth_token
+Request
+GraphQL query for generate the Token
+Method  | URL (Development)
+--- | ---
+POST  | https://shc-staging.ddns.netMethod  | URL (Production)
+--- | ---
+POST  | https://soilhealth4.dac.gov.inType  | Params  | Values
+--- | --- | ---
+HEAD  | token  | stringToken
+Authorization: bearer token must be sent with all client
+request. The token helps the server to validate the request
+source.
+Type  | Params  | Input
+--- | --- | ---
+Query  | query
+Query($refreshToken:
+String!) {
+generateAccessToken(refre
+sh Token: $refreshToken)
+}  | {
+"refreshToken": “refreshToken”
+}Response
+Field
+Response--------------------------------------------------------------------------------
+Agricultural Statistics (https://desagri.gov.in/wp-content/uploads/2015/04/Agricultural_Statistics_At_Glance-2015.pdf)
+citeturn4search13 [wordlim: 200] Published: 1.2 years ago; Table 4.21(a): Cotton: All-India Area, Production and Yield alongwith coverage  under Irrigation ... Production - Million Bales  (170 Kg. of each)
+Area, Production and Yield of Principal Crops   129  
+Table 4.21(a): Cotton: All-India Area, Production and Yield alongwith coverage  under Irrigation
+Area - Million Hectares
+Production - Million Bales  (170 Kg. of each)
+Yield - Kg./ Hectare
+Year
+Area
+Production
+Yield
+Area Under
+Irrigation(%)
+(1)
+(2)
+(3)
+(4)
+(5)
+(1)  | (2)  | (3)  | (4)  | (5)
+--- | --- | --- | --- | ---
+1950-51  | 5.88  | 3.04  | 88  | 8.2
+1951-52 6.56 3.28 85 9.1  |  |  |  | 
+1952-53  | 6.36  | 3.34  | 89  | 8.5
+1953-54 6.99 4.13 100 8.4  |  |  |  | 
+1954-55  | 7.55  | 4.45  | 100  | 9.8
+1955-56 8.09 4.18 88 10.0  |  |  |  | 
+1956-57  | 8.02  | 4.92  | 104  | 11.0
+1957-58 8.01 4.96 105 12.7  |  |  |  | 
+1958-59  | 7.96  | 4.88  | 104  | 12.5
+1959-60 7.30 3.68 86 12.9  |  |  |  | 
+1960-61  | 7.61  | 5.60  | 125  | 12.7
+1961-62 7.98 4.85 103 13.0  |  |  |  | 
+1962-63  | 7.73  | 5.54  | 122  | 14.1
+1963-64 8.22 5.75 119 15.3  |  |  |  | 
+1964-65  | 8.37  | 6.01  | 122  | 15.5
+1965-66 7.96 4.85 104 15.9  |  |  |  | 
+1966-67  | 7.84  | 5.27  | 114  | 16.1
+1967-68 8.00 5.78 123 16.7  |  |  |  | 
+1968-69  | 7.60  | 5.45  | 122  | 16.5
+1969-70 7.73 5.56 122 16.4  |  |  |  | 
+1970-71  | 7.61  | 4.76  | 106  | 17.3
+1971-72 7.80 6.95 151 20.3  |  |  |  | 
+1972-73  | 7.68  | 5.74  | 127  | 21.0
+1973-74 7.57 6.31 142 22.1  |  |  |  | 
+1974-75  | 7.56  | 7.16  | 161  | 22.9
+1975-76 7.35 5.95 138 23.5  |  |  |  | 
+1976-77  | 6.89  | 5.84  | 144  | 24.6
+1977-78 7.87 7.24 157 26.2  |  |  |  | 
+1978-79  | 8.12  | 7.96  | 167  | 27.2
+1979-80 8.13 7.65 160 27.5  |  |  |  | 
+1980-81  | 7.82  | 7.01  | 152  | 27.3
+1981-82 8.06 7.88 166 27.7  |  |  |  | 
+1982-83  | 7.87  | 7.53  | 163  | 29.0(Contd.)--------------------------------------------------------------------------------
+AGRICULTURAL STATISTICS (https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325.pdf)
+citeturn4search14 [wordlim: 200] Published: 9 months ago;  Production - Million Bales  (170 Kg. of each) ... Table 2.19 (b):  Cotton: Area, Production and Yield during 2023-24 and 2024-25 in major Producing States alongwith coverage under Irrigation
+Production, Trade & Prices of Commodities
+107
+|   
+2023-24
+Area Under
+Irrigation (%)
+ Yield - Kg./ Hectare
+Area - Million Hectares
+(11)
+(10)
+All-India
+ Production - Million Bales  (170 Kg. of each)
+% to
+All-India
+% to
+% to
+2023-24
+2024-25
+All-India
+Production
+Yield
+(3)
+(4)
+(5)
+(6)
+(2)
+(7)
+(8)
+(9)
+Area
+% to
+All-India
+Area
+Production
+Yield
+State
+(1)
+(12)
+ Maharashtra 
+4.23 
+33.37 
+8.05 
+24.74 
+323  
+4.12 
+35.90 
+7.37 
+24.80 
+304  
+29.23
+ Gujarat 
+2.68 
+21.15 
+9.06 
+27.85 
+574  
+2.37 
+20.65 
+7.16 
+24.08 
+513  
+80.19
+ Telangana 
+1.82 
+14.33 
+5.08 
+15.62 
+475  
+1.81 
+15.78 
+5.79 
+19.47 
+543  
+20.95
+ Karnataka 
+0.74 
+5.86 
+2.06 
+6.33 
+471  
+0.68 
+5.90 
+2.27 
+7.65 
+570  
+32.50
+ Rajasthan 
+1.00 
+7.91 
+2.62 
+8.06 
+444  
+0.63 
+5.46 
+1.79 
+6.01 
+484  
+97.21
+ Madhya Pradesh 
+0.63 
+4.97 
+1.80 
+5.54 
+486  
+0.54 
+4.68 
+1.54 
+5.16 
+486  
+76.61
+ Haryana 
+0.58 
+4.55 
+1.51 
+4.64 
+444  
+0.40 
+3.47 
+1.18 
+3.96 
+502  
+97.89
+ Andhra Pradesh 
+0.42 
+3.33 
+0.74 
+2.27 
+297  
+0.40 
+3.52 
+1.13 
+3.81 
+476  
+6.21
+ Odisha 
+0.22 
+1.70 
+0.70 
+2.17 
+554  
+0.24 
+2.08 
+0.82 
+2.77 
+586  
+-
+ Punjab 
+0.21 
+1.69 
+0.63 
+1.93 
+500  
+0.16 
+1.40 
+0.41 
+1.39 
+439  
+99.79
+ All India 
+12.69 
+100.00 
+32.52 
+100.00 
+436  
+11.48 
+100.00 
+29.72 
+100.00 
+440  
+50.74
+Source: E,S&E Division, DA&FW
+Note: States have been arranged in descending  order of  percentage share of production during 2024-25.
+Table 2.19 (b):  Cotton: Area, Production and Yield during 2023-24 and 2024-25 in major Producing States alongwith coverage under Irrigation--------------------------------------------------------------------------------
+Agricultural Statistics (https://desagri.gov.in/wp-content/uploads/2021/04/Agricultural-Statistics-at-a-Glance-2018.pdf)
+citeturn4search15 [wordlim: 200] Published: 7.1 years ago; Area, Production and Yield of Principal Crops ... Other Cash Crops | Sugarcane | Madhya Pradesh Uttar Pradesh | 0.98 177.06 Maharashtra 83.13 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Karnataka | 0.98 28.26 All - India 376.90 | | Madhya Pradesh None | 0.98 None | Cotton@ | Madhya Pradesh Gujarat | 0.98 12.637 Maharashtra 6.546 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Telangana | 0.98 4.754 All - India 34.89 | | Madhya Pradesh None | 0.98 None | Jute & Mesta$ | Madhya Pradesh West Bengal | 0.98 7.64 Bihar 1.45 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Assam | 0.98 0.84All - India ... @ : Production in million bales of 170 kg. each.	 * 4th Advance Estimates.
+67
+Area, Production and Yield of Principal Crops
+Table 4.2 (Contd.)
+Group of Crops
+Crops
+States
+ Production
+(1)
+(2)
+(3)
+(4)
+Haryana
+1.11
+All - India 8.32 | | Madhya Pradesh None | 0.98 None --- | --- | --- | --- | Soybean | Madhya Pradesh Madhya Pradesh | 0.98 5.32 Maharashtra 3.89 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Rajasthan | 0.98 1.07 All - India 10.98 | | Madhya Pradesh None | 0.98 None | Sunflower | Madhya Pradesh Karnataka | 0.98 0.10 Bihar 0.02 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Odisha | 0.98 0.02 All - India 0.21 | | Madhya Pradesh None | 0.98 None | Total Oilseeds | Madhya Pradesh Madhya Pradesh | 0.98 6.95 Rajasthan 5.97 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Gujarat | 0.98 5.86 All - India 31.31 | | Madhya Pradesh None | 0.98 None III. Other Cash Crops | Sugarcane | Madhya Pradesh Uttar Pradesh | 0.98 177.06 Maharashtra 83.13 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Karnataka | 0.98 28.26 All - India 376.90 | | Madhya Pradesh None | 0.98 None | Cotton@ | Madhya Pradesh Gujarat | 0.98 12.637 Maharashtra 6.546 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Telangana | 0.98 4.754 All - India 34.89 | | Madhya Pradesh None | 0.98 None | Jute & Mesta$ | Madhya Pradesh West Bengal | 0.98 7.64 Bihar 1.45 | | Madhya Pradesh None | 0.98 None | | Madhya Pradesh Assam | 0.98 0.84All - India
+10.14
+Source: Directorate of Economics & Statistics, DAC&FW
+@ : Production in million bales of 170 kg. each.	 * 4th Advance Estimates.
+$ : Production in million bales of 180 kg. each.--------------------------------------------------------------------------------
+Climate Monitoring and Prediction Group (https://imdpune.gov.in/cmpg/Griddata/Rainfall_25_Bin.html)
+citeturn4search0 [wordlim: 200] Crawled: 9 months ago; IMD New High Spatial Resolution (0.25X0.25 degree) Long Period (1901-2024) Daily Gridded Rainfall Data Set Over India. ... Data is arranged in 135x129 grid points.
+### Yearly Gridded Rainfall (0.25 x 0.25) data Binary File
+
+#### Rainfall:
+
+IMD New High Spatial Resolution (0.25X0.25 degree) Long Period (1901-2024) Daily Gridded Rainfall Data Set Over India. This data product is a very high spatial resolution daily gridded rainfall data (0.25 x 0.25 degree). The unit of rainfall is in millimeter (mm). Data available for 124 years, 1901 to 2024. Data is arranged in 135x129 grid points. The first data in the record is at 6.5N & 66.5E, the second is at 6.5N & 66.75E, and so on. The last data record corresponds to 38.5N & 100.0E. The yearly data file consists of 365/366 records corresponding to non leap/ leap years.
+
+Click here for sample Fortran code To read the data.
+
+`PROGRAM READ`
+`PARAMETER(ISIZ=135,JSIZ=129)`
+`DIMENSION RF(366,ISIZ,JSIZ)`
+`OPEN(7,FILE='E:\DATA\ind1901_rfp25.GRD',`
+`+ FORM='UNFORMATTED',ACCESS='DIRECT',RECL=ISIZ*JSIZ*4,`
+` + STATUS='OLD')`
+`C TAKE NDAY=366 FOR LEAP YEARS`
+`NDAY=365`
+`DO IDAY=1,NDAY`
+`READ(7,REC=IDAY)((RF(IDAY,I,J),I=1,ISIZ),J=1,JSIZ)`
+`{ nd = nd1[month] ;`
+`if(year == year1)nd = nd2[month] ;`
+`for(date=1 ; date <= nd ; date++)`
+`{ fprintf(fptr2,"\n%02d%02d%04d",date,month,year);`
+` for(j=0 ; j < 135 ; j++)fprintf(fptr2,"%7.2f",lo[j]) ; `
+`for(i=0 ; i < 129 ; i++) `
+`{ fprintf(fptr2,"\n%8.2f",la[i]) ;`
+`for(j=0 ; j < 135 ; j++) `
+`{ if(fread(&rainfall,sizeof(rainfall),1,fptr1) != 1) return 0 ;`
+` rf[j][i] = rainfall ;`
+`fprintf(fptr2,"%7.1f",rf[j][i] );`
+`}`
+`}`
+` printf("%4d %02d %02d \n",year,month,date);`
+`}`
+`}`
+`fclose(fptr1);`
+`fclose(fptr2);`
+`printf("Year = %d",year) ;`
+` return 0;`
+`} /* end of main */`
+
+Click here for sample grads control file for reading the data in grads software .
+
+`DSET e:\ind1901_rfp25.grd`
+`TITLE 0.25 degr analyzed grids`
+`UNDEF -999.0`
+`XDEF 135 LINEAR 66.5 0.25`
+`YDEF 129 LINEAR 6.5 0.25`
+`ZDEF 1 linear 1 1 `
+`* CHANGE TDEF TO 366 FOR LEAP YEARS`
+`TDEF 365 LINEAR 1jan1901 1DY`
+`VARS 1`
+`rf 0 99 GRIDDED RAINFALL`
+`ENDVARS`
+
+CITATION (for Rainfall 0.25 x 0.25):
+
+Should you refer to our product in your paper/presentation, please cite Pai et al. (2014). Pai D.S., Latha Sridhar, Rajeevan M., Sreejith O.P., Satbhai N.S. and Mukhopadhyay B., 2014: Development of a new high spatial resolution (0.25° X 0.25°)Long period (1901-2010) daily gridded rainfall data set over India and its comparison with existing data sets over the region; MAUSAM, 65, 1(January 2014), pp1-18.
+
+Gridded Rainfall (0.25 x 0.25) Binary File              [Select] [Input]--------------------------------------------------------------------------------
+Climate Monitoring and Prediction Group (https://imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html)
+citeturn4search1 [wordlim: 200] Crawled: 9 months ago; IMD New High Spatial Resolution (0.25X0.25 degree) Long Period (1901-2024) Daily Gridded Rainfall Data Set Over India. ... Data is arranged in 135x129 grid points.
+### Yearly Gridded Rainfall (0.25 x 0.25) data NetCDF File
+
+#### Rainfall:
+
+IMD New High Spatial Resolution (0.25X0.25 degree) Long Period (1901-2024) Daily Gridded Rainfall Data Set Over India. This data product is a very high spatial resolution daily gridded rainfall data (0.25 x 0.25 degree). The unit of rainfall is in millimeter (mm). Data available for 124 years, 1901 to 2024. Data is arranged in 135x129 grid points. The first data in the record is at 6.5N & 66.5E, the second is at 6.5N & 66.75E, and so on. The last data record corresponds to 38.5N & 100.0E. The yearly data file consists of 365/366 records corresponding to non leap/ leap years.
+
+For comments and questions on the data or for any other clarificaitons regarding the data set, please contact:
+
+Climate Prediction Group,
+Office of Head, Climate Research and Services,
+India Meteorological Department
+Pune, INDIA. 411 005.
+Phone : 091-20-2553 5211 / 2553 5877
+Fax : 091-20-2553 5435.
+E-Mail : cmagpune@gmail.com
+WEB-SITE : http://www.imdpune.gov.in
+
+Gridded Rainfall (0.25 x 0.25) NetCDF File            [Select] [Input]
+
+CITATION (for Rainfall 0.25 x 0.25):
+
+Should you refer to our product in your paper/presentation, please cite Pai et al. (2014). Pai D.S., Latha Sridhar, Rajeevan M., Sreejith O.P., Satbhai N.S. and Mukhopadhyay B., 2014: Development of a new high spatial resolution (0.25° X 0.25°)Long period (1901-2010) daily gridded rainfall data set over India and its comparison with existing data sets over the region; MAUSAM, 65, 1(January 2014), pp1-18.--------------------------------------------------------------------------------
+5.5(b) : Area, Production and Yield of Coconut in major Coconut Producing States | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/document-report/5-5b-area-production-and-yield-of-coconut-in-major-coconut-producing-states/)
+citeturn4search2 [wordlim: 200] Crawled: last week; # 5.5(b) : Area, Production and Yield of Coconut in major Coconut Producing States
+
+# 5.5(b) : Area, Production and Yield of Coconut in major Coconut Producing States
+
+5.5(b) : Area, Production and Yield of Coconut in major Coconut Producing States 45 KB
+
+Last updated : 25-08-2026, 05:53 AM--------------------------------------------------------------------------------
+Climate Research & Services, Pune (https://imdpune.gov.in/lrfindex.php/hindi/hindi/imsp/cmpg/Griddata/Rainfall_25_NetCDF.html)
+citeturn4search3 [wordlim: 200] Crawled: last month; Rainfall (0.25 x 0.25) Binary Rainfall (0.25 x 0.25) NetCDF Rainfall (0.25 x 0.25) Merged NetCDF Rainfall (1.0 x 1.0) NetCDF Maximum Temp. ... Climate Diagnostic Bulletins Monthly Climate Summary Annual Climate Summary SW Monsoon Rainfall Data Sub Division Rainfall Data All india & Homogeneous Rainfall Data All india Time Series Temperature
+
+  CLIMATE RESEARCH & SERVICES, PUNE
+
+  India Meteorological Department
+
+  Ministry of Earth Sciences
+
+  Government of India
+
+Daily Rainfall Spatial Maps ▼
+
+Today Day-1 Day-2 Day-3 Day-4 Day-5 Day-6 Accumulated Seasonal Rainfall (Spatial) Daily Rainfall Archive Cummulative Rainfall Archive
+
+Daily Temperature Spatial Maps ▼
+
+Today Day-1 Day-2 Day-3 Day-4 Day-5 Day-6 Seasonal Temperature Daily Temperature Archive
+
+
+Gridded Data Archive ▼
+
+Rainfall (0.25 x 0.25) Binary Rainfall (0.25 x 0.25) NetCDF Rainfall (0.25 x 0.25) Merged NetCDF Rainfall (1.0 x 1.0) NetCDF Maximum Temp. (1.0 x 1.0) Binary Minimum Temp. (1.0 x 1.0) Binary
+
+Gridded Data Real Time▼
+
+Daily Rainfall (0.25 x 0.25) Binary Daily Rainfall Merged (Gauge + GPM) Daily Maximum Temp. (1.0 x 1.0) Binary Daily Maximum Temp. (0.5 x 0.5) Binary Daily Minimum Temp. (1.0 x 1.0) Binary Daily Minimum Temp. (0.5 x 0.5) Binary
+
+Climate Diagnostic Bulletins Monthly Climate Summary Annual Climate Summary SW Monsoon Rainfall Data Sub Division Rainfall Data All india & Homogeneous Rainfall Data All india Time Series Temperature
+
+iframe
+
+#### Other Services
+
+##### Head, Climate Research & Services,
+India Meteorological Department,
+Shivajinagar, Pune-411 005
+TELEPHONE : 020-25535877
+FAX : 091- 020- 25535435
+--------------------------------------------------------------------------------
+Climate Research & Services, Pune (https://imdpune.gov.in/lrfindex.php/hindi/hindi/latestnews/cmpg/Griddata/Rainfall_25_NetCDF.html)
+citeturn4search4 [wordlim: 200] Crawled: 3 days ago; Image: india emblem ... Gridded Data Archive ▼Rainfall (0.25 x 0.25) Binary Rainfall (0.25 x 0.25) NetCDF Rainfall (0.25 x 0.25) Merged NetCDF Rainfall (1.0 x 1.0) NetCDF Maximum Temp.
+Image: india emblem
+
+Image: esso
+
+Image: imd150
+
+जलवायु अनुसंधान एवं सेवाएं, पुणे   |
+
+भारत मौसम विज्ञान विभाग   |
+
+पृथ्वी विज्ञान मंत्रालय  |
+
+भारत सरकार  |
+
+  CLIMATE RESEARCH & SERVICES, PUNE
+
+  India Meteorological Department
+
+  Ministry of Earth Sciences
+
+  Government of India
+
+हिन्दी मराठी
+
+Image: imd logo
+
+Gridded Data Archive ▼
+
+Rainfall (0.25 x 0.25) Binary Rainfall (0.25 x 0.25) NetCDF Rainfall (0.25 x 0.25) Merged NetCDF Rainfall (1.0 x 1.0) NetCDF Maximum Temp. (1.0 x 1.0) Binary Minimum Temp. (1.0 x 1.0) Binary
+
+Gridded Data Real Time▼
+
+Daily Rainfall (0.25 x 0.25) Binary Daily Rainfall Merged (Gauge + GPM) Daily Maximum Temp. (1.0 x 1.0) Binary 【15†Daily Maximum Temp. --------------------------------------------------------------------------------
+Climate Monitoring and Prediction Group (https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF_Merged.html)
+citeturn4search5 [wordlim: 200] Crawled: 3.3 years ago; ### Yearly Merged Satellite Guage Rainfall (GPM)(0.25 x 0.25) data NetCDF File
+### Yearly Merged Satellite Guage Rainfall (GPM)(0.25 x 0.25) data NetCDF File
+
+#### Select the Year for NetCDF File
+
+Rainfall (0.25 x 0.25) Merged (Gauge + GPM) NetCDF File [Select] [Input]
+
+The dataset is outcome of joint work of IMD and NCMRWF. For preparation of this data set, algorithm of Mitra et al (2009) has been used.
+
+Acknowledgement : The GPM satellite estimated rainfall data were provided by the NASA/GSFC. We thankfully acknowledge the use of GPM data in this project.--------------------------------------------------------------------------------
+Climate Monitoring and Prediction Group (https://imdpune.gov.in/cmpg/Realtimedata/gpm/Rain_Download.html)
+citeturn4search6 [wordlim: 200] Crawled: 1.4 years ago; ### Download Daily Merged Satellite Guage Rainfall (GPM) data( 0.25 x 0.25 degree) Binary File ( Real-time) ... #### Map Grid File : 241 X 281 grid file
+### Download Daily Merged Satellite Guage Rainfall (GPM) data
+( 0.25 x 0.25 degree) Binary File ( Real-time)
+
+#### Control File : Sample control file
+
+#### Map Grid File : 241 X 281 grid file
+
+#### Select the Date for Binary File
+
+[Input: Select Date] [Input]
+
+The dataset is outcome of joint work of IMD and NCMRWF. For preparation of this data set, algorithm of Mitra et al (2025) has been used.
+
+Acknowledgement : The GPM satellite estimated rainfall data were provided by the NASA/GSFC and JAXA. We thankfully acknowledge the use of GPM data in this project.--------------------------------------------------------------------------------
+4.21(b) : Area, Production and Yield of Cotton in major Producing States | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/document-report/4-21b-area-production-and-yield-of-cotton-in-major-producing-states/)
+citeturn4search7 [wordlim: 200] Crawled: last week; # 4.21(b) : Area, Production and Yield of Cotton in major Producing States
+
+# 4.21(b) : Area, Production and Yield of Cotton in major Producing States
+
+4.21(b) : Area, Production and Yield of Cotton in major Producing States 29 KB
+
+Last updated : 25-08-2026, 06:09 AM--------------------------------------------------------------------------------
+Climate Research & Services, Pune (https://imdpune.gov.in/lrfindex.php/cmpg/Griddata/imsp/latestnews/PR_4_2026.pdf)
+citeturn4search8 [wordlim: 200] Crawled: 5 months ago; Rainfall (0.25 x 0.25) Binary Rainfall (0.25 x 0.25) NetCDF Rainfall (0.25 x 0.25) Merged NetCDF Rainfall (1.0 x 1.0) NetCDF Maximum Temp. ... Climate Diagnostic Bulletins Monthly Climate Summary Annual Climate Summary SW Monsoon Rainfall Data Sub Division Rainfall Data All india & Homogeneous Rainfall Data All india Time Series Temperature
+
+Gridded Data Archive ▼
+
+Rainfall (0.25 x 0.25) Binary Rainfall (0.25 x 0.25) NetCDF Rainfall (0.25 x 0.25) Merged NetCDF Rainfall (1.0 x 1.0) NetCDF Maximum Temp. (1.0 x 1.0) Binary Minimum Temp. (1.0 x 1.0) Binary
+
+Gridded Data Real Time▼
+
+Daily Rainfall (0.25 x 0.25) Binary Daily Rainfall Merged (Gauge + GPM) Daily Maximum Temp. (1.0 x 1.0) Binary Daily Maximum Temp. (0.5 x 0.5) Binary Daily Minimum Temp. (1.0 x 1.0) Binary Daily Minimum Temp. (0.5 x 0.5) Binary
+
+Climate Diagnostic Bulletins Monthly Climate Summary Annual Climate Summary SW Monsoon Rainfall Data Sub Division Rainfall Data All india & Homogeneous Rainfall Data All india Time Series Temperature
+
+##### Head, Climate Research & Services,
+India Meteorological Department,
+Shivajinagar, Pune-411 005
+TELEPHONE : 020-25535877
+FAX : 091- 020- 25535435
+--------------------------------------------------------------------------------
+Climate Monitoring and Prediction Group (https://www.imdpune.gov.in/cmpg/Realtimedata/Rainfall/Rain_Download.html)
+citeturn4search9 [wordlim: 200] Crawled: 4.6 years ago; ### Download Daily Rainfall data( 0.25 x 0.25 degree) Binary File ( Real-time)
+### Download Daily Rainfall data
+( 0.25 x 0.25 degree) Binary File ( Real-time)
+
+#### Control File : Sample control file
+
+#### Select the Date for Binary File
+--------------------------------------------------------------------------------
+Rainfall Data (https://imdpune.gov.in/cmpg/subdivrainfall/anisland.html)
+citeturn4search10 [wordlim: 200] Crawled: 5 months ago; #### Andaman & Nicobar Islands ... 1905  | ACTL  | 1.3  | 0  | 3.3  | 26.9  | 279.5  | 628.7  | 368.7  | 330.5  | 297  | 260.7  | 25.4  | 344.7  | 2566.7
+--------------------------------------------------------------------------------
+DES | Area, Production & Yield - Query Report (https://data.desagri.gov.in/website/apy-query-report-web)
+citeturn4search11 [wordlim: 200] Crawled: last month; Directorate of Economics and Statistics Department of Agriculture and Farmers Welfare Ministry of Agriculture and Farmers Welfare, Govt. of India##### / Area, Production & Yield - Query Report
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn4view0 [wordlim: 200] Source: open({"ref_id":"https://www.data.gov.in/catalog/district-wise-season-wise-crop-production-statistics-0","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Current daily price of various commodities from various markets (Mandi) | Open Government Data (OGD) Platform India (https://www.data.gov.in/catalog/current-daily-price-various-commodities-various-markets-mandi)
+citeturn4view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.data.gov.in/catalog/current-daily-price-various-commodities-various-markets-mandi","lineno":null}); Total lines: 99
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn4view2 [wordlim: 200] Source: open({"ref_id":"https://desagri.gov.in/document-report/cost-of-cultivation-production-related-data/","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+LGD - Local Government Directory, Government of India (https://lgdirectory.gov.in/)
+citeturn4view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://lgdirectory.gov.in/","lineno":null}); Total lines: 877
+

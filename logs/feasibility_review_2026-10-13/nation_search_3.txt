@@ -1,0 +1,378 @@
+Performative Prediction (https://proceedings.mlr.press/v119/perdomo20a.html)
+citeturn3search0 [wordlim: 200] Published: 6.3 years ago; Crawled: last week; `@InProceedings{pmlr-v119-perdomo20a, title = {Performative Prediction}, author = {Perdomo, Juan and Zrnic, Tijana and Mendler-D{\"u}nner, Celestine and Hardt, Moritz}, booktitle = {Proceedings of the 37th International Conference on Machine Learning}, pages = {7599--7609}, year = {2020}, editor = {III, Hal Daumé and Singh, Aarti}, volume = {119}, series = {Proceedings of Machine Learning Research}, month = {13--18 Jul}, publisher = {PMLR}, pdf = {http://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf}, url = {https://proceedings.mlr.press/v119/perdomo20a.html}, abstract = {When predictions support decisions they may influence the outcome they aim to predict.
+
+# Performative Prediction
+
+Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner, Moritz Hardt
+
+Proceedings of the 37th International Conference on Machine Learning, PMLR 119:7599-7609, 2020.
+
+#### Abstract
+
+When predictions support decisions they may influence the outcome they aim to predict. We call such predictions performative; the prediction influences the target. Performativity is a well-studied phenomenon in policy-making that has so far been neglected in supervised learning. When ignored, performativity surfaces as undesirable distribution shift, routinely addressed with retraining. We develop a risk minimization framework for performative prediction bringing together concepts from statistics, game theory, and causality. A conceptual novelty is an equilibrium notion we call performative stability. Performative stability implies that the predictions are calibrated not against past outcomes, but against the future outcomes that manifest from acting on the prediction. Our main results are necessary and sufficient conditions for the convergence of retraining to a performatively stable point of nearly minimal loss. In full generality, performative prediction strictly subsumes the setting known as strategic classification. We thus also give the first sufficient conditions for retraining to overcome strategic feedback effects.
+
+#### Cite this Paper
+
+* * *
+
+BibTeX
+
+`@InProceedings{pmlr-v119-perdomo20a, title = {Performative Prediction}, author = {Perdomo, Juan and Zrnic, Tijana and Mendler-D{\"u}nner, Celestine and Hardt, Moritz}, booktitle = {Proceedings of the 37th International Conference on Machine Learning}, pages = {7599--7609}, year = {2020}, editor = {III, Hal Daumé and Singh, Aarti}, volume = {119}, series = {Proceedings of Machine Learning Research}, month = {13--18 Jul}, publisher = {PMLR}, pdf = {http://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf}, url = {https://proceedings.mlr.press/v119/perdomo20a.html}, abstract = {When predictions support decisions they may influence the outcome they aim to predict. We call such predictions performative; the prediction influences the target. Performativity is a well-studied phenomenon in policy-making that has so far been neglected in supervised learning. When ignored, performativity surfaces as undesirable distribution shift, routinely addressed with retraining. We develop a risk minimization framework for performative prediction bringing together concepts from statistics, game theory, and causality. A conceptual novelty is an equilibrium notion we call performative stability. Performative stability implies that the predictions are calibrated not against past outcomes, but against the future outcomes that manifest from acting on the prediction. Our main results are necessary and sufficient conditions for the convergence of retraining to a performatively stable point of nearly minimal loss. In full generality, performative prediction strictly subsumes the setting known as strategic classification. We thus also give the first sufficient conditions for retraining to overcome strategic feedback effects.} } `
+
+APA
+
+`Perdomo, J., Zrnic, T., Mendler-Dünner, C. & Hardt, M.. (2020). Performative Prediction. Proceedings of the 37th International Conference on Machine Learning, in Proceedings of Machine Learning Research 119:7599-7609 Available from https://proceedings.mlr.press/v119/perdomo20a.html. `
+
+#### Related Material
+
+  * Download PDF
+  * Supplementary PDF
+  * Other Files--------------------------------------------------------------------------------
+Cost Studies (CS) | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/divisions-cell/cost-studies-cs/)
+citeturn3search1 [wordlim: 200] Crawled: last week; Among the different Agricultural Economic policies pursued by the Government of India, the Agricultural Price Policy has been playing a significant role in bringing about noticeable changes in the production and productivity of the agricultural sector. ... These Cost of cultivation/production estimates are generated by the Cost Study Division (CS) of Economics, Statistics & Evaluation (ES&E) Division through Comprehensive Scheme for studying Cost of Cultivation of Principal Crops in India.
+
+# Cost Studies (CS)
+
+Among the different Agricultural Economic policies pursued by the Government of India, the Agricultural Price Policy has been playing a significant role in bringing about noticeable changes in the production and productivity of the agricultural sector. Under its Price policy, the union Government announces Minimum Support Prices (MSPs) of important agricultural commodities based inter-alia, on the recommendations of Commission for Agricultural Cost and Prices (CACP). The cost of Production of Agricultural crops is the most important factor that CACP considers while making its recommendations of MSPs to the Government. These Cost of cultivation/production estimates are generated by the Cost Study Division (CS) of Economics, Statistics & Evaluation (ES&E) Division through Comprehensive Scheme for studying Cost of Cultivation of Principal Crops in India. The Scheme was initiated in 1970-71 on the recommendation of a technical committee on indices of input cost appointed by Government of India.
+
+  * Manuals
+    1. Cost Concept (English)
+    2. Cost of Cultivation Survey (English) 
+    3. RT-wise manual details (English)
+    4. Updated list of Implementing Agencies (English)
+    5. Crops covered under the Comprehensive Scheme in India (English)
+  * Farmer Analysis Package (FARMAP 2.0) is an ingenious portal which provides access to the Implementing Agencies for entering data being collected at the Tehsil/Village level, making the process of data collection, validation and compilation efficient. At Central level it facilitates monitoring of data, scrutiny and processing of data.--------------------------------------------------------------------------------
+Cost of Cultivation/Production & Related Data | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/document-report/cost-of-cultivation-production-related-data/)
+citeturn3search2 [wordlim: 200] Crawled: last week; # Cost of Cultivation/Production & Related Data
+
+# Cost of Cultivation/Production & Related Data
+
+Cost of Cultivation/Production & Related Data 1 MB
+
+Last updated : 25-08-2026, 08:54 AM--------------------------------------------------------------------------------
+Performative Prediction (https://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf)
+citeturn3search12 [wordlim: 200] Published: 6.2 years ago; Performative Prediction ... Perdomo * 1  Tijana Zrnic * 1  Celestine Mendler-Dünner 1  Moritz Hardt 1 2 ... Perdomo <jcperdomo@berkeley.edu>, Tijana Zrnic <tijana.zrnic@berkeley.edu>.
+Performative Prediction
+
+Juan C. Perdomo * 1  Tijana Zrnic * 1  Celestine Mendler-Dünner 1  Moritz Hardt 1 2
+
+Abstract
+
+When predictions support decisions they may influence the outcome they aim to predict. We call such predictions performative; the prediction influences the target. Performativity is a well-studied phenomenon in policy-making that has so far been neglected in supervised learning. When ignored, performativity surfaces as undesirable distribution shift, routinely addressed with retraining. We develop a risk minimization framework for performative prediction bringing together concepts from statistics, game theory, and causality. A conceptual novelty is an equilibrium notion we call performative stability. Performative stability implies that the predictions are calibrated not against past outcomes, but against the future outcomes that manifest from acting on the prediction. Our main results are necessary and sufficient conditions for the convergence of retraining to a performatively stable point of nearly minimal loss. When used to support consequential decisions, however, predictive models can trigger actions that influence the outcome they aim to predict. We call such predictions performative; the prediction causes a change in the distribution of the target.
+
+Consider a simplified example of predicting credit default risk. A bank might estimate that a loan applicant has an elevated risk of default, and will act on it by assigning a
+
+* Equal contribution 1 University of California, Berkeley 2 MH is a paid consultant for Twitter. Correspondence to: Juan C. Perdomo <jcperdomo@berkeley.edu>, Tijana Zrnic <tijana.zrnic@berkeley.edu>.
+
+Proceedings of the 37th International Conference on Machine Learning, Online, PMLR 119, 2020. Copyright 2020 by the author(s).
+
+1.1. Our Contributions
+
+We put performativity at the center of a decision-theoretic framework that extends the classical statistical theory underlying risk minimization. The goal of risk minimization is to find a decision rule, specified by model parameters θ, that performs well on a fixed joint distribution D over covariates X and an outcome variable Y. Whenever predictions are performative, the choice of predictive model affects the observed distribution over instances Z = (X, Y). We formalize this intuitive notion by introducing a map D(·) from--------------------------------------------------------------------------------
+LGD - Local Government Directory, Government of India (https://lgdirectory.gov.in/demo/globalviewvillageforcitizen.do?OWASP_CSRFTOKEN=0TAF-ZGI9-UNXT-QGRS-0V5L-125I-ERHC-120A)
+citeturn3search3 [wordlim: 200] Crawled: 1.3 years ago; ### Local Government Directory (LGD) Codes of Villages ... Village Code*
+
+Image: Home
+
+Government of India |  Ministry of Panchayati Raj Local Government Directory
+
+Facilitating Data Standardization, Data Sharing & Interoperability Among eGov Applications
+
+### Accessibility options by UX4G
+
+Text To Speech
+
+Bigger Text
+
+Small Text
+
+Line Height
+
+Highlight Links
+
+Text Spacing
+
+Dyslexia Friendly
+
+Hide Images
+
+Cursor
+
+[Input] Light-Dark
+
+Invert Colors
+
+Reset All Settings Created by
+
+
+### View Details
+
+### Local Government Directory (LGD) Codes of Villages
+
+[Input] [Input]
+
+#### Filter for Local Government Directory (LGD) Codes of Villages
+
+[Input] Search By Name/Code    [Input] Search By Hierarchy    [Input] Search By Hierarchy LocalBody
+
+#### 
+
+Village Code*
+
+[Input] * Search for multiple village entity codes separated by commas(,).
+
+OR
+
+Village Name (In English)*
+
+[Input]
+
+Image: Captcha Image
+
+Audio Captcha
+
+Enter CAPTCHA image code as shown above*
+
+[Input]
+
+Get LGD Codes of Villages Close
+
+* * *
+
+* * *
+
+Site is designed, hosted and maintained by National Informatics Centre. Contents on this website is owned, updated and managed by the Panchayats and State Panchayati Raj Department as a part of e-Panchayat MMP of Ministry of Panchayati Raj.--------------------------------------------------------------------------------
+ISSN 0002-1679 (https://desagri.gov.in/wp-content/uploads/2021/04/August2017.pdf)
+citeturn3search13 [wordlim: 200] Published: last year; Comparative Study on Cost of Cultivation and Economic Returns from Major Crops in ... production, cost of cultivation, returns and profitability ... profitable crop as compared to other crops, because the ... of agriculture in real GDP has fallen given its lower growth ... Five Year plan, agricultural growth is estimated at 3.28
+Comparative Study on Cost of Cultivation and Economic Returns from Major Crops in
+Eastern Region of Uttar Pradesh
+PUSHPA* , S.K.SRIVASTAVA**  AND PUNIT KUMAR AGARWAL***
+ Abstract
+The production of rice (both kharif and rabi) is
+estimated at 101.8 million tonnes, pulses at 17.58 million
+tonnes, oilseeds at 29.46 million tonnes, sugarcane at
+334.54 million tonnes and cotton at 33.80 million bales
+(of 170 kg. each). Though, production of rice, sugarcane
+and cotton during kharif 2012-13 has been lower than that
+of the last year, these are better than the average production
+during the last five years.
+An investigation was made to work out the, cost of
+production, cost of cultivation, returns and profitability
+from sugarcane, wheat and paddy crops to identify which
+crop is more profitable and economical for the farmers of
+Uttar Pradesh. On an average, the cost of production was
+Rs.78.29 per quintal and the net return per hectare after
+subtracting total cost (Cost C3) from gross return was
+Rs.54956.01per hectare. On the other hand, production
+--------------------------------------------------------------------------------
+Revisiting the Predictability of Performative, Social Events (https://proceedings.mlr.press/v267/perdomo25a.html)
+citeturn3search4 [wordlim: 200] Published: 1.3 years ago; Crawled: 6 days ago; Using recent ideas from performative prediction and outcome indistinguishability, we establish that one can always efficiently predict social events accurately, regardless of how predictions influence data. ... `@InProceedings{pmlr-v267-perdomo25a, title = {Revisiting the Predictability of Performative, Social Events}, author = {Perdomo, Juan Carlos}, booktitle = {Proceedings of the 42nd International Conference on Machine Learning}, pages = {48948--48961}, year = {2025}, editor = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry}, volume = {267}, series = {Proceedings of Machine Learning Research}, month = {13--19 Jul}, publisher = {PMLR}, pdf = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/perdomo25a/perdomo25a.pdf}, url = {https://proceedings.mlr.press/v267/perdomo25a.html}, abstract = {Social predictions do not passively describe the future; they actively shape it.
+
+# Revisiting the Predictability of Performative, Social Events
+
+Juan Carlos Perdomo
+
+Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:48948-48961, 2025.
+
+#### Abstract
+
+Social predictions do not passively describe the future; they actively shape it. They inform actions and change individual expectations in ways that influence the likelihood of the predicted outcome. Given these dynamics, to what extent can social events be predicted? This question was discussed throughout the 20th century by authors like Merton, Morgenstern, Simon, and others who considered it a central issue in social science methodology. In this work, we provide a modern answer to this old problem. Using recent ideas from performative prediction and outcome indistinguishability, we establish that one can always efficiently predict social events accurately, regardless of how predictions influence data. While achievable, we also show that these predictions are often undesirable, highlighting the limitations of previous desiderata. We end with a discussion of various avenues forward.
+
+#### Cite this Paper
+
+* * *
+
+BibTeX
+
+`@InProceedings{pmlr-v267-perdomo25a, title = {Revisiting the Predictability of Performative, Social Events}, author = {Perdomo, Juan Carlos}, booktitle = {Proceedings of the 42nd International Conference on Machine Learning}, pages = {48948--48961}, year = {2025}, editor = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry}, volume = {267}, series = {Proceedings of Machine Learning Research}, month = {13--19 Jul}, publisher = {PMLR}, pdf = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/perdomo25a/perdomo25a.pdf}, url = {https://proceedings.mlr.press/v267/perdomo25a.html}, abstract = {Social predictions do not passively describe the future; they actively shape it. They inform actions and change individual expectations in ways that influence the likelihood of the predicted outcome. Given these dynamics, to what extent can social events be predicted? This question was discussed throughout the 20th century by authors like Merton, Morgenstern, Simon, and others who considered it a central issue in social science methodology. In this work, we provide a modern answer to this old problem. Using recent ideas from performative prediction and outcome indistinguishability, we establish that one can always efficiently predict social events accurately, regardless of how predictions influence data. While achievable, we also show that these predictions are often undesirable, highlighting the limitations of previous desiderata. We end with a discussion of various avenues forward.} } `
+
+Endnote
+
+`%0 Conference Paper %T Revisiting the Predictability of Performative, Social Events %A Juan Carlos Perdomo %B Proceedings of the 42nd International Conference on Machine Learning %C Proceedings of Machine Learning Research %D 2025 %E Aarti Singh %E Maryam Fazel %E Daniel Hsu %E Simon Lacoste-Julien %E Felix Berkenkamp %E Tegan Maharaj %E Kiri Wagstaff %E Jerry Zhu %F pmlr-v267-perdomo25a %I PMLR %P 48948--48961 %U https://proceedings.mlr.press/v267/perdomo25a.html %V 267 %X Social predictions do not passively describe the future; they actively shape it. They inform actions and change individual expectations in ways that influence the likelihood of the predicted outcome. Given these dynamics, to what extent can social events be predicted? This question was discussed throughout the 20th century by authors like Merton, Morgenstern, Simon, and others who considered it a central issue in social science methodology. In this work, we provide a modern answer to this old problem. Using recent ideas from performative prediction and outcome indistinguishability, we establish that one can always efficiently predict social events accurately, regardless of how predictions influence data. While achievable, we also show that these predictions are often undesirable, highlighting the limitations of previous desiderata. We end with a discussion of various avenues forward. `
+
+APA
+
+`Perdomo, J.C.. (2025). Revisiting the Predictability of Performative, Social Events. Proceedings of the 42nd International Conference on Machine Learning, in Proceedings of Machine Learning Research 267:48948-48961 Available from https://proceedings.mlr.press/v267/perdomo25a.html. `
+
+#### Related Material
+
+  * Download PDF--------------------------------------------------------------------------------
+Outside the Echo Chamber: Optimizing the Performative Risk (https://proceedings.mlr.press/v139/miller21a.html)
+citeturn3search5 [wordlim: 200] Published: 5.2 years ago; Crawled: last week; `@InProceedings{pmlr-v139-miller21a, title = {Outside the Echo Chamber: Optimizing the Performative Risk}, author = {Miller, John P and Perdomo, Juan C and Zrnic, Tijana}, booktitle = {Proceedings of the 38th International Conference on Machine Learning}, pages = {7710--7720}, year = {2021}, editor = {Meila, Marina and Zhang, Tong}, volume = {139}, series = {Proceedings of Machine Learning Research}, month = {18--24 Jul}, publisher = {PMLR}, pdf = {http://proceedings.mlr.press/v139/miller21a/miller21a.pdf}, url = {https://proceedings.mlr.press/v139/miller21a.html}, abstract = {In performative prediction, predictions guide decision-making and hence can influence the distribution of future data.
+Proceedings of Machine Learning Research
+
+[Input]
+
+Volume 139JMLR DMLR TMLR MLOSS FAQ Submission Format
+
+[edit]
+
+# Outside the Echo Chamber: Optimizing the Performative Risk
+
+John P Miller, Juan C Perdomo, Tijana Zrnic
+
+Proceedings of the 38th International Conference on Machine Learning, PMLR 139:7710-7720, 2021.
+
+#### Abstract
+
+In performative prediction, predictions guide decision-making and hence can influence the distribution of future data. To date, work on performative prediction has focused on finding performatively stable models, which are the fixed points of repeated retraining. However, stable solutions can be far from optimal when evaluated in terms of the performative risk, the loss experienced by the decision maker when deploying a model. In this paper, we shift attention beyond performative stability and focus on optimizing the performative risk directly. To date, work on performative prediction has focused on finding performatively stable models, which are the fixed points of repeated retraining. However, stable solutions can be far from optimal when evaluated in terms of the performative risk, the loss experienced by the decision maker when deploying a model. In this paper, we shift attention beyond performative stability and focus on optimizing the performative risk directly. We identify a natural set of properties of the loss function and model-induced distribution shift under which the performative risk is convex, a property which does not follow from convexity of the loss alone. Furthermore, we develop algorithms that leverage our structural assumptions to optimize the performative risk with better sample efficiency than generic methods for derivative-free convex optimization.} } `
+
+Endnote
+
+`%0 Conference Paper %T Outside the Echo Chamber: Optimizing the Performative Risk %A John P Miller %A Juan C Perdomo %A Tijana Zrnic %B Proceedings of the 38th International Conference on Machine Learning %C Proceedings of Machine Learning Research %D 2021 %E Marina Meila %E Tong Zhang %F pmlr-v139-miller21a %I PMLR %P 7710--7720 %U https://proceedings.mlr.press/v139/miller21a.html %V 139 %X In performative prediction, predictions guide decision-making and hence can influence the distribution of future data. To date, work on performative prediction has focused on finding performatively stable models, which are the fixed points of repeated retraining. However, stable solutions can be far from optimal when evaluated in terms of the performative risk, the loss experienced by the decision maker when deploying a model. In this paper, we shift attention beyond performative stability and focus on optimizing the performative risk directly. We identify a natural set of properties of the loss function and model-induced distribution shift under which the performative risk is convex, a property which does not follow from convexity of the loss alone. Furthermore, we develop algorithms that leverage our structural assumptions to optimize the performative risk with better sample efficiency than generic methods for derivative-free convex optimization. `
+
+APA
+
+`Miller, J.P., Perdomo, J.C. & Zrnic, T.. (2021). Outside the Echo Chamber: Optimizing the Performative Risk. Proceedings of the 38th International Conference on Machine Learning, in Proceedings of Machine Learning Research 139:7710-7720 Available from https://proceedings.mlr.press/v139/miller21a.html. `
+
+#### Related Material
+
+  * Download PDF--------------------------------------------------------------------------------
+Soil Health Card (https://soilhealth.dac.gov.in/files/SHC_API_Integration_Guidelines.pdf)
+citeturn3search14 [wordlim: 200] Published: 2.0 years ago; getVillageBydistrict(district: $district,
+Type  | Params  | Input
+--- | --- | ---
+Query  | query Query($district: ID!, $subdistrict:
+String) {
+getVillageBydistrict(district: $district,
+subdistrict: $subdistrict)
+}  | {
+"district": disttrict Id,
+"subdistrict": subdistrict id
+}Response
+Format  | Response
+--- | ---
+Json  | Response will be an object containing the list of all villages with Ids.**********************************--------------------------------------------------------------------------------
+Performative Prediction in a Stateful World (https://proceedings.mlr.press/v151/brown22a/brown22a.pdf)
+citeturn3search15 [wordlim: 200] Published: 4.6 years ago; In their recent paper “Performative Prediction,” Perdomo, Zrnic, Mendler-Dünner, and Hardt (2020) term such predictions *performative*.
+
+In their recent paper “Performative Prediction,” Perdomo, Zrnic, Mendler-Dünner, and Hardt (2020) term such predictions *performative*. They establish a theoretical framework for analyzing performativity in supervised learning and propose *repeated risk minimization* as a strategy that institutions can apply in hopes of converging to an equilibrium. The equilibrium is a classifier that is optimal for the distribution it induces. Perdomo et al. (2020) model the response of the target population via a deterministic function 𝒟 of the published classifier θ. The distribution 𝒟(θ) induced by a classifier θ is unaffected by previously deployed classifiers. However, in practice the environment may depend heavily on the history of classifiers deployed by an institution.
+
+Consider the following example: individuals applying for loans manipulate their features to receive favorable results from a bank. These actions depend not only on the bank’s classifier, but also on the previous feature state of the individual. As the bank updates its criteria for creditworthiness, new features may become important. Furthermore, when a new classifier is published, different groups in the target population acquire information and adapt their behavior at different rates, so that repeated application of the same classification model may result in continued distribution shifts. We propose a performativity framework that allows for such history dependence.
+
+## 1.1 Our Framework
+
+We cast the phenomenon of performativity in repeated decision-making as an online learning game (Shalev-Shwartz, 2012). At round t, the institution chooses
+
+Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS) 2022, Valencia, Spain. PMLR: Volume 151. Copyright 2022 by the author(s).--------------------------------------------------------------------------------
+AGRICULTURAL STATISTICS (https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A5%80-%E0%A4%8F%E0%A4%95-%E0%A4%9D%E0%A4%B2%E0%A4%95-2024%E2%80%9325-1.pdf)
+citeturn3search16 [wordlim: 200] Published: 7 months ago; (a) Fertilizer Consumption per Hectare of Agricultural Land in Selected Countries ... Cost of Cultivation/Production Estimates ... Crop Calendar of Major Crops
+Agricultural Statistics at a Glance, 2024-25
+Page No.
+Table No.
+Particulars
+397
+ 6.3 
+(a) Fertilizer Consumption per Hectare of Agricultural Land in Selected Countries 
+ 6.3 
+(b) Fertilizer Consumption per Hectare of Arable Land & Land under permanent 
+399
+Crops in Selected Countries 
+ 6.4 
+Area under Organic Cultivation in Selected Countries 
+400
+401
+ 6.5 
+(a) Calculated data for CH  emissions (in kilotonnes) from Rice Cultivation in 
+4
+Select Countries 
+402
+ 6.5 
+(b) Calculated data for CH  emissions (in kilotonnes) from Burning-Crop 
+4
+Residues in Select Countries 
+403
+ 6.6 
+Water Stress (%) in selected Countries (2010-2021) 
+ Appendices 
+405
+406
+ I 
+Cost of Cultivation/Production Estimates 
+ II 
+Explanatory Note 
+407
+ III 
+Methodology on Index Numbers of Area, Production and Yield 
+408
+ IV 
+Glossary of English, Botanical and Hindi Names of Important Crops 
+410
+ V 
+Crop Calendar of Major Crops 
+413
+435
+ Vl 
+Harvesting Season of Major Fruits 
+ Vll 
+Harvesting Season of Major Vegetables 
+437
+ VIII 
+Seed Rate of Sowing for Important Field Crops 
+438
+440
+ IX 
+Methodology of Crop Estimation 
+ X 
+Rainfall in 2024 
+443
+xviii--------------------------------------------------------------------------------
+Agricultural Statistics at a Glance 2022 <br/><a href="http://upag.gov.in" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:bold;color:red">Click on this link for more information <i>www.upag.gov.in</i></a> | Official website of Directorate of Economics and Statistics, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/document-report/agricultural-statistics-at-a-glance-2022/)
+citeturn3search6 [wordlim: 200] Crawled: 2 months ago;     * Pocket Book of Agricultural Statistics ...     * Crop Weather Watch Reports ...     * Cost of Cultivation/Production & Related Data ...     * Farm Harvest Prices of Principle Crops in India
+  * Documents & Reports
+    * Agriculture Statistics -At a Glance
+    * Pocket Book of Agricultural Statistics
+    * Agricultural Situation in India
+    * Agricultural Prices in India
+    * Agriculture Wages in India
+    * State of Indian Agriculture
+    * Crop Weather Watch Reports
+      * Weekly Minutes of the Meeting of CWWG
+      * Weekly CWWG Data
+    * Cost of Cultivation/Production & Related Data
+      * Crop Complex For The Year
+      * Selected Zone/Tehsil/District block year-wise
+    * Farm Harvest Prices of Principle Crops in India
+    * Land Use Statistics – At a Glance
+    * Monthly Bulletin
+
+Visitor Count: 956354
+
+Copyright © 2022 – All Rights Reserved – Official website of Directorate of Economics and Statistics, Department of Agriculture Cooperation
+and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India
+
+Note: Content on this website is published and managed by of Directorate of Economics and Statistics, Department of Agriculture Cooperation
+and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India
+
+ 
+
+For any query regarding this website, please contact the web information manager,
+Name: Ruchi Sharma
+Designation: Deputy Director (SDDS), DES, DA & FW
+E-mail id- dddes[dot]it-agri[at]nic[dot]in
+Contact no: +91-11-23387280
+--------------------------------------------------------------------------------
+J. Perdomo, T. Zrnic, C. Mendler-Dünner, and M. Hardt. Performative prediction. In *Proceedings of the 37th International Conference on Machine Learning*, volume 119, pages 7599–7609. PMLR, 2020. (https://proceedings.mlr.press/v216/oesterheld23a/oesterheld23a.pdf)
+citeturn3search17 [wordlim: 200] Published: 3.3 years ago; Perdomo, T.Zrnic, C.Mendler-Dünner, and M.Hardt.Performative prediction.
+--------------------------------------------------------------------------------
+Performative Prediction in a Stateful World (https://proceedings.mlr.press/v151/brown22a.html)
+citeturn3search7 [wordlim: 200] Published: 4.5 years ago; Crawled: last week; This phenomenon is called performative prediction by Perdomo et al.
+--------------------------------------------------------------------------------
+होम | अर्थशास्त्र, सांख्यिकी और मूल्यांकन (ES&E) प्रभाग की आधिकारिक वेबसाइट, कृषि और किसान कल्याण विभाग, कृषि और किसान कल्याण मंत्रालय, भारत सरकार (https://desagri.gov.in/HI/)
+citeturn3search8 [wordlim: 200] Crawled: last week;   * (English) The Third Advance Estimates of production of Foodgrains, Oilseeds and Other Commercial Crops for the year 2024-25
+--------------------------------------------------------------------------------
+Soil Health Card Portal Support (https://support.soilhealth.dac.gov.in/kb/faq.php?id=28%3Fid%3D28&lang=en-US)
+citeturn3search9 [wordlim: 200] Crawled: last month; View dashboard (Target allotted, samples collected and test completed) ... Soil Health Card
+--------------------------------------------------------------------------------
+Forecasting Agricultural output using Space, Agro-meteorology and Land based observations (FASAL) | Official website of Economics, Statistics & Evaluation (ES&E) Division, Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India (https://desagri.gov.in/programs-schemes/forecasting-agricultural-output-using-space-agro-meteorology-and-land-based-observations-fasal/)
+citeturn3search10 [wordlim: 200] Crawled: last week; # Forecasting Agricultural output using Space, Agro-meteorology and Land based observations (FASAL) ... Crop yield forecast of major crops is issued at mid-season and pre-harvest stage using agromet models during Kharif as well as Rabi season for crops. ...   * Providing forecasts of area and production of selected crops based on economic parameters much in advance of the estimated generated by conventional system.
+--------------------------------------------------------------------------------
+Performative Reinforcement Learning (https://proceedings.mlr.press/v202/mandal23a.html)
+citeturn3search11 [wordlim: 200] Published: 3.2 years ago; Crawled: last week; Following the recent literature on performative prediction (Perdomo et al., 2020), we introduce the concept of performatively stable policy. ... `@InProceedings{pmlr-v202-mandal23a, title = {Performative Reinforcement Learning}, author = {Mandal, Debmalya and Triantafyllou, Stelios and Radanovic, Goran}, booktitle = {Proceedings of the 40th International Conference on Machine Learning}, pages = {23642--23680}, year = {2023}, editor = {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan}, volume = {202}, series = {Proceedings of Machine Learning Research}, month = {23--29 Jul}, publisher = {PMLR}, pdf = {https://proceedings.mlr.press/v202/mandal23a/mandal23a.pdf}, url = {https://proceedings.mlr.press/v202/mandal23a.html}, abstract = {We introduce the framework of performative reinforcement learning where the policy chosen by the learner affects the underlying reward and transition dynamics of the environment.
+--------------------------------------------------------------------------------
+Explore India | National Portal of India (https://www.india.gov.in/explore-india)
+citeturn3view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.india.gov.in/explore-india","lineno":null}); Total lines: 289
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn3view1 [wordlim: 200] Source: open({"ref_id":"https://imdpune.gov.in/cmpg/Griddata/Rainfall_25_Bin.html","lineno":null}); Total lines: 1
+

@@ -1,0 +1,7 @@
+E is strongest: it separates engineering correctness, forecasting validity and causal farmer benefit, and proposes comparable policies with identical inputs. Inspection confirms its central criticism: modules/m7_allocator/evaluator.py:23–84 evaluates two simulated revenue arms, randomly assigns historical crops and omits cultivation costs.
+
+The largest consequential blind spot is A’s national-data discriminator. One cutoff-valid row per jurisdiction establishes a retrieval smoke test; it cannot establish usable longitudinal coverage for intended crops, seasons or districts. A correctly calls this a prerequisite, so this is a limitation rather than a demonstrated factual error. Missing history could make that gate pass while national forecasting remains infeasible. C, D and E specify stronger coverage qualification.
+
+All responses miss the uncertainty contract inherited by their proposed risk-aware baseline. modules/m5_profit/engine.py:55–64 labels median yield × median price “Expected_Profit” and constructs downside risk from paired marginal tenth percentiles. These generally identify neither expected profit nor its tenth percentile; yield–price dependence matters. The quantitative ranking impact remains unknown.
+
+Cheapest discriminating observation: pair identical marginal yield/price samples with positive versus negative dependence and compare actual mean and tenth-percentile profit against M5’s unchanged outputs. This establishes a mathematical defect cheaply; it does not measure forecasting or coordination benefit.

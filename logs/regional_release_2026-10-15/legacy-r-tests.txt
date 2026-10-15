@@ -1,0 +1,13 @@
+Running Module 0 Verification & Invariant Tests...
+Test passed with 4 successes 🎉.
+Test passed with 1 success 😀.
+Test passed with 1 success 🎊.
+Test passed with 1 success 🥳.
+Test passed with 3 successes 🥇.
+Test passed with 2 successes 🎊.
+Test passed with 1 success 🥳.
+Test passed with 10 successes 😸.
+Test passed with 3 successes 🥇.
+Test passed with 4 successes 🥳.
+
+All Module 0 unit & property tests passed successfully!

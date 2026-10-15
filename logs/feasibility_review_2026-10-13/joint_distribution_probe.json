@@ -1,0 +1,28 @@
+{
+  "scope": "Hand-enumerated constructed samples, not empirical price/yield dependence",
+  "shared_yield_marginals": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "shared_price_marginals": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "median_product_revenue_both": 40.0,
+  "same_order_revenues": [
+    10.0,
+    40.0,
+    160.0
+  ],
+  "opposite_order_revenues": [
+    40.0,
+    40.0,
+    40.0
+  ],
+  "same_order_mean_revenue": 70.0,
+  "opposite_order_mean_revenue": 40.0,
+  "constant_crop_comparison_revenue": 50.0,
+  "interpretation": "Identical marginal forecasts do not determine expected revenue or its distribution; numerical M5 output cannot distinguish these constructed scenarios."
+}

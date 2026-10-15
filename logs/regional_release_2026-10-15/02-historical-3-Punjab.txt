@@ -1,0 +1,133 @@
+AgriIntel
+
+REGIONAL CROP ADVISORY · COURSE PROTOTYPE
+
+Amritsar · historical 2019
+Day
+ADVISORY MODE
+Historical explorer · five states
+Coimbatore classroom scenario
+
+Historical 2019 demonstration. Prices and costs are modeled in 2011-base rupees. Current-season farmer advice is outside this demonstration.
+
+Explore
+1.0 HA
+in
+Amritsar
+, Punjab
+for
+Kharif
+Compare scenarios
+
+Data year 2019 · Historical forecast · artifact regional-20261015-v1
+
+RANK 1 · SCENARIO SCORE ₹10,976
+
+Rice
+
+Yield estimates for the historical selection · tonnes per hectare
+
+Lower q10
+2.91
+Median q50
+3.62
+Upper q90
+4.06
+Explore an interpolated yield scenario
+3.62 t/ha at the central scenario price
+Reset median
+
+Intermediate positions are linear illustrations, not additional calibrated quantiles. Price and cultivation cost stay fixed.
+
+CENTRAL SCENARIO PROFIT · 1 HA
+
+₹17,010
+
+All money in 2011-base rupees · modeled scenarios
+
+Pessimistic profit
+₹4,943
+Downside gap
+₹12,067
+Central price / quintal
+₹1,204
+Cultivation cost / hectare
+₹26,567
+Inspect scenario calculations
+Central profit and downside gap
+
+2011-base rupees for the selected land area. Click a point to inspect the crop.
+
+0k
+4k
+8k
+12k
+16k
+Downside gap (₹)
+0k
+5k
+9k
+14k
+18k
+Compare crop scenarios
+
+Rank 1 · Available
+
+Rice
+Central profit
+₹17,010
+Pessimistic profit
+₹4,943
+Median yield
+3.62 t/ha
+
+Rank 2 · Available
+
+Arhar/Tur
+Central profit
+₹15,623
+Pessimistic profit
+₹1,083
+Median yield
+1.1 t/ha
+
+Rank 3 · Available
+
+Maize
+Central profit
+₹13,781
+Pessimistic profit
+₹136
+Median yield
+3.1 t/ha
+
+Rank 4 · Available
+
+Moong(Green Gram)
+Central profit
+₹8,517
+Pessimistic profit
+₹-2,664
+Median yield
+0.81 t/ha
+
+Rank 5 · Available
+
+Sesamum
+Central profit
+₹4,391
+Pessimistic profit
+₹-1,348
+Median yield
+0.36 t/ha
+
+Rank 6 · Available
+
+Urad
+Central profit
+₹7,517
+Pessimistic profit
+₹-6,616
+Median yield
+0.9 t/ha
+4k

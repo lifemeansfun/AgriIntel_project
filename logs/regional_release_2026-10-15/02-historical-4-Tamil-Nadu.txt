@@ -1,0 +1,83 @@
+AgriIntel
+
+REGIONAL CROP ADVISORY · COURSE PROTOTYPE
+
+Ariyalur · historical 2019
+Day
+ADVISORY MODE
+Historical explorer · five states
+Coimbatore classroom scenario
+
+Historical 2019 demonstration. Prices and costs are modeled in 2011-base rupees. Current-season farmer advice is outside this demonstration.
+
+Explore
+1.0 HA
+in
+Ariyalur
+, Tamil Nadu
+for
+Autumn
+Compare scenarios
+
+Data year 2019 · Historical forecast · artifact regional-20261015-v1
+
+RANK 1 · SCENARIO SCORE ₹8,364
+
+Rice
+
+Yield estimates for the historical selection · tonnes per hectare
+
+Lower q10
+2.95
+Median q50
+4.16
+Upper q90
+4.56
+Explore an interpolated yield scenario
+4.16 t/ha at the central scenario price
+Reset median
+
+Intermediate positions are linear illustrations, not additional calibrated quantiles. Price and cultivation cost stay fixed.
+
+CENTRAL SCENARIO PROFIT · 1 HA
+
+₹17,392
+
+All money in 2011-base rupees · modeled scenarios
+
+Pessimistic profit
+₹-665
+Downside gap
+₹18,056
+Central price / quintal
+₹1,204
+Cultivation cost / hectare
+₹32,655
+Inspect scenario calculations
+Central profit and downside gap
+
+2011-base rupees for the selected land area. Click a point to inspect the crop.
+
+0k
+5k
+10k
+15k
+20k
+Downside gap (₹)
+0k
+5k
+9k
+14k
+18k
+Compare crop scenarios
+
+Rank 1 · Available
+
+Rice
+Central profit
+₹17,392
+Pessimistic profit
+₹-665
+Median yield
+4.16 t/ha
+10k

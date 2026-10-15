@@ -1,0 +1,18 @@
+{
+  "mapping": {
+    "A": "reproduction",
+    "B": "execution",
+    "C": "opportunity",
+    "D": "correctness",
+    "E": "methodology"
+  },
+  "independence": "Five fresh-context advisors share configured model and filesystem; no demonstrated clean-room or heterogeneous-model independence.",
+  "normalization": "Raw advisor wording preserved; citation hyperlinks normalized to source paths/URLs without changing substantive claims.",
+  "review_orders": [
+    "ABCDE",
+    "BCDEA",
+    "CDEAB",
+    "DEABC",
+    "EABCD"
+  ]
+}

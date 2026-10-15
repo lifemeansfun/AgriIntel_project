@@ -1,0 +1,1099 @@
+{
+  "comparison_note": "Both policies use the same capacity limits and final market-price calculation. Participants all cultivate the configured equal area; changing arrival order changes identities, not aggregate demand.",
+  "decisions": [
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 73860.32952018661,
+      "participant_id": "farmer-16",
+      "static_crop": "Onion",
+      "static_quote_profit": 73860.32952018661,
+      "step": 1
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 68392.94618444346,
+      "participant_id": "farmer-06",
+      "static_crop": "Onion",
+      "static_quote_profit": 68392.94618444346,
+      "step": 2
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 62925.5628487003,
+      "participant_id": "farmer-19",
+      "static_crop": "Onion",
+      "static_quote_profit": 62925.5628487003,
+      "step": 3
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 57458.17951295717,
+      "participant_id": "farmer-24",
+      "static_crop": "Onion",
+      "static_quote_profit": 57458.17951295717,
+      "step": 4
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 51990.796177214,
+      "participant_id": "farmer-14",
+      "static_crop": "Onion",
+      "static_quote_profit": 51990.796177214,
+      "step": 5
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 46523.412841470854,
+      "participant_id": "farmer-11",
+      "static_crop": "Onion",
+      "static_quote_profit": 46523.412841470854,
+      "step": 6
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 41056.029505727696,
+      "participant_id": "farmer-18",
+      "static_crop": "Onion",
+      "static_quote_profit": 41056.029505727696,
+      "step": 7
+    },
+    {
+      "dynamic_crop": "Onion",
+      "dynamic_quote_profit": 35588.64616998455,
+      "participant_id": "farmer-12",
+      "static_crop": "Onion",
+      "static_quote_profit": 35588.64616998455,
+      "step": 8
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 46866.26821250821,
+      "participant_id": "farmer-15",
+      "static_crop": "Maize",
+      "static_quote_profit": 46866.26821250821,
+      "step": 9
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 45454.08181155374,
+      "participant_id": "farmer-17",
+      "static_crop": "Maize",
+      "static_quote_profit": 45454.08181155374,
+      "step": 10
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 44041.89541059929,
+      "participant_id": "farmer-02",
+      "static_crop": "Maize",
+      "static_quote_profit": 44041.89541059929,
+      "step": 11
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 42629.70900964482,
+      "participant_id": "farmer-13",
+      "static_crop": "Maize",
+      "static_quote_profit": 42629.70900964482,
+      "step": 12
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 41217.522608690386,
+      "participant_id": "farmer-22",
+      "static_crop": "Maize",
+      "static_quote_profit": 41217.522608690386,
+      "step": 13
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 39805.33620773592,
+      "participant_id": "farmer-07",
+      "static_crop": "Maize",
+      "static_quote_profit": 39805.33620773592,
+      "step": 14
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 38393.14980678147,
+      "participant_id": "farmer-10",
+      "static_crop": "Maize",
+      "static_quote_profit": 38393.14980678147,
+      "step": 15
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 36980.963405827,
+      "participant_id": "farmer-03",
+      "static_crop": "Maize",
+      "static_quote_profit": 36980.963405827,
+      "step": 16
+    },
+    {
+      "dynamic_crop": "Ragi",
+      "dynamic_quote_profit": 21255.554590169628,
+      "participant_id": "farmer-23",
+      "static_crop": "Maize",
+      "static_quote_profit": 35568.77700487255,
+      "step": 17
+    },
+    {
+      "dynamic_crop": "Ragi",
+      "dynamic_quote_profit": 20659.955779844477,
+      "participant_id": "farmer-05",
+      "static_crop": "Maize",
+      "static_quote_profit": 34156.5906039181,
+      "step": 18
+    },
+    {
+      "dynamic_crop": "Ragi",
+      "dynamic_quote_profit": 20064.35696951934,
+      "participant_id": "farmer-20",
+      "static_crop": "Maize",
+      "static_quote_profit": 32744.404202963648,
+      "step": 19
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 35568.77700487255,
+      "participant_id": "farmer-08",
+      "static_crop": "Ragi",
+      "static_quote_profit": 21255.554590169628,
+      "step": 20
+    },
+    {
+      "dynamic_crop": "Ragi",
+      "dynamic_quote_profit": 19468.758159194203,
+      "participant_id": "farmer-09",
+      "static_crop": "Ragi",
+      "static_quote_profit": 20659.955779844477,
+      "step": 21
+    },
+    {
+      "dynamic_crop": "Ragi",
+      "dynamic_quote_profit": 18873.159348869052,
+      "participant_id": "farmer-01",
+      "static_crop": "Ragi",
+      "static_quote_profit": 20064.35696951934,
+      "step": 22
+    },
+    {
+      "dynamic_crop": "Maize",
+      "dynamic_quote_profit": 34156.5906039181,
+      "participant_id": "farmer-04",
+      "static_crop": "Ragi",
+      "static_quote_profit": 19468.758159194203,
+      "step": 23
+    },
+    {
+      "step": 24,
+      "participant_id": "farmer-21",
+      "static_crop": "Ragi",
+      "dynamic_crop": "Ragi",
+      "static_quote_profit": 18873.159348869052,
+      "dynamic_quote_profit": 18277.56053854391
+    }
+  ],
+  "dynamic_state": {
+    "commitment": null,
+    "commitments": [
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-16",
+        "participant_id": "farmer-16"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-06",
+        "participant_id": "farmer-06"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-19",
+        "participant_id": "farmer-19"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-24",
+        "participant_id": "farmer-24"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-14",
+        "participant_id": "farmer-14"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-11",
+        "participant_id": "farmer-11"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-18",
+        "participant_id": "farmer-18"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-12",
+        "participant_id": "farmer-12"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-15",
+        "participant_id": "farmer-15"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-17",
+        "participant_id": "farmer-17"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-02",
+        "participant_id": "farmer-02"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-13",
+        "participant_id": "farmer-13"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-22",
+        "participant_id": "farmer-22"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-07",
+        "participant_id": "farmer-07"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-10",
+        "participant_id": "farmer-10"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-03",
+        "participant_id": "farmer-03"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-23",
+        "participant_id": "farmer-23"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-05",
+        "participant_id": "farmer-05"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-20",
+        "participant_id": "farmer-20"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-08",
+        "participant_id": "farmer-08"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-09",
+        "participant_id": "farmer-09"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-01",
+        "participant_id": "farmer-01"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-04",
+        "participant_id": "farmer-04"
+      },
+      {
+        "id": "farmer-21",
+        "participant_id": "farmer-21",
+        "crop": "Ragi",
+        "area_ha": 1.0,
+        "expected_t": 3.2991724764886166,
+        "conservative_t": 3.8054903515124163
+      }
+    ],
+    "crops": [
+      {
+        "capacity_t": 153.96138223613542,
+        "committed_area_ha": 6.0,
+        "conservative_committed_t": 22.8329421090745,
+        "crop": "Ragi",
+        "expected_committed_t": 19.7950348589317,
+        "outside_supply_t": 105.57351924763573,
+        "remaining_area_ha": 0.0,
+        "remaining_capacity_t": 25.55492087942519
+      },
+      {
+        "capacity_t": 365.0480264514434,
+        "committed_area_ha": 10.0,
+        "conservative_committed_t": 97.20091517060611,
+        "crop": "Maize",
+        "expected_committed_t": 78.22457709673786,
+        "outside_supply_t": 250.31864670956122,
+        "remaining_area_ha": 0.0,
+        "remaining_capacity_t": 17.528464571276047
+      },
+      {
+        "capacity_t": 572.3906458546332,
+        "committed_area_ha": 8.0,
+        "conservative_committed_t": 124.28503724641817,
+        "crop": "Onion",
+        "expected_committed_t": 109.02678968659679,
+        "outside_supply_t": 436.1071587463872,
+        "remaining_area_ha": 0.0,
+        "remaining_capacity_t": 11.99844986182788
+      }
+    ],
+    "participating_area_ha": 24.0,
+    "remaining_area_ha": 0.0,
+    "revision": 24,
+    "scenario_id": "coimbatore-kharif-2019--3f8f10cb4b96",
+    "total_committed_area_ha": 24.0
+  },
+  "id": "70ce5fa3-cb97-4ec9-99e4-7cde9620b092",
+  "participants": [
+    "farmer-16",
+    "farmer-06",
+    "farmer-19",
+    "farmer-24",
+    "farmer-14",
+    "farmer-11",
+    "farmer-18",
+    "farmer-12",
+    "farmer-15",
+    "farmer-17",
+    "farmer-02",
+    "farmer-13",
+    "farmer-22",
+    "farmer-07",
+    "farmer-10",
+    "farmer-03",
+    "farmer-23",
+    "farmer-05",
+    "farmer-20",
+    "farmer-08",
+    "farmer-09",
+    "farmer-01",
+    "farmer-04",
+    "farmer-21"
+  ],
+  "scenario": {
+    "artifact_id": "regional-20261015-v1",
+    "assumptions": "Synthetic reference areas and outside supply; generated price/cost proxies; not observed market supply",
+    "cost_provenance": "Past-only modeled cultivation-cost proxy; not observed farm expenditure",
+    "crops": [
+      {
+        "capacity_t": 153.96138223613542,
+        "cost_per_ha": 22620.22443711601,
+        "crop": "Ragi",
+        "outside_supply_t": 105.57351924763573,
+        "phi": -2.0,
+        "reference_price": 1203.53172312077,
+        "reference_supply_t": 131.96689905954466,
+        "theta": 0.3,
+        "yield_q10": 2.064185943233899,
+        "yield_q50": 3.2991724764886166,
+        "yield_q90": 3.8054903515124163
+      },
+      {
+        "capacity_t": 365.0480264514434,
+        "cost_per_ha": 57164.79665780344,
+        "crop": "Maize",
+        "outside_supply_t": 250.31864670956122,
+        "phi": -2.0,
+        "reference_price": 1203.53172312077,
+        "reference_supply_t": 312.8983083869515,
+        "theta": 0.3,
+        "yield_q10": 3.976561418790635,
+        "yield_q50": 7.822457709673787,
+        "yield_q90": 9.720091517060613
+      },
+      {
+        "capacity_t": 572.3906458546332,
+        "cost_per_ha": 73759.02054487847,
+        "crop": "Onion",
+        "outside_supply_t": 436.1071587463872,
+        "phi": -2.0,
+        "reference_price": 802.3544820805133,
+        "reference_supply_t": 545.133948432984,
+        "theta": 1.0,
+        "yield_q10": 11.441040040229831,
+        "yield_q50": 13.6283487108246,
+        "yield_q90": 15.535629655802273
+      }
+    ],
+    "currency_basis": "2011-base INR",
+    "district": "Coimbatore",
+    "id": "coimbatore-kharif-2019--3f8f10cb4b96",
+    "minimum_price_ratio": 0.9,
+    "mode": "historical_simulation",
+    "name": "Coimbatore classroom scenario",
+    "outside_share": 0.8,
+    "participant_area_ha": 1.0,
+    "participant_count": 24,
+    "participating_area_ha": 24.0,
+    "price_provenance": "Generated historical price proxy; not official MSP or observed sale price",
+    "reference_area_per_crop_ha": 40.0,
+    "risk_aversion": 0.5,
+    "season": "Kharif",
+    "seed": 42,
+    "state": "Tamil Nadu",
+    "template_id": "coimbatore-kharif-2019",
+    "year": 2019
+  },
+  "seed": 42,
+  "static_ranking": [
+    "Onion",
+    "Maize",
+    "Ragi"
+  ],
+  "static_state": {
+    "commitment": null,
+    "commitments": [
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-16",
+        "participant_id": "farmer-16"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-06",
+        "participant_id": "farmer-06"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-19",
+        "participant_id": "farmer-19"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-24",
+        "participant_id": "farmer-24"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-14",
+        "participant_id": "farmer-14"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-11",
+        "participant_id": "farmer-11"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-18",
+        "participant_id": "farmer-18"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 15.535629655802273,
+        "crop": "Onion",
+        "expected_t": 13.6283487108246,
+        "id": "farmer-12",
+        "participant_id": "farmer-12"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-15",
+        "participant_id": "farmer-15"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-17",
+        "participant_id": "farmer-17"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-02",
+        "participant_id": "farmer-02"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-13",
+        "participant_id": "farmer-13"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-22",
+        "participant_id": "farmer-22"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-07",
+        "participant_id": "farmer-07"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-10",
+        "participant_id": "farmer-10"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-03",
+        "participant_id": "farmer-03"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-23",
+        "participant_id": "farmer-23"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-05",
+        "participant_id": "farmer-05"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 9.720091517060613,
+        "crop": "Maize",
+        "expected_t": 7.822457709673787,
+        "id": "farmer-20",
+        "participant_id": "farmer-20"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-08",
+        "participant_id": "farmer-08"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-09",
+        "participant_id": "farmer-09"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-01",
+        "participant_id": "farmer-01"
+      },
+      {
+        "area_ha": 1.0,
+        "conservative_t": 3.8054903515124163,
+        "crop": "Ragi",
+        "expected_t": 3.2991724764886166,
+        "id": "farmer-04",
+        "participant_id": "farmer-04"
+      },
+      {
+        "id": "farmer-21",
+        "participant_id": "farmer-21",
+        "crop": "Ragi",
+        "area_ha": 1.0,
+        "expected_t": 3.2991724764886166,
+        "conservative_t": 3.8054903515124163
+      }
+    ],
+    "crops": [
+      {
+        "capacity_t": 153.96138223613542,
+        "committed_area_ha": 5.0,
+        "conservative_committed_t": 19.027451757562083,
+        "crop": "Ragi",
+        "expected_committed_t": 16.495862382443082,
+        "outside_supply_t": 105.57351924763573,
+        "remaining_area_ha": 0.0,
+        "remaining_capacity_t": 29.360411230937608
+      },
+      {
+        "capacity_t": 365.0480264514434,
+        "committed_area_ha": 11.0,
+        "conservative_committed_t": 106.92100668766672,
+        "crop": "Maize",
+        "expected_committed_t": 86.04703480641165,
+        "outside_supply_t": 250.31864670956122,
+        "remaining_area_ha": 0.0,
+        "remaining_capacity_t": 7.808373054215437
+      },
+      {
+        "capacity_t": 572.3906458546332,
+        "committed_area_ha": 8.0,
+        "conservative_committed_t": 124.28503724641817,
+        "crop": "Onion",
+        "expected_committed_t": 109.02678968659679,
+        "outside_supply_t": 436.1071587463872,
+        "remaining_area_ha": 0.0,
+        "remaining_capacity_t": 11.99844986182788
+      }
+    ],
+    "participating_area_ha": 24.0,
+    "remaining_area_ha": 0.0,
+    "revision": 24,
+    "scenario_id": "coimbatore-kharif-2019--3f8f10cb4b96",
+    "total_committed_area_ha": 24.0
+  },
+  "status": "completed",
+  "step": 24,
+  "summary": {
+    "static": {
+      "total_profit": 739263.4123368218,
+      "lower_tail_mean_profit": 18873.159348869052,
+      "participants_allocated": 24,
+      "lower_tail_population": "allocated participants only; rejected participants reported separately",
+      "unallocated_area_ha": 0.0,
+      "final_prices": {
+        "Ragi": 1257.6906506612047,
+        "Maize": 1149.3727955803354,
+        "Onion": 802.3544820805133
+      },
+      "crop_allocation": {
+        "Ragi": 5.0,
+        "Maize": 11.0,
+        "Onion": 8.0
+      },
+      "participant_profits": [
+        {
+          "participant_id": "farmer-01",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18873.159348869052
+        },
+        {
+          "participant_id": "farmer-02",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-03",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-04",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18873.159348869052
+        },
+        {
+          "participant_id": "farmer-05",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-06",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-07",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-08",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18873.159348869052
+        },
+        {
+          "participant_id": "farmer-09",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18873.159348869052
+        },
+        {
+          "participant_id": "farmer-10",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-11",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-12",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-13",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-14",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-15",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-16",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-17",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-18",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-19",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-20",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-21",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18873.159348869052
+        },
+        {
+          "participant_id": "farmer-22",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-23",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 32744.404202963648
+        },
+        {
+          "participant_id": "farmer-24",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        }
+      ],
+      "currency_basis": "2011-base INR",
+      "interpretation": "Simulated outcomes under shared final prices; not observed farmer income",
+      "rejected_count": 0
+    },
+    "dynamic": {
+      "total_profit": 735940.4386303208,
+      "lower_tail_mean_profit": 18277.56053854391,
+      "participants_allocated": 24,
+      "lower_tail_population": "allocated participants only; rejected participants reported separately",
+      "unallocated_area_ha": 0.0,
+      "final_prices": {
+        "Ragi": 1239.6376748143932,
+        "Maize": 1167.4257714271469,
+        "Onion": 802.3544820805133
+      },
+      "crop_allocation": {
+        "Ragi": 6.0,
+        "Maize": 10.0,
+        "Onion": 8.0
+      },
+      "participant_profits": [
+        {
+          "participant_id": "farmer-01",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18277.56053854391
+        },
+        {
+          "participant_id": "farmer-02",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-03",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-04",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-05",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18277.56053854391
+        },
+        {
+          "participant_id": "farmer-06",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-07",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-08",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-09",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18277.56053854391
+        },
+        {
+          "participant_id": "farmer-10",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-11",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-12",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-13",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-14",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-15",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-16",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-17",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-18",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-19",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        },
+        {
+          "participant_id": "farmer-20",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18277.56053854391
+        },
+        {
+          "participant_id": "farmer-21",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18277.56053854391
+        },
+        {
+          "participant_id": "farmer-22",
+          "crop": "Maize",
+          "area_ha": 1.0,
+          "profit": 34156.5906039181
+        },
+        {
+          "participant_id": "farmer-23",
+          "crop": "Ragi",
+          "area_ha": 1.0,
+          "profit": 18277.56053854391
+        },
+        {
+          "participant_id": "farmer-24",
+          "crop": "Onion",
+          "area_ha": 1.0,
+          "profit": 35588.64616998455
+        }
+      ],
+      "currency_basis": "2011-base INR",
+      "interpretation": "Simulated outcomes under shared final prices; not observed farmer income",
+      "rejected_count": 0
+    }
+  },
+  "total_steps": 24
+}

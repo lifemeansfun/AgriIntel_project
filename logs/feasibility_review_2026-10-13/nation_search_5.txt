@@ -1,0 +1,457 @@
+SHC_API_Integration GuidelinesV1.3 (https://soilhealth.dac.gov.in/files/SHC_API_Integration_Guidelines.pdf)
+citeturn6view0 [wordlim: 200] Crawled: yesterday; Content type: application/pdf; Number of pages: 64; Source: open({"ref_id":"https://soilhealth.dac.gov.in/files/SHC_API_Integration_Guidelines.pdf","lineno":null}); Total lines: 1838
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn6view1 [wordlim: 200] Source: open({"ref_id":"https://desagri.gov.in/divisions-cell/special-data-dissemination-standards-sdds/","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Explore India | National Portal of India (https://www.india.gov.in/explore-india)
+citeturn6view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn3view0","pattern":"28"}); Total lines: 292
+L160: # Explore India
+L161: 
+L162: Explore India, your window into the captivating world of travel, tourism, accommodation, culinary delights, and India produce across India's diverse landscape, right down to the district level. Discover the hidden gems of India's states and districts, each brimming with its own unique charm, character, and fascinating facts.
+L163: 
+L164: cite8†Image: airplane cite9†Image: airplane-path L165: ### Travel & Tourism
+L166: 
+L167:   * cite10†Historic L168: 
+L169:   * cite11†Religious L170: 
+L171:   * cite12†Natural / Scenic beauty L172: 
+L173:   * cite13†Adventure L174: 
+L175:   * cite14†Recreational L176: 
+L177:   * cite15†Others L178: 
+L179: ### Popular Places to Visit
+L180: 
+L181: cite16†Taj Mahal Agra, Uttar Pradesh L182: 
+L183: cite17†Dhuwan Kund Bihar, Rohtas L184: 
+L185: cite18†basilica of bom jesus North Goa, Goa L186: 
+L187: cite19†Batasia Loop Darjeeling, West Bengal L188: 
+L189: cite20†India Gate Central Delhi, Delhi L190: #### Discover India's Gems
+L191: 
+L192: India, a realm adorned with vibrant hues, steeped in profound traditions, and brimming with remarkable diversity, stands as a treasure trove of uncharted gems awaiting discovery. Stretching from the majestic Himalayas in the north to the sun-drenched beaches of the south, India unfurls a rich tapestry of experiences that enchant and captivate the senses.
+L193: 
+L194: cite21†Explore L195: 
+L196: cite22†Image: discover india's gems†static2.india.gov.in L197: 
+L198: cite23†Image cite24†Image cite25†Image cite26†Image L199: ### Culinary Delights
+L200: 
+L201:   * cite27†Main Course L202: 
+L203:   * cite28†Snacks L204: 
+L205:   * cite29†Desserts L206: 
+L207:   * cite30†Appetizers L208: 
+L209:   * cite31†Beverages L210: 
+L211: ### Popular Food to Eat
+L212: 
+L213: cite32†Samosa Chhatarpur, Madhya Pradesh L214: 
+L215: cite33†Ragi mudda, Ragi Sangati Ananthapur, Andhra Pradesh L216: 
+L217: cite34†Hyderabadi Dum Biryani Hyderabad, Telangana L218: 
+L219: cite35†Bambooshoot Stew Aizwal, Mizoram L220: 
+L221: cite36†Chicken Popti Raigad, Maharashtra L222: #### Let's explore the diverse and flavourful culinary landscape of India region-wise:
+L223: 
+L224: India, a realm adorned with vibrant hues, steeped in profound traditions, and brimming with remarkable diversity, stands as a treasure trove of uncharted gems awaiting discovery. Stretching from the majestic Himalayas in the north to the sun-drenched beaches of the south, India unfurls a rich tapestry of experiences that enchant and captivate the senses.
+L225: 
+L226: cite37†Explore L227: cite38†Image: let's explore the diverse and flavourful culinary landscape of india region-wise:†static2.india.gov.in L228: 
+L229: cite39†Image: /image/static/VectorBGIndiaProduce.png cite40†Image: /image/static/indiBG3.png cite41†Image: bgVector2 L230: ### One District One Product
+L231: 
+L232:   * cite42†Agriculture L233: 
+L234:   * cite43†Food Processing L235: 
+L236:   * cite44†Handicraft L237: 
+L238:   * cite45†Handloom L239: 
+L240:   * cite46†Textile L241: 
+L242:   * cite47†Manufacturing L243: 
+L244: ### Popular Produce in Districts
+L245: 
+L246: cite48†Coconut & Coconut Based Products Nicobar, Andman Nicobar L247: 
+L248: cite49†Fisheries/Marine Products North and Middle Andaman, Andaman and Nicobar Islands L249: 
+L250: cite50†Palm Leaf Anakapalli, Andhra Pradesh L251: 
+L252: cite51†Coconut & Coir Dr BR Ambedkar Konaseema, Andhra Pradesh L253: 
+L254: cite52†Venkatagiri Sarees Chittoor, Andhra Pradesh L255: #### India Unveiled: Exploration of India Local Produce
+L256: 
+L257: India, a realm adorned with vibrant hues, steeped in profound traditions, and brimming with remarkable diversity, stands as a treasure trove of uncharted gems awaiting discovery. Stretching from the majestic Himalayas in the north to the sun-drenched beaches of the south, India unfurls a rich tapestry of experiences that enchant and captivate the senses.
+L258: 
+L259: cite53†Explore L260: cite54†Image: india unveiled: exploration of india local produce†static2.india.gov.in L261: 
+L262: cite55†Image: BG-Vector4 cite56†Image: BG-Vector5 L263: 
+L264: cite56†Image: BG-Vector5 cite55†Image: BG-Vector4 L265: 
+L266: cite56†Image: BG-Vector5 cite55†Image: BG-Vector4 L267: 
+L268: cite55†Image: BG-Vector4 cite56†Image: BG-Vector5 L269: 
+L270: cite57†Image: BG-Vector cite58†Image: BG-Vector2 L271: ### Facts of India
+L272: 
+L273:   * cite59†India at a Glance L274: 
+L275:   * cite60†Demographics Background L276: 
+L277:   * cite61†India (State/UT) L278: 
+L279:   * cite62†Physical Background L280: 
+L281:   * cite63†The Polity L282: 
+L283:   * cite64†National Identity L284: 
+L285: #### Independence Day Celebration 15 August
+L286: 
+L287: Independence day reminds every Indian about the dawn of a new beginning, the beginning of an era of deliverance from the clutches of British colonialism of more than 200 years.
+L288: 
+L289: cite65†Explore L290: 
+L291: cite66†Image: independence day celebration 15 august†static2.india.gov.in --------------------------------------------------------------------------------
+LGD - Local Government Directory, Government of India (https://lgdirectory.gov.in/)
+citeturn6view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view3","pattern":"unique"}); Total lines: 877
+L46: # cite3†https://LGDirectory.gov.in L47: Unified and Authoritative Directory of Land Regions/Revenue, Rural and Urban Local Governments
+L48: 
+L49: cite4†Need of Local Government Directory? L50: 
+L54: ### About Local Government Directory
+L55: Local Government Directory (LGD) - cite3†https://lgdirectory.gov.in is one of the 11 applications developed as part of Panchayat Enterprise Suite (PES) under e-Panchayat Mission Mode project (MMP).
+L56: The primary objective of the Local Government Directory (LGD) is to build a Standard location directory by providing an online platform to the States/UTs to maintain the up-to-date list of respective administrative units (Districts, Sub-Districts, Villages, Blocks, Local Governance bodies along with their corresponding Rural/ Urban wards) in collaboration with Office of the Registrar General of India (ORGI), Ministry of Home Affairs (MHA).
+L57: The adoption of LGD codes as the Standard location code in the e-Governance applications of Ministries/Departments/States/UTs was mandated by Cabinet Secretariat vide letter dated 04th November 2016. The agenda behind this directive from Cabinet Secretariat was to establish seamless exchange of data across all e-Governance applications and thus ensure transparency in the system.
+L58: ### Useful for:
+L59: 
+L60:   * All Central Government Ministries and Department/State Governments
+L61:   * State Panchayati Raj Departments
+L62:   * State Urban Development Departments
+L63:   * State Revenue Departments
+L64:   * State Election Commissions
+L65:   * A unique frame for all types of Census and Surveys
+L66:   * Registered Software Applications
+L67:   * Citizen
+L68: ### Key Features:
+L69: 
+L70:   * Unique Code to Land/Region
+L71:   * Enable Interoperability
+L72:   * Notification generated online
+L73:   * SMS/Email notifications
+L74: 
+L75: cite7†Image: Key Features L76: 
+L77:   1.   2.   3. cite8†States/UTs L78: 
+L79: 36
+L80: 
+L81: 28
+L82: 
+L83: States
+L84: 
+L85: 8
+L86: 
+L87: Union Territories
+L88: 
+L89: cite9†Image L90: 
+L91: 784
+L92: 
+L93: cite10†Districts L94: 
+L95: cite11†Image L96: 
+L97: 7092
+L98: 
+L99: cite12†Sub-Districts L100: 
+L101: cite13†Image L102: 
+L103: 7327
+L104: 
+L105: cite14†Development Blocks L106: 
+L107: cite15†Image L108: 
+L109: 677665
+L110: 
+L111:   * 658156
+L112: 
+L113: Inhabited Villages
+L114: 
+L115:   * 18371
+L116: 
+L117: Un-inhabited Villages
+L118: 
+L119:   * 1138
+L120: 
+L121: Forest Villages
+L122: 
+L123: cite16†Villages L124: 
+L125: cite17†Image L126: 
+L127: Rural
+L128: cite16†Rural Villages L129: 
+L130: 642710
+L131: 
+L132: 262839
+L133: 
+L134: cite18†Rural Localbodies L135: 
+L136: 675
+L137: 
+L138: 6769
+L139: 
+L140: 255395
+L141: 
+L142: District Panchayats
+L143: 
+L144: Block Panchayats
+L145: 
+L146: Village Panchayats
+L147: 
+L148: 14163
+L149: 
+L150: cite18†Traditional Localbodies L151: 
+L152: 14
+L153: 
+L154: 47
+L155: 
+L156: 14102
+L157: 
+L158: District Level
+L159: 
+L160: Block Level
+L161: 
+L162: Village Level
+L163: 
+L164: Urban
+L165: 
+L166: 24133
+L167: 
+L168: cite16†Urban Villages L169: 
+L170: 5050
+L171: 
+L172: cite18†Urban Localbodies L173: 
+L174: 276
+L175: 
+L176: 2006
+L177: 
+L178: 2416
+L179: 
+L180: Municipal Corporation
+L181: 
+L182: Municipality
+L183: 
+L184: Town Panchayats
+L185: 
+L186: 2318
+L187: 
+L188:   * 1689
+L189: 
+L190: Center
+L191: 
+L192:   * 566
+L193: 
+L194: States/UTs
+L195: 
+L196: cite19†Other Organizations and Departments L197: 
+L198: cite9†Image L199: 
+L200: Local Government Directory (LGD) Codes
+L201:   1. cite8†LGD Codes of State/UTs L202:   2. cite10†LGD Codes of Districts L203:   3. cite12†LGD Codes of Sub-Districts L204:   4. cite16†LGD Codes of Villages L205:   5. cite14†LGD Codes of Development Blocks L206:   6. cite20†LGD Codes of Wards L207:   7. cite18†LGD Codes of Local Bodies L208:   8. cite21†LGD Codes of Cantonment Boards L209: 
+L210: Statistical/Analytical Summary
+L211: 
+L212:   1. No. of States/Union Territories (UTs)
+L213: 
+L214: 36
+L215: 
+L216:   2. No. of Districts
+L217: 
+L218: 784
+L219: 
+L220:   3. No. of Sub-Districts
+L221: 
+L222: 7092
+L223: 
+L224:   4. No. of Development Blocks
+L225: 
+L226: 7327
+L227: 
+L228:   5. No. of Villages
+L229: 
+L230: 677665
+L231:     1. No. of Inhabited Village
+L232: 
+L233: 658156
+L234: 
+L235:     2. No. of Un-inhabited Villages
+L236: 
+L237: 18371
+L238: 
+L239:     3. No. of Forest Villages
+L240: 
+L241: 1138
+L242: 
+L243:     4. No. of Villages (Rural)
+L244: 
+L245: 642710
+L246: 
+L247:     5. No. of Villages (Urban)
+L248: 
+L249: 24133
+L250: 
+L251:   6. No. of Rural Local Bodies
+L252: 
+L253: 262839
+L254: 
+L255:     1. No. of District Panchayats
+L256: 
+L257: 675
+L258: 
+L259:     2. No. of Block Panchayats
+L260: 
+L261: 6769
+L262: 
+L263:     3. No. of Gram Panchayats
+L264: 
+L265: 255395
+L266: 
+L267: cite4†Click here for more options... L268: 
+L269: Likely Erroneous/Exceptions: Alert for State Data Owners!
+L270:   1. cite22†GPs mapped to villages of multiple development blocks L271:   2. cite23†GPs mapped to villages of multiple districts L272:   3. cite24†Villages which are not mapped to any Development Block by excluding villages mapped ULBs L273:   4. cite25†Development Blocks mapped to villages of multiple districts L274:   5. cite26†Inhabitant villages not mapped to any local body L275:   6. cite27†List of land region entity FULLY mapped under more than one local bodies L276:   7. cite28†Villages which are mapped to development block but not mapped to Rural local bodies and vice versa L277:   8. cite29†List of All urban local bodies with no Wards. L278: Local Government Directory (LGD) Reports
+L279:   1. cite30†Consolidated Local Government Directory (LGD) Codes of Rural Local Bodies L280:   2. cite31†Report on District wise Development Blocks and Mapped Gram Panchayats L281:   3. cite32†Report on State Panchayat Set-up L282:   4. cite33†Report on State wise Unmapped Villages (Villages not mapped to any village panchayats/equivalent local body) L283:   5. cite34†Report on PC/AC Wise Mapped Landregion/LocalBodies/Ward L284:   6. cite35†List of PESA Panchayat L285:   7. cite36†Report on Invalidated Local Bodies L286: 
+L287: cite4†Click here for more options... L686: ##### SUPPORTING DOCUMENTS
+L687: 
+L688:   * cite4†Video Tutorials L689:   * cite4†Presentation L690:   * cite4†Brochure L691:   * cite4†User Manual L692:   * cite4†User Manual for Urban Development Department L693:   * cite4†User Manual for Revenue Department L694:   * cite4†User Manual of GIS Module L695:   * cite4†User Manual of Data Confirmation Module L696:   * cite4†Data Register L697:   * cite4†LGD SOPs L698: 
+L699: [Button: Close]
+L700: ##### Video Tutorials
+L701: 
+L702:   * cite4†General L703:     * cite4†Learn How to download reports L704:   * cite4†Revenue User's L705:     * cite4†Village Creation On LGD Portal L706:   * cite4†Panchayati Raj User's L707:     * cite4†Learn How to create a PRI Local Body L708:   * cite4†E-Sign Registration Process L709:     * cite4†E-Sign Registration Process for checkers L710: 
+L711: [Button: Close]
+L712: 
+L713: ##### Video Player
+L714: 
+L715: [Button: Close]
+L716: ##### Overview
+L717:   * A collaborative work initiative between Ministry of Panchayati Raj (MoPR) and Office of the Registrar General of India (ORGI), Ministry of Home Affairs (MHA) for creating unified, error free and up-to-date Jurisdictional directory in the country which could be used by all the stakeholders.
+L718:   * ORGI playing a lead role in synchronization of LGD codes and Census directory for finalization of the Uniform Jurisdictional Directory by coordinating with State Revenue Department and Urban Local Bodies.
+L719:   * Census Data available as per Uniform Jurisdictional Directory will help in informed decision-making, Equitable resource allocation, and evidence-based policy formulation across various sectors.
+L720:   * Key Features of Local Government Directory: Generation of unique code for each local government body at every level (District, Block, Village). A unique number is assigned to each local government body.
+L721:   * Maintenance of local government bodies and its mapping with constituting land region entities. For example: Mapping of Gram panchayat with villages.
+L722:   * Maintenance of Parliamentary and Assembly constituencies and their mapping to the respective covered areas as per the delimitation notice.
+L723:   * Mandatory upload of Govt. order for each modification in the directory: This checkpoint has been mandated to ascertain the LGD consumers that the data published in LGD is authentic.
+L724:   * Maintenance of historical data: When modifications are done to the existing LGD codes, the old value/data gets archived.
+L725:   * Provision to maintain state specific local government setup.
+L726:   * Facility to integrate with state specific location codes: If any state is following standard codes for state level software applications, the same code can be linked to LGD code.
+L727: [Button: Close]
+L728: ##### FAQ
+L729: 
+L730: [Button: Close]
+L731: 
+L732: ##### Summary Statistics
+L733: #### Screen Reader Access
+L734: 
+L735: LGD Portal complies with World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 level AA. This will enable people with visual impairments access the website using assistive technologies, such as screen readers. The information of the website is accessible with different screen readers.
+L736: 
+L737: Following table lists the information about different screen readers:
+L738: Screen Reader  | Website  | Free / Commercial
+L739: --- | --- | ---
+L740: Non Visual Desktop Access (NVDA)  | cite101†http://www.nvda-project.org/ (External website that opens in a new window)†www.nvda-project.org | Free
+L741: System Access To Go  | cite102†http://www.satogo.com/ (External website that opens in a new window)†www.satogo.com | Free
+L742: Thunder  | cite103†https://www.webbie.org.uk/thunder/ (External website that opens in a new window)†www.webbie.org.uk | Free
+L743: WebAnywhere  | cite104†http://webinsight.cs.washington.edu/wa/content.php (External website that opens in a new window)†webinsight.cs.washington.edu | Free
+L744: Hal  | cite105†http://www.yourdolphin.co.uk/productdetail.asp?id=5 (External website that opens in a new window)†www.yourdolphin.co.uk | Commercial
+L745: JAWS  | cite106†http://www.freedomscientific.com/products/software/jaws/ (External website that opens in a new window)†www.freedomscientific.com | Commercial
+L746: Supernova  | cite107†http://www.yourdolphin.co.uk/productdetail.asp?id=1 (External website that opens in a new window)†www.yourdolphin.co.uk | Commercial
+L747: Window-Eyes  | cite108†http://www.gwmicro.com/ (External website that opens in a new window)†www.gwmicro.com | Commercial
+--------------------------------------------------------------------------------
+LGD - Local Government Directory, Government of India (https://lgdirectory.gov.in/)
+citeturn6view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view3","pattern":"Download Directory"}); Total lines: 877
+L562: S No  | Transaction Id  | State/UTs  | Modification Description  | User Name  | Operation Date & Time
+L563: --- | --- | --- | --- | --- | ---
+L564: 1  | 1040058  | Odisha  | Change in the covered area for the Village Panchayat 'Deuli' (Code:121758).  | SURYA NARAYAN DASH  | 2026-10-13 17:44:52.893093
+L565: 2  | 1040054  | Rajasthan  | Village, Village Name Chak Shumali Mehri Rajviyan with Village Code 962638 is formed in the State Rajasthan, District Churu, Sub District Sardarshahar.  | Mohan Lal Khatnawalia  | 2026-10-13 15:41:21.149975
+L566: 3  | 1040053  | Rajasthan  | villages are invalided  | Mohan Lal Khatnawalia  | 2026-10-13 15:39:51.285948
+L567: 4  | 1040052  | Rajasthan  | Village, Village Name Rabari Sagaramaniyo Ki Dhani with Village Code 962637 is formed in the State Rajasthan, District Balotra, Sub District Gudha Malani.  | Mohan Lal Khatnawalia  | 2026-10-13 15:32:21.173291
+L568: 5  | 1040051  | Rajasthan  | villages are invalided  | Mohan Lal Khatnawalia  | 2026-10-13 15:28:23.663611
+L569: cite38†Click here for more options... L570: #### Quick Links
+L571: 
+L572:   * cite39†Image: citizens L573: 
+L574: ##### Citizen Corner
+L575: 
+L576: To Consume Web Services, Report LGD Issues and get LGD Notifications
+L577: 
+L578: ###### cite40†NAPIX API Provider†dev.napix.gov.in L579: 
+L580: ###### cite41†Report LGD Issues Here > L581: 
+L582:   * cite42†Image: doc L583: 
+L584: ##### LGD Reports & Download Directory
+L585: 
+L586: View/Download Entities (States, Districts, Sub-districts...)
+L587: 
+L588: ###### cite43†Reports L589: 
+L590: ###### cite44†Download Directory L591: 
+L592:   * cite42†Image: doc L593: 
+L594: ##### Search LGD Entity
+L595: 
+L596: ###### cite45†Search by Entity Name > L597: ###### cite45†Search by entity Code > L598: 
+L599:   * cite46†Image: Other Links L600: 
+L601: ##### Learning Center
+L602: 
+L603: ###### cite47†CBT(Download Training File) L604: 
+L605: ###### cite48†click here for more options... L606: 
+L607:   * cite49†Image: Other Links L608: 
+L609: ##### Other Links
+L610: 
+L611: ###### cite4†Announcements L612: 
+L613: ###### cite4†Software Updates L614: 
+L615:   * cite50†Feedback L616:   * cite4†FAQs L617:   * cite51†eSign FAQs L618:   * cite52†Contact Us L619:   * cite53†Site Map L620:   * cite54†Privacy Policy L621:   * cite55†Copyright Policy L622:   * cite56†Terms And Conditions L623: #### Local Government Directory (LGD) Reports
+L624:   1. cite8†LGD Codes of States/UTs L625:   2. cite10†LGD Codes of Districts L626:   3. cite12†LGD Codes of Sub-Districts L627:   4. cite16†LGD Codes of Villages L628:   5. cite14†LGD Codes of Development Blocks L629:   6. cite57†LGD Codes of Development Block Wise Villages L630:   7. cite35†List of PESA Panchayat L631:   8. cite20†LGD Codes of Wards L632:   9. cite18†LGD Codes of Localbodies L633:     1. cite21†LGD Codes of Cantonment Boards L634:   10. cite58†Consolidated LGD Codes of Localbodies L635:   11. cite30†Consolidated Local Government Directory (LGD) Codes of Rural Local Bodies L636:   12. cite59†Consolidated LGD Codes of Land Region Entities L637:   13. cite60†LGD Codes of District wise Villages and their mapped Gram Panchayats and Urban localbodies L638:   14. cite31†LGD Codes of District wise Development Blocks and Mapped Gram Panchayats/TLB L639:   15. cite32†Report on State Panchayat Set-up L640:   16. cite33†Report on State wise Unmapped Villages (Villages not mapped to any village panchayats/equivalent local body) L641:   17. cite34†Report on PC/AC Wise Mapped Landregion/LocalBodies/Ward L642:   18. State wise Village Mapping Status
+L643:     1. cite61†State wise Village to GP/ULB Mapping Status L644:     2. cite62†State wise Village to GP Mapping Status L645:   19. cite63†State wise Gram Panchayat to Census village mapping Status Detailed L646:   20. cite64†Unmapped Landregion/Local Bodies/Ward for PC/AC L647:   21. cite65†Report on District Wise Local Bodies L648:   22. cite66†Report of Summary on Wards L649:   23. cite67†View UnMapped LocalBodies L650:   24. cite68†Report on District Wise Invalidated Villages L651:   25. cite69†District Panchayat Ward/Constituency Wise village Panchayat L652:   26. cite70†District wise Detailed Report L653:   27. cite71†PRI Localbody Email IDs Report L654:   28. cite72†Report on Organization Unit L655:   29. cite73†Report on Designation details L656:   30. cite74†Ward to Halka Mapping Report (Jharkhand State) L657:   31. cite75†Halka to Village Mapping Report (Jharkhand State) L658:   32. cite76†StateWise GIS Mapped Local Body L659:   33. cite77†State Wise Population L660:   34. cite78†List Of Modification Done In LGD L661:   35. cite79†GIS Map Verification Status --------------------------------------------------------------------------------
+Current daily price of various commodities from various markets (Mandi) | Open Government Data (OGD) Platform India (https://www.data.gov.in/catalog/current-daily-price-various-commodities-various-markets-mandi)
+citeturn6view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn4view1","pattern":"API"}); Total lines: 99
+L0: #
+L1: 
+L2:   * Notifications 0
+L3: 
+L4: 0 New Notification
+L5: 
+L6: [Button: All(0)] [Button: Unread(0)]
+L7: 
+L8: No Notification
+L9: 
+L10:     * No records found
+L11: 
+L12: [Button: View All ]
+L13: 
+L14: Search Datasets Here [Input: Search Datasets] Search
+L15: 
+L16: cite0†Current daily price of various commodities from various markets (Mandi) L17: The data refers to prices of various commodities. It has the wholesale maximum price, minimum price and modal price on daily basis. This dataset is generated through the AGMARKNET Portal (cite1†http://agmarknet.gov.in†agmarknet.gov.in ), which disseminates daily market information of various commodities.
+L18: 
+L19:   * Released Under: cite2†National Data Sharing and Accessibility Policy (NDSAP)†data.gov.in L20:   * cite3†Image: Icon Past CDOs Contributor:
+L21: cite4†Ministry of Agriculture and Farmers Welfare cite5†Department of Agriculture and Farmers Welfare cite6†Directorate of Marketing and Inspection (DMI) L22: 
+L23:   * cite7†Image: Icon Past CDOs Domain:
+L24: 
+L25: Open Government Data(OGD) Platform India
+L26: 
+L27:   * Published On: 24/05/2013
+L28: 
+L29: Updated On: 13/10/2026
+L30: 
+L31: cite8†Catalog API L32: 
+L33: cite9†Zip Download L34: 
+L35: [Button: Keywords]
+L36: 
+L37: cite10†mandi cite11†Price cite12†Agriculture cite13†Commodity cite14†Market cite15†Rate L38: 
+L39: [Button: Groups]
+L40: 
+L41: cite16†Agricultural Marketing L42: 
+L43: [Button: Sectors]
+L44: cite17†Agriculture cite18†Agricultural Marketing L45: 
+L46: cite19†Image: No Result Found L47: ## No Result Found...
+L48: 
+L49: cite20†Image: CDO Icon L50: 
+L51: Chief Data Officer
+L52: ### Shri Bijaya Kumar Prusty
+L53: 
+L54: Deputy Agricultural Marketing Adviser
+L55: 
+L56:   * cite21†Image: Icon Ministry Department L57: 
+L58: Ministry / State / Department cite9†Ministry of Agriculture and Farmers Welfare,Department of Agriculture and Farmers Welfare,Directorate of Marketing and Inspection (DMI) L59: 
+L60:   * Email
+L61: 
+L62: bk [dot] prusty [at] nic [dot] in
+L63: 
+L64:   * Address
+L65: 
+L66: Directorate of Marketing & Inspection, New CGO Complex, NH-4, Faridabad - 121001
+L67: 
+L68: Write to CDO
+L69: 
+L70: Name [Input: Name]
+L71: 
+L72: E-mail Address^{*} [Input: E-mail Address]
+L73: Which code is in this image?^{*}
+L74: 
+L75: [Input: Which code is in this image?*]
+L76: 
+L77: Captcha
+L78: 
+L79: Message for CDO^{*}
+L80: 
+L81: Maximum of 1000 and Minimum 5 characters allowed on Feedback & 1000 characters remaining
+L82: 
+L83: The fields marked with ^{*} are mandatory
+L84: 
+L85: Reset Submit
+L86: ###### Useful Links/Support
+L87: 
+L88: This platform is designed, developed, and hosted by the cite22†National Informatics Centre (NIC)†www.nic.in , cite23†Ministry of Electronics & Information Technology†www.meity.gov.in , Government of India. The content published on data.gov.in is owned by the respective Ministry/State/Department/Organization and licensed under the cite24†Government Open Data License - India L89: This is a sandbox environment created for testing and demonstration purposes only. The content, data, and functionality may be incomplete or inaccurate. Please avoid entering any real or sensitive information.
+L90: 
+L91: cite25†MyGov†www.mygov.in cite26†IndiaGov†www.india.gov.in L92: 
+L93: © 2012-2026 cite26†GOVERNMENT OF INDIA†www.india.gov.in L94: All rights reserved except published datasets/resources and metadata.
+L95: 
+L96: Last updated 01/01/1970 - 05:30:00
+L97: 
+L98: To Top
+

@@ -1,0 +1,153 @@
+AgriIntel
+
+REGIONAL CROP ADVISORY · COURSE PROTOTYPE
+
+Agar Malwa · historical 2019
+Day
+ADVISORY MODE
+Historical explorer · five states
+Coimbatore classroom scenario
+
+Historical 2019 demonstration. Prices and costs are modeled in 2011-base rupees. Current-season farmer advice is outside this demonstration.
+
+Explore
+1.0 HA
+in
+Agar Malwa
+, Madhya Pradesh
+for
+Kharif
+Compare scenarios
+
+Data year 2019 · Historical forecast · artifact regional-20261015-v1
+
+RANK 1 · SCENARIO SCORE ₹11,258
+
+Groundnut
+
+Yield estimates for the historical selection · tonnes per hectare
+
+Lower q10
+0.78
+Median q50
+1.15
+Upper q90
+1.59
+Explore an interpolated yield scenario
+1.15 t/ha at the central scenario price
+Reset median
+
+Intermediate positions are linear illustrations, not additional calibrated quantiles. Price and cultivation cost stay fixed.
+
+CENTRAL SCENARIO PROFIT · 1 HA
+
+₹17,574
+
+All money in 2011-base rupees · modeled scenarios
+
+Pessimistic profit
+₹4,943
+Downside gap
+₹12,631
+Central price / quintal
+₹2,808
+Cultivation cost / hectare
+₹14,770
+Inspect scenario calculations
+Central profit and downside gap
+
+2011-base rupees for the selected land area. Click a point to inspect the crop.
+
+0k
+5k
+9k
+14k
+18k
+Downside gap (₹)
+0k
+5k
+9k
+14k
+18k
+Compare crop scenarios
+
+Rank 1 · Available
+
+Groundnut
+Central profit
+₹17,574
+Pessimistic profit
+₹4,943
+Median yield
+1.15 t/ha
+
+Rank 2 · Available
+
+Maize
+Central profit
+₹16,948
+Pessimistic profit
+₹4,519
+Median yield
+2.84 t/ha
+
+Rank 3 · Available
+
+Arhar/Tur
+Central profit
+₹15,515
+Pessimistic profit
+₹777
+Median yield
+1.14 t/ha
+
+Rank 4 · Available
+
+Soyabean
+Central profit
+₹16,246
+Pessimistic profit
+₹-59
+Median yield
+1.34 t/ha
+
+Rank 5 · Available
+
+Urad
+Central profit
+₹13,284
+Pessimistic profit
+₹1,479
+Median yield
+0.84 t/ha
+
+Rank 6 · Available
+
+Moong(Green Gram)
+Central profit
+₹11,467
+Pessimistic profit
+₹1,033
+Median yield
+0.76 t/ha
+
+Rank 7 · Available
+
+Jowar
+Central profit
+₹11,541
+Pessimistic profit
+₹-818
+Median yield
+2.02 t/ha
+
+Rank 8 · Available
+
+Bajra
+Central profit
+₹6,898
+Pessimistic profit
+₹667
+Median yield
+1.3 t/ha
+0k
