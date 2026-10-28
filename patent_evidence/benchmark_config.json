@@ -1,0 +1,69 @@
+{
+  "benchmark_protocol_version": "1.0.0",
+  "generated_at_utc": "2026-10-28T08:05:00Z",
+  "scenarios_evaluated": [
+    {
+      "id": "coimbatore-kharif-2019--80ddbb6669e1",
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "season": "Kharif",
+      "participating_area_ha": 24.0,
+      "crops": ["Ragi", "Maize", "Onion"]
+    },
+    {
+      "id": "pune-kharif-semiarid",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "season": "Kharif",
+      "participating_area_ha": 30.0,
+      "crops": ["Soybean", "Cotton", "Pigeonpea"]
+    },
+    {
+      "id": "ludhiana-rabi-alluvial",
+      "district": "Ludhiana",
+      "state": "Punjab",
+      "season": "Rabi",
+      "participating_area_ha": 25.0,
+      "crops": ["Wheat", "Mustard", "Potato"]
+    }
+  ],
+  "n1_esrr_config": {
+    "num_seeds": 20,
+    "freeze_farmer_seed": true,
+    "tie_breaker": "lexicographic_crop_name",
+    "congestion_decay_parameter_theta": [0.5, 0.6, 0.8]
+  },
+  "n2_vpcr_config": {
+    "z_quantile": 1.28155,
+    "confidence_level": 0.90,
+    "dispersion_estimator": "upper_semi_deviation = (y90 - y50) / 1.28155",
+    "locations_L_microbenchmarks": [10, 50, 100, 250, 500],
+    "exceedance_synthetic_harvests": 5000,
+    "exceedance_copula": "Gaussian Copula with asymmetric piecewise-linear marginals",
+    "exceedance_seed": 42
+  },
+  "n4_edge_escrow_config": {
+    "kiosks_simulated": 4,
+    "hash_chain_anchor": "H_0 = HMAC_Kd(token_id)",
+    "entry_mac": "HMAC_Kd(H_{t-1} : canonical_json(payload))",
+    "token_signature": "HMAC_Ks(canonical_json(token_body))",
+    "adversarial_scenarios_tested": [
+      "tampered_signature",
+      "replayed_commitment_id",
+      "sequence_gap",
+      "kiosk_id_mismatch",
+      "expired_offline_commitment",
+      "server_token_revocation",
+      "local_quota_overflow"
+    ]
+  },
+  "n6_slippage_config": {
+    "max_relative_slippage": 0.05,
+    "max_absolute_slippage_inr": 500.0,
+    "require_rank_stability": true,
+    "max_rank_drop": 0,
+    "concurrency_num_requests": 40,
+    "concurrency_interleaved_commits": 2,
+    "concurrency_seed": 42
+  }
+}

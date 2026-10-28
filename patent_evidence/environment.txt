@@ -1,0 +1,24 @@
+AgriIntel Patent Benchmark Execution Environment
+==================================================
+Date UTC: 2026-10-28T08:05:00Z
+Platform: Windows-11-10.0.26200-SP0 (64-bit AMD64)
+Python Version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+
+Core Dependencies:
+- numpy: 2.5.3
+- pandas: 3.0.5
+- pytest: 9.1.1
+- fastapi: 0.141.1
+- uvicorn: 0.34.0
+- scikit-learn: 1.6.1
+- lightgbm: 4.6.0
+- pyyaml: 6.0.2
+- pyarrow: 19.0.1
+
+Repository State:
+- Workspace: AgriIntel
+- Mode: Research and Pre-Filing Technical Remediation
+- Random Seed Bases:
+  * N1 ESRR Monte Carlo: seeds 0..19 (20 permutations)
+  * N2 Harvest Exceedance: seed 42 (5,000 synthetic harvests)
+  * N6 Concurrency Benchmark: seed 42 (40 client requests)

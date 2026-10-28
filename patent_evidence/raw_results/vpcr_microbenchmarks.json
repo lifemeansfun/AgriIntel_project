@@ -1,0 +1,37 @@
+[
+  {
+    "locations_L": 10,
+    "commits_measured": 100,
+    "time_incremental_sec": 0.0010119000216946006,
+    "time_full_recompute_sec": 0.005817799945361912,
+    "speedup_factor": 5.749382172775336
+  },
+  {
+    "locations_L": 50,
+    "commits_measured": 100,
+    "time_incremental_sec": 0.0017128000035881996,
+    "time_full_recompute_sec": 0.00437670003157109,
+    "speedup_factor": 2.555289597385685
+  },
+  {
+    "locations_L": 100,
+    "commits_measured": 100,
+    "time_incremental_sec": 0.001394400023855269,
+    "time_full_recompute_sec": 0.009586900006979704,
+    "speedup_factor": 6.875286749116387
+  },
+  {
+    "locations_L": 250,
+    "commits_measured": 100,
+    "time_incremental_sec": 0.001131199998781085,
+    "time_full_recompute_sec": 0.0057721000630408525,
+    "speedup_factor": 5.1026344318074
+  },
+  {
+    "locations_L": 500,
+    "commits_measured": 100,
+    "time_incremental_sec": 0.0012174000730738044,
+    "time_full_recompute_sec": 0.009042799938470125,
+    "speedup_factor": 7.427960732446834
+  }
+]

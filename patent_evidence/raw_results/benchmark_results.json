@@ -1,0 +1,187 @@
+{
+  "timestamp_utc": "2026-10-28T08:04:13Z",
+  "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+  "n1_esrr": {
+    "seeds_tested": 20,
+    "static": {
+      "mean_total_profit": 739263.4123368219,
+      "std_total_profit": 1.1641532182693481e-10,
+      "ci95_total_profit": 5.102126435259808e-11,
+      "mean_lower_tail_profit": 18873.159348869052
+    },
+    "greedy": {
+      "mean_total_profit": 735940.4386303207,
+      "std_total_profit": 1.1641532182693481e-10,
+      "ci95_total_profit": 5.102126435259808e-11,
+      "mean_lower_tail_profit": 18277.56053854391
+    },
+    "esrr": {
+      "mean_total_profit": 742870.4334524105,
+      "std_total_profit": 5968.567871344485,
+      "ci95_total_profit": 2615.8402037749074,
+      "mean_lower_tail_profit": 16788.563512731045
+    }
+  },
+  "n1_multi_scenario": {
+    "coimbatore-kharif-2019--80ddbb6669e1": {
+      "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+      "crops": [
+        "Ragi",
+        "Maize",
+        "Onion"
+      ],
+      "static_profit_inr": 739263.4123368218,
+      "greedy_profit_inr": 735940.4386303208,
+      "esrr_profit_inr": 742429.8241073949,
+      "esrr_gain_vs_greedy_inr": 6489.385477074073,
+      "esrr_gain_vs_greedy_pct": 0.881781342135737,
+      "ci95_inr": 3947.1147238353487
+    },
+    "pune-kharif-semiarid": {
+      "scenario_id": "pune-kharif-semiarid",
+      "crops": [
+        "Soybean",
+        "Cotton",
+        "Pigeonpea"
+      ],
+      "static_profit_inr": 1684423.1039999998,
+      "greedy_profit_inr": 1920582.7140000002,
+      "esrr_profit_inr": 1892700.1160666663,
+      "esrr_gain_vs_greedy_inr": -27882.597933333833,
+      "esrr_gain_vs_greedy_pct": -1.4517780322651508,
+      "ci95_inr": 3483.588887264503
+    },
+    "ludhiana-rabi-alluvial": {
+      "scenario_id": "ludhiana-rabi-alluvial",
+      "crops": [
+        "Wheat",
+        "Mustard",
+        "Potato"
+      ],
+      "static_profit_inr": 2735262.0159999994,
+      "greedy_profit_inr": 3072400.0640000002,
+      "esrr_profit_inr": 2788791.4959999993,
+      "esrr_gain_vs_greedy_inr": -283608.5680000009,
+      "esrr_gain_vs_greedy_pct": -9.230847613990965,
+      "ci95_inr": 50680.102964897385
+    }
+  },
+  "n2_vpcr": {
+    "crop": "Ragi",
+    "legacy_max_allocatable_ha": 12.71527674988557,
+    "vpcr_max_allocatable_ha": 13.3,
+    "capacity_utilization_gain_pct": 4.598588466583655,
+    "spatial_correlation_used": 0.3
+  },
+  "n2_complexity_benchmark": [
+    {
+      "locations_L": 10,
+      "commits_measured": 100,
+      "time_incremental_sec": 0.0010119000216946006,
+      "time_full_recompute_sec": 0.005817799945361912,
+      "speedup_factor": 5.749382172775336
+    },
+    {
+      "locations_L": 50,
+      "commits_measured": 100,
+      "time_incremental_sec": 0.0017128000035881996,
+      "time_full_recompute_sec": 0.00437670003157109,
+      "speedup_factor": 2.555289597385685
+    },
+    {
+      "locations_L": 100,
+      "commits_measured": 100,
+      "time_incremental_sec": 0.001394400023855269,
+      "time_full_recompute_sec": 0.009586900006979704,
+      "speedup_factor": 6.875286749116387
+    },
+    {
+      "locations_L": 250,
+      "commits_measured": 100,
+      "time_incremental_sec": 0.001131199998781085,
+      "time_full_recompute_sec": 0.0057721000630408525,
+      "speedup_factor": 5.1026344318074
+    },
+    {
+      "locations_L": 500,
+      "commits_measured": 100,
+      "time_incremental_sec": 0.0012174000730738044,
+      "time_full_recompute_sec": 0.009042799938470125,
+      "speedup_factor": 7.427960732446834
+    }
+  ],
+  "n2_exceedance_simulation": {
+    "crop": "Ragi",
+    "locations_evaluated": [
+      "district-0",
+      "district-1",
+      "district-2",
+      "district-3",
+      "district-4"
+    ],
+    "spatial_correlation_rho": 0.35,
+    "total_committed_area_ha": 10.0,
+    "simulations_run": 5000,
+    "legacy_ceiling_t": 38.05490351512417,
+    "vpcr_ceiling_t": 36.55848174524908,
+    "capacity_headroom_gain_pct": 3.932270566079247,
+    "vpcr_exceedance_count": 594,
+    "vpcr_exceedance_rate": 0.1188,
+    "vpcr_exceedance_ci95": [
+      0.11012306534413505,
+      0.12806222824083235
+    ],
+    "legacy_exceedance_count": 283,
+    "legacy_exceedance_rate": 0.0566,
+    "realized_p90_empirical_t": 37.00406262205418,
+    "realized_mean_t": 30.545611149021052
+  },
+  "n4_edge_escrow": {
+    "kiosks_tested": 4,
+    "total_escrow_allocated_t": 100.0,
+    "total_offline_committed_t": 76.10980703024835,
+    "reconciled_settled_t": 76.10980703024833,
+    "quota_oversubscription_observed": false,
+    "settlement_success_rate": 1.0
+  },
+  "n6_slippage_quotes": {
+    "quote_revision": 0,
+    "execution_revision": 3,
+    "revisions_drifted": 3,
+    "strict_zero_tolerance_accepted": false,
+    "tolerant_ten_pct_accepted": true,
+    "slippage_pct": 0.08406256460613785
+  },
+  "n6_concurrency_comparison": {
+    "strict_occ": {
+      "requests_attempted": 40,
+      "commits_successful": 0,
+      "success_rate_pct": 0.0,
+      "total_retries": 0,
+      "retries_per_commit": 0.0,
+      "mean_latency_rtt": 1.0,
+      "p95_latency_rtt": 1.0,
+      "total_realized_profit": 0.0
+    },
+    "occ_retry_3": {
+      "requests_attempted": 40,
+      "commits_successful": 15,
+      "success_rate_pct": 37.5,
+      "total_retries": 114,
+      "retries_per_commit": 7.6,
+      "mean_latency_rtt": 3.85,
+      "p95_latency_rtt": 5.0,
+      "total_realized_profit": 75000.0
+    },
+    "slippage_tolerant": {
+      "requests_attempted": 40,
+      "commits_successful": 11,
+      "success_rate_pct": 27.500000000000004,
+      "total_retries": 0,
+      "retries_per_commit": 0.0,
+      "mean_latency_rtt": 1.0,
+      "p95_latency_rtt": 1.0,
+      "total_realized_profit": 383598.01585069456
+    }
+  }
+}
