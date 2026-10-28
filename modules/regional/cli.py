@@ -17,7 +17,7 @@ def verify_artifacts(active_path=None):
     run = Path(pointer.get('run_dir', pointer['run_id']))
     if not run.is_absolute():
         from .catalog import ROOT
-        run = ROOT / run if str(run).startswith('data/') else catalog.active_path.parent / run
+        run = ROOT / run if run.as_posix().startswith('data/') else catalog.active_path.parent / run
     manifest_path = run / 'manifest.json'
     manifest = json.loads(manifest_path.read_text())
     if manifest.get('status') != 'complete':

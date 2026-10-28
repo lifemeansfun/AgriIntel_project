@@ -53,3 +53,4 @@ data/runs/*/models/
 .codex-ppt-build/
 .chart-data-*/
 tmp/pdfs/
+output/regional_demo/console-run/

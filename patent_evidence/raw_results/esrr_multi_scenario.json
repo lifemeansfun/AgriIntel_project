@@ -1,0 +1,44 @@
+{
+  "coimbatore-kharif-2019--80ddbb6669e1": {
+    "scenario_id": "coimbatore-kharif-2019--80ddbb6669e1",
+    "crops": [
+      "Ragi",
+      "Maize",
+      "Onion"
+    ],
+    "static_profit_inr": 739263.4123368218,
+    "greedy_profit_inr": 735940.4386303208,
+    "esrr_profit_inr": 742429.8241073949,
+    "esrr_gain_vs_greedy_inr": 6489.385477074073,
+    "esrr_gain_vs_greedy_pct": 0.881781342135737,
+    "ci95_inr": 3947.1147238353487
+  },
+  "pune-kharif-semiarid": {
+    "scenario_id": "pune-kharif-semiarid",
+    "crops": [
+      "Soybean",
+      "Cotton",
+      "Pigeonpea"
+    ],
+    "static_profit_inr": 1684423.1039999998,
+    "greedy_profit_inr": 1920582.7140000002,
+    "esrr_profit_inr": 1892700.1160666663,
+    "esrr_gain_vs_greedy_inr": -27882.597933333833,
+    "esrr_gain_vs_greedy_pct": -1.4517780322651508,
+    "ci95_inr": 3483.588887264503
+  },
+  "ludhiana-rabi-alluvial": {
+    "scenario_id": "ludhiana-rabi-alluvial",
+    "crops": [
+      "Wheat",
+      "Mustard",
+      "Potato"
+    ],
+    "static_profit_inr": 2735262.0159999994,
+    "greedy_profit_inr": 3072400.0640000002,
+    "esrr_profit_inr": 2788791.4959999993,
+    "esrr_gain_vs_greedy_inr": -283608.5680000009,
+    "esrr_gain_vs_greedy_pct": -9.230847613990965,
+    "ci95_inr": 50680.102964897385
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "crop": "Ragi",
+  "locations_evaluated": [
+    "district-0",
+    "district-1",
+    "district-2",
+    "district-3",
+    "district-4"
+  ],
+  "spatial_correlation_rho": 0.35,
+  "total_committed_area_ha": 10.0,
+  "simulations_run": 5000,
+  "legacy_ceiling_t": 38.05490351512417,
+  "vpcr_ceiling_t": 36.55848174524908,
+  "capacity_headroom_gain_pct": 3.932270566079247,
+  "vpcr_exceedance_count": 594,
+  "vpcr_exceedance_rate": 0.1188,
+  "vpcr_exceedance_ci95": [
+    0.11012306534413505,
+    0.12806222824083235
+  ],
+  "legacy_exceedance_count": 283,
+  "legacy_exceedance_rate": 0.0566,
+  "realized_p90_empirical_t": 37.00406262205418,
+  "realized_mean_t": 30.545611149021052
+}

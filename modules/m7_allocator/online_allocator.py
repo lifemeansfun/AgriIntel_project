@@ -1,5 +1,5 @@
 import numpy as np
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 import logging
 
 from modules.m6_market.supply_ledger import DistrictSupplyLedger

@@ -1,0 +1,32 @@
+{
+  "strict_occ": {
+    "requests_attempted": 40,
+    "commits_successful": 0,
+    "success_rate_pct": 0.0,
+    "total_retries": 0,
+    "retries_per_commit": 0.0,
+    "mean_latency_rtt": 1.0,
+    "p95_latency_rtt": 1.0,
+    "total_realized_profit": 0.0
+  },
+  "occ_retry_3": {
+    "requests_attempted": 40,
+    "commits_successful": 15,
+    "success_rate_pct": 37.5,
+    "total_retries": 114,
+    "retries_per_commit": 7.6,
+    "mean_latency_rtt": 3.85,
+    "p95_latency_rtt": 5.0,
+    "total_realized_profit": 75000.0
+  },
+  "slippage_tolerant": {
+    "requests_attempted": 40,
+    "commits_successful": 11,
+    "success_rate_pct": 27.500000000000004,
+    "total_retries": 0,
+    "retries_per_commit": 0.0,
+    "mean_latency_rtt": 1.0,
+    "p95_latency_rtt": 1.0,
+    "total_realized_profit": 383598.01585069456
+  }
+}

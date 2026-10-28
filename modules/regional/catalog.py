@@ -28,7 +28,7 @@ class Catalog:
             run_dir = Path(pointer.get('run_dir', pointer.get('run_id', '')))
             if not run_dir.is_absolute():
                 # Active pointer convention: run_dir relative to project, or run_id beside pointer.
-                run_dir = ROOT / run_dir if str(run_dir).startswith('data/') else self.active_path.parent / run_dir
+                run_dir = ROOT / run_dir if run_dir.as_posix().startswith('data/') else self.active_path.parent / run_dir
             forecast_path = run_dir / pointer.get('forecast_file', 'historical_forecasts.parquet')
             manifest_path = run_dir / 'manifest.json'
             manifest = json.loads(manifest_path.read_text())

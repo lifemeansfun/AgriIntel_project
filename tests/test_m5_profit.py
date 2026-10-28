@@ -4,7 +4,7 @@ import numpy as np
 import json
 from pathlib import Path
 
-base_dir = Path('/Users/manishharigovind/Desktop/VIT Vellore/5th semester/Data science proogramming/DSP_project')
+base_dir = Path(__file__).resolve().parent.parent
 
 @pytest.fixture
 def recommendations_data():

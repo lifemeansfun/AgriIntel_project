@@ -4,4 +4,5 @@
 *.parquet binary
 *.joblib binary
 *.sqlite3 binary
+data/runs/** binary
 logs/** -diff
